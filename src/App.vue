@@ -78,7 +78,7 @@ onMounted(() => {
       <span class="material-symbols-outlined">add_location</span>
     </button>
     <!-- WebXR 진단 패널 -->
-    <WebXRDiagnosticsPanel />
+    <!-- <WebXRDiagnosticsPanel /> -->
   </div>
 </template>
 
