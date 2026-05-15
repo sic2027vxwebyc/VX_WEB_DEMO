@@ -1,0 +1,5 @@
+{
+  "expired": "Session expired. Please login again.",
+  "active": "Session active",
+  "timeout": "Timeout"
+}

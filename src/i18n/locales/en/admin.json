@@ -1,0 +1,44 @@
+{
+  "title": "Command Center",
+  "subtitle": "Real-time data and spatial coordination status of VX Node 07.",
+  "status": {
+    "normal": "System Normal",
+    "sweep": "Global System Sweep"
+  },
+  "stats": {
+    "activeVisitors": "Active Visitors",
+    "passAuth": "Pass Auth/Min",
+    "peakTime": "Peak Time",
+    "infrastructure": "Infrastructure Status",
+    "upTime": "{percent}% Up-time"
+  },
+  "heatmap": {
+    "title": "Real-time Heatmap: Level {level}",
+    "alert": "Warning: Overcapacity in Zone {zone}",
+    "levels": {
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "Critical"
+    },
+    "floors": {
+      "1f": "1F",
+      "2f": "2F",
+      "3f": "3F"
+    }
+  },
+  "alerts": {
+    "security": {
+      "title": "Unauthorized Access: Gate {gate}",
+      "desc": "Security team dispatched. Lockdown protocol active."
+    },
+    "power": {
+      "title": "Power Instability: Wing {wing}",
+      "desc": "Backup generators running ({load}% load)"
+    },
+    "support": {
+      "title": "New Support Request",
+      "desc": "Accessibility support required in Hall {hall}."
+    }
+  },
+  "globalAlert": "Global Alert"
+}

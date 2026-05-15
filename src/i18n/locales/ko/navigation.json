@@ -1,0 +1,15 @@
+{
+  "title": "내비게이션",
+  "home": "홈",
+  "explore": "탐색",
+  "map": "인터랙티브 맵",
+  "events": "이벤트 일정",
+  "notifications": "알림 센터",
+  "admin": "관리자 대시보드",
+  "settings": "설정",
+  "help": "도움말",
+  "logout": "로그아웃",
+  "newRoute": "새 경로 생성",
+  "globalNav": "글로벌 네비게이션",
+  "spatialIntelligence": "VX 공간 지능"
+}

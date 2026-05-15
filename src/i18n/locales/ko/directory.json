@@ -1,0 +1,18 @@
+{
+  "title": "공간 디렉토리",
+  "subtitle": "킨텍스 전시홀 및 편의시설의 실시간 가용성 및 위치 정보를 확인하세요.",
+  "searchPlaceholder": "공간, 구역 검색...",
+  "congestion": "혼잡도: {status}",
+  "startNavigation": "안내 시작",
+  "proposeNew": {
+    "title": "새 공간 제안",
+    "desc": "디렉토리에 새로운 웨이포인트나 구역을 추가합니다."
+  },
+  "categories": {
+    "all": "전체",
+    "exhibition": "전시장",
+    "dining": "식당/카페",
+    "amenities": "편의시설",
+    "hotels": "제휴호텔"
+  }
+}

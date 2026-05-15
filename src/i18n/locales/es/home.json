@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "active": "Space Hub Active",
+    "title": "Experience Intelligence with {center} Guide.",
+    "subtitle": "Efficiently navigate Korea's largest exhibition and convention center with real-time congestion analysis and precision indoor navigation.",
+    "masterMap": "Master the Map",
+    "viewAllFacilities": "Ver todas las instalaciones",
+    "altText": "Vista del Centro de Exposiciones KINTEX"
+  },
+  "stats": {
+    "liveData": "Live Data",
+    "eventInProgress": "Event in Progress",
+    "occupancy": "Current Occupancy",
+    "climate": "Temperature",
+    "waitTime": "Estimated Wait",
+    "airQuality": "Air Quality",
+    "qualityOptimal": "Optimal",
+    "mainEvent": "Main Event: \"{event}\" in progress"
+  },
+  "congestedZones": {
+    "title": "Zone Congestion",
+    "desc": "Tracking real-time density of major service zones.",
+    "findEmptySpace": "Find Empty Space"
+  },
+  "location": {
+    "title": "My Current Location",
+    "accuracy": "Accuracy: ± {accuracy}",
+    "current": "Lobby, Hall 2"
+  },
+  "system": {
+    "activeBeacons": "Active Beacons",
+    "networkStatus": "Network Status",
+    "liveUsers": "Live Users"
+  }
+}

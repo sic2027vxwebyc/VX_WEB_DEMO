@@ -1,0 +1,44 @@
+{
+  "title": "커맨드 센터",
+  "subtitle": "VX 노드 07의 실시간 데이터 및 공간 조율 현황입니다.",
+  "status": {
+    "normal": "시스템 정상",
+    "sweep": "시스템 일괄 점검"
+  },
+  "stats": {
+    "activeVisitors": "활성 방문객",
+    "passAuth": "분당 패스 인증",
+    "peakTime": "피크 타임",
+    "infrastructure": "인프라 노드 상태",
+    "upTime": "{percent}% 가동 중"
+  },
+  "heatmap": {
+    "title": "실시간 히트맵: Level {level}",
+    "alert": "{zone} 구역 수용 인원 초과 주의",
+    "levels": {
+      "low": "낮음",
+      "moderate": "보통",
+      "high": "심각"
+    },
+    "floors": {
+      "1f": "1층",
+      "2f": "2층",
+      "3f": "3층"
+    }
+  },
+  "alerts": {
+    "security": {
+      "title": "비인가 접근 감지: {gate}",
+      "desc": "보안 팀 출동. 폐쇄 프로토콜 가동 중."
+    },
+    "power": {
+      "title": "전력 불안정: {wing}",
+      "desc": "비상 발전기 가동 중 (부하 {load}%)"
+    },
+    "support": {
+      "title": "신규 지원 요청",
+      "desc": "{hall} 접근성 지원이 필요합니다."
+    }
+  },
+  "globalAlert": "전체 경보 발령"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "ナビゲーション",
+  "home": "ホーム",
+  "explore": "空間探索",
+  "map": "インタラクティブマップ",
+  "events": "イベントスケジュール",
+  "notifications": "通知センター",
+  "admin": "管理者ダッシュボード",
+  "settings": "設定",
+  "help": "ヘルプとサポート",
+  "logout": "ログアウト",
+  "newRoute": "新しいルートを作成",
+  "globalNav": "グローバルナビゲーション",
+  "spatialIntelligence": "VX 空間知能"
+}

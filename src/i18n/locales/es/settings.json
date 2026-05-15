@@ -1,0 +1,37 @@
+{
+  "title": "Ajustes",
+  "subtitle": "Personaliza tu experiencia VX Web.",
+  "display": {
+    "title": "Pantalla y Tema",
+    "darkMode": "Modo Oscuro",
+    "darkModeDesc": "Aplica un tema oscuro en todo el sistema.",
+    "highContrast": "Alto Contraste",
+    "highContrastDesc": "Aumenta el contraste de colores para mejorar la legibilidad.",
+    "fontSize": "Tamaño de Fuente",
+    "fontSizeSmall": "Pequeño",
+    "fontSizeMedium": "Mediano",
+    "fontSizeLarge": "Grande"
+  },
+  "language": {
+    "title": "Idioma",
+    "desc": "Selecciona el idioma de visualización de la aplicación."
+  },
+  "system": {
+    "title": "Sistema y Seguridad",
+    "offlineMaps": "Mapas sin conexión",
+    "offlineMapsDesc": "Descarga datos por adelantado para usar mapas sin conexión a internet.",
+    "biometricAuth": "Bloqueo Biométrico",
+    "biometricAuthDesc": "Requiere FaceID/Huella digital para acceder a la página de administración."
+  },
+  "data": {
+    "title": "Gestión de Datos",
+    "cache": "Datos temporales y Caché",
+    "cacheDesc": "Elimina los datos almacenados en caché en la aplicación actual.",
+    "clearCache": "Borrar Caché",
+    "cacheCleared": "La caché se ha borrado correctamente."
+  },
+  "info": {
+    "version": "VX Web Experience v2.4.0 (Stable)",
+    "copyright": "© 2026 VX SPACE EXPERIENCE HUB"
+  }
+}

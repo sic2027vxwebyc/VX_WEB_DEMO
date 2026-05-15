@@ -1,0 +1,37 @@
+{
+  "title": "Настройки",
+  "subtitle": "Персонализируйте ваш опыт VX Web.",
+  "display": {
+    "title": "Дисплей и тема",
+    "darkMode": "Темный режим",
+    "darkModeDesc": "Применить темную тему ко всей системе.",
+    "highContrast": "Высокий контраст",
+    "highContrastDesc": "Увеличить контрастность цветов для лучшей читаемости.",
+    "fontSize": "Размер шрифта",
+    "fontSizeSmall": "Мелкий",
+    "fontSizeMedium": "Средний",
+    "fontSizeLarge": "Крупный"
+  },
+  "language": {
+    "title": "Язык",
+    "desc": "Выберите язык интерфейса приложения."
+  },
+  "system": {
+    "title": "Система и безопасность",
+    "offlineMaps": "Офлайн карты",
+    "offlineMapsDesc": "Заранее скачайте данные для использования карт без интернета.",
+    "biometricAuth": "Биометрическая блокировка",
+    "biometricAuthDesc": "Требуется FaceID/Отпечаток пальца для доступа к странице администратора."
+  },
+  "data": {
+    "title": "Управление данными",
+    "cache": "Временные данные и кэш",
+    "cacheDesc": "Удалить кэшированные данные в текущем приложении.",
+    "clearCache": "Очистить кэш",
+    "cacheCleared": "Кэш успешно очищен."
+  },
+  "info": {
+    "version": "VX Web Experience v2.4.0 (Stable)",
+    "copyright": "© 2026 VX SPACE EXPERIENCE HUB"
+  }
+}

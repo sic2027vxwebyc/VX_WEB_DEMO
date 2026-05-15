@@ -1,0 +1,44 @@
+{
+  "title": "Centro de Mando",
+  "subtitle": "Datos en tiempo real y estado de coordinación espacial del Nodo VX 07.",
+  "status": {
+    "normal": "Sistema Normal",
+    "sweep": "Barrido General del Sistema"
+  },
+  "stats": {
+    "activeVisitors": "Visitantes Activos",
+    "passAuth": "Validación de Pases por Minuto",
+    "peakTime": "Hora Punta",
+    "infrastructure": "Estado de Nodos de Infraestructura",
+    "upTime": "{percent}% en Funcionamiento"
+  },
+  "heatmap": {
+    "title": "Mapa de Calor en Tiempo Real: Nivel {level}",
+    "alert": "Aviso de exceso de capacidad en la zona {zone}",
+    "levels": {
+      "low": "Bajo",
+      "moderate": "Moderado",
+      "high": "Crítico"
+    },
+    "floors": {
+      "1f": "1F",
+      "2f": "2F",
+      "3f": "3F"
+    }
+  },
+  "alerts": {
+    "security": {
+      "title": "Acceso No Autorizado Detectado: {gate}",
+      "desc": "Equipo de seguridad enviado. Protocolo de cierre activo."
+    },
+    "power": {
+      "title": "Inestabilidad Eléctrica: {wing}",
+      "desc": "Generador de emergencia en funcionamiento (carga {load}%)"
+    },
+    "support": {
+      "title": "Nueva Solicitud de Soporte",
+      "desc": "Se requiere soporte de accesibilidad en el {hall}."
+    }
+  },
+  "globalAlert": "Emitir Alerta Global"
+}

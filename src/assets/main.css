@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html.text-size-small {
+    font-size: 14px;
+  }
+  html.text-size-medium {
+    font-size: 16px;
+  }
+  html.text-size-large {
+    font-size: 18px;
+  }
+
+  body {
+    @apply bg-background text-on-surface font-body-md transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-surface-container-low/40 backdrop-blur-[40px] border border-white/5 shadow-xl;
+  }
+
+  .glass-panel {
+    @apply backdrop-blur-[30px] bg-white/40 dark:bg-surface/40 border border-black/5 dark:border-white/10;
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(0, 219, 233, 0.15);
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  }
+}
+
+/* 스크롤바 커스텀 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-surface-container-lowest;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surface-container-highest rounded-full border-2 border-surface-container-lowest;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-outline;
+}

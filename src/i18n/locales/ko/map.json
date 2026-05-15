@@ -1,0 +1,75 @@
+{
+  "title": "인터랙티브 맵",
+  "floors": {
+    "hall1": "제1전시장",
+    "hall2": "제2전시장",
+    "halls": {
+      "1": "1홀",
+      "2": "2홀",
+      "3": "3홀",
+      "4": "4홀",
+      "5": "5홀",
+      "6": "6홀",
+      "7": "7홀",
+      "8": "8홀",
+      "9": "9홀",
+      "10": "10홀"
+    }
+  },
+  "filters": {
+    "title": "공간 필터",
+    "exhibition": "전시 구역",
+    "dining": "식당가",
+    "info": "안내소"
+  },
+  "details": {
+    "congestion": "현재 혼잡도",
+    "eta": "예상 이동 시간",
+    "etaValue": "약 {min}분",
+    "navigate": "이 공간으로 경로 안내"
+  },
+  "popular": {
+    "title": "인기 공간",
+    "visitors": "{count}명"
+  },
+  "assistant": {
+    "title": "AI 어시스턴트",
+    "recommend": "현재 <strong>{busy}</strong>의 혼잡도가 증가하고 있습니다. 여유로운 <strong>{free}</strong> 이용을 추천드려요.",
+    "viewRecommend": "추천 공간 보기"
+  },
+  "remaining": "{dist}m 남음",
+  "eta": "예상 도착 시간",
+  "walking": "도보",
+  "optimalFlow": "최적의 흐름",
+  "congestion": "혼잡도",
+  "arrival": "목적지 도착",
+  "steps": "이동 단계",
+  "stepsRemaining": "{count}단계 남음",
+  "step1Title": "20m 직진하세요",
+  "step1Desc": "현재 위치에서 안내 표지판을 따라 이동하세요",
+  "step2Title": "코너에서 방향을 전환하세요",
+  "step2Desc": "바닥의 유도선을 따라 안전하게 이동하세요",
+  "step3Title": "{name} 도착",
+  "step3Desc": "목적지에 도착했습니다. 입구를 확인해 주세요.",
+  "current": "현재",
+  "mainLobby": "메인 중앙 로비",
+  "alert": "{name} 구역은 현재 쾌적한 상태입니다. 실내 마스크 착용을 권장드립니다.",
+  "spaceAlert": "공간 알림",
+  "currentFloor": "{floor}층: {name}",
+  "destination": "목적지",
+  "guideSettings": "안내 설정",
+  "avoidStairs": "계단 제외 (교통약자)",
+  "voiceGuidance": "음성 안내 활성화",
+  "pause": "일시 정지",
+  "reportObstacle": "장애물 신고",
+  "fallback": {
+    "cameraDenied": "카메라 권한이 거부되었습니다",
+    "cameraDeniedDesc": "AR 기능을 사용하려면 카메라 권한이 필요합니다. 설정에서 권한을 허용하거나 일반 지도를 이용해 주세요.",
+    "unsupported": "AR 미지원 환경입니다",
+    "unsupportedDesc": "현재 브라우저 또는 기기가 WebXR AR 기능을 지원하지 않습니다. 2D 지도로 최적의 경로를 안내해 드릴게요.",
+    "error": "AR 안내를 시작할 수 없습니다",
+    "errorDesc": "일시적인 오류가 발생했습니다. 잠시 후 다시 시도하거나 일반 지도 안내를 이용해 주세요.",
+    "useMap": "일반 지도 안내 이용",
+    "useQr": "QR로 위치 확인"
+  }
+}

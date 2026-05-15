@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "active": "空間樞紐運作中",
+    "title": "{center} 空間體驗樞紐",
+    "subtitle": "透過 VX 空間智能技術，即時引導您前往 KINTEX 的各個角落。",
+    "masterMap": "查看導航地圖",
+    "viewAllFacilities": "查看所有設施",
+    "altText": "KINTEX 展覽中心景觀"
+  },
+  "stats": {
+    "liveData": "即時數據",
+    "eventInProgress": "活動進行中",
+    "occupancy": "目前佔有率",
+    "climate": "室內溫度",
+    "waitTime": "預計等待",
+    "airQuality": "空氣品質",
+    "qualityOptimal": "最佳",
+    "mainEvent": "主要活動: {event}"
+  },
+  "congestedZones": {
+    "title": "區域擁擠度",
+    "desc": "追蹤主要服務區域的即時密度。",
+    "findEmptySpace": "尋找空閒空間"
+  },
+  "location": {
+    "title": "我的目前位置",
+    "accuracy": "定位精度: {accuracy}",
+    "current": "目前位置"
+  },
+  "system": {
+    "activeBeacons": "活躍信標",
+    "networkStatus": "網路狀態",
+    "liveUsers": "即時用戶"
+  }
+}

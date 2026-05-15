@@ -1,0 +1,37 @@
+{
+  "title": "Settings",
+  "subtitle": "Personalize your VX Web Experience.",
+  "display": {
+    "title": "Display & Theme",
+    "darkMode": "Dark Mode",
+    "darkModeDesc": "Apply a dark theme across the system.",
+    "highContrast": "High Contrast",
+    "highContrastDesc": "Increase color contrast for better readability.",
+    "fontSize": "Font Size",
+    "fontSizeSmall": "Small",
+    "fontSizeMedium": "Medium",
+    "fontSizeLarge": "Large"
+  },
+  "language": {
+    "title": "Language",
+    "desc": "Select the display language of the application."
+  },
+  "system": {
+    "title": "System & Security",
+    "offlineMaps": "Offline Map Data",
+    "offlineMapsDesc": "Download data in advance to use maps without a network connection.",
+    "biometricAuth": "Biometric Lock",
+    "biometricAuthDesc": "Require FaceID/Fingerprint for admin page access."
+  },
+  "data": {
+    "title": "Data Management",
+    "cache": "Temporary Data & Cache",
+    "cacheDesc": "Delete cached data stored in the current app.",
+    "clearCache": "Clear Cache",
+    "cacheCleared": "Cache has been successfully cleared."
+  },
+  "info": {
+    "version": "VX Web Experience v2.4.0 (Stable)",
+    "copyright": "© 2026 VX SPACE EXPERIENCE HUB"
+  }
+}

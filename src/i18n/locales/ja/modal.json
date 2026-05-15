@@ -1,0 +1,18 @@
+{
+  "confirm": {
+    "title": "Confirm",
+    "message": "Do you want to continue?"
+  },
+  "cancel": {
+    "title": "Cancel",
+    "message": "Do you want to cancel the operation?"
+  },
+  "error": {
+    "title": "Error",
+    "message": "Something went wrong. Please try again."
+  },
+  "success": {
+    "title": "Success",
+    "message": "Operation completed successfully."
+  }
+}

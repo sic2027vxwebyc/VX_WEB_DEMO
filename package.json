@@ -1,0 +1,39 @@
+{
+  "name": "vx-web-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "i18n:scan-settings": "node scripts/scan-settings.cjs",
+    "i18n:check-settings": "node scripts/validate_json.cjs",
+    "i18n:scan-admin": "node scripts/scan-admin.cjs",
+    "i18n:check-admin": "node scripts/validate_json.cjs",
+    "i18n:scan-map": "node scripts/scan-map.cjs",
+    "i18n:check-map": "node scripts/check-map.cjs",
+    "i18n:validate-map": "npm run i18n:scan-map && npm run i18n:check-map",
+    "i18n:scan-events": "node scripts/scan-events.cjs",
+    "i18n:check-events": "node scripts/check-events.cjs",
+    "i18n:validate-events": "npm run i18n:scan-events && npm run i18n:check-events",
+    "i18n:scan-notifications": "node scripts/scan-notifications.cjs",
+    "i18n:check-notifications": "node scripts/check-notifications.cjs",
+    "i18n:validate-notifications": "npm run i18n:scan-notifications && npm run i18n:check-notifications",
+    "events:validate": "node scripts/validate-events.cjs"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "three": "^0.184.0",
+    "vue": "^3.4.21",
+    "vue-i18n": "^9.14.5",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.4"
+  }
+}

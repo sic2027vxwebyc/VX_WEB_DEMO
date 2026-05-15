@@ -1,0 +1,22 @@
+{
+  "confirm": "確認",
+  "cancel": "取消",
+  "save": "儲存",
+  "delete": "刪除",
+  "back": "返回",
+  "home": "首頁",
+  "settings": "設定",
+  "search": "搜尋",
+  "more": "更多",
+  "minutes": "分",
+  "viewAll": "查看全部",
+  "details": "詳情",
+  "viewDetails": "查看詳情",
+  "status": "現況",
+  "live": "即時",
+  "accessibility": {
+    "brailleGuide": "點字導引",
+    "inductionLoop": "感應線圈",
+    "wheelchairAccess": "輪椅通行"
+  }
+}

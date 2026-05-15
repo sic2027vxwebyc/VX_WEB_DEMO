@@ -1,0 +1,161 @@
+{
+  "hall-1": {
+    "name": "Hall 1",
+    "zone": "Exhibition Center 1, 1F",
+    "description": "One of the main halls of KINTEX Center 1, suitable for large-scale exhibitions and events.",
+    "tags": [
+      "Large Exhibition",
+      "5 ton/㎡"
+    ]
+  },
+  "hall-2": {
+    "name": "Hall 2",
+    "zone": "Exhibition Center 1, 1F",
+    "description": "A multi-purpose exhibition space hosting various industrial exhibitions and conventions.",
+    "tags": [
+      "Industrial Exhibition",
+      "5 ton/㎡"
+    ]
+  },
+  "hall-3": {
+    "name": "Hall 3",
+    "zone": "Exhibition Center 1, 1F",
+    "description": "An exhibition hall boasting a high ceiling height that allows for double-decker booth installation.",
+    "tags": [
+      "High Ceiling",
+      "Convention"
+    ]
+  },
+  "hall-4": {
+    "name": "Hall 4",
+    "zone": "Exhibition Center 1, 1F",
+    "description": "A space with a solid floor load capable of heavy equipment exhibition.",
+    "tags": [
+      "Heavy Equipment",
+      "Pillarless"
+    ]
+  },
+  "hall-5": {
+    "name": "Hall 5",
+    "zone": "Exhibition Center 1, 1F",
+    "description": "The last hall of Center 1, capable of large-scale integrated exhibition in conjunction with Hall 4.",
+    "tags": [
+      "Integrated Exhibition",
+      "Event"
+    ]
+  },
+  "hall-6": {
+    "name": "Hall 6",
+    "zone": "Exhibition Center 2, 1F",
+    "description": "The starting hall of Center 2, suitable for small and medium-sized professional exhibitions.",
+    "tags": [
+      "Professional Exhibition",
+      "2 ton/㎡"
+    ]
+  },
+  "hall-7": {
+    "name": "Hall 7",
+    "zone": "Exhibition Center 2, 1F",
+    "description": "A large hall of Center 2, providing modern facilities and wide spaces.",
+    "tags": [
+      "Large Convention",
+      "Modern Facility"
+    ]
+  },
+  "hall-8": {
+    "name": "Hall 8",
+    "zone": "Exhibition Center 2, 1F",
+    "description": "A space where international exhibitions and corporate events are actively held.",
+    "tags": [
+      "International Conference",
+      "IT Exhibition"
+    ]
+  },
+  "hall-9": {
+    "name": "Hall 9",
+    "zone": "Exhibition Center 2, 1F",
+    "description": "One of the largest single halls in KINTEX, optimized for ultra-large events.",
+    "tags": [
+      "Ultra Large Hall",
+      "Concert Available"
+    ]
+  },
+  "hall-10": {
+    "name": "Hall 10",
+    "zone": "Exhibition Center 2, 1F",
+    "description": "An exhibition hall where the latest architectural technologies are concentrated, supporting mammoth-scale events with Hall 9.",
+    "tags": [
+      "Smart Exhibition",
+      "Complex Culture"
+    ]
+  },
+  "f-sodam": {
+    "name": "Sodam (Korean)",
+    "zone": "Exhibition Center 1, 1F",
+    "description": "KINTEX's representative Korean restaurant providing neat Korean meals.",
+    "tags": [
+      "Korean Food",
+      "Family Dining"
+    ]
+  },
+  "f-benvenuto": {
+    "name": "Caffe Bene",
+    "zone": "Exhibition Center 1, 2F",
+    "description": "A cafe providing a comfortable rest space with a view of the exhibition hall.",
+    "tags": [
+      "Coffee",
+      "WiFi"
+    ]
+  },
+  "f-myeongdong": {
+    "name": "Myeongdong Kalguksu",
+    "zone": "Exhibition Center 2, 1F",
+    "description": "A noodle restaurant famous for its deep broth and chewy noodles.",
+    "tags": [
+      "Noodles",
+      "Fast Dining"
+    ]
+  },
+  "c-cu1": {
+    "name": "CU Convenience Store",
+    "zone": "In front of Hall 2, Center 1",
+    "description": "Various drinks, snacks, and convenience items are prepared for visitors.",
+    "tags": [
+      "24h",
+      "ATM"
+    ]
+  },
+  "c-press": {
+    "name": "Press Center",
+    "zone": "Exhibition Center 1, 2F",
+    "description": "A space for journalists to write articles and hold briefings.",
+    "tags": [
+      "Media",
+      "Business"
+    ]
+  },
+  "h-sonocalm": {
+    "name": "Sono Calm Goyang",
+    "zone": "Janghang-dong (10 min by car)",
+    "description": "A premium 5-star hotel near KINTEX providing the best relaxation.",
+    "tags": [
+      "5-Star",
+      "Shuttle Service"
+    ]
+  },
+  "h-gloucester": {
+    "name": "Gloucester Hotel KINTEX",
+    "zone": "Daehwa-dong (3 min walk)",
+    "description": "Located right next to KINTEX, providing optimal accessibility for business visitors.",
+    "tags": [
+      "3-Star",
+      "Adjacent"
+    ]
+  },
+  "congestion": {
+    "low": "Low",
+    "moderate": "Moderate",
+    "high": "High",
+    "easy": "Easy"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "back": "Back",
+  "home": "Home",
+  "settings": "Settings",
+  "search": "Search",
+  "more": "More",
+  "minutes": "min",
+  "viewAll": "View All",
+  "details": "Details",
+  "viewDetails": "View Details",
+  "status": "Status",
+  "live": "Live",
+  "accessibility": {
+    "brailleGuide": "Braille Guide",
+    "inductionLoop": "Induction Loop",
+    "wheelchairAccess": "Wheelchair Access"
+  }
+}

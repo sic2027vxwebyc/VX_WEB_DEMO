@@ -1,0 +1,20 @@
+{
+  "title": "360 뷰어",
+  "exit": "닫기",
+  "hotspots": {
+    "next": "다음 공간",
+    "info": "정보"
+  },
+  "controls": {
+    "zoomIn": "확대",
+    "zoomOut": "축소",
+    "north": "북",
+    "vrMode": "VR 모드",
+    "vrNotSupported": "이 기기나 브라우저에서는 VR 모드를 지원하지 않습니다."
+  },
+  "stats": {
+    "title": "공간 통계",
+    "occupancy": "현재 인원",
+    "airQuality": "최적의 공기질 유지 중"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "설정",
+  "subtitle": "VX Web Experience 환경을 개인화합니다.",
+  "display": {
+    "title": "디스플레이 및 테마",
+    "darkMode": "다크 모드",
+    "darkModeDesc": "시스템 전반에 어두운 테마를 적용합니다.",
+    "highContrast": "고대비 모드",
+    "highContrastDesc": "가독성 향상을 위해 색상 대비를 높입니다.",
+    "fontSize": "텍스트 크기",
+    "fontSizeSmall": "작게",
+    "fontSizeMedium": "보통",
+    "fontSizeLarge": "크게"
+  },
+  "language": {
+    "title": "언어 (Language)",
+    "desc": "애플리케이션의 표시 언어를 선택합니다."
+  },
+  "system": {
+    "title": "시스템 및 보안",
+    "offlineMaps": "오프라인 지도 데이터",
+    "offlineMapsDesc": "네트워크 연결 없이도 지도를 사용할 수 있게 데이터를 미리 다운로드합니다.",
+    "biometricAuth": "생체 인식 잠금",
+    "biometricAuthDesc": "관리자 페이지 접근 시 FaceID/지문을 요구합니다."
+  },
+  "data": {
+    "title": "데이터 관리",
+    "cache": "임시 데이터 및 캐시",
+    "cacheDesc": "현재 앱에 저장된 캐시 데이터를 삭제합니다.",
+    "clearCache": "캐시 삭제",
+    "cacheCleared": "캐시가 성공적으로 삭제되었습니다."
+  },
+  "info": {
+    "version": "VX Web Experience v2.4.0 (Stable)",
+    "copyright": "© 2026 VX SPACE EXPERIENCE HUB"
+  }
+}

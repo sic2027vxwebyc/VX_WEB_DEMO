@@ -1,0 +1,34 @@
+{
+  "title": "Centro de Notificaciones",
+  "subtitle": "Avisos del sistema y alertas personalizadas.",
+  "empty": "No hay nuevas notificaciones.",
+  "clearAll": "Borrar todo",
+  "types": {
+    "security": "Seguridad",
+    "congestion": "Congestión",
+    "event": "Evento",
+    "system": "Sistema"
+  },
+  "items": {
+    "1": {
+      "title": "Inicio de sesión en nuevo dispositivo",
+      "content": "Se ha detectado un nuevo inicio de sesión en MacBook Pro para la cuenta de administrador VX.",
+      "time": "Hace 2 min"
+    },
+    "2": {
+      "title": "Alerta de congestión en el Hall Central",
+      "content": "La densidad en el Hall Central de la 1ª planta ha superado el 90%. Por favor, use una ruta alternativa.",
+      "time": "Hace 15 min"
+    },
+    "3": {
+      "title": "La sesión principal comienza en 10 min",
+      "content": "La sesión \"Inteligencia de Espacios Futuros\" está a punto de comenzar en el Arena Principal.",
+      "time": "Hace 45 min"
+    },
+    "4": {
+      "title": "Actualización del sistema completada",
+      "content": "La sincronización de la base de datos espacial se ha completado con éxito.",
+      "time": "Hace 2 horas"
+    }
+  }
+}

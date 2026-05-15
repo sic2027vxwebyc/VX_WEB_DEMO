@@ -1,0 +1,37 @@
+{
+  "title": "設定",
+  "subtitle": "VX Web体験をパーソナライズします。",
+  "display": {
+    "title": "表示",
+    "darkMode": "ダークモード",
+    "darkModeDesc": "システム全体にダークテーマを適用します。",
+    "highContrast": "高コントラスト",
+    "highContrastDesc": "読みやすさを向上させるために色のコントラストを上げます。",
+    "fontSize": "フォントサイズ",
+    "fontSizeSmall": "小",
+    "fontSizeMedium": "中",
+    "fontSizeLarge": "大"
+  },
+  "language": {
+    "title": "言語",
+    "desc": "アプリケーションの表示言語を選択します。"
+  },
+  "system": {
+    "title": "システムとセキュリティ",
+    "offlineMaps": "オフラインマップデータ",
+    "offlineMapsDesc": "ネットワーク接続がない場合でもマップを使用できるように、データを事前ダウンロードします。",
+    "biometricAuth": "生体認証ロック",
+    "biometricAuthDesc": "機密 정보를 보호하기 위해 생체 인증을 사용합니다."
+  },
+  "data": {
+    "title": "データ管理",
+    "cache": "キャッシュデータ",
+    "cacheDesc": "現在のアプリに保存されているキャッシュ 데이터를 삭제합니다.",
+    "clearCache": "キャッシュをクリア",
+    "cacheCleared": "キャッシュが正常にクリアされました。"
+  },
+  "info": {
+    "version": "バージョン 2.4.0 (Build 562)",
+    "copyright": "© 2026 VX SPATIAL INTELLIGENCE HUB. All rights reserved."
+  }
+}

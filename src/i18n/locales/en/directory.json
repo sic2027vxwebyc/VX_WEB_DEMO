@@ -1,0 +1,18 @@
+{
+  "title": "Space Directory",
+  "subtitle": "Check real-time availability and location of KINTEX exhibition halls and facilities.",
+  "searchPlaceholder": "Search spaces, zones...",
+  "congestion": "Congestion: {status}",
+  "startNavigation": "Start Guide",
+  "proposeNew": {
+    "title": "Propose New Space",
+    "desc": "Add new waypoints or zones to the directory."
+  },
+  "categories": {
+    "all": "All",
+    "exhibition": "Exhibition Hall",
+    "dining": "Dining/Cafe",
+    "amenities": "Facilities",
+    "hotels": "Partner Hotels"
+  }
+}

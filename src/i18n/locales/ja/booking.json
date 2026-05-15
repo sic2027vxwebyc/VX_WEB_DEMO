@@ -1,0 +1,17 @@
+{
+  "title": "予約確認",
+  "confirmed": "予約完了",
+  "details": {
+    "date": "日付",
+    "time": "時間",
+    "location": "場所"
+  },
+  "instructions": "* 入場5分前から有効になります。入口のリーダーでQRコードをスキャンしてください。",
+  "actions": {
+    "changeOrCancel": "予約の変更・キャンセル"
+  },
+  "mock": {
+    "podName": "個人用集中ポッド #07",
+    "locationName": "テックハブラウンジ (2F)"
+  }
+}

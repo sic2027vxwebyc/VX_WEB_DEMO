@@ -1,0 +1,75 @@
+{
+  "title": "Mapa Interactivo",
+  "floors": {
+    "hall1": "Centro de Exhibiciones 1",
+    "hall2": "Centro de Exhibiciones 2",
+    "halls": {
+      "1": "Sala 1",
+      "2": "Sala 2",
+      "3": "Sala 3",
+      "4": "Sala 4",
+      "5": "Sala 5",
+      "6": "Sala 6",
+      "7": "Sala 7",
+      "8": "Sala 8",
+      "9": "Sala 9",
+      "10": "Sala 10"
+    }
+  },
+  "filters": {
+    "title": "Filtro de Espacios",
+    "exhibition": "Zona de Exposición",
+    "dining": "Área de Comida",
+    "info": "Punto de Información"
+  },
+  "details": {
+    "congestion": "Congestión Actual",
+    "eta": "Tiempo Estimado",
+    "etaValue": "aprox. {min} min",
+    "navigate": "Navegar a este espacio"
+  },
+  "popular": {
+    "title": "Espacios Populares",
+    "visitors": "{count} visitantes"
+  },
+  "assistant": {
+    "title": "Asistente IA",
+    "recommend": "La congestión en <strong>{busy}</strong> está aumentando. Recomendamos usar <strong>{free}</strong>.",
+    "viewRecommend": "Ver Espacios Recomendados"
+  },
+  "remaining": "{dist}m restantes",
+  "eta": "Hora de llegada",
+  "walking": "Caminando",
+  "optimalFlow": "Flujo óptimo",
+  "congestion": "Congestión",
+  "arrival": "Llegada al destino",
+  "steps": "Pasos",
+  "stepsRemaining": "{count} pasos restantes",
+  "step1Title": "Siga recto 20m",
+  "step1Desc": "Siga las señales desde su ubicación actual",
+  "step2Title": "Gire en la esquina",
+  "step2Desc": "Siga las líneas de guía en el suelo con seguridad",
+  "step3Title": "Llegada a {name}",
+  "step3Desc": "Ha llegado a su destino. Por favor, compruebe la entrada.",
+  "current": "Actual",
+  "mainLobby": "Vestíbulo Central",
+  "alert": "La zona {name} está actualmente despejada. Se recomienda el uso de mascarilla en interiores.",
+  "spaceAlert": "Aviso de Espacio",
+  "currentFloor": "Piso {floor}: {name}",
+  "destination": "Destino",
+  "guideSettings": "Ajustes de Guía",
+  "avoidStairs": "Evitar escaleras",
+  "voiceGuidance": "Activar guía de voz",
+  "pause": "Pausa",
+  "reportObstacle": "Informar obstáculo",
+  "fallback": {
+    "cameraDenied": "Permiso de cámara denegado",
+    "cameraDeniedDesc": "Se requiere permiso de cámara para AR. Por favor, actívelo en ajustes o use el mapa 2D.",
+    "unsupported": "AR no compatible",
+    "unsupportedDesc": "Su navegador o dispositivo no soporta AR. Le guiaremos con el mapa 2D.",
+    "error": "No se pudo iniciar la guía AR",
+    "errorDesc": "Ocurrió un error temporal. Inténtelo de nuevo o use el mapa normal.",
+    "useMap": "Usar mapa normal",
+    "useQr": "Confirmar ubicación por QR"
+  }
+}

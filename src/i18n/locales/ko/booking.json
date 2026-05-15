@@ -1,0 +1,17 @@
+{
+  "title": "예약 확인",
+  "confirmed": "예약 완료",
+  "details": {
+    "date": "일자",
+    "time": "시간",
+    "location": "위치"
+  },
+  "instructions": "* 입장 5분 전부터 활성화됩니다. 입구 리더기에 QR 코드를 스캔해 주세요.",
+  "actions": {
+    "changeOrCancel": "예약 변경 및 취소"
+  },
+  "mock": {
+    "podName": "개인용 집중 포드 #07",
+    "locationName": "테크 허브 라운지 (2F)"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "title": "管理者ダッシュボード",
+  "subtitle": "VXノード07のリアルタイムデータと空間調整の状況です。",
+  "status": {
+    "normal": "システム正常",
+    "sweep": "全域システムスキャン"
+  },
+  "stats": {
+    "activeVisitors": "アクティブ訪問者",
+    "passAuth": "分間パス認証",
+    "peakTime": "ピークタイム",
+    "infrastructure": "インフラノード状態",
+    "upTime": "{percent}% 稼働中"
+  },
+  "heatmap": {
+    "title": "リアルタイムヒートマップ: Level {level}",
+    "alert": "{zone} 区域の収容人数超過注意",
+    "levels": {
+      "low": "低",
+      "moderate": "中",
+      "high": "高"
+    },
+    "floors": {
+      "1f": "1階",
+      "2f": "2階",
+      "3f": "3階"
+    }
+  },
+  "alerts": {
+    "security": {
+      "title": "未認可の接近を検知: {gate}",
+      "desc": "セキュリティチームが出動。閉鎖プロトコルが稼働中です。"
+    },
+    "power": {
+      "title": "電力不安定: {wing}",
+      "desc": "非常用発電機が稼働中 (負荷 {load}%)"
+    },
+    "support": {
+      "title": "新規サポート要請",
+      "desc": "{hall} アクセシビリティサポートが必要です。"
+    }
+  },
+  "globalAlert": "全域アラート発令"
+}

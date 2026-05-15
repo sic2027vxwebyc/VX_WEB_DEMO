@@ -1,0 +1,19 @@
+{
+  "intro": "About Space",
+  "area": "Total Area: {value}",
+  "actions": {
+    "startRoute": "Start Guide to this Space",
+    "share": "Share Location",
+    "open360": "Open 360 Viewer"
+  },
+  "stats": {
+    "title": "Live Space Metrics",
+    "occupancy": "Current Occupancy",
+    "airQuality": "Air Quality",
+    "airQualityNormal": "Within Normal Range"
+  },
+  "accessibility": {
+    "title": "Accessibility & Comfort"
+  },
+  "nearby": "Recommended Nearby"
+}

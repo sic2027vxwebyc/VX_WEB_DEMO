@@ -1,0 +1,28 @@
+{
+  "lost": "正在尋找位置...",
+  "initializing": "正在分析周邊環境...",
+  "start": "開始 AR 導引",
+  "controls": {
+    "map": "切換至地圖",
+    "exit": "關閉 AR"
+  },
+  "permissions": {
+    "title": "位置及相機使用權限",
+    "desc": "為使用 AR 導覽，需要允許以下權限。",
+    "camera": "相機",
+    "cameraDesc": "用於在現實空間上顯示引導線。",
+    "location": "位置資訊",
+    "locationDesc": "用於確認目前位置並提供精確路線導引。",
+    "confirm": "允許權限並開始",
+    "deny": "稍後再說",
+    "safety": "使用 AR 功能時，請在安全的地方移動。"
+  },
+  "success": {
+    "title": "您已抵達目的地！",
+    "desc": "您已成功抵達 {name}。<br>目前該區域正在舉行 <strong>{event}</strong>。",
+    "goHome": "回到首頁",
+    "viewNearby": "查看周邊設施",
+    "mockName": "阿爾法廳 (Hall Alpha)",
+    "mockEvent": "未來移動展覽"
+  }
+}

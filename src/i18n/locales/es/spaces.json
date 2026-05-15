@@ -1,0 +1,110 @@
+{
+  "hall-1": {
+    "name": "Sala 1",
+    "zone": "Piso 1, Centro 1",
+    "description": "Una de las salas principales del Centro 1 de KINTEX, adecuada para exposiciones y eventos a gran escala.",
+    "tags": ["Gran Exposición", "5 ton/㎡"]
+  },
+  "hall-2": {
+    "name": "Sala 2",
+    "zone": "Piso 1, Centro 1",
+    "description": "Un espacio de exposición polivalente que acoge diversas exposiciones industriales y convenciones.",
+    "tags": ["Exposición Industrial", "5 ton/㎡"]
+  },
+  "hall-3": {
+    "name": "Sala 3",
+    "zone": "Piso 1, Centro 1",
+    "description": "Una sala de exposiciones que cuenta con una gran altura de techo que permite la instalación de stands de dos pisos.",
+    "tags": ["Techo Alto", "Convención"]
+  },
+  "hall-4": {
+    "name": "Sala 4",
+    "zone": "Piso 1, Centro 1",
+    "description": "Un espacio con una carga de suelo sólida capaz de albergar exposiciones de equipos pesados.",
+    "tags": ["Equipo Pesado", "Sin Columnas"]
+  },
+  "hall-5": {
+    "name": "Sala 5",
+    "zone": "Piso 1, Centro 1",
+    "description": "La última sala del Centro 1, capaz de realizar exposiciones integradas a gran escala en conjunto con la Sala 4.",
+    "tags": ["Exposición Integrada", "Evento"]
+  },
+  "hall-6": {
+    "name": "Sala 6",
+    "zone": "Piso 1, Centro 2",
+    "description": "La sala de inicio del Centro 2, adecuada para exposiciones profesionales de pequeño y mediano tamaño.",
+    "tags": ["Exposición Profesional", "2 ton/㎡"]
+  },
+  "hall-7": {
+    "name": "Sala 7",
+    "zone": "Piso 1, Centro 2",
+    "description": "Una gran sala del Centro 2, que ofrece instalaciones modernas y amplios espacios.",
+    "tags": ["Gran Convención", "Instalación Moderna"]
+  },
+  "hall-8": {
+    "name": "Sala 8",
+    "zone": "Piso 1, Centro 2",
+    "description": "Un espacio donde se celebran activamente exposiciones internacionales y eventos corporativos.",
+    "tags": ["Conferencia Internacional", "Exposición IT"]
+  },
+  "hall-9": {
+    "name": "Sala 9",
+    "zone": "Piso 1, Centro 2",
+    "description": "Una de las salas individuales más grandes de KINTEX, optimizada para eventos ultra grandes.",
+    "tags": ["Sala Ultra Grande", "Concierto Disponible"]
+  },
+  "hall-10": {
+    "name": "Sala 10",
+    "zone": "Piso 1, Centro 2",
+    "description": "Una sala de exposiciones donde se concentran las últimas tecnologías arquitectónicas, apoyando eventos de escala gigantesca con la Sala 9.",
+    "tags": ["Exposición Inteligente", "Cultura Compleja"]
+  },
+  "f-sodam": {
+    "name": "Sodam (Comida Coreana)",
+    "zone": "Piso 1, Centro 1",
+    "description": "Restaurante coreano representativo de KINTEX que ofrece comidas coreanas tradicionales.",
+    "tags": ["Comida Coreana", "Cena Familiar"]
+  },
+  "f-benvenuto": {
+    "name": "Caffe Bene",
+    "zone": "Piso 2, Centro 1",
+    "description": "Una cafetería que ofrece un espacio de descanso confortable con vistas a la sala de exposiciones.",
+    "tags": ["Café", "WiFi"]
+  },
+  "f-myeongdong": {
+    "name": "Myeongdong Kalguksu",
+    "zone": "Piso 1, Centro 2",
+    "description": "Un restaurante de fideos famoso por su caldo profundo y fideos elásticos.",
+    "tags": ["Fideos", "Cena Rápida"]
+  },
+  "c-cu1": {
+    "name": "Tienda CU",
+    "zone": "Frente a la Sala 2, Centro 1",
+    "description": "Diversas bebidas, aperitivos y artículos de conveniencia están preparados para los visitantes.",
+    "tags": ["24h", "Cajero ATM"]
+  },
+  "c-press": {
+    "name": "Centro de Prensa",
+    "zone": "Piso 2, Centro 1",
+    "description": "Un espacio para que los periodistas escriban artículos y realicen sesiones informativas.",
+    "tags": ["Medios", "Negocios"]
+  },
+  "h-sonocalm": {
+    "name": "Sono Calm Goyang",
+    "zone": "Janghang-dong (10 min en coche)",
+    "description": "Un hotel premium de 5 estrellas cerca de KINTEX que ofrece el mejor descanso.",
+    "tags": ["5 Estrellas", "Servicio de Traslado"]
+  },
+  "h-gloucester": {
+    "name": "Hotel Gloucester KINTEX",
+    "zone": "Daehwa-dong (3 min a pie)",
+    "description": "Situado justo al lado de KINTEX, ofrece una accesibilidad óptima para los visitantes de negocios.",
+    "tags": ["3 Estrellas", "Adyacente"]
+  },
+  "congestion": {
+    "low": "Bajo",
+    "moderate": "Moderado",
+    "high": "Alto",
+    "easy": "Fácil"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "active": "スペースハブ稼働中",
+    "title": "{center} 空間体験ハブ",
+    "subtitle": "VX空間知能技術を通じて、KINTEXのあらゆる場所へリアルタイムで案内します。",
+    "masterMap": "ナビゲーションマップを見る",
+    "viewAllFacilities": "すべての施設を見る",
+    "altText": "KINTEX展示センターの景観"
+  },
+  "stats": {
+    "liveData": "リアルタイムデータ",
+    "eventInProgress": "イベント進行中",
+    "occupancy": "現在の占有率",
+    "climate": "室内温度",
+    "waitTime": "予想待ち時間",
+    "airQuality": "空気質",
+    "qualityOptimal": "最適",
+    "mainEvent": "主要イベント: {event}"
+  },
+  "congestedZones": {
+    "title": "区域の混雑度",
+    "desc": "主要サービス区域のリアルタイム密度を追跡しています。",
+    "findEmptySpace": "空いている場所を探す"
+  },
+  "location": {
+    "title": "現在の位置",
+    "accuracy": "位置精度: {accuracy}",
+    "current": "現在地"
+  },
+  "system": {
+    "activeBeacons": "アクティブビーコン",
+    "networkStatus": "ネットワーク状態",
+    "liveUsers": "リアルタイムユーザー"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Interactive Map",
+  "floors": {
+    "hall1": "Exhibition Center 1",
+    "hall2": "Exhibition Center 2",
+    "halls": {
+      "1": "Hall 1",
+      "2": "Hall 2",
+      "3": "Hall 3",
+      "4": "Hall 4",
+      "5": "Hall 5",
+      "6": "Hall 6",
+      "7": "Hall 7",
+      "8": "Hall 8",
+      "9": "Hall 9",
+      "10": "Hall 10"
+    }
+  },
+  "filters": {
+    "title": "Space Filter",
+    "exhibition": "Exhibition Zone",
+    "dining": "Dining Area",
+    "info": "Info Desk"
+  },
+  "details": {
+    "congestion": "Current Congestion",
+    "eta": "Estimated Travel Time",
+    "etaValue": "Approx. {min} min",
+    "navigate": "Navigate to this space"
+  },
+  "popular": {
+    "title": "Popular Spaces",
+    "visitors": "{count} visitors"
+  },
+  "assistant": {
+    "title": "AI Assistant",
+    "recommend": "Congestion is increasing in <strong>{busy}</strong>. We recommend using the <strong>{free}</strong> instead.",
+    "viewRecommend": "View Recommended Space"
+  },
+  "remaining": "あと {dist}",
+  "eta": "到着予定時刻",
+  "walking": "徒歩",
+  "optimalFlow": "スムーズ",
+  "congestion": "混雑状況",
+  "arrival": "目的地に到着",
+  "steps": "移動ステップ",
+  "stepsRemaining": "あと {count} ステップ",
+  "step1Title": "Go straight for 20m",
+  "step1Desc": "Follow the signs from your current location",
+  "step2Title": "Turn at the corner",
+  "step2Desc": "Follow the floor guidelines safely",
+  "step3Title": "Arrived at {name}",
+  "step3Desc": "You have arrived at your destination. Please check the entrance.",
+  "current": "Current",
+  "mainLobby": "Main Central Lobby",
+  "alert": "{name} area is currently in good condition. We recommend wearing a mask indoors.",
+  "spaceAlert": "空間アラート",
+  "currentFloor": "{floor}階: {name}",
+  "destination": "目的地",
+  "guideSettings": "案内設定",
+  "avoidStairs": "階段/エスカレーターを避ける",
+  "voiceGuidance": "音声案内を有効にする",
+  "pause": "一時停止",
+  "reportObstacle": "障害物を報告",
+  "fallback": {
+    "cameraDenied": "カメラの権限が拒否されました",
+    "cameraDeniedDesc": "AR機能を使用するにはカメラの権限が必要です。設定で許可するか、通常のマップを使用してください。",
+    "unsupported": "AR非対応環境です",
+    "unsupportedDesc": "現在のブラウザまたはデバイスはWebXR AR機能をサポートしていません。2Dマップで最適なルートをご案内します。",
+    "error": "AR案内を開始できません",
+    "errorDesc": "一時的なエラーが発生しました。後でもう一度試すか、通常のマップ案内を使用してください。",
+    "useMap": "通常のマップを表示",
+    "useQr": "QRで位置を確認"
+  }
+}

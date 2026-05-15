@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "active": "공간 허브 활성화됨",
+    "title": "지능형 {center} 가이드와 함께 하세요.",
+    "subtitle": "실시간 혼잡도 분석 및 정밀 실내 네비게이션을 통해 대한민국 최대 규모의 전시 컨벤션 센터를 효율적으로 탐색하세요.",
+    "masterMap": "지도 마스터하기",
+    "viewAllFacilities": "전체 시설 보기",
+    "altText": "킨텍스 전시장 전경"
+  },
+  "stats": {
+    "liveData": "실시간 데이터",
+    "eventInProgress": "행사 진행 중",
+    "occupancy": "현재 점유율",
+    "climate": "내부 온도",
+    "waitTime": "예상 대기",
+    "airQuality": "공기 질",
+    "qualityOptimal": "최적",
+    "mainEvent": "주요 행사: \"{event}\" 관련 전시 진행 중"
+  },
+  "congestedZones": {
+    "title": "주요 구역 혼잡도",
+    "desc": "킨텍스 주요 서비스 구역의 실시간 밀도를 추적합니다.",
+    "findEmptySpace": "여유로운 공간 찾기"
+  },
+  "location": {
+    "title": "내 현재 위치",
+    "accuracy": "측위 정밀도: ± {accuracy}",
+    "current": "제1전시장 로비, 2홀 앞"
+  },
+  "system": {
+    "activeBeacons": "활성 비콘",
+    "networkStatus": "네트워크 상태",
+    "liveUsers": "실시간 접속자"
+  }
+}

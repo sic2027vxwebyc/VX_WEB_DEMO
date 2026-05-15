@@ -1,0 +1,18 @@
+{
+  "confirm": {
+    "title": "확인",
+    "message": "계속하시겠습니까?"
+  },
+  "cancel": {
+    "title": "취소",
+    "message": "작업을 취소하시겠습니까?"
+  },
+  "error": {
+    "title": "오류",
+    "message": "문제가 발생했습니다. 다시 시도해 주세요."
+  },
+  "success": {
+    "title": "성공",
+    "message": "작업이 성공적으로 완료되었습니다."
+  }
+}

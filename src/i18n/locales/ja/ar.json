@@ -1,0 +1,28 @@
+{
+  "lost": "位置を特定中...",
+  "initializing": "周辺環境を分析中...",
+  "start": "AR案内を開始",
+  "controls": {
+    "map": "マップに切り替え",
+    "exit": "AR을 종료"
+  },
+  "permissions": {
+    "title": "位置情報およびカメラの使用権限",
+    "desc": "ARナビ게이션을 이용하기 위해 아래 권한 허용이 필요합니다.",
+    "camera": "カメラ",
+    "cameraDesc": "現実空間の上に案内線を表示するために使用されます。",
+    "location": "位置情報",
+    "locationDesc": "現在地を把握し、正確な経路を案内するために使用されます。",
+    "confirm": "権限を許可して開始",
+    "deny": "後で",
+    "safety": "AR機能を使用する際は、安全な場所で移動してください。"
+  },
+  "success": {
+    "title": "目的地に到着しました！",
+    "desc": "無事に {name} に到着しました。<br>現在、このエリアでは <strong>{event}</strong> が開催中です。",
+    "goHome": "ホームに戻る",
+    "viewNearby": "周辺施設を見る",
+    "mockName": "ホールアルファ (Hall Alpha)",
+    "mockEvent": "未来モビリティ展示"
+  }
+}

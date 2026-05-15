@@ -1,0 +1,15 @@
+{
+  "connection": {
+    "title": "연결이 불안정합니다",
+    "desc": "네트워크 상태가 원활하지 않아 실시간 데이터를 불러올 수 없습니다. 오프라인 모드로 전환하시겠습니까?",
+    "retry": "다시 연결 시도",
+    "offlineMap": "오프라인 지도 사용",
+    "errorCode": "에러 코드: {code}"
+  },
+  "restricted": {
+    "title": "접근 권한이 없습니다",
+    "desc": "이 구역은 <strong>보안 등급 {level} 이상</strong> 소지자만 출입이 가능합니다.<br>권한이 필요하시면 안내 데스크({gate})로 문의해 주세요.",
+    "bypass": "우회 경로 탐색",
+    "callSecurity": "보안 담당자 호출"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "confirm": "확인",
+  "cancel": "취소",
+  "save": "저장",
+  "delete": "삭제",
+  "back": "뒤로가기",
+  "home": "홈",
+  "settings": "설정",
+  "search": "검색",
+  "more": "더보기",
+  "minutes": "분",
+  "viewAll": "전체 보기",
+  "details": "상세 정보",
+  "viewDetails": "상세 정보 보기",
+  "status": "현황",
+  "live": "실시간",
+  "accessibility": {
+    "brailleGuide": "점자 안내",
+    "inductionLoop": "유도 루프",
+    "wheelchairAccess": "휠체어 접근"
+  }
+}

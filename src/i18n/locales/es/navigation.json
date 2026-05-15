@@ -1,0 +1,15 @@
+{
+  "title": "Navegación",
+  "home": "Inicio",
+  "explore": "Explorar",
+  "map": "Mapa Interactivo",
+  "events": "Calendario de Eventos",
+  "notifications": "Centro de Notificaciones",
+  "admin": "Panel de Administración",
+  "settings": "Ajustes",
+  "help": "Ayuda",
+  "logout": "Cerrar sesión",
+  "newRoute": "Crear Nueva Ruta",
+  "globalNav": "Navegación Global",
+  "spatialIntelligence": "Inteligencia Espacial VX"
+}

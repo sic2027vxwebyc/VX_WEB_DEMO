@@ -1,0 +1,75 @@
+{
+  "title": "互動地圖",
+  "floors": {
+    "hall1": "第1展覽館",
+    "hall2": "第2展覽館",
+    "halls": {
+      "1": "1號廳",
+      "2": "2號廳",
+      "3": "3號廳",
+      "4": "4號廳",
+      "5": "5號廳",
+      "6": "6號廳",
+      "7": "7號廳",
+      "8": "8號廳",
+      "9": "9號廳",
+      "10": "10號廳"
+    }
+  },
+  "filters": {
+    "title": "空間篩選",
+    "exhibition": "展覽區域",
+    "dining": "餐飲區域",
+    "info": "諮詢台"
+  },
+  "details": {
+    "congestion": "目前擁擠度",
+    "eta": "預計到達時間",
+    "etaValue": "約 {min} 分鐘",
+    "navigate": "導航至此空間"
+  },
+  "popular": {
+    "title": "熱門空間",
+    "visitors": "{count} 位訪客"
+  },
+  "assistant": {
+    "title": "AI 助手",
+    "recommend": "<strong>{busy}</strong> 的擁擠度正在增加。建議改用 <strong>{free}</strong>。",
+    "viewRecommend": "查看推薦空間"
+  },
+  "remaining": "剩餘 {dist}",
+  "eta": "預計到達時間",
+  "walking": "步行",
+  "optimalFlow": "路況良好",
+  "congestion": "擁擠程度",
+  "arrival": "抵達目的地",
+  "steps": "移動步驟",
+  "stepsRemaining": "剩餘 {count} 步",
+  "step1Title": "直行 20m",
+  "step1Desc": "請跟隨目前位置的指示牌",
+  "step2Title": "在轉角處轉彎",
+  "step2Desc": "請安全地遵循地面引導線",
+  "step3Title": "抵達 {name}",
+  "step3Desc": "您已抵達目的地。請確認入口。",
+  "current": "目前位置",
+  "mainLobby": "中央主大廳",
+  "alert": "{name} 區域目前狀況良好。建議在室內配戴口罩。",
+  "spaceAlert": "空間通知",
+  "currentFloor": "{floor}樓: {name}",
+  "destination": "目的地",
+  "guideSettings": "導引設定",
+  "avoidStairs": "避開樓梯/電扶梯",
+  "voiceGuidance": "啟用語音導引",
+  "pause": "暫停",
+  "reportObstacle": "回報障礙物",
+  "fallback": {
+    "cameraDenied": "相機權限遭拒",
+    "cameraDeniedDesc": "使用 AR 功能需要相機權限。請在設定中允許權限，或使用一般地圖。",
+    "unsupported": "環境不支援 AR",
+    "unsupportedDesc": "目前的瀏覽器或裝置不支援 WebXR AR 功能。我們將透過 2D 地圖為您導引。",
+    "error": "無法啟動 AR 導引",
+    "errorDesc": "發生暫時性錯誤。請稍後再試，或使用一般地圖導引。",
+    "useMap": "查看一般地圖",
+    "useQr": "透過 QR 確認位置"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "設定",
+  "subtitle": "個人化您的 VX Web 體驗。",
+  "display": {
+    "title": "顯示",
+    "darkMode": "深色模式",
+    "darkModeDesc": "在系統中套用深色主題。",
+    "highContrast": "高對比",
+    "highContrastDesc": "增加顏色對比以提高可讀性。",
+    "fontSize": "字體大小",
+    "fontSizeSmall": "小",
+    "fontSizeMedium": "中",
+    "fontSizeLarge": "大"
+  },
+  "language": {
+    "title": "語言",
+    "desc": "選擇應用程式的顯示語言。"
+  },
+  "system": {
+    "title": "系統與安全",
+    "offlineMaps": "離線地圖數據",
+    "offlineMapsDesc": "預先下載數據以在無網路連接時使用地圖。",
+    "biometricAuth": "生物辨識鎖定",
+    "biometricAuthDesc": "使用生物辨識來保護敏感資訊。"
+  },
+  "data": {
+    "title": "數據管理",
+    "cache": "快取數據",
+    "cacheDesc": "刪除目前應用程式中儲存的快取數據。",
+    "clearCache": "清除快取",
+    "cacheCleared": "快取已成功清除。"
+  },
+  "info": {
+    "version": "版本 2.4.0 (Build 562)",
+    "copyright": "© 2026 VX SPATIAL INTELLIGENCE HUB. 保留所有權利。"
+  }
+}

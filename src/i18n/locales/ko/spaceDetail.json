@@ -1,0 +1,19 @@
+{
+  "intro": "공간 소개",
+  "area": "전체 면적: {value}",
+  "actions": {
+    "startRoute": "이 공간으로 안내 시작",
+    "share": "위치 공유하기",
+    "open360": "360 뷰어 열기"
+  },
+  "stats": {
+    "title": "실시간 공간 지표",
+    "occupancy": "현재 점유율",
+    "airQuality": "공기 질",
+    "airQualityNormal": "정상 범위 내"
+  },
+  "accessibility": {
+    "title": "접근성 및 편의"
+  },
+  "nearby": "근처 추천 공간"
+}

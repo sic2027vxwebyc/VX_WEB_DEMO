@@ -1,0 +1,18 @@
+{
+  "title": "スペースディレクトリ",
+  "subtitle": "KINTEX展示ホールおよび施設のリアルタイムの空き状況と位置情報を確認してください。",
+  "searchPlaceholder": "スペース、エリアを検索...",
+  "congestion": "混雑度: {status}",
+  "startNavigation": "案内開始",
+  "proposeNew": {
+    "title": "新しいスペースを提案",
+    "desc": "ディレクトリに新しいウェイポイントやエリアを追加します。"
+  },
+  "categories": {
+    "all": "すべて",
+    "exhibition": "展示ホール",
+    "dining": "レストラン/カフェ",
+    "amenities": "施設/アメニティ",
+    "hotels": "提携ホテル"
+  }
+}

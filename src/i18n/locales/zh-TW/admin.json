@@ -1,0 +1,44 @@
+{
+  "title": "管理控制台",
+  "subtitle": "VX 節點 07 的即時數據及空間協調現況。",
+  "status": {
+    "normal": "系統正常",
+    "sweep": "全域系統掃描"
+  },
+  "stats": {
+    "activeVisitors": "活躍訪客",
+    "passAuth": "每分鐘通行證驗證",
+    "peakTime": "尖峰時段",
+    "infrastructure": "基礎設施節點狀態",
+    "upTime": "{percent}% 運作中"
+  },
+  "heatmap": {
+    "title": "即時熱點圖：Level {level}",
+    "alert": "{zone} 區域容納人數超限警報",
+    "levels": {
+      "low": "低",
+      "moderate": "中",
+      "high": "高"
+    },
+    "floors": {
+      "1f": "1樓",
+      "2f": "2樓",
+      "3f": "3樓"
+    }
+  },
+  "alerts": {
+    "security": {
+      "title": "未經授權進入檢測：{gate}",
+      "desc": "保安團隊已出動。封鎖協議執行中。"
+    },
+    "power": {
+      "title": "電力不穩定：{wing}",
+      "desc": "緊急發電機運作中 (負載 {load}%)"
+    },
+    "support": {
+      "title": "新增支援請求",
+      "desc": "{hall} 需要無障礙支援。"
+    }
+  },
+  "globalAlert": "發布全域警報"
+}

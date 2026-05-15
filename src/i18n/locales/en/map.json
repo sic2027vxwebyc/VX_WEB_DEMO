@@ -1,0 +1,75 @@
+{
+  "title": "Interactive Map",
+  "floors": {
+    "hall1": "Exhibition Center 1",
+    "hall2": "Exhibition Center 2",
+    "halls": {
+      "1": "Hall 1",
+      "2": "Hall 2",
+      "3": "Hall 3",
+      "4": "Hall 4",
+      "5": "Hall 5",
+      "6": "Hall 6",
+      "7": "Hall 7",
+      "8": "Hall 8",
+      "9": "Hall 9",
+      "10": "Hall 10"
+    }
+  },
+  "filters": {
+    "title": "Space Filter",
+    "exhibition": "Exhibition Zone",
+    "dining": "Dining Area",
+    "info": "Info Desk"
+  },
+  "details": {
+    "congestion": "Current Congestion",
+    "eta": "Estimated Travel Time",
+    "etaValue": "Approx. {min} min",
+    "navigate": "Navigate to this space"
+  },
+  "popular": {
+    "title": "Popular Spaces",
+    "visitors": "{count} visitors"
+  },
+  "assistant": {
+    "title": "AI Assistant",
+    "recommend": "Congestion is increasing in <strong>{busy}</strong>. We recommend using the <strong>{free}</strong> instead.",
+    "viewRecommend": "View Recommended Space"
+  },
+  "remaining": "{dist}m left",
+  "eta": "ETA",
+  "walking": "Walking",
+  "optimalFlow": "Optimal Flow",
+  "congestion": "Congestion",
+  "arrival": "Arrival",
+  "steps": "Steps",
+  "stepsRemaining": "{count} steps left",
+  "step1Title": "Go straight for 20m",
+  "step1Desc": "Follow the signs from your current location",
+  "step2Title": "Turn at the corner",
+  "step2Desc": "Follow the floor guidelines safely",
+  "step3Title": "Arrived at {name}",
+  "step3Desc": "You have arrived at your destination. Please check the entrance.",
+  "current": "Current",
+  "mainLobby": "Main Central Lobby",
+  "alert": "{name} area is currently in good condition. We recommend wearing a mask indoors.",
+  "spaceAlert": "Space Alert",
+  "currentFloor": "Floor {floor}: {name}",
+  "destination": "Destination",
+  "guideSettings": "Guide Settings",
+  "avoidStairs": "Avoid Stairs (Accessible)",
+  "voiceGuidance": "Enable Voice Guidance",
+  "pause": "Pause",
+  "reportObstacle": "Report Obstacle",
+  "fallback": {
+    "cameraDenied": "Camera Permission Denied",
+    "cameraDeniedDesc": "Camera permission is required for AR features. Please allow access in settings or use a normal map.",
+    "unsupported": "AR Not Supported",
+    "unsupportedDesc": "Your current browser or device does not support WebXR AR features. We will guide you with a 2D map.",
+    "error": "Cannot Start AR Guide",
+    "errorDesc": "A temporary error occurred. Please try again later or use the normal map guide.",
+    "useMap": "Use Normal Map Guide",
+    "useQr": "Confirm Location with QR"
+  }
+}

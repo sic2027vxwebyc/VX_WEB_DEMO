@@ -1,0 +1,28 @@
+{
+  "lost": "Searching for location...",
+  "initializing": "Analyzing environment...",
+  "start": "Point at the floor to activate the path",
+  "controls": {
+    "map": "Switch to 2D Map",
+    "exit": "End Guidance"
+  },
+  "permissions": {
+    "title": "Location & Camera Permissions",
+    "desc": "The following permissions are required to use AR navigation.",
+    "camera": "Camera",
+    "cameraDesc": "Used to display guide lines over the real-world space.",
+    "location": "Location Information",
+    "locationDesc": "Used to determine your current position and provide accurate guidance.",
+    "confirm": "Allow & Start",
+    "deny": "Maybe Later",
+    "safety": "Using a smartphone while walking is dangerous. Please stay aware of your surroundings."
+  },
+  "success": {
+    "title": "You've Arrived!",
+    "desc": "You have successfully arrived at {name}.<br>The <strong>{event}</strong> event is currently in progress in this area.",
+    "goHome": "Back to Home",
+    "viewNearby": "Explore Nearby Facilities",
+    "mockName": "Hall Alpha",
+    "mockEvent": "Future Mobility Exhibition"
+  }
+}

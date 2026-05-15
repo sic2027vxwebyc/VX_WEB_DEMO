@@ -1,0 +1,22 @@
+{
+  "confirm": "Подтвердить",
+  "cancel": "Отмена",
+  "save": "Сохранить",
+  "delete": "Удалить",
+  "back": "Назад",
+  "home": "Главная",
+  "settings": "Настройки",
+  "search": "Поиск",
+  "more": "Еще",
+  "minutes": "мин",
+  "viewAll": "Показать все",
+  "details": "Подробности",
+  "viewDetails": "Просмотреть подробности",
+  "status": "Статус",
+  "live": "В эфире",
+  "accessibility": {
+    "brailleGuide": "Шрифт Брайля",
+    "inductionLoop": "Индукционная петля",
+    "wheelchairAccess": "Доступ для инвалидных колясок"
+  }
+}

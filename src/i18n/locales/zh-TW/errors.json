@@ -1,0 +1,15 @@
+{
+  "connection": {
+    "title": "Unstable Connection",
+    "desc": "Unable to load real-time data due to poor network conditions. Switch to offline mode?",
+    "retry": "Retry Connection",
+    "offlineMap": "Use Offline Map",
+    "errorCode": "Error Code: {code}"
+  },
+  "restricted": {
+    "title": "Access Denied",
+    "desc": "This area is only accessible to those with <strong>Security Level {level} or higher</strong>.<br>Please contact the information desk ({gate}) for authorization.",
+    "bypass": "Find Alternative Route",
+    "callSecurity": "Call Security Officer"
+  }
+}

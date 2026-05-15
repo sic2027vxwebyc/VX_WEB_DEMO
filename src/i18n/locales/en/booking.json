@@ -1,0 +1,17 @@
+{
+  "title": "Booking Confirmation",
+  "confirmed": "Booking Confirmed",
+  "details": {
+    "date": "Date",
+    "time": "Time",
+    "location": "Location"
+  },
+  "instructions": "* Activation starts 5 minutes before entry. Please scan the QR code at the entrance reader.",
+  "actions": {
+    "changeOrCancel": "Change or Cancel Booking"
+  },
+  "mock": {
+    "podName": "Private Focus Pod #07",
+    "locationName": "Tech Hub Lounge (2F)"
+  }
+}

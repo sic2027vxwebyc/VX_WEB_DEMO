@@ -1,0 +1,19 @@
+{
+  "title": "360 Viewer",
+  "exit": "Close",
+  "hotspots": {
+    "next": "Next Space",
+    "info": "Info"
+  },
+  "controls": {
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "north": "North",
+    "vrMode": "VR Mode"
+  },
+  "stats": {
+    "title": "Space Stats",
+    "occupancy": "Current Occupancy",
+    "airQuality": "Maintaining optimal air quality"
+  }
+}

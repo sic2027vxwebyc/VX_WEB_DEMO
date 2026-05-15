@@ -1,0 +1,28 @@
+{
+  "lost": "Buscando ubicación...",
+  "initializing": "Analizando el entorno...",
+  "start": "Iniciar Guía AR",
+  "controls": {
+    "map": "Cambiar a Mapa",
+    "exit": "Salir de AR"
+  },
+  "permissions": {
+    "title": "Permisos de Ubicación y Cámara",
+    "desc": "Se requieren los siguientes permisos para usar la navegación AR.",
+    "camera": "Cámara",
+    "cameraDesc": "Se usa para mostrar líneas de guía sobre el espacio real.",
+    "location": "Información de Ubicación",
+    "locationDesc": "Se usa para determinar su posición actual y proporcionar una guía precisa.",
+    "confirm": "Permitir y Comenzar",
+    "deny": "Más tarde",
+    "safety": "Por favor, use las funciones de AR en un lugar seguro."
+  },
+  "success": {
+    "title": "¡Has llegado!",
+    "desc": "Has llegado con éxito a {name}.<br>El evento <strong>{event}</strong> está actualmente en progreso en esta área.",
+    "goHome": "Volver al inicio",
+    "viewNearby": "Explorar instalaciones cercanas",
+    "mockName": "Hall Alpha",
+    "mockEvent": "Exhibición de Movilidad Futura"
+  }
+}

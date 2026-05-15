@@ -1,0 +1,15 @@
+{
+  "title": "Navigation",
+  "home": "Home",
+  "explore": "Explore",
+  "map": "Interactive Map",
+  "events": "Event Schedule",
+  "notifications": "Notification Center",
+  "admin": "Admin Dashboard",
+  "settings": "Settings",
+  "help": "Help",
+  "logout": "Logout",
+  "newRoute": "Create New Route",
+  "globalNav": "Global Navigation",
+  "spatialIntelligence": "VX Spatial Intelligence"
+}

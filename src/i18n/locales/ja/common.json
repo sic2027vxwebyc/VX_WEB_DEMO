@@ -1,0 +1,22 @@
+{
+  "confirm": "確認",
+  "cancel": "キャンセル",
+  "save": "保存",
+  "delete": "削除",
+  "back": "戻る",
+  "home": "ホーム",
+  "settings": "設定",
+  "search": "検索",
+  "more": "もっと見る",
+  "minutes": "分",
+  "viewAll": "すべて表示",
+  "details": "詳細",
+  "viewDetails": "詳細を表示",
+  "status": "現況",
+  "live": "ライブ",
+  "accessibility": {
+    "brailleGuide": "点字案内",
+    "inductionLoop": "磁気ループ",
+    "wheelchairAccess": "車椅子対応"
+  }
+}

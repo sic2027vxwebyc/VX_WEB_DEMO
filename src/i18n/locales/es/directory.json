@@ -1,0 +1,18 @@
+{
+  "title": "Directorio de Espacios",
+  "subtitle": "Consulte la disponibilidad en tiempo real y la ubicación de las salas de exposiciones e instalaciones de KINTEX.",
+  "searchPlaceholder": "Buscar espacios, zonas...",
+  "congestion": "Congestión: {status}",
+  "startNavigation": "Iniciar guía",
+  "proposeNew": {
+    "title": "Proponer nuevo espacio",
+    "desc": "Añada nuevos puntos de referencia o zonas al directorio."
+  },
+  "categories": {
+    "all": "Todo",
+    "exhibition": "Sala de exposiciones",
+    "dining": "Restaurante/Cafetería",
+    "amenities": "Instalaciones",
+    "hotels": "Hoteles asociados"
+  }
+}

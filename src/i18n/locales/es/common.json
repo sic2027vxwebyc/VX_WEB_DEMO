@@ -1,0 +1,22 @@
+{
+  "confirm": "Confirmar",
+  "cancel": "Cancelar",
+  "save": "Guardar",
+  "delete": "Eliminar",
+  "back": "Atrás",
+  "home": "Inicio",
+  "settings": "Ajustes",
+  "search": "Buscar",
+  "more": "Más",
+  "minutes": "min",
+  "viewAll": "Ver todo",
+  "details": "Detalles",
+  "viewDetails": "Ver detalles",
+  "status": "Estado",
+  "live": "En vivo",
+  "accessibility": {
+    "brailleGuide": "Guía braille",
+    "inductionLoop": "Bucle de inducción",
+    "wheelchairAccess": "Acceso para sillas de ruedas"
+  }
+}

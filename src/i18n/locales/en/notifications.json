@@ -1,0 +1,34 @@
+{
+  "title": "Notification Center",
+  "subtitle": "System notices and personalized alerts.",
+  "empty": "No new notifications.",
+  "clearAll": "Clear All",
+  "types": {
+    "security": "Security",
+    "congestion": "Congestion",
+    "event": "Event",
+    "system": "System"
+  },
+  "items": {
+    "1": {
+      "title": "New Device Login",
+      "content": "A new login was detected on MacBook Pro for the VX Admin account.",
+      "time": "2 min ago"
+    },
+    "2": {
+      "title": "Central Hall Congestion Alert",
+      "content": "Density in the 1st floor Central Hall has exceeded 90%. Please use an alternative route.",
+      "time": "15 min ago"
+    },
+    "3": {
+      "title": "Keynote Session Starting in 10 Min",
+      "content": "The \"Intelligent Future Spaces\" session is about to start in the Main Arena.",
+      "time": "45 min ago"
+    },
+    "4": {
+      "title": "System Update Complete",
+      "content": "Spatial database synchronization has been successfully completed.",
+      "time": "2 hours ago"
+    }
+  }
+}
