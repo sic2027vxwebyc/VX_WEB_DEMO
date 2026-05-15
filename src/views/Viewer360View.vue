@@ -8,8 +8,10 @@ import { onMounted, onUnmounted, ref, computed, shallowRef } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import * as THREE from 'three'
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { logger } from '@/utils/logger'
 import { useSpacesStore } from '@/stores/spaces'
+import { getWebXRDiagnostics } from '@/utils/webxrDiagnostics'
 
 const route = useRoute()
 const router = useRouter()
@@ -25,45 +27,46 @@ const spaceData = computed(() => {
   return spacesStore.getSpaceById(route.params.id) || spacesStore.getSpaceById('hall-1')
 })
 
-// Three.js 리소스 (shallowRef로 반응성 오버헤드 방지)
+// Three.js 리소스
 const scene = shallowRef(null)
 const camera = shallowRef(null)
 const renderer = shallowRef(null)
 const sphere = shallowRef(null)
+const controls = shallowRef(null)
 
 // 뷰어 상태
-const isDragging = ref(false)
-const lon = ref(0)
-const lat = ref(0)
-const onPointerDownLon = ref(0)
-const onPointerDownLat = ref(0)
-const onPointerDownPointerX = ref(0)
-const onPointerDownPointerY = ref(0)
 const fov = ref(75)
 const isVrSupported = ref(false)
 const vrErrorMessage = ref('')
+const diagnostics = ref(null)
 
 /**
  * Three.js 초기화
  */
-const initThree = () => {
+const initThree = async () => {
   logger.info(scope, 'Three.js 초기화를 시작합니다.')
 
   // 1. Scene & Camera
   scene.value = new THREE.Scene()
-  camera.value = new THREE.PerspectiveCamera(fov.value, window.innerWidth / window.innerHeight, 1, 1100)
-  camera.value.target = new THREE.Vector3(0, 0, 0)
+  camera.value = new THREE.PerspectiveCamera(fov.value, window.innerWidth / window.innerHeight, 0.1, 1000)
+  camera.value.position.set(0, 0, 0.1) // OrbitControls가 작동하려면 원점에서 약간 떨어져 있어야 함
 
   // 2. Geometry & Texture
   const geometry = new THREE.SphereGeometry(500, 60, 40)
-  // 구체 내부를 바라보도록 X축 반전
-  geometry.scale(-1, 1, 1)
+  geometry.scale(-1, 1, 1) // 내부 렌더링을 위해 X축 반전
 
   const loader = new THREE.TextureLoader()
+  // GitHub Pages 배포 경로 대응
+  const texturePath = spaceData.value.image.startsWith('http') 
+    ? spaceData.value.image 
+    : `${import.meta.env.BASE_URL}${spaceData.value.image.replace(/^\//, '')}`
+  
+  logger.info(scope, `텍스처 로딩 시도: ${texturePath}`)
+
   loader.load(
-    spaceData.value.image,
+    texturePath,
     (texture) => {
-      logger.info(scope, '360 텍스처 로드 완료:', spaceData.value.image)
+      logger.info(scope, '360 텍스처 로드 완료')
       const material = new THREE.MeshBasicMaterial({ map: texture })
       sphere.value = new THREE.Mesh(geometry, material)
       scene.value.add(sphere.value)
@@ -83,19 +86,25 @@ const initThree = () => {
   renderer.value.setSize(window.innerWidth, window.innerHeight)
   renderer.value.xr.enabled = true
 
-  // 4. VR 지원 확인
-  if (navigator.xr) {
-    navigator.xr.isSessionSupported('immersive-vr').then((supported) => {
-      isVrSupported.value = supported
-      if (!supported) {
-        logger.warn(scope, '이 기기/브라우저는 immersive-vr을 지원하지 않습니다.')
-      }
-    })
-  } else {
-    logger.warn(scope, 'WebXR을 지원하지 않는 환경입니다.')
+  // 4. OrbitControls 초기화 (회전 제어)
+  controls.value = new OrbitControls(camera.value, renderer.value.domElement)
+  controls.value.enableZoom = true
+  controls.value.enablePan = false
+  controls.value.enableDamping = true
+  controls.value.dampingFactor = 0.05
+  controls.value.rotateSpeed = -0.4 // 드래그 방향과 화면 회전 방향 일치
+  controls.value.minDistance = 0.1
+  controls.value.maxDistance = 10
+
+  // 5. VR 지원 확인 (상세 진단 사용)
+  diagnostics.value = await getWebXRDiagnostics()
+  isVrSupported.value = diagnostics.value.supportsImmersiveVR
+
+  if (!isVrSupported.value) {
+    logger.warn(scope, '이 기기/브라우저는 immersive-vr을 지원하지 않습니다.')
   }
 
-  // 5. Animation Loop
+  // 6. Animation Loop
   renderer.value.setAnimationLoop(animate)
 }
 
@@ -105,17 +114,10 @@ const initThree = () => {
 const animate = () => {
   if (!renderer.value || !scene.value || !camera.value) return
 
-  // 위도 제한 (폴 방지)
-  lat.value = Math.max(-85, Math.min(85, lat.value))
+  if (controls.value) {
+    controls.value.update()
+  }
   
-  const phi = THREE.MathUtils.degToRad(90 - lat.value)
-  const theta = THREE.MathUtils.degToRad(lon.value)
-
-  camera.value.target.x = 500 * Math.sin(phi) * Math.cos(theta)
-  camera.value.target.y = 500 * Math.cos(phi)
-  camera.value.target.z = 500 * Math.sin(phi) * Math.sin(theta)
-
-  camera.value.lookAt(camera.value.target)
   renderer.value.render(scene.value, camera.value)
 }
 
@@ -130,52 +132,17 @@ const handleResize = () => {
 }
 
 /**
- * 포인터 이벤트 핸들러 (드래그 회전)
- */
-const onPointerDown = (event) => {
-  if (event.isPrimary === false) return
-  isDragging.value = true
-  onPointerDownPointerX.value = event.clientX
-  onPointerDownPointerY.value = event.clientY
-  onPointerDownLon.value = lon.value
-  onPointerDownLat.value = lat.value
-  
-  logger.debug(scope, '드래그 시작')
-}
-
-const onPointerMove = (event) => {
-  if (event.isPrimary === false || !isDragging.value) return
-  lon.value = (onPointerDownPointerX.value - event.clientX) * 0.1 + onPointerDownLon.value
-  lat.value = (event.clientY - onPointerDownPointerY.value) * 0.1 + onPointerDownLat.value
-}
-
-const onPointerUp = () => {
-  isDragging.value = false
-  logger.debug(scope, '드래그 종료')
-}
-
-const onWheel = (event) => {
-  const delta = event.deltaY * 0.05
-  fov.value = Math.max(30, Math.min(100, fov.value + delta))
-  updateCameraFov()
-}
-
-const updateCameraFov = () => {
-  if (camera.value) {
-    camera.value.fov = fov.value
-    camera.value.updateProjectionMatrix()
-    logger.debug(scope, `줌 변경 (FOV): ${fov.value.toFixed(1)}`)
-  }
-}
-
-/**
  * 줌 인/아웃 버튼 핸들러
  */
 const handleZoom = (type) => {
+  if (!camera.value) return
   const step = 5
   if (type === 'in') fov.value = Math.max(30, fov.value - step)
   else fov.value = Math.min(100, fov.value + step)
-  updateCameraFov()
+  
+  camera.value.fov = fov.value
+  camera.value.updateProjectionMatrix()
+  logger.debug(scope, `줌 변경 (FOV): ${fov.value.toFixed(1)}`)
 }
 
 /**
@@ -185,9 +152,12 @@ const toggleVr = async () => {
   logger.info(scope, 'VR 모드 버튼 클릭')
   
   if (!isVrSupported.value) {
-    const reason = !navigator.xr ? 'WebXR 미지원' : '기기 미지원'
-    logger.warn(scope, `VR 모드 진입 불가: ${reason}`)
-    vrErrorMessage.value = t('viewer.vrNotSupported', '이 기기나 브라우저에서는 VR 모드를 지원하지 않습니다.')
+    let message = t('viewer.controls.vrNotSupported')
+    if (!diagnostics.value?.isSecureContext) {
+      message = 'HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.'
+    }
+    
+    vrErrorMessage.value = message
     setTimeout(() => { vrErrorMessage.value = '' }, 3000)
     return
   }
@@ -245,11 +215,6 @@ const exitViewer = () => {
     <canvas 
       ref="canvasRef" 
       class="absolute inset-0 w-full h-full outline-none"
-      @pointerdown="onPointerDown"
-      @pointermove="onPointerMove"
-      @pointerup="onPointerUp"
-      @pointercancel="onPointerUp"
-      @wheel="onWheel"
     ></canvas>
 
     <!-- 상단 컨트롤 바 -->

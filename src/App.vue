@@ -11,6 +11,7 @@ import { useThemeStore } from './stores/theme'
 import TopAppBar from './components/layout/TopAppBar.vue'
 import SideNavBar from './components/layout/SideNavBar.vue'
 import BottomNavBar from './components/layout/BottomNavBar.vue'
+import WebXRDiagnosticsPanel from './components/debug/WebXRDiagnosticsPanel.vue'
 import { logger } from './utils/logger'
 
 const themeStore = useThemeStore()
@@ -76,6 +77,8 @@ onMounted(() => {
     <button class="fixed bottom-20 right-4 lg:hidden bg-primary text-on-primary w-14 h-14 rounded-full flex items-center justify-center shadow-2xl z-40 active:scale-95 transition-transform">
       <span class="material-symbols-outlined">add_location</span>
     </button>
+    <!-- WebXR 진단 패널 -->
+    <WebXRDiagnosticsPanel />
   </div>
 </template>
 
