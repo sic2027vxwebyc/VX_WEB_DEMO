@@ -5,11 +5,10 @@
  * 데스크톱 화면에서 주요 메뉴 이동을 담당합니다.
  */
 import { computed } from 'vue'
-import { useRouter, useRoute } from 'vue-router'
+import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
-const router = useRouter()
 const route = useRoute()
 const { t } = useI18n()
 
@@ -22,12 +21,14 @@ const menuItems = computed(() => [
   { name: t('navigation.admin'), path: '/admin', icon: 'dashboard' },
 ])
 
+const emit = defineEmits(['navigate'])
+
 /**
- * 메뉴 클릭 시 페이지 이동 및 로그 기록
+ * 메뉴 클릭 시 페이지 이동 요청 이벤트 발생 및 로그 기록
  */
-const navigateTo = (path, name) => {
+const handleNavClick = (path, name) => {
   logger.info('SideNavBar', `${name} 메뉴로 이동합니다.`, { path })
-  router.push(path)
+  emit('navigate', { path, name })
 }
 </script>
 
@@ -45,7 +46,7 @@ const navigateTo = (path, name) => {
       </div>
       <button 
         class="w-full py-3 px-4 bg-primary text-on-primary rounded-xl font-bold flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(0,219,233,0.3)] hover:scale-[1.02] transition-transform active:scale-95"
-        @click="navigateTo('/map', t('navigation.newRoute'))"
+        @click="handleNavClick('/map', t('navigation.newRoute'))"
       >
         <span class="material-symbols-outlined">add_location</span>
         {{ t('navigation.newRoute') }}

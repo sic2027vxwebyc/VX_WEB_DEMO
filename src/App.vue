@@ -5,7 +5,7 @@
  * 전체적인 레이아웃 구조(상단바, 사이드바, 하단바)를 정의합니다.
  */
 import { onMounted, watch } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useThemeStore } from './stores/theme'
 import TopAppBar from './components/layout/TopAppBar.vue'
@@ -16,6 +16,7 @@ import { logger } from './utils/logger'
 
 const themeStore = useThemeStore()
 const route = useRoute()
+const router = useRouter()
 const { t, locale } = useI18n()
 
 /**
@@ -28,6 +29,15 @@ const updateTitle = () => {
     const title = t(titleKey)
     document.title = `${title} | VX Web Demo`
   }
+}
+
+/**
+ * 전역 네비게이션 핸들러
+ * 하위 컴포넌트에서 발생한 이동 요청을 처리합니다.
+ */
+const handleNavigation = ({ path, name }) => {
+  logger.info('App', `페이지 이동 요청 수신: ${name} (${path})`)
+  router.push(path)
 }
 
 // 언어 변경 감지
@@ -51,10 +61,10 @@ onMounted(() => {
 <template>
   <div class="min-h-screen bg-surface-light dark:bg-background text-surface-dark dark:text-on-surface transition-colors duration-300">
     <!-- 상단 앱 바 -->
-    <TopAppBar />
+    <TopAppBar @navigate="handleNavigation" />
 
     <!-- 사이드 네비게이션 바 (데스크톱) -->
-    <SideNavBar />
+    <SideNavBar @navigate="handleNavigation" />
 
     <!-- 메인 컨텐츠 영역 -->
     <main class="lg:ml-64 pt-16 min-h-screen transition-all duration-300">
@@ -71,10 +81,13 @@ onMounted(() => {
     </main>
 
     <!-- 하단 네비게이션 바 (모바일) -->
-    <BottomNavBar />
+    <BottomNavBar @navigate="handleNavigation" />
 
     <!-- 플로팅 액션 버튼 (모바일) -->
-    <button class="fixed bottom-20 right-4 lg:hidden bg-primary text-on-primary w-14 h-14 rounded-full flex items-center justify-center shadow-2xl z-40 active:scale-95 transition-transform">
+    <button 
+      @click="handleNavigation({ path: '/map', name: t('navigation.explore') })"
+      class="fixed bottom-20 right-4 lg:hidden bg-primary text-on-primary w-14 h-14 rounded-full flex items-center justify-center shadow-2xl z-40 active:scale-95 transition-transform"
+    >
       <span class="material-symbols-outlined">add_location</span>
     </button>
     <!-- WebXR 진단 패널 -->

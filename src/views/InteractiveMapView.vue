@@ -9,11 +9,13 @@ import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 import { useSpacesStore } from '@/stores/spaces'
+import { useMapStore } from '@/stores/map'
 import ArPermissionModal from '@/components/map/ArPermissionModal.vue'
 import { useArPermissions } from '@/composables/useArPermissions'
 
 const router = useRouter()
 const spacesStore = useSpacesStore()
+const mapStore = useMapStore()
 const { t } = useI18n()
 const scope = 'InteractiveMap'
 
@@ -23,56 +25,33 @@ const {
   checkWebXrSupport 
 } = useArPermissions()
 
-// 전시장 명칭 (실시간 언어 변경 대응을 위해 computed에서 처리할 수 있도록 키값으로 관리)
-const floors = ['hall1', 'hall2']
-
-const floorData = computed(() => ({
-  'hall1': [
-    { id: 'hall-1', name: t('map.floors.halls.1'), type: 'exhibition', x: 50, y: 50, w: 120, h: 200, status: 'low' },
-    { id: 'hall-2', name: t('map.floors.halls.2'), type: 'exhibition', x: 180, y: 50, w: 120, h: 200, status: 'moderate' },
-    { id: 'hall-3', name: t('map.floors.halls.3'), type: 'exhibition', x: 310, y: 50, w: 120, h: 200, status: 'high' },
-    { id: 'hall-4', name: t('map.floors.halls.4'), type: 'exhibition', x: 440, y: 50, w: 120, h: 200, status: 'low' },
-    { id: 'hall-5', name: t('map.floors.halls.5'), type: 'exhibition', x: 570, y: 50, w: 120, h: 200, status: 'moderate' },
-    { id: 'lobby-1', name: t('map.filters.info'), type: 'info', x: 50, y: 300, w: 640, h: 100, status: 'moderate' },
-    { id: 'cafe-1', name: t('map.filters.dining'), type: 'dining', x: 50, y: 420, w: 200, h: 100, status: 'high' }
-  ],
-  'hall2': [
-    { id: 'hall-6', name: t('map.floors.halls.6'), type: 'exhibition', x: 100, y: 100, w: 150, h: 150, status: 'moderate' },
-    { id: 'hall-7', name: t('map.floors.halls.7'), type: 'exhibition', x: 260, y: 100, w: 150, h: 150, status: 'low' },
-    { id: 'hall-8', name: t('map.floors.halls.8'), type: 'exhibition', x: 420, y: 100, w: 150, h: 150, status: 'high' },
-    { id: 'hall-9', name: t('map.floors.halls.9'), type: 'exhibition', x: 100, y: 260, w: 230, h: 150, status: 'moderate' },
-    { id: 'hall-10', name: t('map.floors.halls.10'), type: 'exhibition', x: 340, y: 260, w: 230, h: 150, status: 'low' }
-  ]
-}))
-
-// 현재 상태
-const currentFloorKey = ref('hall1')
-const activeFilters = ref({
-  exhibition: true,
-  dining: true,
-  info: true
-})
+// 선택된 공간 ID (페이지 수준 UI 상태로 유지)
 const selectedSpaceId = ref(null)
-const mapScale = ref(1)
-
-// 선택된 공간 객체 (ID를 기반으로 실시간 언어 변경 반영)
-const selectedSpace = computed(() => {
-  if (!selectedSpaceId.value) return null
-  const allSpaces = Object.values(floorData.value).flat()
-  return allSpaces.find(s => s.id === selectedSpaceId.value)
-})
 
 // AR 관련 상태
 const isArModalOpen = ref(false)
 const targetSpaceForAr = ref(null)
 
-// 필터링된 공간 목록
-const filteredSpaces = computed(() => {
-  const spaces = floorData.value[currentFloorKey.value] || []
-  return spaces.filter(space => activeFilters.value[space.type])
+/**
+ * 선택된 공간 객체
+ */
+const selectedSpace = computed(() => {
+  if (!selectedSpaceId.value) return null
+  const allSpaces = Object.values(mapStore.floorData).flat()
+  return allSpaces.find(s => s.id === selectedSpaceId.value)
 })
 
-// 인기 공간 (스토어 데이터 기반 동적 생성)
+/**
+ * 현재 필터에 따라 렌더링할 공간 목록
+ */
+const filteredSpaces = computed(() => {
+  const spaces = mapStore.floorData[mapStore.currentFloorKey] || []
+  return spaces.filter(space => mapStore.activeFilters[space.type])
+})
+
+/**
+ * 인기 공간 (스토어 데이터 기반 동적 생성)
+ */
 const popularSpaces = computed(() => {
   return spacesStore.spaces
     .filter(s => s.category === 'exhibition')
@@ -90,14 +69,14 @@ const popularSpaces = computed(() => {
 })
 
 const changeFloor = (key) => {
-  currentFloorKey.value = key
+  mapStore.setFloor(key)
   selectedSpaceId.value = null
   logger.info(scope, `전시장 변경: ${key}`)
 }
 
 const toggleFilter = (type) => {
-  activeFilters.value[type] = !activeFilters.value[type]
-  logger.debug(scope, `필터 변경: ${type} -> ${activeFilters.value[type]}`)
+  mapStore.toggleFilter(type)
+  logger.debug(scope, `필터 변경: ${type} -> ${mapStore.activeFilters[type]}`)
 }
 
 const selectSpace = (space) => {
@@ -106,10 +85,11 @@ const selectSpace = (space) => {
 }
 
 const adjustScale = (delta) => {
-  mapScale.value = Math.round((mapScale.value + delta) * 10) / 10
-  if (mapScale.value < 0.5) mapScale.value = 0.5
-  if (mapScale.value > 2) mapScale.value = 2
-  logger.debug(scope, `지도 배율 조정: ${mapScale.value}`)
+  let newScale = Math.round((mapStore.mapScale + delta) * 10) / 10
+  if (newScale < 0.5) newScale = 0.5
+  if (newScale > 2) newScale = 2
+  mapStore.setScale(newScale)
+  logger.debug(scope, `지도 배율 조정: ${mapStore.mapScale}`)
 }
 
 /**
@@ -130,13 +110,8 @@ const handleArConfirm = async () => {
   
   logger.info(scope, 'AR 권한 요청 시작...')
   
-  // 1. WebXR 지원 확인
   const isSupported = await checkWebXrSupport()
-  
-  // 2. 카메라 권한 요청
   const cameraOk = await requestCameraPermission()
-  
-  // 3. 위치 권한 요청
   const locationOk = await requestLocationPermission()
   
   if (isSupported && cameraOk && locationOk) {
@@ -149,7 +124,7 @@ const handleArConfirm = async () => {
 }
 
 /**
- * AR 권한 거절 시 실행 (일반 지도로 안내)
+ * AR 권한 거절 시 실행
  */
 const handleArDeny = () => {
   isArModalOpen.value = false
@@ -172,15 +147,16 @@ onMounted(() => {
       @deny="handleArDeny" 
       @close="isArModalOpen = false"
     />
+    
     <!-- 층 탐색 오버레이 -->
     <div class="absolute top-lg left-lg z-30 flex flex-col gap-sm">
       <div class="glass-panel p-sm rounded-xl flex flex-col gap-xs shadow-xl">
         <button 
-          v-for="key in floors" 
+          v-for="key in mapStore.floors" 
           :key="key"
           @click="changeFloor(key)"
           class="px-4 py-3 flex items-center justify-center rounded-lg font-bold transition-all text-label-lg whitespace-nowrap"
-          :class="currentFloorKey === key ? 'bg-primary text-on-primary shadow-[0_0_20px_rgba(0,219,233,0.4)]' : 'hover:bg-black/5 dark:hover:bg-white/10 text-surface-dark/60 dark:text-on-surface-variant'"
+          :class="mapStore.currentFloorKey === key ? 'bg-primary text-on-primary shadow-[0_0_20px_rgba(0,219,233,0.4)]' : 'hover:bg-black/5 dark:hover:bg-white/10 text-surface-dark/60 dark:text-on-surface-variant'"
         >
           {{ t(`map.floors.${key}`) }}
         </button>
@@ -202,7 +178,7 @@ onMounted(() => {
         <h3 class="font-label-lg text-primary mb-md uppercase tracking-widest">{{ t('map.filters.title') }}</h3>
         <div class="flex flex-col gap-sm">
           <div 
-            v-for="(val, key) in activeFilters" 
+            v-for="(val, key) in mapStore.activeFilters" 
             :key="key"
             @click="toggleFilter(key)"
             class="flex items-center justify-between p-sm rounded-lg cursor-pointer transition-all border"
@@ -228,7 +204,7 @@ onMounted(() => {
     <div class="flex-1 relative overflow-hidden flex items-center justify-center map-grid">
       <div 
         class="relative transition-transform duration-500 ease-out"
-        :style="{ transform: `scale(${mapScale}) rotateX(45deg) rotateZ(-15deg)`, transformStyle: 'preserve-3d' }"
+        :style="{ transform: `scale(${mapStore.mapScale}) rotateX(45deg) rotateZ(-15deg)`, transformStyle: 'preserve-3d' }"
       >
         <!-- 층 베이스 -->
         <div class="relative w-[800px] h-[600px] bg-primary/5 dark:bg-primary/10 backdrop-blur-sm border-2 border-primary/30 rounded-2xl shadow-2xl">

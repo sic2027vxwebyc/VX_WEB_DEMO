@@ -4,23 +4,22 @@
  * 상단 앱 바 컴포넌트
  * 로고, 네비게이션 링크, 사용자 프로필 등을 포함합니다.
  */
-import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
-const router = useRouter()
 const { t } = useI18n()
+const emit = defineEmits(['navigate'])
 
-// 알림 센터로 이동
+// 알림 센터로 이동 요청
 const handleNotificationClick = () => {
   logger.info('TopAppBar', '알림 센터로 이동합니다.')
-  router.push('/notifications')
+  emit('navigate', { path: '/notifications', name: t('navigation.notifications') })
 }
 
-// 설정 페이지로 이동
+// 설정 페이지로 이동 요청
 const handleSettingsClick = () => {
   logger.info('TopAppBar', '설정 페이지로 이동합니다.')
-  router.push('/settings')
+  emit('navigate', { path: '/settings', name: t('navigation.settings') })
 }
 </script>
 

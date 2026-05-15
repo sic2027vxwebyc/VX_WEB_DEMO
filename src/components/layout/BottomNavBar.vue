@@ -5,12 +5,11 @@
  * 주요 메뉴에 대한 빠른 접근을 제공합니다.
  */
 import { computed } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
 const route = useRoute()
-const router = useRouter()
 const { t } = useI18n()
 
 // 메뉴 아이템 정의 (실시간 언어 변경을 위해 computed 사용)
@@ -22,12 +21,14 @@ const navItems = computed(() => [
   { name: t('navigation.settings'), path: '/settings', icon: 'settings' },
 ])
 
+const emit = defineEmits(['navigate'])
+
 /**
- * 페이지 이동 및 로그 기록
+ * 페이지 이동 요청 이벤트 발생 및 로그 기록
  */
-const navigateTo = (path, name) => {
+const handleNavClick = (path, name) => {
   logger.info('BottomNavBar', `모바일 메뉴 클릭: ${name}`, { path })
-  router.push(path)
+  emit('navigate', { path, name })
 }
 </script>
 
@@ -38,7 +39,7 @@ const navigateTo = (path, name) => {
       :key="item.path"
       class="flex flex-col items-center gap-1 transition-colors"
       :class="route.path === item.path ? 'text-primary' : 'text-surface-dark/60 dark:text-on-surface-variant'"
-      @click="navigateTo(item.path, item.name)"
+      @click="handleNavClick(item.path, item.name)"
     >
       <span class="material-symbols-outlined" :style="route.path === item.path ? 'font-variation-settings: \'FILL\' 1;' : ''">{{ item.icon }}</span>
       <span class="text-[10px] font-bold">{{ item.name }}</span>

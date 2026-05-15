@@ -41,7 +41,14 @@ test-results/
 local.config.js
 config.local.js
 
-# AI / generated temp
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Tools & AI
+.agents/
+skills-lock.json
 .ai-cache/
 .embedding-cache/
 generated/
