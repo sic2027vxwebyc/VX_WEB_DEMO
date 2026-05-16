@@ -87,8 +87,9 @@ const handleNavClick = (path, name) => {
         <span class="font-label-lg text-label-lg">{{ t('navigation.settings') }}</span>
       </router-link>
       <button 
-        @click="handleNavClick('#', t('navigation.help'))"
+        @click="handleNavClick('/help', t('navigation.help'))"
         class="w-full flex items-center gap-3 px-4 py-2 rounded-xl text-surface-dark/60 dark:text-on-surface-variant hover:text-surface-dark dark:hover:text-on-surface hover:bg-black/5 dark:hover:bg-surface-container-highest/30 transition-all text-left"
+        :class="route.path === '/help' ? 'text-primary bg-primary/5' : ''"
       >
         <span class="material-symbols-outlined">help</span>
         <span class="font-label-lg text-label-lg">{{ t('navigation.help') }}</span>

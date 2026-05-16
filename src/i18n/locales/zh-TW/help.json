@@ -1,0 +1,15 @@
+{
+  "title": "幫助 / Q&A",
+  "subtitle": "查看使用國際會議平台所需的指南。",
+  "searchPlaceholder": "搜尋您感興趣的內容...",
+  "noResults": "未找到搜尋結果。",
+  "backHome": "返回首頁",
+  "categories": {
+    "all": "全部",
+    "vision": "願景與價值",
+    "roadmap": "路線圖",
+    "gamification": "遊戲化",
+    "security": "安全與數據",
+    "tech": "技術標準"
+  }
+}

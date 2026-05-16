@@ -14,6 +14,7 @@ import { useOperationalStore } from '@/stores/operational'
 import { useEventsStore } from '@/stores/events'
 import { useConventionPhase } from '@/composables/useConventionPhase'
 import { resolveI18nText } from '@/utils/i18nResolver'
+import miniMapImg from '@/assets/스크린샷 2026-05-17 오전 12.46.11.png'
 
 const scope = 'Home_v2'
 const router = useRouter()
@@ -265,7 +266,7 @@ onUnmounted(() => {
           <div class="relative flex-1 rounded-3xl overflow-hidden bg-surface-dark/50 min-h-[180px]">
             <img 
               class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoSol4VnIzzrNwe3oTrcN1NuYhYaih2j54yoQjrZY7OoIESaKVXxdB3DQkt-vrZkzXvqG3IKYA0z-8Q67oLMRDzzrldV5IyQD87tMTGt09ArBd9aYB34-ZQ6sOGo1kX6SQTkmY2ogOYD9Zs2S55Cx6SSYMI9jbNMBjCCBZ-z1p2rnen4kFJdHpl_zGeoskoDB4anYyz7j9Soi-x3Us8WRmqNnLimyryAlx-HlyTK2jCQjOosblVoWW2Kqij36LlxFP4e8uBGR7r6m0"
+              :src="miniMapImg"
             />
             <!-- 현재 위치 표시 -->
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">

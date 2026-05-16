@@ -1,0 +1,15 @@
+{
+  "title": "ヘルプ / Q&A",
+  "subtitle": "プラットフォームの使用に必要な案内を確認してください。",
+  "searchPlaceholder": "気になる内容を検索してください。",
+  "noResults": "検索結果がありません。",
+  "backHome": "ホームへ移動",
+  "categories": {
+    "all": "すべて",
+    "vision": "ビ전 & 価値",
+    "roadmap": "ロード맵",
+    "gamification": "ゲー미피케이션",
+    "security": "セキュリティ & データ",
+    "tech": "技術標準"
+  }
+}

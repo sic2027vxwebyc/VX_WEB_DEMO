@@ -20,7 +20,7 @@ export async function loadLocaleMessages(locale) {
       'admin', 'ar', 'auth', 'booking', 'common', 'directory', 
       'errors', 'events', 'home', 'map', 'modal', 'navigation', 
       'notifications', 'session', 'settings', 'spaceDetail', 'spaces', 'viewer',
-      'gamification', 'passport', 'quests', 'badges', 'reward', 'qrScanner', 'homeV2'
+      'gamification', 'passport', 'quests', 'badges', 'reward', 'qrScanner', 'homeV2', 'help'
     ]
 
     const messages = {}

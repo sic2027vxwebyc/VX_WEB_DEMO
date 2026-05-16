@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "npm run i18n:check && npm run viewer360:check",
+    "prebuild": "npm run i18n:check && npm run viewer360:check && npm run help:check",
     "build": "vite build",
     "preview": "vite preview",
+    "help:check": "node scripts/check-help-route.cjs",
     "viewer360:check": "node scripts/check-viewer360-safety.cjs",
     "viewer360:check-lifecycle": "node scripts/check-viewer360-lifecycle.cjs",
     "routeguide:check": "node scripts/check-routeguide-lifecycle.cjs",
@@ -33,6 +34,7 @@
     "cleanup:check": "npm run build && npm run i18n:check"
   },
   "dependencies": {
+    "markdown-it": "^14.1.1",
     "pinia": "^2.1.7",
     "three": "^0.184.0",
     "vue": "^3.4.21",

@@ -1,0 +1,15 @@
+{
+  "title": "도움말 / Q&A",
+  "subtitle": "국제대회 플랫폼 사용에 필요한 안내를 확인하세요.",
+  "searchPlaceholder": "궁금한 내용을 검색하세요.",
+  "noResults": "검색 결과가 없습니다.",
+  "backHome": "홈으로 이동",
+  "categories": {
+    "all": "전체",
+    "vision": "비전 & 가치",
+    "roadmap": "로드맵",
+    "gamification": "게이미피케이션",
+    "security": "보안 & 데이터",
+    "tech": "기술 표준"
+  }
+}

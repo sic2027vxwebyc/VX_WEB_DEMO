@@ -1,0 +1,15 @@
+{
+  "title": "Ayuda / Q&A",
+  "subtitle": "Encuentre la información que necesita para usar la plataforma.",
+  "searchPlaceholder": "Buscar temas...",
+  "noResults": "No se encontraron resultados.",
+  "backHome": "Volver al inicio",
+  "categories": {
+    "all": "Todo",
+    "vision": "Visión y Valor",
+    "roadmap": "Hoja de ruta",
+    "gamification": "Gamificación",
+    "security": "Seguridad y Datos",
+    "tech": "Estándares técnicos"
+  }
+}

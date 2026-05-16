@@ -66,6 +66,12 @@ const router = createRouter({
       meta: { titleKey: 'navigation.settings' }
     },
     {
+      path: '/help',
+      name: 'help',
+      component: () => import('../views/HelpQaView.vue'),
+      meta: { titleKey: 'navigation.help' }
+    },
+    {
       path: '/notifications',
       name: 'notifications',
       component: () => import('../views/NotificationHubLive.vue'),
