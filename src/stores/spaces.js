@@ -11,24 +11,28 @@ export const useSpacesStore = defineStore('spaces', () => {
   const scope = 'SpacesStore'
   
   const rawSpaces = ref([])
-  const loading = ref(false)
+  const isLoading = ref(false)
+  const isLoaded = ref(false)
   const error = ref(null)
 
   /**
-   * 공간 데이터를 서비스로부터 로드합니다.
+   * 공간 데이터를 서비스로부터 로드합니다. (멱등성 보장)
    */
   const fetchSpaces = async () => {
-    loading.value = true
+    if (isLoaded.value || isLoading.value) return
+    
+    isLoading.value = true
     error.value = null
     try {
       const data = await spaceService.getSpaces()
       rawSpaces.value = data
+      isLoaded.value = true
       logger.info(scope, '공간 데이터를 성공적으로 로드했습니다.')
     } catch (err) {
       error.value = err
       logger.error(scope, '공간 데이터 로드 중 오류 발생', err)
     } finally {
-      loading.value = false
+      isLoading.value = false
     }
   }
 
@@ -69,7 +73,8 @@ export const useSpacesStore = defineStore('spaces', () => {
 
   return {
     spaces,
-    loading,
+    isLoading,
+    isLoaded,
     error,
     categories,
     fetchSpaces,

@@ -27,9 +27,51 @@ const { heroMode, heroMessageKey, isSessionLive, countdownText, currentProgress 
 // 실시간 시뮬레이션 타이머
 let updateTimer = null
 
-// 현재 위치 공간 정보
+// 공간 데이터 준비 상태 확인
+const hasSpacesReady = computed(() => 
+  spacesStore.isLoaded && spacesStore.spaces.length > 0
+)
+
+// 현재 위치 공간 정보 (안전한 접근)
 const currentSpace = computed(() => {
-  return spacesStore.getSpaceById(opStore.currentHallId)
+  if (!hasSpacesReady.value) return null
+  return spacesStore.getSpaceById(opStore.currentHallId) || null
+})
+
+// 현재 공간 이름 (번역 가드)
+const currentSpaceName = computed(() => {
+  if (!hasSpacesReady.value || !currentSpace.value?.nameKey) return ''
+  return resolveI18nText({ 
+    key: currentSpace.value.nameKey, 
+    t, 
+    te, 
+    context: 'homeV2:currentSpace' 
+  })
+})
+
+// 주변 공간 정보 (목업)
+const nearbySpaces = computed(() => {
+  if (!hasSpacesReady.value) return []
+  // 현재 공간을 제외한 상위 3개 공간을 주변 공간으로 시뮬레이션
+  return spacesStore.spaces
+    .filter(s => s.id !== opStore.currentHallId)
+    .slice(0, 3)
+})
+
+// 번역된 주변 공간 목록 (번역 가드)
+const localizedNearbySpaces = computed(() => {
+  if (!hasSpacesReady.value) return []
+  return nearbySpaces.value
+    .filter(s => Boolean(s?.nameKey))
+    .map(s => ({
+      ...s,
+      name: resolveI18nText({
+        key: s.nameKey,
+        t,
+        te,
+        context: `homeV2:nearbySpaces:${s.id}`
+      })
+    }))
 })
 
 // 현재 혼잡도 수준 색상 및 텍스트
@@ -66,8 +108,9 @@ const checkMockNow = () => {
 
 watch(() => route.query.mockNow, checkMockNow)
 
-onMounted(() => {
+onMounted(async () => {
   logger.info(scope, '실시간 운영 홈 V2 페이지가 마운트되었습니다.')
+  await spacesStore.fetchSpaces()
   checkMockNow()
   opStore.clearNavigationState()
   eventsStore.startTicker()
@@ -121,8 +164,9 @@ onUnmounted(() => {
             </div>
 
             <div class="flex-1">
-              <h2 class="text-display-lg font-display-lg text-on-surface mb-2 tracking-tight">
-                {{ resolveI18nText({ key: currentSpace?.nameKey, t, te, context: 'homeV2:currentSpace' }) || 'KINTEX' }}
+              <div v-if="spacesStore.isLoading" class="h-16 w-64 bg-white/5 animate-pulse rounded-xl mb-4"></div>
+              <h2 v-else class="text-display-lg font-display-lg text-on-surface mb-2 tracking-tight">
+                {{ currentSpaceName || 'KINTEX' }}
               </h2>
               
               <!-- 1. 회기 진행 중 모드 (Live Schedule) -->
@@ -231,7 +275,15 @@ onUnmounted(() => {
               </div>
             </div>
           </div>
-          <p class="mt-4 text-on-surface-variant text-label-lg">{{ resolveI18nText({ key: currentSpace?.nameKey, t, te, context: 'homeV2:nearbySpaces:current' }) || 'KINTEX' }} • {{ t('map.optimalFlow') }} 0.5m</p>
+          <p class="mt-4 text-on-surface-variant text-label-lg">
+            <template v-if="spacesStore.isLoading">
+              <span class="inline-block w-32 h-4 bg-white/5 animate-pulse rounded"></span>
+            </template>
+            <template v-else>
+              {{ currentSpaceName || 'KINTEX' }}
+            </template>
+            • {{ t('map.optimalFlow') }} 0.5m
+          </p>
         </div>
 
         <!-- 스탬프 투어 및 대형 퀵 액션 그리드 -->

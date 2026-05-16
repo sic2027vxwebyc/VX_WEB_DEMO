@@ -12,7 +12,7 @@
     "viewer360:check-lifecycle": "node scripts/check-viewer360-lifecycle.cjs",
     "routeguide:check": "node scripts/check-routeguide-lifecycle.cjs",
     "i18n:check": "node scripts/check-i18n-keys.cjs",
-    "translate:locales": "node translate.cjs",
+    "translate:locales": "node scripts/translate.cjs",
     "i18n:scan-settings": "node scripts/scan-settings.cjs",
     "i18n:check-settings": "node scripts/validate_json.cjs",
     "i18n:scan-admin": "node scripts/scan-admin.cjs",

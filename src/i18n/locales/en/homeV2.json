@@ -87,5 +87,8 @@
     "saturdayEnded": "Today's sessions have concluded.\nSee you tomorrow for the final day.",
     "conventionFinished": "Thank you for attending the 2026 Seoul International Convention.\nWe hope you enjoyed the three-day program.",
     "startingSoon": "Starting soon."
-  }
+  },
+  "spaceLoading": "Loading space information...",
+  "spaceUnavailable": "Space information currently unavailable.",
+  "nearbySpacesUnavailable": "Nearby spaces information currently unavailable."
 }

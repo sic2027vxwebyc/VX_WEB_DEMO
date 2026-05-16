@@ -87,5 +87,8 @@
     "saturdayEnded": "오늘 회기가 종료되었습니다.\n내일 마지막 회기에서 다시 뵙겠습니다.",
     "conventionFinished": "2026 서울 국제대회에 함께해 주셔서 감사합니다.\n3일간 모두 수고 많으셨습니다.",
     "startingSoon": "잠시 후 시작됩니다."
-  }
+  },
+  "spaceLoading": "공간 정보를 불러오는 중입니다.",
+  "spaceUnavailable": "현재 공간 정보를 확인할 수 없습니다.",
+  "nearbySpacesUnavailable": "주변 공간 정보를 확인할 수 없습니다."
 }

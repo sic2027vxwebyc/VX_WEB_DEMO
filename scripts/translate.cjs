@@ -11,7 +11,11 @@ const path = require('path');
 // --- Configuration ---
 const MASTER_LOCALE = 'ko';
 const TARGET_LOCALES = ['en', 'ja', 'zh-TW', 'es', 'ru'];
-const LOCALES_ROOT = path.resolve(__dirname, 'src/i18n/locales');
+
+// --- Path Resolution ---
+// Use __dirname to ensure paths are correct regardless of execution context
+const PROJECT_ROOT = path.resolve(__dirname, '..');
+const LOCALES_ROOT = path.resolve(PROJECT_ROOT, 'src/i18n/locales');
 
 // Keys that should NEVER be translated
 const EXCLUDE_KEYS = new Set([
@@ -97,27 +101,42 @@ function syncObjects(source, target, lang, path = []) {
 async function main() {
   console.log('========================================');
   console.log('🌐 VX Web i18n Sync & Translation');
-  console.log(`Source: ${MASTER_LOCALE}`);
-  console.log(`Targets: ${TARGET_LOCALES.join(', ')}`);
+  console.log(`PROJECT_ROOT: ${PROJECT_ROOT}`);
+  console.log(`LOCALES_DIR:  ${LOCALES_ROOT}`);
+  console.log(`Source:       ${MASTER_LOCALE}`);
+  console.log(`Targets:      ${TARGET_LOCALES.join(', ')}`);
   console.log('========================================\n');
 
-  const masterDir = path.join(LOCALES_ROOT, MASTER_LOCALE);
+  // 1. Validate Locale Directory
+  if (!fs.existsSync(LOCALES_ROOT)) {
+    throw new Error(`[translate.cjs] Locale directory not found: ${LOCALES_ROOT}`);
+  }
+
+  const masterDir = path.resolve(LOCALES_ROOT, MASTER_LOCALE);
+  if (!fs.existsSync(masterDir)) {
+    throw new Error(`[translate.cjs] Master locale directory missing: ${masterDir}`);
+  }
+
+  // 2. Discover Locale Files
   const files = fs.readdirSync(masterDir).filter(f => f.endsWith('.json'));
+  console.log('Detected master locale files:');
+  console.table(files);
+  console.log('');
 
   let totalMissing = 0;
 
   for (const file of files) {
     console.log(`📄 Processing ${file}...`);
-    const masterPath = path.join(masterDir, file);
+    const masterPath = path.resolve(masterDir, file);
     const masterContent = JSON.parse(fs.readFileSync(masterPath, 'utf8'));
 
     for (const lang of TARGET_LOCALES) {
-      const targetDir = path.join(LOCALES_ROOT, lang);
+      const targetDir = path.resolve(LOCALES_ROOT, lang);
       if (!fs.existsSync(targetDir)) {
         fs.mkdirSync(targetDir, { recursive: true });
       }
 
-      const targetPath = path.join(targetDir, file);
+      const targetPath = path.resolve(targetDir, file);
       let targetContent = {};
       if (fs.existsSync(targetPath)) {
         try {

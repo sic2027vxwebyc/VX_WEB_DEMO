@@ -87,5 +87,8 @@
     "saturdayEnded": "[TODO][ja] 오늘 회기가 종료되었습니다.\n내일 마지막 회기에서 다시 뵙겠습니다.",
     "conventionFinished": "2026年ソウル国際大会にご参加いただきありがとうございました。\n3日間のプログラムをお楽しみいただけましたでしょうか。",
     "startingSoon": "まもなく開始します。"
-  }
+  },
+  "spaceLoading": "空間情報を読み込んでいます...",
+  "spaceUnavailable": "現在、空間情報を確認できません。",
+  "nearbySpacesUnavailable": "周辺の空間情報を確認できません。"
 }

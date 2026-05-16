@@ -86,6 +86,9 @@
     "fridayEnded": "Las sesiones de hoy han concluido.\nHasta mañana.",
     "saturdayEnded": "Las sesiones de hoy han concluido.\nNos vemos mañana para el último día.",
     "conventionFinished": "Gracias por asistir a la Asamblea Internacional de Seúl 2026.\nEsperamos que hayan disfrutado del programa.",
-    "startingSoon": "Comenzará pronto."
-  }
+    "startingSoon": "Comienza pronto."
+  },
+  "spaceLoading": "Cargando información del espacio...",
+  "spaceUnavailable": "La información del espacio no está disponible en este momento.",
+  "nearbySpacesUnavailable": "La información de los espacios cercanos no está disponible."
 }

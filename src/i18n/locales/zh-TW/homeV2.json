@@ -87,5 +87,8 @@
     "saturdayEnded": "今天的議程已結束。\n明天最後一天見。",
     "conventionFinished": "感謝您參加 2026 首爾國際大會。\n希望您喜歡這三天的節目。",
     "startingSoon": "即將開始。"
-  }
+  },
+  "spaceLoading": "正在載入空間資訊...",
+  "spaceUnavailable": "目前無法確認空間資訊。",
+  "nearbySpacesUnavailable": "目前無法確認周邊空間資訊。"
 }
