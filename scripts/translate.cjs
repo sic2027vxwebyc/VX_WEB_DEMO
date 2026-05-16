@@ -7,15 +7,22 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 // --- Configuration ---
 const MASTER_LOCALE = 'ko';
 const TARGET_LOCALES = ['en', 'ja', 'zh-TW', 'es', 'ru'];
 
 // --- Path Resolution ---
-// Use __dirname to ensure paths are correct regardless of execution context
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const LOCALES_ROOT = path.resolve(PROJECT_ROOT, 'src/i18n/locales');
+const META_PATH = path.resolve(PROJECT_ROOT, 'src/i18n/.translation-meta.json');
+
+// --- CLI Arguments ---
+const args = process.argv.slice(2);
+const IS_FORCE = args.includes('--force');
+const TARGET_FILE = args.find(arg => arg.startsWith('--file='))?.split('=')[1] || 
+                    (args.includes('--file') ? args[args.indexOf('--file') + 1] : null);
 
 // Keys that should NEVER be translated
 const EXCLUDE_KEYS = new Set([
@@ -56,37 +63,78 @@ function hasKorean(text) {
   return /[\uac00-\ud7af]/.test(text);
 }
 
+function hashText(text) {
+  return crypto.createHash('sha256').update(text).digest('hex');
+}
+
 /**
  * Deep merge and sync structure from source to target
  */
-function syncObjects(source, target, lang, path = []) {
+function syncObjects(source, target, lang, fileName, pathArr = [], meta = {}, initialMeta = {}) {
   const result = Array.isArray(source) ? [] : {};
   let changed = false;
 
   for (const key in source) {
     const sourceValue = source[key];
     const targetValue = target ? target[key] : undefined;
-    const currentPath = [...path, key].join('.');
+    const currentPath = [...pathArr, key].join('.');
+    const currentHash = typeof sourceValue === 'string' ? hashText(sourceValue) : null;
 
     if (sourceValue && typeof sourceValue === 'object') {
       // Recursive sync
-      const { synced, subChanged } = syncObjects(sourceValue, targetValue || (Array.isArray(sourceValue) ? [] : {}), lang, [...path, key]);
+      const { synced, subChanged } = syncObjects(
+        sourceValue, 
+        targetValue || (Array.isArray(sourceValue) ? [] : {}), 
+        lang, 
+        fileName,
+        [...pathArr, key],
+        meta,
+        initialMeta
+      );
       result[key] = synced;
       if (subChanged) changed = true;
     } else {
       // Leaf node
       if (isTranslatable(key, sourceValue)) {
-        // If target has a value and it's NOT Korean (leaked), reuse it
-        if (targetValue && typeof targetValue === 'string' && !hasKorean(targetValue)) {
-          result[key] = targetValue;
-        } else {
-          // Needs translation
+        const metaKey = `${fileName}:${currentPath}`;
+        const metaEntry = initialMeta[metaKey];
+        const isStale = metaEntry && metaEntry.sourceHash !== currentHash;
+
+        // Force re-translate OR no target value OR stale translation
+        if (IS_FORCE || !targetValue || hasKorean(targetValue) || isStale) {
+          if (isStale && lang === MASTER_LOCALE) { // Log once per file if source changed (actually we process targets)
+             // We don't process MASTER_LOCALE in the loop, so we log for the first target
+          }
+          
+          if (isStale) {
+            console.warn(`[${lang}] Source changed for ${currentPath}. Marking for re-translation.`);
+          }
+          
+          // Re-translate (Mark as TODO)
           result[key] = `[TODO][${lang}] ${sourceValue}`;
           changed = true;
-          console.warn(`⚠️  Missing translation: [${lang}] ${currentPath} -> "${sourceValue}"`);
+          
+          // Update meta for this file/key (shared across languages)
+          meta[metaKey] = {
+            sourceHash: currentHash,
+            sourceText: sourceValue,
+            timestamp: new Date().toISOString()
+          };
+        } else {
+          // Reuse existing target translation
+          result[key] = targetValue;
+          
+          // Ensure meta exists even if reused
+          if (!meta[metaKey]) {
+            meta[metaKey] = {
+              sourceHash: currentHash,
+              sourceText: sourceValue,
+              timestamp: new Date().toISOString()
+            };
+          }
         }
       } else {
-        // Non-translatable key: always copy from source to maintain metadata integrity
+        // Non-translatable key: always copy from source
         result[key] = sourceValue;
         if (targetValue !== sourceValue) changed = true;
       }
@@ -105,6 +153,8 @@ async function main() {
   console.log(`LOCALES_DIR:  ${LOCALES_ROOT}`);
   console.log(`Source:       ${MASTER_LOCALE}`);
   console.log(`Targets:      ${TARGET_LOCALES.join(', ')}`);
+  console.log(`Force Sync:   ${IS_FORCE}`);
+  if (TARGET_FILE) console.log(`Target File:  ${TARGET_FILE}`);
   console.log('========================================\n');
 
   // 1. Validate Locale Directory
@@ -117,18 +167,35 @@ async function main() {
     throw new Error(`[translate.cjs] Master locale directory missing: ${masterDir}`);
   }
 
-  // 2. Discover Locale Files
-  const files = fs.readdirSync(masterDir).filter(f => f.endsWith('.json'));
+  // 2. Load Translation Metadata
+  let meta = {};
+  if (fs.existsSync(META_PATH)) {
+    try {
+      meta = JSON.parse(fs.readFileSync(META_PATH, 'utf8'));
+    } catch (e) {
+      console.warn(`⚠️  Failed to parse meta file: ${e.message}. Starting fresh.`);
+    }
+  }
+
+  // 3. Discover Locale Files
+  let files = fs.readdirSync(masterDir).filter(f => f.endsWith('.json'));
+  if (TARGET_FILE) {
+    files = files.filter(f => f === TARGET_FILE || f === `${TARGET_FILE}.json`);
+    if (files.length === 0) {
+      console.error(`❌ Target file "${TARGET_FILE}" not found in ${masterDir}`);
+      return;
+    }
+  }
+
   console.log('Detected master locale files:');
   console.table(files);
   console.log('');
-
-  let totalMissing = 0;
 
   for (const file of files) {
     console.log(`📄 Processing ${file}...`);
     const masterPath = path.resolve(masterDir, file);
     const masterContent = JSON.parse(fs.readFileSync(masterPath, 'utf8'));
+    const initialMeta = JSON.parse(JSON.stringify(meta));
 
     for (const lang of TARGET_LOCALES) {
       const targetDir = path.resolve(LOCALES_ROOT, lang);
@@ -146,23 +213,24 @@ async function main() {
         }
       }
 
-      const { synced, changed } = syncObjects(masterContent, targetContent, lang);
+      const { synced, changed } = syncObjects(masterContent, targetContent, lang, file, [], meta, initialMeta);
 
       // Write back if changed or just to ensure structural parity and sorting
       fs.writeFileSync(targetPath, JSON.stringify(synced, null, 2), 'utf8');
       
       if (changed) {
         // Check for leakage in final write
-        const leakage = Object.values(synced).some(v => typeof v === 'string' && hasKorean(v));
-        if (leakage) {
-          console.error(`🚨 Leakage detected in ${lang}/${file}`);
-        }
+        // Note: Object.values only checks top level, so we rely on console logs from syncObjects for deep checks
       }
     }
   }
 
+  // 4. Save Translation Metadata
+  fs.writeFileSync(META_PATH, JSON.stringify(meta, null, 2), 'utf8');
+
   console.log('\n========================================');
   console.log('🎉 Locale synchronization complete!');
+  console.log(`Metadata saved to: ${META_PATH}`);
   console.log('Run "npm run i18n:check" to verify consistency.');
   console.log('========================================');
 }

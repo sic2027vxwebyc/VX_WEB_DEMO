@@ -1,20 +1,20 @@
 {
-  "title": "導覽",
+  "title": "導航",
   "home": "首頁",
-  "explore": "探索空間",
+  "explore": "探索",
   "map": "互動地圖",
   "events": "活動行程",
   "notifications": "通知中心",
-  "admin": "管理控制台",
-  "settings": "系統設定",
-  "help": "幫助與支援",
-  "logout": "登出帳戶",
+  "admin": "管理員控制台",
+  "settings": "設定",
+  "help": "說明",
+  "logout": "登出",
   "newRoute": "建立新路線",
   "stamp": "集章活動",
   "passport": "護照",
   "quests": "任務中心",
   "badges": "徽章收藏",
   "reward": "領取獎勵",
-  "globalNav": "全域導航",
-  "spatialIntelligence": "VX 空間智能"
+  "globalNav": "示範網站",
+  "spatialIntelligence": "2027首爾國際大會"
 }

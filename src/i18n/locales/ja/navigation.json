@@ -1,20 +1,20 @@
 {
   "title": "ナビゲーション",
   "home": "ホーム",
-  "explore": "空間探索",
+  "explore": "探索",
   "map": "インタラクティブマップ",
   "events": "イベントスケジュール",
   "notifications": "通知センター",
   "admin": "管理者ダッシュボード",
   "settings": "設定",
-  "help": "ヘルプとサポート",
+  "help": "ヘルプ",
   "logout": "ログアウト",
   "newRoute": "新しいルートを作成",
   "stamp": "スタンプラリー",
   "passport": "パスポート",
   "quests": "クエストハブ",
   "badges": "バッジコレクション",
-  "reward": "報酬受取",
-  "globalNav": "グローバルナビゲーション",
-  "spatialIntelligence": "VX 空間知能"
+  "reward": "報酬を受け取る",
+  "globalNav": "デモウェブサイト",
+  "spatialIntelligence": "2027年ソウル国際大会"
 }
