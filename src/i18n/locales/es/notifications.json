@@ -1,7 +1,13 @@
 {
   "title": "Centro de Notificaciones",
   "subtitle": "Avisos del sistema y alertas personalizadas.",
-  "empty": "No hay nuevas notificaciones.",
+  "empty": "No hay notificaciones.",
+  "markAsRead": "Marcar como leído",
+  "viewEvacuationRoute": "Ver ruta de evacuación",
+  "evacuation": "Evacuación",
+  "lost-found": "Objetos perdidos",
+  "weather": "Clima",
+  "traffic": "Tráfico",
   "clearAll": "Borrar todo",
   "types": {
     "security": "Seguridad",
@@ -13,22 +19,52 @@
     "1": {
       "title": "Inicio de sesión en nuevo dispositivo",
       "content": "Se ha detectado un nuevo inicio de sesión en MacBook Pro para la cuenta de administrador VX.",
-      "time": "Hace 2 min"
+      "time": "2분 전"
     },
     "2": {
       "title": "Alerta de congestión en el Hall Central",
       "content": "La densidad en el Hall Central de la 1ª planta ha superado el 90%. Por favor, use una ruta alternativa.",
-      "time": "Hace 15 min"
+      "time": "15분 전"
     },
     "3": {
       "title": "La sesión principal comienza en 10 min",
       "content": "La sesión \"Inteligencia de Espacios Futuros\" está a punto de comenzar en el Arena Principal.",
-      "time": "Hace 45 min"
+      "time": "45분 전"
     },
     "4": {
       "title": "Actualización del sistema completada",
       "content": "La sincronización de la base de datos espacial se ha completado con éxito.",
-      "time": "Hace 2 horas"
+      "time": "2시간 전"
+    },
+    "alert-1": {
+      "title": "Emergency Evacuation",
+      "content": "Evacuation is required due to a fire alarm near the North Gate of Exhibition Hall 1. Move to the nearest exit as directed.",
+      "time": "방금 전"
+    },
+    "alert-2": {
+      "title": "Hall B North Gate Closed",
+      "content": "Entry to Hall B North Gate is temporarily suspended due to crowding. Please use the West Gate (Gate 3).",
+      "time": "5분 전"
+    },
+    "alert-3": {
+      "title": "Shuttle Bus Delay",
+      "content": "Severe traffic congestion outside KINTEX due to rain. Shuttle bus intervals will be delayed by 15 minutes.",
+      "time": "12분 전"
+    },
+    "alert-4": {
+      "title": "Lost & Found Alert",
+      "content": "A tablet PC (iPad) was found in the 2nd-floor dining area and is being held at the information desk.",
+      "time": "45분 전"
+    },
+    "alert-5": {
+      "title": "Strong Wind Advisory",
+      "content": "Please be careful of strong winds when using outdoor rest areas. Outdoor parasol operation has been suspended.",
+      "time": "1시간 전"
+    },
+    "alert-6": {
+      "title": "Battery Replacement",
+      "content": "You can immediately replace interpretation equipment batteries at the information desk at each hall entrance.",
+      "time": "2시간 전"
     }
   }
 }

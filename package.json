@@ -5,8 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "npm run i18n:check && npm run viewer360:check",
     "build": "vite build",
     "preview": "vite preview",
+    "viewer360:check": "node scripts/check-viewer360-safety.cjs",
+    "viewer360:check-lifecycle": "node scripts/check-viewer360-lifecycle.cjs",
+    "routeguide:check": "node scripts/check-routeguide-lifecycle.cjs",
+    "i18n:check": "node scripts/check-i18n-keys.cjs",
+    "translate:locales": "node translate.cjs",
     "i18n:scan-settings": "node scripts/scan-settings.cjs",
     "i18n:check-settings": "node scripts/validate_json.cjs",
     "i18n:scan-admin": "node scripts/scan-admin.cjs",
@@ -20,7 +26,11 @@
     "i18n:scan-notifications": "node scripts/scan-notifications.cjs",
     "i18n:check-notifications": "node scripts/check-notifications.cjs",
     "i18n:validate-notifications": "npm run i18n:scan-notifications && npm run i18n:check-notifications",
-    "events:validate": "node scripts/validate-events.cjs"
+    "events:validate": "node scripts/validate-events.cjs",
+    "events:verify": "node scripts/verify-events-json.cjs",
+    "analyze:deps": "depcheck",
+    "analyze:graph": "madge --extensions js,vue src",
+    "cleanup:check": "npm run build && npm run i18n:check"
   },
   "dependencies": {
     "pinia": "^2.1.7",
@@ -32,6 +42,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "autoprefixer": "^10.4.18",
+    "depcheck": "^1.4.7",
+    "madge": "^8.0.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.4"

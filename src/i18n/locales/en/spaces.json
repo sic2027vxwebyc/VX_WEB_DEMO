@@ -1,156 +1,178 @@
 {
-  "hall-1": {
+  "hall1": {
     "name": "Hall 1",
-    "zone": "Exhibition Center 1, 1F",
+    "shortName": "[TODO][en] 1홀",
     "description": "One of the main halls of KINTEX Center 1, suitable for large-scale exhibitions and events.",
-    "tags": [
-      "Large Exhibition",
-      "5 ton/㎡"
-    ]
+    "zone": "Exhibition Center 1, 1F",
+    "location": "[TODO][en] 제1전시장"
   },
-  "hall-2": {
+  "hall2": {
     "name": "Hall 2",
-    "zone": "Exhibition Center 1, 1F",
+    "shortName": "[TODO][en] 2홀",
     "description": "A multi-purpose exhibition space hosting various industrial exhibitions and conventions.",
-    "tags": [
-      "Industrial Exhibition",
-      "5 ton/㎡"
-    ]
+    "zone": "Exhibition Center 1, 1F",
+    "location": "[TODO][en] 제1전시장"
   },
-  "hall-3": {
+  "hall3": {
     "name": "Hall 3",
-    "zone": "Exhibition Center 1, 1F",
+    "shortName": "[TODO][en] 3홀",
     "description": "An exhibition hall boasting a high ceiling height that allows for double-decker booth installation.",
-    "tags": [
-      "High Ceiling",
-      "Convention"
-    ]
+    "zone": "Exhibition Center 1, 1F",
+    "location": "[TODO][en] 제1전시장"
   },
-  "hall-4": {
+  "hall4": {
     "name": "Hall 4",
-    "zone": "Exhibition Center 1, 1F",
+    "shortName": "[TODO][en] 4홀",
     "description": "A space with a solid floor load capable of heavy equipment exhibition.",
-    "tags": [
-      "Heavy Equipment",
-      "Pillarless"
-    ]
+    "zone": "Exhibition Center 1, 1F",
+    "location": "[TODO][en] 제1전시장"
   },
-  "hall-5": {
+  "hall5": {
     "name": "Hall 5",
-    "zone": "Exhibition Center 1, 1F",
+    "shortName": "[TODO][en] 5홀",
     "description": "The last hall of Center 1, capable of large-scale integrated exhibition in conjunction with Hall 4.",
-    "tags": [
-      "Integrated Exhibition",
-      "Event"
-    ]
-  },
-  "hall-6": {
-    "name": "Hall 6",
-    "zone": "Exhibition Center 2, 1F",
-    "description": "The starting hall of Center 2, suitable for small and medium-sized professional exhibitions.",
-    "tags": [
-      "Professional Exhibition",
-      "2 ton/㎡"
-    ]
-  },
-  "hall-7": {
-    "name": "Hall 7",
-    "zone": "Exhibition Center 2, 1F",
-    "description": "A large hall of Center 2, providing modern facilities and wide spaces.",
-    "tags": [
-      "Large Convention",
-      "Modern Facility"
-    ]
-  },
-  "hall-8": {
-    "name": "Hall 8",
-    "zone": "Exhibition Center 2, 1F",
-    "description": "A space where international exhibitions and corporate events are actively held.",
-    "tags": [
-      "International Conference",
-      "IT Exhibition"
-    ]
-  },
-  "hall-9": {
-    "name": "Hall 9",
-    "zone": "Exhibition Center 2, 1F",
-    "description": "One of the largest single halls in KINTEX, optimized for ultra-large events.",
-    "tags": [
-      "Ultra Large Hall",
-      "Concert Available"
-    ]
-  },
-  "hall-10": {
-    "name": "Hall 10",
-    "zone": "Exhibition Center 2, 1F",
-    "description": "An exhibition hall where the latest architectural technologies are concentrated, supporting mammoth-scale events with Hall 9.",
-    "tags": [
-      "Smart Exhibition",
-      "Complex Culture"
-    ]
-  },
-  "f-sodam": {
-    "name": "Sodam (Korean)",
     "zone": "Exhibition Center 1, 1F",
-    "description": "KINTEX's representative Korean restaurant providing neat Korean meals.",
-    "tags": [
-      "Korean Food",
-      "Family Dining"
-    ]
+    "location": "[TODO][en] 제1전시장"
   },
-  "f-benvenuto": {
-    "name": "Caffe Bene",
-    "zone": "Exhibition Center 1, 2F",
-    "description": "A cafe providing a comfortable rest space with a view of the exhibition hall.",
-    "tags": [
-      "Coffee",
-      "WiFi"
-    ]
-  },
-  "f-myeongdong": {
-    "name": "Myeongdong Kalguksu",
+  "hall6": {
+    "name": "Hall 6",
+    "shortName": "[TODO][en] 6홀",
+    "description": "The starting hall of Center 2, suitable for small and medium-sized professional exhibitions.",
     "zone": "Exhibition Center 2, 1F",
+    "location": "[TODO][en] 제2전시장"
+  },
+  "hall7": {
+    "name": "Hall 7",
+    "shortName": "[TODO][en] 7홀",
+    "description": "A large hall of Center 2, providing modern facilities and wide spaces.",
+    "zone": "Exhibition Center 2, 1F",
+    "location": "[TODO][en] 제2전시장"
+  },
+  "hall8": {
+    "name": "Hall 8",
+    "shortName": "[TODO][en] 8홀",
+    "description": "A space where international exhibitions and corporate events are actively held.",
+    "zone": "Exhibition Center 2, 1F",
+    "location": "[TODO][en] 제2전시장"
+  },
+  "hall9": {
+    "name": "Hall 9",
+    "shortName": "[TODO][en] 9홀",
+    "description": "One of the largest single halls in KINTEX, optimized for ultra-large events.",
+    "zone": "Exhibition Center 2, 1F",
+    "location": "[TODO][en] 제2전시장"
+  },
+  "hall10": {
+    "name": "Hall 10",
+    "shortName": "[TODO][en] 10홀",
+    "description": "An exhibition hall where the latest architectural technologies are concentrated, supporting mammoth-scale events with Hall 9.",
+    "zone": "Exhibition Center 2, 1F",
+    "location": "[TODO][en] 제2전시장"
+  },
+  "fSodam": {
+    "name": "Sodam (Korean)",
+    "shortName": "[TODO][en] 소담",
+    "description": "KINTEX's representative Korean restaurant providing neat Korean meals.",
+    "zone": "[TODO][en] 식사 구역",
+    "location": "[TODO][en] 편의시설 구역"
+  },
+  "fBenvenuto": {
+    "name": "Caffe Bene",
+    "shortName": "[TODO][en] 벤베누토",
+    "description": "A cafe providing a comfortable rest space with a view of the exhibition hall.",
+    "zone": "[TODO][en] 식사 구역",
+    "location": "[TODO][en] 편의시설 구역"
+  },
+  "fMyeongdong": {
+    "name": "Myeongdong Kalguksu",
+    "shortName": "[TODO][en] 명동칼국수",
     "description": "A noodle restaurant famous for its deep broth and chewy noodles.",
-    "tags": [
-      "Noodles",
-      "Fast Dining"
-    ]
+    "zone": "[TODO][en] 식사 구역",
+    "location": "[TODO][en] 편의시설 구역"
   },
-  "c-cu1": {
+  "cCu1": {
     "name": "CU Convenience Store",
-    "zone": "In front of Hall 2, Center 1",
+    "shortName": "CU",
     "description": "Various drinks, snacks, and convenience items are prepared for visitors.",
-    "tags": [
-      "24h",
-      "ATM"
-    ]
+    "zone": "[TODO][en] 편의시설",
+    "location": "[TODO][en] 중앙 통로"
   },
-  "c-press": {
+  "cPress": {
     "name": "Press Center",
-    "zone": "Exhibition Center 1, 2F",
+    "shortName": "[TODO][en] 프레스",
     "description": "A space for journalists to write articles and hold briefings.",
-    "tags": [
-      "Media",
-      "Business"
-    ]
+    "zone": "[TODO][en] 운영 지원",
+    "location": "[TODO][en] 운영 구역"
   },
-  "h-sonocalm": {
+  "hSonocalm": {
     "name": "Sono Calm Goyang",
-    "zone": "Janghang-dong (10 min by car)",
+    "shortName": "[TODO][en] 소노캄",
     "description": "A premium 5-star hotel near KINTEX providing the best relaxation.",
-    "tags": [
-      "5-Star",
-      "Shuttle Service"
-    ]
+    "zone": "[TODO][en] 외부 연계",
+    "location": "[TODO][en] 연결 통로"
   },
-  "h-gloucester": {
+  "hGloucester": {
     "name": "Gloucester Hotel KINTEX",
-    "zone": "Daehwa-dong (3 min walk)",
+    "shortName": "[TODO][en] 글로스터",
     "description": "Located right next to KINTEX, providing optimal accessibility for business visitors.",
-    "tags": [
-      "3-Star",
-      "Adjacent"
-    ]
+    "zone": "[TODO][en] 외부 연계",
+    "location": "[TODO][en] 연결 통로"
+  },
+  "exitWest": {
+    "name": "West Gate",
+    "shortName": "[TODO][en] 서쪽 출구",
+    "description": "West entrance of Exhibition Hall 1.",
+    "zone": "[TODO][en] 출구",
+    "location": "[TODO][en] 서쪽 게이트"
+  },
+  "exitEast": {
+    "name": "[TODO][en] 동쪽 출구",
+    "shortName": "[TODO][en] 동쪽 출구",
+    "description": "[TODO][en] 동쪽 방향 이동에 적합한 출구입니다.",
+    "zone": "[TODO][en] 출구",
+    "location": "[TODO][en] 동쪽 게이트"
+  },
+  "toilet1": {
+    "name": "[TODO][en] 화장실 1",
+    "shortName": "[TODO][en] 화장실",
+    "description": "[TODO][en] 현재 위치에서 가까운 화장실입니다.",
+    "zone": "[TODO][en] 편의시설",
+    "location": "[TODO][en] 중앙 통로"
+  },
+  "toilet2": {
+    "name": "[TODO][en] 화장실 2",
+    "shortName": "[TODO][en] 화장실",
+    "description": "[TODO][en] 혼잡이 적은 보조 화장실입니다.",
+    "zone": "[TODO][en] 편의시설",
+    "location": "[TODO][en] 외곽 통로"
+  },
+  "medical": {
+    "name": "[TODO][en] 의무실",
+    "shortName": "[TODO][en] 의무실",
+    "description": "[TODO][en] 응급 상황이나 건강 문제가 있을 때 도움을 받을 수 있는 공간입니다.",
+    "zone": "[TODO][en] 안전 지원",
+    "location": "[TODO][en] 운영 지원 구역"
+  },
+  "welcomeZone": {
+    "name": "Welcome Zone",
+    "shortName": "[TODO][en] 환영",
+    "description": "Welcoming area marking the start of the convention.",
+    "zone": "[TODO][en] 입구",
+    "location": "[TODO][en] 입구 주변"
+  },
+  "translationCenter": {
+    "name": "Translation Support Center",
+    "shortName": "[TODO][en] 통역",
+    "description": "Hub for multilingual translation and guidance.",
+    "zone": "[TODO][en] 언어 지원",
+    "location": "[TODO][en] 중앙 안내 구역"
+  },
+  "giftZone": {
+    "name": "Souvenir Zone",
+    "shortName": "[TODO][en] 선물",
+    "description": "Place to collect event completion rewards.",
+    "zone": "[TODO][en] 이벤트",
+    "location": "[TODO][en] 운영 데스크 주변"
   },
   "congestion": {
     "low": "Low",

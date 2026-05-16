@@ -3,17 +3,74 @@
   "exit": "Close",
   "hotspots": {
     "next": "Next Space",
-    "info": "Info"
+    "info": "Info",
+    "hall1": "[TODO][en] 제1전시장 1홀",
+    "hall2": "[TODO][en] 제1전시장 2홀",
+    "infoDesk": "[TODO][en] 안내 데스크",
+    "westGate": "[TODO][en] 서문 (West Gate)",
+    "foodZone": "[TODO][en] 식당가 (소담)",
+    "restroom": "[TODO][en] 화장실",
+    "nearby": "[TODO][en] 인접 구역",
+    "jumpTo": "[TODO][en] 이동하기"
   },
   "controls": {
     "zoomIn": "Zoom In",
     "zoomOut": "Zoom Out",
     "north": "North",
-    "vrMode": "VR Mode"
+    "vrMode": "VR Mode",
+    "vrNotSupported": "VR mode is not supported on this device or browser."
   },
   "stats": {
     "title": "Space Stats",
     "occupancy": "Current Occupancy",
-    "airQuality": "Maintaining optimal air quality"
+    "airQuality": "Maintaining optimal air quality",
+    "temp": "[TODO][en] 온도",
+    "humid": "[TODO][en] 습도"
+  },
+  "hotspot": {
+    "guideBusy": "Located about {min} min walk from your current position. Please be aware of expected congestion.",
+    "guideOptimal": "Located about {min} min walk from your current position. Movement is currently very smooth."
+  },
+  "vr": {
+    "notSupportedToast": "This device does not support VR mode.",
+    "interface": "[TODO][en] 하드웨어 인터페이스",
+    "available": "[TODO][en] VR 모드 사용 가능",
+    "noSecureContext": "[TODO][en] HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.",
+    "sessionError": "[TODO][en] VR 세션을 시작할 수 없습니다."
+  },
+  "status": {
+    "normal": "System Normal",
+    "operational": "[TODO][en] 운영 상태"
+  },
+  "v2": {
+    "scanning": "[TODO][en] 공간 스캔 중...",
+    "initializing": "[TODO][en] 신경망 포인트 클라우드 초기화 중",
+    "experience": "[TODO][en] 360 경험",
+    "nearbyTerminals": "[TODO][en] 인접 터미널"
+  },
+  "live": {
+    "realtimeData": "Real-time Data",
+    "switchToMap": "Switch to Map View",
+    "spaceDensity": "Real-time Space Density",
+    "densityHigh": "High",
+    "densityNormal": "Normal",
+    "currentDensity": "Current Density",
+    "estimatedVisitors": "Estimated Visitors",
+    "peakTime": "Peak Time",
+    "optimizedPathSearch": "Optimized Path Search",
+    "scanningTitle": "Neural Path Mapping",
+    "scanningDesc": "Optimizing space cluster for {name}",
+    "liveSpatial": "Live Spatial",
+    "terminalStatus": "Terminal Status: Optimal Flow",
+    "telemetry": "Real-time Telemetry",
+    "occupancy": "Occupancy",
+    "airQuality": "Air Quality",
+    "excellent": "Excellent",
+    "dashboard": "Dashboard",
+    "density": "Density",
+    "distance": "Distance",
+    "eta": "Estimated Time",
+    "enterSpace": "Enter Space",
+    "getDirections": "Get Directions"
   }
 }

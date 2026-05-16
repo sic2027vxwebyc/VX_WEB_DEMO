@@ -8,7 +8,7 @@ import { onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const scope = 'AdminDashboard'
 
 /**

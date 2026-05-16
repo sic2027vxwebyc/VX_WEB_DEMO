@@ -1,11 +1,16 @@
 <script setup>
+/**
+ * [ 페이지 컴포넌트 상단 ]
+ * 도착 성공 알림 뷰
+ * AR 내비게이션을 통해 목적지에 도착했을 때 사용자에게 성공 메시지를 표시합니다.
+ */
 import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
 const router = useRouter()
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const scope = 'ArrivalSuccess'
 
 onMounted(() => {

@@ -1,39 +1,76 @@
 {
-  "title": "「いつまでも幸せに」 2026 エホバの証人の大会",
-  "subtitle": "金曜日から日曜日まで行われる大会のプログラム予定です。",
+  "title": "2026年「良いたよりを伝えましょう！」エホバの証人の大会",
+  "subtitle": "金曜日から日曜日まで行われる大会プログラムのスケジュールです。",
   "host": "エホバの証人の統治体",
   "filters": {
     "all": "すべて",
     "talk": "話",
     "symposium": "シンポジウム",
-    "drama": "聖書劇",
+    "drama": "聖書ドラマ",
     "song": "歌と祈り",
     "media": "音楽ビデオ",
-    "baptism": "バプテスマ",
+    "baptism": "奉献の話",
     "public_talk": "公開聖書講演",
-    "watchtower": "「ものみの塔」"
+    "watchtower": "「ものみの塔」の要約",
+    "reset": "フィルターのリセット"
   },
+  "noResults": "該当する予定はありません。",
   "days": {
     "friday": {
       "label": "金曜日",
-      "theme": "「自分の霊的なニーズを自覚している人たちは幸いです」―マタイ 5:3",
-      "illustration": "イラスト集：金曜日のプログラムの主要な場面。1. 汚れた霊から解放された男。2. 使徒マタイ。3. マグダラのマリア。4. 使徒トマス。"
+      "theme": "「自分の霊的な必要を自覚している人たちは幸せです」―マタイ 5:3",
+      "illustration": "金曜日のプログラムのハイライト"
     },
     "saturday": {
       "label": "土曜日",
       "theme": "「受けるより与える方が幸福である」―使徒 20:35",
-      "illustration": "イラスト：土曜日のプログラムの主要な場面。1. イエス・キリスト。2. 人々が集まってイエスの話を聞いている様子。数人のパリサイ人が近くに立ち、軽蔑するような表情で聞いている。"
+      "illustration": "土曜日のプログラムのハイライト"
     },
     "sunday": {
       "label": "日曜日",
-      "theme": "「あなたたちの目は見ているので幸いです。あなたたちの耳は聞いているので幸いです」―マタイ 13:16",
-      "illustration": "イラスト：日曜日のプログラムの主要な場面。1. ナインの未亡人が、布に包まれた復活した息子の顔に触れている様子。2. イエスが町の門の外に集まった人々に話している様子。"
+      "theme": "「あなた方の目は見ているので幸せであり，耳は聞いているので幸せです」―マタイ 13:16",
+      "illustration": "日曜日のプログラムのハイライト"
     }
   },
   "status": {
     "completed": "終了",
     "ongoing": "進行中",
-    "upcoming": "予定"
+    "upcoming": "予定",
+    "allCompleted": "本日のすべての予定が終了しました。",
+    "live": "ライブ"
+  },
+  "time": {
+    "startsIn": "{h}時間 {m}分後に開始",
+    "startsInMin": "{m}分後に開始",
+    "startsSoon": "まもなく開始",
+    "inProgress": "進行中",
+    "ended": "終了"
+  },
+  "timeline": {
+    "title": "大会スケジュール",
+    "subtitle": "リアルタイムのタイムラインでプログラムを確認してください。",
+    "details": "詳細",
+    "noEvents": "この日の予定はありません。"
+  },
+  "live": {
+    "mySchedule": "マイスケジュールのみ",
+    "startsIn": "{h}時間 {m}分後に開始",
+    "startsInMin": "{m}分後に開始",
+    "startingSoon": "まもなく開始",
+    "internationalDelegation": "国際代表団",
+    "completedMessage": "本日のプログラムは終了しました。",
+    "approaching": "開始間近のセッション",
+    "approachingDesc": "{period}プログラム開始まであと{min}分です。{hall}へ移動してください。",
+    "realTimeSchedule": "リアルタイムスケジュール",
+    "operationalInfo": "運営情報",
+    "operationalIntelligence": "運営インテリジェンス",
+    "nextSchedule": "次の予定",
+    "nearbySpaces": "周辺のスペース",
+    "active": "アクティブ",
+    "expectedCrowd": "予想混雑度",
+    "moderate": "普通",
+    "occupied": "{percent}% 占有",
+    "allSessionsCompleted": "本日の全セッションが終了しました。"
   },
   "actions": {
     "addToMySchedule": "スケジュールに追加"
@@ -45,7 +82,7 @@
       "period": "午前",
       "time": "09:20",
       "displayTime": "9:20",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "title": "音楽ビデオ",
@@ -57,10 +94,10 @@
       "period": "午前",
       "time": "09:30",
       "displayTime": "9:30",
-      "speaker": "2026 エホバ의 証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 160番と祈り",
+      "title": "歌 160と祈り",
       "category": "song"
     },
     "3": {
@@ -69,10 +106,10 @@
       "period": "午前",
       "time": "09:40",
       "displayTime": "9:40",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "司会者の話：幸せいっぱいの永遠の命 ― 現実的な希望ですか（詩編 16:11; 100:2）",
+      "title": "会長の話：いつまでも幸せに暮らす。それは夢物語ですか。（詩編 16:11; 100:2）",
       "category": "talk"
     },
     "4": {
@@ -81,10 +118,10 @@
       "period": "午前",
       "time": "10:10",
       "displayTime": "10:10",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "聖書劇：『イエスが伝えた良い知らせ』第4話「このために私は来たのです」（マタイ 4:23-25; 8:1-4,14-17; 9:1-17; 12:1-21; マルコ 1:21–3:19; ルカ 4:31-44; 5:12–6:16; ヨハネ 5:1-47）",
+      "title": "聖書ドラマ：「イエスが伝えた良いたより」第4部「私はまさにこのために来たのです」（マタイ 4:23-25; 8:1-4,14-17; 9:1-17; 12:1-21; マルコ 1:21–3:19; ルカ 4:31-44; 5:12–6:16; ヨハネ 5:1-47）",
       "category": "drama"
     },
     "5": {
@@ -93,10 +130,10 @@
       "period": "午前",
       "time": "11:05",
       "displayTime": "11:05",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 17番と案内",
+      "title": "歌 17と案内",
       "category": "song"
     },
     "6": {
@@ -105,27 +142,27 @@
       "period": "午前",
       "time": "11:15",
       "displayTime": "11:15",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "subItems": [
-        "「自ら私たちの病気を引き受けてくださった」（マタイ 8:16,17; 詩編 32:1,2; イザヤ 53:4,5）",
-        "「言い争いをすることはない」（マタイ 12:15-21; イザヤ 42:1-4）",
-        "「例えを使わずにお話しになることはなかった」（マタイ 13:34,35; 詩編 78:2）"
+        "「彼自ら私たちの病を担った」（マタイ 8:16,17; 詩編 32:1,2; イザヤ 53:4,5）",
+        "「言い争うことはない」（マタイ 12:15-21; イザヤ 42:1-4）",
+        "「例えを使わずには話さなかった」（マタイ 13:34,35; 詩編 78:2）"
       ],
-      "title": "シンポジウム：メシアに関する預言が成就する！",
+      "title": "シンポジウム：メシアに関する預言が実現する",
       "category": "symposium"
     },
     "7": {
       "day": "friday",
       "dayLabel": "金曜日",
       "period": "午前",
-      "time": "00:10",
+      "time": "12:10",
       "displayTime": "12:10",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 14番と休憩",
+      "title": "歌 14と休憩",
       "category": "song"
     },
     "8": {
@@ -134,7 +171,7 @@
       "period": "午後",
       "time": "13:35",
       "displayTime": "1:35",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "title": "音楽ビデオ",
@@ -146,10 +183,10 @@
       "period": "午後",
       "time": "13:45",
       "displayTime": "1:45",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 23番",
+      "title": "歌 23",
       "category": "song"
     },
     "10": {
@@ -158,10 +195,10 @@
       "period": "午後",
       "time": "13:50",
       "displayTime": "1:50",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "イエスは安息日について何を教えましたか？（マタイ 12:1-14; ヨハネ 5:1-17）",
+      "title": "イエスは安息日について何を教えましたか。（マタイ 12:1-14; ヨハネ 5:1-17）",
       "category": "talk"
     },
     "11": {
@@ -170,14 +207,14 @@
       "period": "午後",
       "time": "14:10",
       "displayTime": "2:10",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "subItems": [
         "使徒たち（ルカ 6:13,15,16）",
         "多くの女性たち（マタイ 27:55; マルコ 15:40; ルカ 8:1-3）"
       ],
-      "title": "シンポジウム：イエスに仕えた人たちに見習いましょう！",
+      "title": "シンポジウム：イエスに仕えた人たちに倣う",
       "category": "symposium"
     },
     "12": {
@@ -186,10 +223,10 @@
       "period": "午後",
       "time": "14:50",
       "displayTime": "2:50",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 76番と案内",
+      "title": "歌 76と案内",
       "category": "song"
     },
     "13": {
@@ -198,10 +235,10 @@
       "period": "午後",
       "time": "15:00",
       "displayTime": "3:00",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "子羊の血で「自分の長い服を洗う人たちは幸いです」（啓示 7:9,10,13-15; 22:14; ヨハネ 5:24-29）",
+      "title": "子羊の血で「自分の長い衣を洗う人たちは幸せです」（啓示 7:9,10,13-15; 22:14; ヨハネ 5:24-29）",
       "category": "talk"
     },
     "14": {
@@ -210,10 +247,10 @@
       "period": "午後",
       "time": "15:30",
       "displayTime": "3:30",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 155番と結びの祈り",
+      "title": "歌 155と閉会の祈り",
       "category": "song"
     },
     "15": {
@@ -222,7 +259,7 @@
       "period": "午前",
       "time": "09:20",
       "displayTime": "9:20",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "title": "音楽ビデオ",
@@ -234,10 +271,10 @@
       "period": "午前",
       "time": "09:30",
       "displayTime": "9:30",
-      "speaker": "2026 エホバ의 証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 111番と祈り",
+      "title": "歌 111と祈り",
       "category": "song"
     },
     "17": {
@@ -246,7 +283,7 @@
       "period": "午前",
       "time": "09:40",
       "displayTime": "9:40",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "title": "「イエスは口を開き，教え始めた」（マタイ 5:1,2）",
@@ -258,10 +295,10 @@
       "period": "午前",
       "time": "09:50",
       "displayTime": "9:50",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "聖書劇：『イエスが伝えた良い知らせ』第5話「その教え方に非常に驚いた」（マタイ 5:3–7:29; ルカ 6:17-49）",
+      "title": "聖書ドラマ：「イエスが伝えた良いたより」第5部「人々はその教え方に非常に驚いた」（マタイ 5:3–7:29; ルカ 6:17-49）",
       "category": "drama"
     },
     "19": {
@@ -270,10 +307,10 @@
       "period": "午前",
       "time": "10:25",
       "displayTime": "10:25",
-      "speaker": "2026 エホバ의 証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 89番と案内",
+      "title": "歌 89と案内",
       "category": "song"
     },
     "20": {
@@ -282,10 +319,10 @@
       "period": "午前",
       "time": "10:35",
       "displayTime": "10:35",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "何が幸福の妨げになりますか？（ルカ 6:24-26）",
+      "title": "幸せの妨げになるものは何ですか。（ルカ 6:24-26）",
       "category": "talk"
     },
     "21": {
@@ -294,10 +331,10 @@
       "period": "午前",
       "time": "10:50",
       "displayTime": "10:50",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "律法に含まれる原則を見分けることができますか？（マタイ 5:17-48）",
+      "title": "律法の中にある原則を見分けられますか。（マタイ 5:17-48）",
       "category": "talk"
     },
     "22": {
@@ -306,14 +343,14 @@
       "period": "午前",
       "time": "11:15",
       "displayTime": "11:15",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "subItems": [
         "塩と光（マタイ 5:13-16）",
         "植物と動物（創世記 1:28,29; マタイ 6:19,26,28; 7:6,10,15,16）"
       ],
-      "title": "シンポジウム：イエスが歩まれた地から学べる教訓",
+      "title": "シンポジウム：イエスが活動した土地から学べること",
       "category": "symposium"
     },
     "23": {
@@ -322,22 +359,22 @@
       "period": "午前",
       "time": "11:40",
       "displayTime": "11:40",
-      "speaker": "2026 エホバ의 証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "バプテスマの話：「人に見えないところで見ておられるあなたの父が報いてくださいます」（マタイ 6:6）",
+      "title": "奉献の話：「隠れた所で見ている父が報いてくださいます」（マタイ 6:6）",
       "category": "baptism"
     },
     "24": {
       "day": "saturday",
       "dayLabel": "土曜日",
       "period": "午前",
-      "time": "00:10",
+      "time": "12:10",
       "displayTime": "12:10",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 51番と休憩",
+      "title": "歌 51と休憩",
       "category": "song"
     },
     "25": {
@@ -346,7 +383,7 @@
       "period": "午後",
       "time": "13:35",
       "displayTime": "1:35",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "title": "音楽ビデオ",
@@ -358,10 +395,10 @@
       "period": "午後",
       "time": "13:45",
       "displayTime": "1:45",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 125番",
+      "title": "歌 125",
       "category": "song"
     },
     "27": {
@@ -370,21 +407,21 @@
       "period": "午後",
       "time": "13:50",
       "displayTime": "1:50",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "subItems": [
-        "「霊的なニーズを自覚している人たち」（マタイ 5:3）",
+        "「自分の霊的な必要を自覚している人たち」（マタイ 5:3）",
         "「悲しんでいる人たち」（マタイ 5:4）",
         "「温厚な人たち」（マタイ 5:5）",
         "「正しさに飢え渇いている人たち」（マタイ 5:6）",
-        "「憐れみ深い人たち」（マタイ 5:7）",
-        "「心が清い人たち」（マタイ 5:8）",
+        "「慈悲深い人たち」（マタイ 5:7）",
+        "「心の清い人たち」（マタイ 5:8）",
         "「平和を作る人たち」（マタイ 5:9）",
-        "「正しさのために迫害されている人たち」（マタイ 5:10）",
-        "「人々があなたたちを侮辱する時」（マタイ 5:11,12）"
+        "「正しいことのために迫害されている人たち」（マタイ 5:10）",
+        "「人々から侮辱される時」（マタイ 5:11,12）"
       ],
-      "title": "シンポジウム：「幸いです」",
+      "title": "シンポジウム：「幸せです」",
       "category": "symposium"
     },
     "28": {
@@ -393,10 +430,10 @@
       "period": "午後",
       "time": "15:20",
       "displayTime": "3:20",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 81番と案内",
+      "title": "歌 81と案内",
       "category": "song"
     },
     "29": {
@@ -405,7 +442,7 @@
       "period": "午後",
       "time": "15:30",
       "displayTime": "3:30",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "title": "「なぜ思い悩むのですか」（マタイ 6:19-33）",
@@ -417,7 +454,7 @@
       "period": "午後",
       "time": "15:55",
       "displayTime": "3:55",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "title": "「狭い門から入りなさい」（マタイ 7:1-5,12-14,16-18,24-27）",
@@ -429,10 +466,10 @@
       "period": "午後",
       "time": "16:30",
       "displayTime": "4:30",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 21番と結びの祈り",
+      "title": "歌 21と閉会の祈り",
       "category": "song"
     },
     "32": {
@@ -441,7 +478,7 @@
       "period": "午前",
       "time": "09:20",
       "displayTime": "9:20",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "title": "音楽ビデオ",
@@ -453,10 +490,10 @@
       "period": "午前",
       "time": "09:30",
       "displayTime": "9:30",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 68番と祈り",
+      "title": "歌 68と祈り",
       "category": "song"
     },
     "34": {
@@ -465,7 +502,7 @@
       "period": "午前",
       "time": "09:40",
       "displayTime": "9:40",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "subItems": [
@@ -475,7 +512,7 @@
         "パン種（マタイ 13:33）",
         "引き網（マタイ 13:47-50）"
       ],
-      "title": "シンポジウム：イエスの例えから学べる教訓",
+      "title": "シンポジウム：イエスの例えから学べること",
       "category": "symposium"
     },
     "35": {
@@ -484,10 +521,10 @@
       "period": "午前",
       "time": "11:00",
       "displayTime": "11:00",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 64番と案内",
+      "title": "歌 64と案内",
       "category": "song"
     },
     "36": {
@@ -496,10 +533,10 @@
       "period": "午前",
       "time": "11:10",
       "displayTime": "11:10",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "公開聖書講演：あなたはお宝を見つけましたか？（マタイ 13:44-46）",
+      "title": "公開聖書講演：あなたは宝を見つけましたか。（マタイ 13:44-46）",
       "category": "public_talk"
     },
     "37": {
@@ -508,7 +545,7 @@
       "period": "午前",
       "time": "11:40",
       "displayTime": "11:40",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "title": "「ものみの塔」の要約",
@@ -518,12 +555,12 @@
       "day": "sunday",
       "dayLabel": "日曜日",
       "period": "午前",
-      "time": "00:10",
+      "time": "12:10",
       "displayTime": "12:10",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 140番と休憩",
+      "title": "歌 140と休憩",
       "category": "song"
     },
     "39": {
@@ -532,7 +569,7 @@
       "period": "午後",
       "time": "13:35",
       "displayTime": "1:35",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
       "title": "音楽ビデオ",
@@ -544,10 +581,10 @@
       "period": "午後",
       "time": "13:45",
       "displayTime": "1:45",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 108番",
+      "title": "歌 108",
       "category": "song"
     },
     "41": {
@@ -556,10 +593,10 @@
       "period": "午後",
       "time": "13:50",
       "displayTime": "1:50",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "聖書劇：『イエスが伝えた良い知らせ』第6話「来るべき方はあなたですか」（マタイ 8:5-13; 11:2–13:53; マルコ 3:19–4:34; ルカ 7:1–8:21）",
+      "title": "聖書ドラマ：「イエスが伝えた良いたより」第6部「来るべき方はあなたですか」（マタイ 8:5-13; 11:2–13:53; マルコ 3:19–4:34; ルカ 7:1–8:21）",
       "category": "drama"
     },
     "42": {
@@ -568,10 +605,10 @@
       "period": "午後",
       "time": "14:35",
       "displayTime": "2:35",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 120番と案内",
+      "title": "歌 120と案内",
       "category": "song"
     },
     "43": {
@@ -580,10 +617,10 @@
       "period": "午後",
       "time": "14:45",
       "displayTime": "2:45",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "何を学びましたか？",
+      "title": "何を学びましたか",
       "category": "talk"
     },
     "44": {
@@ -592,10 +629,10 @@
       "period": "午後",
       "time": "14:55",
       "displayTime": "2:55",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "「あなたたちの目は見ているので幸いです」（マタイ 7:1-5; 13:16,17; ルカ 6:46-49; 10:21; ヨハネ 17:6; ヤコブ 1:22-25）",
+      "title": "「あなた方の目は見ているので幸せです」（マタイ 7:1-5; 13:16,17; ルカ 6:46-49; 10:21; ヨハネ 17:6; ジェームズ 1:22-25）",
       "category": "talk"
     },
     "45": {
@@ -604,10 +641,10 @@
       "period": "午後",
       "time": "15:45",
       "displayTime": "3:45",
-      "speaker": "2026 エホバの証人の大会",
+      "speaker": "2026年大会",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "歌 163番と結びの祈り",
+      "title": "歌 163と閉会の祈り",
       "category": "song"
     }
   }

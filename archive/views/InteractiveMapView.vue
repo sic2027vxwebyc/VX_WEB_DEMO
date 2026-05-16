@@ -16,7 +16,7 @@ import { useArPermissions } from '@/composables/useArPermissions'
 const router = useRouter()
 const spacesStore = useSpacesStore()
 const mapStore = useMapStore()
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const scope = 'InteractiveMap'
 
 const { 
@@ -58,7 +58,7 @@ const popularSpaces = computed(() => {
     .slice(0, 5)
     .map(s => ({
       id: s.id,
-      name: s.name,
+      name: s.nameKey ? t(s.nameKey) : s.name,
       floor: t(`map.floors.${s.floorId}`),
       floorKey: s.floorId,
       congestion: s.congestion,
@@ -81,7 +81,8 @@ const toggleFilter = (type) => {
 
 const selectSpace = (space) => {
   selectedSpaceId.value = space.id
-  logger.info(scope, `공간 선택: ${space.name}`)
+  const name = space.nameKey ? t(space.nameKey) : space.name
+  logger.info(scope, `공간 선택: ${name}`)
 }
 
 const adjustScale = (delta) => {
@@ -98,7 +99,8 @@ const adjustScale = (delta) => {
 const startNavigation = (space) => {
   targetSpaceForAr.value = space
   isArModalOpen.value = true
-  logger.info(scope, `AR 권한 확인 모달 요청: ${space?.name}`)
+  const name = space.nameKey ? t(space.nameKey) : space.name
+  logger.info(scope, `AR 권한 확인 모달 요청: ${name}`)
 }
 
 /**
@@ -152,13 +154,13 @@ onMounted(() => {
     <div class="absolute top-lg left-lg z-30 flex flex-col gap-sm">
       <div class="glass-panel p-sm rounded-xl flex flex-col gap-xs shadow-xl">
         <button 
-          v-for="key in mapStore.floors" 
-          :key="key"
-          @click="changeFloor(key)"
+          v-for="floor in mapStore.floors" 
+          :key="floor.id"
+          @click="changeFloor(floor.id)"
           class="px-4 py-3 flex items-center justify-center rounded-lg font-bold transition-all text-label-lg whitespace-nowrap"
-          :class="mapStore.currentFloorKey === key ? 'bg-primary text-on-primary shadow-[0_0_20px_rgba(0,219,233,0.4)]' : 'hover:bg-black/5 dark:hover:bg-white/10 text-surface-dark/60 dark:text-on-surface-variant'"
+          :class="mapStore.currentFloorKey === floor.id ? 'bg-primary text-on-primary shadow-[0_0_20px_rgba(0,219,233,0.4)]' : 'hover:bg-black/5 dark:hover:bg-white/10 text-surface-dark/60 dark:text-on-surface-variant'"
         >
-          {{ t(`map.floors.${key}`) }}
+          {{ floor.labelKey ? t(floor.labelKey) : floor.id.toUpperCase() }}
         </button>
       </div>
       
@@ -226,7 +228,7 @@ onMounted(() => {
               'flex flex-col items-center justify-center'
             ]"
           >
-            <span class="font-bold text-[12px] text-primary uppercase tracking-tighter text-center px-1">{{ space.name }}</span>
+            <span class="font-bold text-[12px] text-primary uppercase tracking-tighter text-center px-1">{{ space.nameKey ? t(space.nameKey) : space.name }}</span>
             <div v-if="space.status === 'high'" class="absolute -top-1 -right-1 w-3 h-3 bg-status-high rounded-full animate-pulse shadow-[0_0_8px_#FF3D00]"></div>
           </div>
 
@@ -251,7 +253,7 @@ onMounted(() => {
             <div class="flex justify-between items-start mb-md">
               <div>
                 <span class="text-[10px] font-bold text-primary uppercase tracking-widest">{{ t(`map.filters.${selectedSpace.type}`) }}</span>
-                <h3 class="font-headline-md text-surface-dark dark:text-on-surface">{{ selectedSpace.name }}</h3>
+                <h3 class="font-headline-md text-surface-dark dark:text-on-surface">{{ selectedSpace.nameKey ? t(selectedSpace.nameKey) : selectedSpace.name }}</h3>
               </div>
               <button @click="selectedSpaceId = null" class="p-2 hover:bg-black/5 dark:hover:bg-white/5 rounded-full">
                 <span class="material-symbols-outlined">close</span>
@@ -324,7 +326,7 @@ onMounted(() => {
           <span class="material-symbols-outlined">assistant</span>
           <span class="font-label-lg">{{ t('map.assistant.title') }}</span>
         </div>
-        <p class="text-[12px] text-on-surface-variant leading-relaxed mb-md" v-html="t('map.assistant.recommend', { busy: t('map.filters.dining'), free: t('map.filters.info') })">
+        <p class="text-[12px] text-on-surface-variant leading-relaxed mb-md" ><i18n-t keypath="map.assistant.recommend" tag="span"><template #busy><strong class="text-primary font-bold">{{ t('map.filters.dining') }}</strong></template><template #free><strong class="text-primary font-bold">{{ t('map.filters.info') }}</strong></template></i18n-t>
         </p>
         <button 
           @click="changeFloor('hall1')"

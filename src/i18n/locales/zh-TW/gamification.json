@@ -1,0 +1,102 @@
+{
+  "stampTour": "集章之旅",
+  "challengeTitle": "大會探索挑戰",
+  "challengeDesc": "掃描展場各處的 QR Code，完成您的專屬護照。",
+  "startExploration": "開始探索",
+  "scanQr": "掃描 QR Code",
+  "viewPassport": "查看我的護照",
+  "viewBadges": "查看獲得勳章",
+  "currentProgress": "當前進度",
+  "recentStamps": "最近獲得印章",
+  "nextRecommended": "下一個推薦地點",
+  "completed": "已完成",
+  "remaining": "剩餘",
+  "allCompleted": "全部完成",
+  "remainingStamps": "尚餘印章",
+  "resetProgress": "重置演示進度",
+  "totalProgress": "總進度",
+  "exploreSpaces": "探索空間",
+  "collectedToday": "今日已獲得",
+  "items": {
+    "hall1": {
+      "name": "[TODO][zh-TW] 1홀",
+      "description": "[TODO][zh-TW] 메인 컨벤션 홀"
+    },
+    "hall2": {
+      "name": "[TODO][zh-TW] 2홀",
+      "description": "[TODO][zh-TW] 전시 구역 B"
+    },
+    "hall3": {
+      "name": "[TODO][zh-TW] 3홀",
+      "description": "[TODO][zh-TW] 이벤트 및 세미나"
+    },
+    "hall4": {
+      "name": "[TODO][zh-TW] 4홀",
+      "description": "[TODO][zh-TW] 테크 전시 존"
+    },
+    "hall5": {
+      "name": "[TODO][zh-TW] 5홀",
+      "description": "[TODO][zh-TW] 글로벌 라운지"
+    },
+    "fSodam": {
+      "name": "[TODO][zh-TW] 식당가",
+      "description": "[TODO][zh-TW] 전통 한식 식당가"
+    },
+    "cCu1": {
+      "name": "[TODO][zh-TW] 안내소",
+      "description": "[TODO][zh-TW] 안내 및 배터리 지원"
+    },
+    "hall6": {
+      "name": "[TODO][zh-TW] 6홀",
+      "description": "[TODO][zh-TW] 고급 세미나 구역"
+    },
+    "hall7": {
+      "name": "[TODO][zh-TW] 7홀",
+      "description": "[TODO][zh-TW] 디지털 체험 존"
+    },
+    "hall8": {
+      "name": "[TODO][zh-TW] 8홀",
+      "description": "[TODO][zh-TW] 예술 및 문화 존"
+    },
+    "hall9": {
+      "name": "[TODO][zh-TW] 9홀",
+      "description": "[TODO][zh-TW] 메인 오디토리움"
+    },
+    "hall10": {
+      "name": "[TODO][zh-TW] 10홀",
+      "description": "[TODO][zh-TW] 폐막식 존"
+    },
+    "fMyeongdong": {
+      "name": "[TODO][zh-TW] 2F 식당가",
+      "description": "[TODO][zh-TW] 세계 음식 푸드코트"
+    },
+    "exitWest": {
+      "name": "[TODO][zh-TW] 서문",
+      "description": "[TODO][zh-TW] 주차장 연결 출구"
+    },
+    "toilet1": {
+      "name": "[TODO][zh-TW] 중앙 화장실",
+      "description": "[TODO][zh-TW] 깨끗한 편의 시설"
+    },
+    "medical": {
+      "name": "醫務室",
+      "description": "緊急醫療中心"
+    },
+    "giftZone": {
+      "name": "[TODO][zh-TW] 기프트 존",
+      "description": "[TODO][zh-TW] 보상 수령 장소"
+    },
+    "translationCenter": {
+      "name": "[TODO][zh-TW] 통역 지원 센터",
+      "description": "[TODO][zh-TW] 다국어 지원 허브"
+    },
+    "welcomeZone": {
+      "name": "[TODO][zh-TW] 웰컴 존",
+      "description": "[TODO][zh-TW] 대회 시작 지점"
+    },
+    "experienceZone": {
+      "name": "[TODO][zh-TW] 체험 존",
+      "description": "[TODO][zh-TW] 인터랙티브 공간 VR"
+    }
+  }
+}

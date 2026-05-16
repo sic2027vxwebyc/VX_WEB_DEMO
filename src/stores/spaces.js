@@ -3,11 +3,13 @@ import { ref, computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { spaceService } from '@/services/spaceService'
 import { logger } from '@/utils/logger'
+import { resolveI18nText } from '@/utils/i18nResolver'
+import { toI18nKeySegment } from '@/utils/spaceI18n'
 
 export const useSpacesStore = defineStore('spaces', () => {
-  const { t } = useI18n()
+  const { t, tm, te } = useI18n({ useScope: 'global' })
   const scope = 'SpacesStore'
-
+  
   const rawSpaces = ref([])
   const loading = ref(false)
   const error = ref(null)
@@ -35,14 +37,21 @@ export const useSpacesStore = defineStore('spaces', () => {
    * computed를 사용하여 언어 변경 시 자동으로 갱신됩니다.
    */
   const spaces = computed(() => {
-    return rawSpaces.value.map(s => ({
-      ...s,
-      name: t(`spaces.${s.id}.name`),
-      zone: t(`spaces.${s.id}.zone`),
-      description: t(`spaces.${s.id}.description`),
-      tags: t(`spaces.${s.id}.tags`, { defaultValue: [] }),
-      congestion: t(`spaces.congestion.${s.congestionType}`)
-    }))
+    return rawSpaces.value.map(s => {
+      // 명시적 키가 없는 경우에 대한 안전장치는 유지하되, 리졸버를 통해 해소
+      const nid = toI18nKeySegment(s.id)
+      
+      return {
+        ...s,
+        name: resolveI18nText({ key: s.nameKey || `spaces.${nid}.name`, t, te, context: `space:${s.id}:name` }),
+        zone: resolveI18nText({ key: s.zoneKey || `spaces.${nid}.zone`, t, te, context: `space:${s.id}:zone` }),
+        description: resolveI18nText({ key: s.descriptionKey || `spaces.${nid}.description`, t, te, context: `space:${s.id}:description` }),
+        shortName: resolveI18nText({ key: s.shortNameKey || `spaces.${nid}.shortName`, t, te, context: `space:${s.id}:shortName` }),
+        location: resolveI18nText({ key: s.locationKey || `spaces.${nid}.location`, t, te, context: `space:${s.id}:location` }),
+        tags: tm(s.tagsKey || `spaces.${nid}.tags`),
+        congestion: resolveI18nText({ key: `spaces.congestion.${s.congestionType}`, t, te, context: `space:${s.id}:congestion` })
+      }
+    })
   })
 
   const categories = ['all', 'exhibition', 'dining', 'amenities', 'hotels']

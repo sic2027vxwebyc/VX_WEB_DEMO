@@ -1,0 +1,21 @@
+{
+  "title": "Паспорт мероприятия",
+  "subtitle": "История приключений",
+  "journeyHistory": "История путешествий",
+  "visitedSpaces": "Посещенные места",
+  "collectedStamps": "Собранные штампы",
+  "earnedBadges": "Полученные значки",
+  "completedQuests": "Завершенные квесты",
+  "rewardAvailable": "Доступна награда",
+  "rewardClaimed": "Награда получена",
+  "goToGiftZone": "В зону подарков",
+  "todayFootprint": "Путь за сегодня",
+  "visitRecord": "Посещение: {name}",
+  "noVisitsYet": "Вы еще ничего не посетили.",
+  "challengeComplete": "Поздравляем! Задание выполнено",
+  "challengeCompleteDesc": "Все штампы собраны. Получите подарок в зоне подарков.",
+  "claimReward": "Получить награду",
+  "mockUser": "MOCK USER",
+  "userId": "ID: #VX2026-9901",
+  "stampCollection": "Коллекция марок"
+}

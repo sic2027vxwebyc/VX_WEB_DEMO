@@ -1,19 +1,76 @@
 {
-  "title": "360 Viewer",
-  "exit": "Close",
+  "title": "360-просмотр",
+  "exit": "Закрыть",
   "hotspots": {
-    "next": "Next Space",
-    "info": "Info"
+    "next": "Следующая зона",
+    "info": "Информация",
+    "hall1": "Зал 1",
+    "hall2": "Зал 2",
+    "infoDesk": "Информационная стойка",
+    "westGate": "Западные ворота",
+    "foodZone": "Зона питания",
+    "restroom": "Туалет",
+    "nearby": "Ближайшая зона",
+    "jumpTo": "Перейти"
   },
   "controls": {
-    "zoomIn": "Zoom In",
-    "zoomOut": "Zoom Out",
-    "north": "North",
-    "vrMode": "VR Mode"
+    "zoomIn": "Увеличить",
+    "zoomOut": "Уменьшить",
+    "north": "Север",
+    "vrMode": "Режим VR",
+    "vrNotSupported": "Режим VR не поддерживается на этом устройстве или в браузере."
   },
   "stats": {
-    "title": "Space Stats",
-    "occupancy": "Current Occupancy",
-    "airQuality": "Maintaining optimal air quality"
+    "title": "Статистика пространства",
+    "occupancy": "Текущая заполненность",
+    "airQuality": "Поддержание оптимального качества воздуха",
+    "temp": "ТЕМП",
+    "humid": "ВЛАЖ"
+  },
+  "hotspot": {
+    "guideBusy": "Находится примерно в {min} минутах ходьбы от вашего текущего местоположения. Пожалуйста, учитывайте ожидаемую загруженность.",
+    "guideOptimal": "Находится примерно в {min} минутах ходьбы от вашего текущего местоположения. Движение в данный момент очень свободное."
+  },
+  "vr": {
+    "notSupportedToast": "Это устройство не поддерживает режим VR.",
+    "interface": "Аппаратный интерфейс",
+    "available": "Режим VR доступен",
+    "noSecureContext": "Нет HTTPS. Для VR требуется безопасное соединение.",
+    "sessionError": "Не удалось запустить сессию VR."
+  },
+  "status": {
+    "normal": "Система в норме",
+    "operational": "Операционный статус"
+  },
+  "v2": {
+    "scanning": "Сканирование...",
+    "initializing": "Инициализация нейронного облака точек",
+    "experience": "360 Опыт",
+    "nearbyTerminals": "Ближайшие терминалы"
+  },
+  "live": {
+    "realtimeData": "Данные в реальном времени",
+    "switchToMap": "Перейти к карте",
+    "spaceDensity": "Плотность в реальном времени",
+    "densityHigh": "Высокая",
+    "densityNormal": "Нормальная",
+    "currentDensity": "Текущая плотность",
+    "estimatedVisitors": "Ожидаемое кол-во посетителей",
+    "peakTime": "Час пик",
+    "optimizedPathSearch": "Оптимальный поиск пути",
+    "scanningTitle": "Нейронное картирование путей",
+    "scanningDesc": "Оптимизация пространственного кластера для {name}",
+    "liveSpatial": "Пространство в реальном времени",
+    "terminalStatus": "Статус терминала: Оптимальный поток",
+    "telemetry": "Телеметрия в реальном времени",
+    "occupancy": "Занятость",
+    "airQuality": "Качество воздуха",
+    "excellent": "Отличное",
+    "dashboard": "Панель управления",
+    "density": "Плотность",
+    "distance": "Расстояние",
+    "eta": "Ожидаемое время",
+    "enterSpace": "Войти в пространство",
+    "getDirections": "Проложить маршрут"
   }
 }

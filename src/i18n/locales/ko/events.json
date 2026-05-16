@@ -8,11 +8,13 @@
     "symposium": "심포지엄",
     "drama": "성경 드라마",
     "song": "노래 및 기도",
-    "media": "음악 영상",
-    "baptism": "침례",
-    "public_talk": "성경 공개 강연",
-    "watchtower": "파수대"
+    "media": "음악 비디오",
+    "baptism": "침례 연설",
+    "public_talk": "공개 성경 강연",
+    "watchtower": "파수대 요약",
+    "reset": "필터 초기화"
   },
+  "noResults": "해당 조건에 맞는 일정이 없습니다.",
   "days": {
     "friday": {
       "label": "금요일",
@@ -33,7 +35,42 @@
   "status": {
     "completed": "종료",
     "ongoing": "진행 중",
-    "upcoming": "예정"
+    "upcoming": "예정",
+    "allCompleted": "오늘의 모든 일정이 종료되었습니다.",
+    "live": "진행 중"
+  },
+  "time": {
+    "startsIn": "{h}시간 {m}분 후 시작",
+    "startsInMin": "{m}분 후 시작",
+    "startsSoon": "곧 시작",
+    "inProgress": "진행 중",
+    "ended": "종료됨"
+  },
+  "timeline": {
+    "title": "대회 일정",
+    "subtitle": "국제 공간 협약의 혁신적인 프로그램을 실시간 타임라인으로 확인하세요.",
+    "details": "상세 정보",
+    "noEvents": "해당 요일에는 등록된 일정이 없습니다."
+  },
+  "live": {
+    "mySchedule": "내 일정만",
+    "startsIn": "{h}시간 {m}분 후 시작",
+    "startsInMin": "{m}분 후 시작",
+    "startingSoon": "잠시 후 시작됩니다.",
+    "internationalDelegation": "국제 대표단",
+    "completedMessage": "오늘의 프로그램이 종료되었습니다.",
+    "approaching": "일정 시작 임박",
+    "approachingDesc": "{period} 프로그램 시작 {min}분 전입니다. {hall}로 이동하세요.",
+    "realTimeSchedule": "실시간 일정",
+    "operationalInfo": "운영 정보",
+    "operationalIntelligence": "운영 지능",
+    "nextSchedule": "다음 일정",
+    "nearbySpaces": "주변 공간",
+    "active": "활성",
+    "expectedCrowd": "예상 혼잡도",
+    "moderate": "보통",
+    "occupied": "{percent}% 점유",
+    "allSessionsCompleted": "오늘의 모든 일정이 종료되었습니다."
   },
   "actions": {
     "addToMySchedule": "내 일정에 추가"
@@ -120,7 +157,7 @@
       "day": "friday",
       "dayLabel": "금요일",
       "period": "오전",
-      "time": "00:10",
+      "time": "12:10",
       "displayTime": "12:10",
       "speaker": "2026 여호와의 증인 대회",
       "location": "킨텍스",
@@ -332,7 +369,7 @@
       "day": "saturday",
       "dayLabel": "토요일",
       "period": "오전",
-      "time": "00:10",
+      "time": "12:10",
       "displayTime": "12:10",
       "speaker": "2026 여호와의 증인 대회",
       "location": "킨텍스",
@@ -518,7 +555,7 @@
       "day": "sunday",
       "dayLabel": "일요일",
       "period": "오전",
-      "time": "00:10",
+      "time": "12:10",
       "displayTime": "12:10",
       "speaker": "2026 여호와의 증인 대회",
       "location": "킨텍스",

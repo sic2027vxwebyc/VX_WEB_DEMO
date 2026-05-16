@@ -1,7 +1,13 @@
 {
   "title": "Notification Center",
-  "subtitle": "System notices and personalized alerts.",
-  "empty": "No new notifications.",
+  "subtitle": "System announcements and personalized alerts.",
+  "empty": "No notifications to display.",
+  "markAsRead": "Mark as Read",
+  "viewEvacuationRoute": "View Evacuation Route",
+  "evacuation": "Evacuation",
+  "lost-found": "Lost & Found",
+  "weather": "Weather",
+  "traffic": "Traffic",
   "clearAll": "Clear All",
   "types": {
     "security": "Security",
@@ -12,23 +18,53 @@
   "items": {
     "1": {
       "title": "New Device Login",
-      "content": "A new login was detected on MacBook Pro for the VX Admin account.",
-      "time": "2 min ago"
+      "content": "A new login was detected on MacBook Pro with the VX Admin account.",
+      "time": "2분 전"
     },
     "2": {
       "title": "Central Hall Congestion Alert",
-      "content": "Density in the 1st floor Central Hall has exceeded 90%. Please use an alternative route.",
-      "time": "15 min ago"
+      "content": "Density in the Central Hall has exceeded 90%. Please use alternative routes.",
+      "time": "15분 전"
     },
     "3": {
-      "title": "Keynote Session Starting in 10 Min",
-      "content": "The \"Intelligent Future Spaces\" session is about to start in the Main Arena.",
-      "time": "45 min ago"
+      "title": "Keynote Session in 10 Mins",
+      "content": "The session \"Intelligent Future Spaces\" is starting soon in the Main Arena.",
+      "time": "45분 전"
     },
     "4": {
       "title": "System Update Complete",
-      "content": "Spatial database synchronization has been successfully completed.",
-      "time": "2 hours ago"
+      "content": "Space database synchronization has been successfully completed.",
+      "time": "2시간 전"
+    },
+    "alert-1": {
+      "title": "Emergency Evacuation",
+      "content": "Evacuation is required due to a fire alarm near the North Gate of Exhibition Hall 1. Move to the nearest exit as directed.",
+      "time": "방금 전"
+    },
+    "alert-2": {
+      "title": "Hall B North Gate Closed",
+      "content": "Entry to Hall B North Gate is temporarily suspended due to crowding. Please use the West Gate (Gate 3).",
+      "time": "5분 전"
+    },
+    "alert-3": {
+      "title": "Shuttle Bus Delay",
+      "content": "Severe traffic congestion outside KINTEX due to rain. Shuttle bus intervals will be delayed by 15 minutes.",
+      "time": "12분 전"
+    },
+    "alert-4": {
+      "title": "Lost & Found Alert",
+      "content": "A tablet PC (iPad) was found in the 2nd-floor dining area and is being held at the information desk.",
+      "time": "45분 전"
+    },
+    "alert-5": {
+      "title": "Strong Wind Advisory",
+      "content": "Please be careful of strong winds when using outdoor rest areas. Outdoor parasol operation has been suspended.",
+      "time": "1시간 전"
+    },
+    "alert-6": {
+      "title": "Battery Replacement",
+      "content": "You can immediately replace interpretation equipment batteries at the information desk at each hall entrance.",
+      "time": "2시간 전"
     }
   }
 }

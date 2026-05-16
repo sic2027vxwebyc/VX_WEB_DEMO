@@ -21,12 +21,12 @@
     "offlineMaps": "オフラインマップデータ",
     "offlineMapsDesc": "ネットワーク接続がない場合でもマップを使用できるように、データを事前ダウンロードします。",
     "biometricAuth": "生体認証ロック",
-    "biometricAuthDesc": "機密 정보를 보호하기 위해 생체 인증을 사용합니다."
+    "biometricAuthDesc": "[TODO][ja] 관리자 페이지 접근 시 FaceID/지문을 요구합니다."
   },
   "data": {
     "title": "データ管理",
     "cache": "キャッシュデータ",
-    "cacheDesc": "現在のアプリに保存されているキャッシュ 데이터를 삭제합니다.",
+    "cacheDesc": "[TODO][ja] 현재 앱에 저장된 캐시 데이터를 삭제합니다.",
     "clearCache": "キャッシュをクリア",
     "cacheCleared": "キャッシュが正常にクリアされました。"
   },

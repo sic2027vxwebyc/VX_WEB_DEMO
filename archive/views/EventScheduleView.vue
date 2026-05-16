@@ -12,7 +12,7 @@ import { useEventsStore } from '@/stores/events'
 import EventCard from '@/components/events/EventCard.vue'
 import EventFilters from '@/components/events/EventFilters.vue'
 
-const { t, tm } = useI18n()
+const { t, tm } = useI18n({ useScope: 'global' })
 const eventsStore = useEventsStore()
 const scope = 'EventSchedule'
 
@@ -82,7 +82,7 @@ onUnmounted(() => {
         <h1 class="font-display-lg text-display-lg text-primary">{{ t('events.title') }}</h1>
         <p class="font-body-lg text-on-surface-variant">{{ t('events.subtitle') }}</p>
         <p v-if="eventsStore.currentDay" class="mt-2 text-label-sm text-surface-tint opacity-80 italic">
-          현재: {{ t(`events.days.${eventsStore.currentDay}.label`) }}
+          {{ t('common.status') }}: {{ t(`events.days.${eventsStore.currentDay}.label`) }}
         </p>
       </header>
 
@@ -108,9 +108,9 @@ onUnmounted(() => {
       <!-- 검색 결과 없음 -->
       <div v-else class="flex flex-col items-center justify-center py-32 text-center">
         <span class="material-symbols-outlined text-6xl text-on-surface-variant opacity-20 mb-4">calendar_today</span>
-        <p class="text-on-surface-variant font-body-lg">{{ t('events.noResults') || '해당 조건에 맞는 일정이 없습니다.' }}</p>
+        <p class="text-on-surface-variant font-body-lg">{{ t('events.noResults') }}</p>
         <button @click="activeDay = 'all'; activeCategory = 'all'" class="mt-4 text-primary font-bold hover:underline">
-          {{ t('events.filters.reset') || '필터 초기화' }}
+          {{ t('events.filters.reset') }}
         </button>
       </div>
     </div>

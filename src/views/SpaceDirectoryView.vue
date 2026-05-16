@@ -12,7 +12,7 @@ import { useSpacesStore } from '@/stores/spaces'
 
 const router = useRouter()
 const spacesStore = useSpacesStore()
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const scope = 'SpaceDirectory'
 
 // 검색어 및 필터 상태 (reactive state)

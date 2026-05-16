@@ -8,7 +8,9 @@
   },
   "restricted": {
     "title": "Access Denied",
-    "desc": "This area is only accessible to those with <strong>Security Level {level} or higher</strong>.<br>Please contact the information desk ({gate}) for authorization.",
+    "descLine1": "[TODO][ja] 이 구역은",
+    "descHighlight": "[TODO][ja] 보안 등급 {level} 이상",
+    "descLine2": "[TODO][ja] 소지자만 출입이 가능합니다. 권한이 필요하시면 안내 데스크({gate})로 문의해 주세요.",
     "bypass": "Find Alternative Route",
     "callSecurity": "Call Security Officer"
   }

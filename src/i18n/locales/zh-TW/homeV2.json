@@ -1,0 +1,91 @@
+{
+  "liveOperating": "實時營運中",
+  "liveOperatingFeed": "即時營運饋送",
+  "hallBMain": "B廳 (主廳)",
+  "congestion": "擁擠度",
+  "currentHall": "當前展館",
+  "currentlyIn": "進行中",
+  "currentProgram": "目前節目",
+  "nextProgram": "下一個節目",
+  "noCurrentProgram": "目前沒有正在進行的節目。",
+  "nextSchedule": "下一日程",
+  "congestionLevel": "擁擠等級",
+  "recommendedEntrance": "推薦入口",
+  "startRouting": "開始導航",
+  "findSeat": "尋找座位",
+  "todaySchedule": "今日日程",
+  "nearbyFacilities": "附近便利設施",
+  "emergencyNotice": "緊急通知",
+  "viewAll": "查看全部",
+  "situationalAwareness": "現況感知",
+  "operationalIntelligence": "運營智能",
+  "nearbySpaces": "週邊空間",
+  "popularSpaces": "熱門空間",
+  "optimalEntrance": "最佳出入口: {name}",
+  "optimalEntranceGate": "GATE {gate} ({name})",
+  "entranceGuide": "目前北門人潮集中。使用 {name} 可免排隊立即入場。",
+  "ticker": {
+    "emergency": "Hall C 區域擁擠度極高。建議使用西門。",
+    "info": "1 樓服務台提供翻譯設備電池更換支援。",
+    "status": "오후 식사 공간 운영이 시작되었습니다."
+  },
+  "nextProgramTitle": "永遠幸福 (聖經劇第 2 部分)",
+  "connectionSecure": "已連接",
+  "lastSync": "最後同步：{time}",
+  "phases": {
+    "morning": {
+      "greeting": "早安！",
+      "message": "上午節目正在進行中。"
+    },
+    "lunch": {
+      "greeting": "午餐愉快！",
+      "message": "我們將引導您前往附近的餐廳與休息區。"
+    },
+    "afternoon": {
+      "greeting": "確認下午行程。",
+      "message": "所有環節均正常運作。"
+    },
+    "evening": {
+      "greeting": "今天辛苦了！",
+      "message": "請確認交通資訊以利平安返家。"
+    }
+  },
+  "navigation": {
+    "startNow": "立即前往\n目的地",
+    "optimizedPath": "開始最佳路徑規劃",
+    "nextProgram": "下一節目",
+    "remaining": "分鐘剩餘",
+    "viewFullSchedule": "查看完整行程"
+  },
+  "gamification": {
+    "title": "空間集章導覽挑戰",
+    "description": "探索大會中心各處，集齊 20 個印章即可獲得特別禮物。",
+    "tag": "大會遊戲化"
+  },
+  "quickActions": {
+    "findSeat": "尋找座位",
+    "nearby": "附近設施",
+    "language": "語言選擇",
+    "explore": "空間探索"
+  },
+  "status": {
+    "majorAreas": "主要區域現況",
+    "liveStatus": "實時狀態",
+    "operationalGuide": "營運指南",
+    "diningOpen": "[TODO][zh-TW] 현재 식사 공간이 개방되었습니다. 혼잡한 1홀 대신 {hall} 이용을 추천드립니다.",
+    "hall3Dining": "3 號展廳美食街",
+    "viewAllNotices": "查看所有公告",
+    "low": "[TODO][zh-TW] 여유",
+    "moderate": "[TODO][zh-TW] 보통",
+    "high": "[TODO][zh-TW] 혼잡"
+  },
+  "messages": {
+    "beforeConvention": "國際大會將於明天開始。\n請充分休息，我們明天見。",
+    "beforeTodayFirstSession": "今天的節目即將開始。\n請從容準備。",
+    "betweenSessions": "在下一場開始前，請稍作休息。",
+    "fridayEnded": "今天的議程已結束。\n明天見。",
+    "saturdayEnded": "今天的議程已結束。\n明天最後一天見。",
+    "conventionFinished": "感謝您參加 2026 首爾國際大會。\n希望您喜歡這三天的節目。",
+    "startingSoon": "即將開始。"
+  }
+}

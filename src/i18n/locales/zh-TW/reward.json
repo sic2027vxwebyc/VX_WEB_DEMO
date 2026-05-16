@@ -1,0 +1,23 @@
+{
+  "title": "紀念品領取指南",
+  "claimLocation": "領取地點",
+  "operatingHours": "營運時間",
+  "allStampsCollected": "已集齊 20 個印章",
+  "conditionsNotMet": "尚未滿足領取條件",
+  "remainingStampsCount": "尚缺印章數",
+  "claimCompleted": "領取完成處理",
+  "congratulations": "恭喜！",
+  "rewardGuideLine1": "[TODO][zh-TW] 20개의 모든 스탬프를 성공적으로 수집하셨습니다.",
+  "rewardGuideHighlight": "[TODO][zh-TW] 기프트 존",
+  "rewardGuideLine2": "[TODO][zh-TW] 에서 한정판 기념품을 수령하세요.",
+  "locationDetail": "第一展覽館 1 樓 中央大廳",
+  "locationSubDetail": "服務台旁",
+  "hoursDetail": "可於大會營運時間內領取",
+  "goToGiftZone": "導航至禮品區",
+  "demoClaimAction": "演示：標記為已領取",
+  "alreadyClaimed": "您已領取過獎勵。謝謝！",
+  "notCompleteYet": "正在收集印章中",
+  "notCompleteDescLine1": "[TODO][zh-TW] 보상을 받으려면 20개의 스탬프를 모두 모아야 합니다.",
+  "notCompleteDescLine2": "[TODO][zh-TW] 현재 {current} / {total} 완료",
+  "continueChallenge": "繼續挑戰"
+}

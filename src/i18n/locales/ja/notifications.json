@@ -1,7 +1,13 @@
 {
   "title": "通知センター",
   "subtitle": "システム通知およびパーソナライズされたアラートです。",
-  "empty": "新しい通知はありません。",
+  "empty": "表示する通知がありません。",
+  "markAsRead": "既読にする",
+  "viewEvacuationRoute": "避難ルートを見る",
+  "evacuation": "避難",
+  "lost-found": "遺失物",
+  "weather": "天気",
+  "traffic": "交通",
   "clearAll": "すべて削除",
   "types": {
     "security": "セキュリティ",
@@ -13,22 +19,52 @@
     "1": {
       "title": "新しいデバイスからのログイン",
       "content": "MacBook ProからVX管理者アカウントへの新しいログインが検出されました。",
-      "time": "2分前"
+      "time": "2분 전"
     },
     "2": {
       "title": "中央ホールの混雑アラート",
       "content": "現在、1階中央ホールの密度が90%を超えています。迂回ルートをご利用ください。",
-      "time": "15分前"
+      "time": "15분 전"
     },
     "3": {
       "title": "基調講演開始10分前",
       "content": "メインアリーナで「未来空間の知能化」セッションがまもなく始まります。",
-      "time": "45分前"
+      "time": "45분 전"
     },
     "4": {
       "title": "システムアップデート完了",
       "content": "空間データベースの同期が正常に完了しました。",
-      "time": "2時間前"
+      "time": "2시간 전"
+    },
+    "alert-1": {
+      "title": "Emergency Evacuation",
+      "content": "Evacuation is required due to a fire alarm near the North Gate of Exhibition Hall 1. Move to the nearest exit as directed.",
+      "time": "방금 전"
+    },
+    "alert-2": {
+      "title": "Hall B North Gate Closed",
+      "content": "Entry to Hall B North Gate is temporarily suspended due to crowding. Please use the West Gate (Gate 3).",
+      "time": "5분 전"
+    },
+    "alert-3": {
+      "title": "Shuttle Bus Delay",
+      "content": "Severe traffic congestion outside KINTEX due to rain. Shuttle bus intervals will be delayed by 15 minutes.",
+      "time": "12분 전"
+    },
+    "alert-4": {
+      "title": "Lost & Found Alert",
+      "content": "A tablet PC (iPad) was found in the 2nd-floor dining area and is being held at the information desk.",
+      "time": "45분 전"
+    },
+    "alert-5": {
+      "title": "Strong Wind Advisory",
+      "content": "Please be careful of strong winds when using outdoor rest areas. Outdoor parasol operation has been suspended.",
+      "time": "1시간 전"
+    },
+    "alert-6": {
+      "title": "Battery Replacement",
+      "content": "You can immediately replace interpretation equipment batteries at the information desk at each hall entrance.",
+      "time": "2시간 전"
     }
   }
 }

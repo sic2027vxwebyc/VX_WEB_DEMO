@@ -1,0 +1,33 @@
+{
+  "title": "Badge Collection",
+  "earnedBadges": "획득한 배지",
+  "lockedBadges": "잠긴 배지",
+  "unlockCondition": "획득 조건",
+  "rarity": "희귀도",
+  "common": "Common",
+  "rare": "Rare",
+  "epic": "Epic",
+  "special": "Special",
+  "items": {
+    "badgeWelcomeExplorer": {
+      "name": "웰컴 익스플로러",
+      "description": "대회장에 성공적으로 첫 발을 내디뎠습니다.",
+      "unlockCondition": "웰컴 투어 퀘스트 완료"
+    },
+    "badgeHallExplorer": {
+      "name": "홀 익스플로러",
+      "description": "전시장의 모든 공간을 속속들이 파악했습니다.",
+      "unlockCondition": "5개 메인 홀 방문"
+    },
+    "badgeGourmet": {
+      "name": "공간 미식가",
+      "description": "대회장의 모든 편의 시설과 식당을 탐방했습니다.",
+      "unlockCondition": "모든 식당가 방문"
+    },
+    "badgeMaster": {
+      "name": "스페셜 마스터",
+      "description": "20개의 모든 스탬프를 수집한 진정한 마스터입니다.",
+      "unlockCondition": "모든 스탬프 수집"
+    }
+  }
+}

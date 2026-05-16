@@ -1,9 +1,14 @@
 <script setup>
+/**
+ * [ 페이지 컴포넌트 상단 ]
+ * 연결 오류 안내 뷰
+ * 네트워크 불안정 또는 서버 연결 실패 시 사용자에게 재시도 옵션과 함께 안내합니다.
+ */
 import { onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const scope = 'ConnectionError'
 
 const retry = () => {

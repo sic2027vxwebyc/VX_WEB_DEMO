@@ -10,16 +10,26 @@ import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
 const route = useRoute()
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 
 // 메뉴 아이템 정의 (실시간 언어 변경을 위해 computed 사용)
-const menuItems = computed(() => [
-  { name: t('navigation.home'), path: '/', icon: 'home' },
-  { name: t('navigation.map'), path: '/map', icon: 'map' },
-  { name: t('navigation.events'), path: '/events', icon: 'calendar_today' },
-  { name: t('navigation.notifications'), path: '/notifications', icon: 'notifications' },
-  { name: t('navigation.admin'), path: '/admin', icon: 'dashboard' },
-])
+const menuItems = computed(() => {
+  const items = [
+    { name: t('navigation.home'), path: '/', icon: 'home' },
+    { name: t('navigation.map'), path: '/map', icon: 'map' },
+    { name: t('navigation.events'), path: '/events', icon: 'calendar_today' },
+    { name: t('navigation.notifications'), path: '/notifications', icon: 'notifications' },
+  ]
+
+  // V2 실험 영역에 있는 경우 스탬프 및 패스포트 메뉴 추가
+  if (route.path.includes('/v2/')) {
+    items.push({ name: t('navigation.stamp'), path: '/v2/stamp-event', icon: 'qr_code_scanner' })
+  }
+
+  items.push({ name: t('navigation.admin'), path: '/admin', icon: 'dashboard' })
+
+  return items
+})
 
 const emit = defineEmits(['navigate'])
 
@@ -53,7 +63,7 @@ const handleNavClick = (path, name) => {
       </button>
     </div>
 
-    <nav class="flex-1 px-4 space-y-2">
+    <nav class="flex-1 px-4 space-y-2 overflow-y-auto no-scrollbar">
       <router-link 
         v-for="item in menuItems" 
         :key="item.path"
@@ -75,14 +85,20 @@ const handleNavClick = (path, name) => {
         <span class="material-symbols-outlined">settings</span>
         <span class="font-label-lg text-label-lg">{{ t('navigation.settings') }}</span>
       </router-link>
-      <a class="flex items-center gap-3 px-4 py-2 rounded-xl text-surface-dark/60 dark:text-on-surface-variant hover:text-surface-dark dark:hover:text-on-surface hover:bg-black/5 dark:hover:bg-surface-container-highest/30 transition-all" href="#">
+      <button 
+        @click="handleNavClick('#', t('navigation.help'))"
+        class="w-full flex items-center gap-3 px-4 py-2 rounded-xl text-surface-dark/60 dark:text-on-surface-variant hover:text-surface-dark dark:hover:text-on-surface hover:bg-black/5 dark:hover:bg-surface-container-highest/30 transition-all text-left"
+      >
         <span class="material-symbols-outlined">help</span>
         <span class="font-label-lg text-label-lg">{{ t('navigation.help') }}</span>
-      </a>
-      <a class="flex items-center gap-3 px-4 py-2 rounded-xl text-surface-dark/60 dark:text-on-surface-variant hover:text-surface-dark dark:hover:text-on-surface hover:bg-black/5 dark:hover:bg-surface-container-highest/30 transition-all" href="#">
+      </button>
+      <button 
+        @click="handleNavClick('#', t('navigation.logout'))"
+        class="w-full flex items-center gap-3 px-4 py-2 rounded-xl text-surface-dark/60 dark:text-on-surface-variant hover:text-surface-dark dark:hover:text-on-surface hover:bg-black/5 dark:hover:bg-surface-container-highest/30 transition-all text-left"
+      >
         <span class="material-symbols-outlined text-error">logout</span>
         <span class="font-label-lg text-label-lg">{{ t('navigation.logout') }}</span>
-      </a>
+      </button>
     </div>
   </aside>
 </template>

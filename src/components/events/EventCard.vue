@@ -1,4 +1,9 @@
 <script setup>
+/**
+ * [ 컴포넌트 상단 ]
+ * 이벤트 카드 컴포넌트
+ * 개별 이벤트의 시간, 장소, 상태 및 상세 정보를 요약하여 표시합니다.
+ */
 import { useI18n } from 'vue-i18n'
 
 const props = defineProps({
@@ -14,7 +19,7 @@ const props = defineProps({
 
 defineEmits(['add-schedule'])
 
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 </script>
 
 <template>

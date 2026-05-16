@@ -3,17 +3,74 @@
   "exit": "Close",
   "hotspots": {
     "next": "Next Space",
-    "info": "Info"
+    "info": "Info",
+    "hall1": "[TODO][es] 제1전시장 1홀",
+    "hall2": "[TODO][es] 제1전시장 2홀",
+    "infoDesk": "[TODO][es] 안내 데스크",
+    "westGate": "[TODO][es] 서문 (West Gate)",
+    "foodZone": "[TODO][es] 식당가 (소담)",
+    "restroom": "[TODO][es] 화장실",
+    "nearby": "[TODO][es] 인접 구역",
+    "jumpTo": "[TODO][es] 이동하기"
   },
   "controls": {
     "zoomIn": "Zoom In",
     "zoomOut": "Zoom Out",
     "north": "North",
-    "vrMode": "VR Mode"
+    "vrMode": "VR Mode",
+    "vrNotSupported": "El modo VR no es compatible con este dispositivo o navegador."
   },
   "stats": {
     "title": "Space Stats",
     "occupancy": "Current Occupancy",
-    "airQuality": "Maintaining optimal air quality"
+    "airQuality": "Maintaining optimal air quality",
+    "temp": "[TODO][es] 온도",
+    "humid": "[TODO][es] 습도"
+  },
+  "hotspot": {
+    "guideBusy": "Situado a unos {min} min a pie de su posición actual. Tenga en cuenta la congestión prevista.",
+    "guideOptimal": "Situado a unos {min} min a pie de su posición actual. El movimiento es actualmente muy fluido."
+  },
+  "vr": {
+    "notSupportedToast": "Este dispositivo no soporta el modo VR.",
+    "interface": "[TODO][es] 하드웨어 인터페이스",
+    "available": "[TODO][es] VR 모드 사용 가능",
+    "noSecureContext": "[TODO][es] HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.",
+    "sessionError": "[TODO][es] VR 세션을 시작할 수 없습니다."
+  },
+  "status": {
+    "normal": "Sistema Normal",
+    "operational": "[TODO][es] 운영 상태"
+  },
+  "v2": {
+    "scanning": "[TODO][es] 공간 스캔 중...",
+    "initializing": "[TODO][es] 신경망 포인트 클라우드 초기화 중",
+    "experience": "[TODO][es] 360 경험",
+    "nearbyTerminals": "[TODO][es] 인접 터미널"
+  },
+  "live": {
+    "realtimeData": "Datos en Tiempo Real",
+    "switchToMap": "Cambiar a Vista de Mapa",
+    "spaceDensity": "Densidad Espacial en Tiempo Real",
+    "densityHigh": "Alta",
+    "densityNormal": "Normal",
+    "currentDensity": "Densidad Actual",
+    "estimatedVisitors": "Visitantes Estimados",
+    "peakTime": "Hora Pico",
+    "optimizedPathSearch": "Búsqueda de Ruta Optimizada",
+    "scanningTitle": "Mapeo de Rutas Neuronales",
+    "scanningDesc": "Optimizando el clúster espacial para {name}",
+    "liveSpatial": "Espacial en Vivo",
+    "terminalStatus": "Estado de la Terminal: Flujo Óptimo",
+    "telemetry": "Telemetría en Tiempo Real",
+    "occupancy": "Ocupación",
+    "airQuality": "Calidad del Aire",
+    "excellent": "Excelente",
+    "dashboard": "Dashboard",
+    "density": "Densidad",
+    "distance": "Distancia",
+    "eta": "Tiempo Estimado",
+    "enterSpace": "Entrar al Espacio",
+    "getDirections": "Obtener Direcciones"
   }
 }

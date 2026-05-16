@@ -1,4 +1,9 @@
 <script setup>
+/**
+ * [ 컴포넌트 상단 ]
+ * 언어 선택기 컴포넌트
+ * 애플리케이션의 전역 언어 설정을 변경하며 실시간으로 UI 언어를 갱신합니다.
+ */
 import { useLocale } from '@/composables/useLocale'
 import { logger } from '@/utils/logger'
 
@@ -58,4 +63,3 @@ const handleLocaleChange = async (localeCode) => {
 
 <style scoped>
 </style>
-

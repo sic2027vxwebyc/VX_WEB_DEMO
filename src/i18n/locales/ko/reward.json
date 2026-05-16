@@ -1,0 +1,23 @@
+{
+  "title": "기념품 수령 안내",
+  "claimLocation": "선물 수령 장소",
+  "operatingHours": "운영 시간",
+  "allStampsCollected": "20개 스탬프를 모두 모았습니다",
+  "conditionsNotMet": "아직 조건이 충족되지 않았습니다",
+  "remainingStampsCount": "부족한 스탬프 수",
+  "claimCompleted": "수령 완료 처리",
+  "congratulations": "축하합니다!",
+  "rewardGuideLine1": "20개의 모든 스탬프를 성공적으로 수집하셨습니다.",
+  "rewardGuideHighlight": "기프트 존",
+  "rewardGuideLine2": "에서 한정판 기념품을 수령하세요.",
+  "locationDetail": "제1전시장 1층 중앙 로비",
+  "locationSubDetail": "안내 데스크 바로 옆",
+  "hoursDetail": "대회 운영 시간 내 수령 가능",
+  "goToGiftZone": "기프트 존으로 길찾기",
+  "demoClaimAction": "데모: 수령 완료 처리하기",
+  "alreadyClaimed": "이미 보상을 수령하셨습니다. 감사합니다!",
+  "notCompleteYet": "아직 수집이 진행 중입니다",
+  "notCompleteDescLine1": "보상을 받으려면 20개의 스탬프를 모두 모아야 합니다.",
+  "notCompleteDescLine2": "현재 {current} / {total} 완료",
+  "continueChallenge": "챌린지 계속하기"
+}

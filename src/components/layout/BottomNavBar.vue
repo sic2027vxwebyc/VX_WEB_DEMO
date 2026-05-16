@@ -10,16 +10,26 @@ import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
 const route = useRoute()
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 
 // 메뉴 아이템 정의 (실시간 언어 변경을 위해 computed 사용)
-const navItems = computed(() => [
-  { name: t('navigation.home'), path: '/', icon: 'home' },
-  { name: t('navigation.explore'), path: '/map', icon: 'map' },
-  { name: t('navigation.events'), path: '/events', icon: 'calendar_today' },
-  { name: t('navigation.notifications'), path: '/notifications', icon: 'notifications' },
-  { name: t('navigation.settings'), path: '/settings', icon: 'settings' },
-])
+const navItems = computed(() => {
+  const items = [
+    { name: t('navigation.home'), path: '/', icon: 'home' },
+    { name: t('navigation.explore'), path: '/map', icon: 'map' },
+    { name: t('navigation.events'), path: '/events', icon: 'calendar_today' },
+    { name: t('navigation.notifications'), path: '/notifications', icon: 'notifications' },
+  ]
+
+  // V2 실험 영역에 있는 경우 스탬프 메뉴 추가
+  if (route.path.includes('/v2/')) {
+    items.push({ name: t('navigation.stamp'), path: '/v2/stamp-event', icon: 'qr_code_scanner' })
+  } else {
+    items.push({ name: t('navigation.settings'), path: '/settings', icon: 'settings' })
+  }
+
+  return items
+})
 
 const emit = defineEmits(['navigate'])
 

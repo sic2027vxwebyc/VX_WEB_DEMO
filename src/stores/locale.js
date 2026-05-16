@@ -1,3 +1,7 @@
+/**
+ * [ 로케일 스토어 ]
+ * 애플리케이션의 전역 언어 설정(다국어)을 관리하며 로컬 스토리지와 동기화합니다.
+ */
 import { defineStore } from 'pinia'
 import { ref, watch } from 'vue'
 import { logger } from '@/utils/logger'

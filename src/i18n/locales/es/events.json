@@ -1,48 +1,85 @@
 {
-  "title": "«Seamos felices para siempre» Asamblea de los Testigos de Jehová 2026",
+  "title": "Asamblea de los Testigos de Jehová de 2026: “¡Anunciemos las buenas noticias!”",
   "subtitle": "Programa de la asamblea de viernes a domingo.",
   "host": "Cuerpo Gobernante de los Testigos de Jehová",
   "filters": {
-    "all": "Todo",
+    "all": "Todos",
     "talk": "Discurso",
     "symposium": "Serie de discursos",
     "drama": "Drama bíblico",
     "song": "Canción y oración",
     "media": "Video musical",
-    "baptism": "Bautismo",
+    "baptism": "Discurso de bautismo",
     "public_talk": "Discurso bíblico público",
-    "watchtower": "Resumen de La Atalaya"
+    "watchtower": "Resumen de La Atalaya",
+    "reset": "Restablecer filtros"
   },
+  "noResults": "No hay eventos que coincidan con los criterios.",
   "days": {
     "friday": {
       "label": "Viernes",
-      "theme": "“Felices los que tienen conciencia de su necesidad espiritual” (MATEO 5:3)",
-      "illustration": "Colección de ilustraciones: escenas principales del programa del viernes. 1. Un hombre liberado de un espíritu inmundo. 2. El apóstol Mateo. 3. María Magdalena. 4. El apóstol Tomás."
+      "theme": "“Felices los que reconocen sus necesidades espirituales” (Mateo 5:3)",
+      "illustration": "Lo mejor del viernes"
     },
     "saturday": {
       "label": "Sábado",
-      "theme": "“Hay más felicidad en dar que en recibir” (HECHOS 20:35)",
-      "illustration": "Ilustración: escenas principales del programa del sábado. 1. Jesucristo. 2. La gente reunida escuchando a Jesús. Algunos fariseos están parados cerca escuchando con expresión de desprecio."
+      "theme": "“Hay más felicidad en dar que en recibir” (Hechos 20:35)",
+      "illustration": "Lo mejor del sábado"
     },
     "sunday": {
       "label": "Domingo",
-      "theme": "“Felices los ojos de ustedes porque ven y los oídos de ustedes porque oyen” (MATEO 13:16)",
-      "illustration": "Ilustración: escenas principales del programa del domingo. 1. La viuda de Naín tocando el rostro de su hijo resucitado, aún envuelto en vendas. 2. Jesús hablando a la multitud reunida fuera de las puertas de la ciudad."
+      "theme": "“Felices los ojos de ustedes porque ven y los oídos de ustedes porque oyen” (Mateo 13:16)",
+      "illustration": "Lo mejor del domingo"
     }
   },
   "status": {
-    "completed": "Finalizado",
+    "completed": "Terminado",
     "ongoing": "En curso",
-    "upcoming": "Próximamente"
+    "upcoming": "Próximo",
+    "allCompleted": "Todas las sesiones de hoy han terminado.",
+    "live": "En vivo"
+  },
+  "time": {
+    "startsIn": "Comienza en {h} h {m} min",
+    "startsInMin": "Comienza en {m} min",
+    "startsSoon": "Comienza pronto",
+    "inProgress": "En curso",
+    "ended": "Terminado"
+  },
+  "timeline": {
+    "title": "Programa de la asamblea",
+    "subtitle": "Consulte el programa en tiempo real.",
+    "details": "Detalles",
+    "noEvents": "No hay eventos programados para este día."
+  },
+  "live": {
+    "mySchedule": "Solo mi horario",
+    "startsIn": "Comienza en {h} h {m} min",
+    "startsInMin": "Comienza en {m} min",
+    "startingSoon": "Comenzará pronto",
+    "internationalDelegation": "Delegación internacional",
+    "completedMessage": "El programa de hoy ha terminado.",
+    "approaching": "Sesión inminente",
+    "approachingDesc": "El programa de {period} comienza en {min} min. Diríjase al {hall}.",
+    "realTimeSchedule": "Horario en vivo",
+    "operationalInfo": "Información operativa",
+    "operationalIntelligence": "Inteligencia operativa",
+    "nextSchedule": "Próximo evento",
+    "nearbySpaces": "Espacios cercanos",
+    "active": "Activo",
+    "expectedCrowd": "Ocupación prevista",
+    "moderate": "Moderada",
+    "occupied": "{percent}% de ocupación",
+    "allSessionsCompleted": "Se han completado todas las sesiones de hoy."
   },
   "actions": {
-    "addToMySchedule": "Añadir a mi calendario"
+    "addToMySchedule": "Añadir a mi horario"
   },
   "items": {
     "1": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Mañana",
+      "period": "AM",
       "time": "09:20",
       "displayTime": "9:20",
       "speaker": "Asamblea 2026",
@@ -54,7 +91,7 @@
     "2": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Mañana",
+      "period": "AM",
       "time": "09:30",
       "displayTime": "9:30",
       "speaker": "Asamblea 2026",
@@ -66,31 +103,31 @@
     "3": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Mañana",
+      "period": "AM",
       "time": "09:40",
       "displayTime": "9:40",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "Discurso del presidente: Vivir felices para siempre: ¿es una esperanza realista? (Salmo 16:11; 100:2)",
+      "title": "Discurso del presidente: Vida eterna y feliz: ¿es una esperanza realista? (Salmo 16:11; 100:2)",
       "category": "talk"
     },
     "4": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Mañana",
+      "period": "AM",
       "time": "10:10",
       "displayTime": "10:10",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "Drama bíblico: «Las buenas noticias según Jesús» Episodio 4: “Para esto he venido” (Mateo 4:23-25; 8:1-4, 14-17; 9:1-17; 12:1-21; Marcos 1:21–3:19; Lucas 4:31-44; 5:12–6:16; Juan 5:1-47)",
+      "title": "Drama bíblico: 'Las buenas noticias según Jesús', episodio 4: 'Para esto he venido' (Mateo 4:23-25; 8:1-4,14-17; 9:1-17; 12:1-21; Marcos 1:21–3:19; Lucas 4:31-44; 5:12–6:16; Juan 5:1-47)",
       "category": "drama"
     },
     "5": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Mañana",
+      "period": "AM",
       "time": "11:05",
       "displayTime": "11:05",
       "speaker": "Asamblea 2026",
@@ -102,17 +139,16 @@
     "6": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Mañana",
+      "period": "AM",
       "time": "11:15",
       "displayTime": "11:15",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
       "subItems": [
-        "“Él mismo tomó nuestras enfermedades” (Mateo 8:16, 17; Salmo 32:1, 2; Isaías 53:4, 5)",
-        "“No andará discutiendo” (Mateo 12:15-21; Isaías 42:1-4)",
-        "“Sin parábolas no les hablaba” (Mateo 13:34, 35; Salmo 78:2)",
-        "“Sin comparaciones no les hablaba” (Mateo 13:34, 35; Salmo 78:2)"
+        "“Él mismo cargó con nuestras enfermedades” (Mateo 8:16, 17; Salmo 32:1, 2; Isaías 53:4, 5)",
+        "“No discutirá” (Mateo 12:15-21; Isaías 42:1-4)",
+        "“Sin una comparación no les decía nada” (Mateo 13:34, 35; Salmo 78:2)"
       ],
       "title": "Serie de discursos: ¡Se cumplen las profecías sobre el Mesías!",
       "category": "symposium"
@@ -120,8 +156,8 @@
     "7": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Mañana",
-      "time": "00:10",
+      "period": "AM",
+      "time": "12:10",
       "displayTime": "12:10",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
@@ -132,7 +168,7 @@
     "8": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Tarde",
+      "period": "PM",
       "time": "13:35",
       "displayTime": "1:35",
       "speaker": "Asamblea 2026",
@@ -144,7 +180,7 @@
     "9": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Tarde",
+      "period": "PM",
       "time": "13:45",
       "displayTime": "1:45",
       "speaker": "Asamblea 2026",
@@ -156,7 +192,7 @@
     "10": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Tarde",
+      "period": "PM",
       "time": "13:50",
       "displayTime": "1:50",
       "speaker": "Asamblea 2026",
@@ -168,7 +204,7 @@
     "11": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Tarde",
+      "period": "PM",
       "time": "14:10",
       "displayTime": "2:10",
       "speaker": "Asamblea 2026",
@@ -178,13 +214,13 @@
         "Los apóstoles (Lucas 6:13, 15, 16)",
         "Muchas mujeres (Mateo 27:55; Marcos 15:40; Lucas 8:1-3)"
       ],
-      "title": "Serie de discursos: Imitemos a quienes sirvieron a Jesús",
+      "title": "Serie de discursos: Imite a quienes sirvieron a Jesús",
       "category": "symposium"
     },
     "12": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Tarde",
+      "period": "PM",
       "time": "14:50",
       "displayTime": "2:50",
       "speaker": "Asamblea 2026",
@@ -196,19 +232,19 @@
     "13": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Tarde",
+      "period": "PM",
       "time": "15:00",
       "displayTime": "3:00",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "“Felices los que lavan sus túnicas” en la sangre del Cordero (Apocalipsis 7:9, 10, 13-15; 22:14; Juan 5:24-29)",
+      "title": "“Felices los que lavan sus túnicas” en la sangre del Cordero (Apocalipsis 7:9,10,13-15; 22:14; Juan 5:24-29)",
       "category": "talk"
     },
     "14": {
       "day": "friday",
       "dayLabel": "Viernes",
-      "period": "Tarde",
+      "period": "PM",
       "time": "15:30",
       "displayTime": "3:30",
       "speaker": "Asamblea 2026",
@@ -220,7 +256,7 @@
     "15": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Mañana",
+      "period": "AM",
       "time": "09:20",
       "displayTime": "9:20",
       "speaker": "Asamblea 2026",
@@ -232,7 +268,7 @@
     "16": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Mañana",
+      "period": "AM",
       "time": "09:30",
       "displayTime": "9:30",
       "speaker": "Asamblea 2026",
@@ -244,31 +280,31 @@
     "17": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Mañana",
+      "period": "AM",
       "time": "09:40",
       "displayTime": "9:40",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "“Él comenzó a enseñarles” (Mateo 5:1, 2)",
+      "title": "“Abrió su boca y comenzó a enseñarles” (Mateo 5:1,2)",
       "category": "talk"
     },
     "18": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Mañana",
+      "period": "AM",
       "time": "09:50",
       "displayTime": "9:50",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "Drama bíblico: «Las buenas noticias según Jesús» Episodio 5: “Se quedaron asombrados de su modo de enseñar” (Mateo 5:3–7:29; Lucas 6:17-49)",
+      "title": "Drama bíblico: 'Las buenas noticias según Jesús', episodio 5: 'Se quedaron asombrados de su manera de enseñar' (Mateo 5:3–7:29; Lucas 6:17-49)",
       "category": "drama"
     },
     "19": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Mañana",
+      "period": "AM",
       "time": "10:25",
       "displayTime": "10:25",
       "speaker": "Asamblea 2026",
@@ -280,47 +316,47 @@
     "20": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Mañana",
+      "period": "AM",
       "time": "10:35",
       "displayTime": "10:35",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "¿Qué cosas pueden estorbar nuestra felicidad? (Lucas 6:24-26)",
+      "title": "[TODO][es] 무엇이 행복에 방해가 될 수 있습니까? (누가복음 6:24-26)",
       "category": "talk"
     },
     "21": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Mañana",
+      "period": "AM",
       "time": "10:50",
       "displayTime": "10:50",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "¿Sabe ver los principios que hay detrás de las leyes? (Mateo 5:17-48)",
+      "title": "¿Sabe distinguir los principios que hay tras las leyes? (Mateo 5:17-48)",
       "category": "talk"
     },
     "22": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Mañana",
+      "period": "AM",
       "time": "11:15",
       "displayTime": "11:15",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
       "subItems": [
-        "Sal y luz (Mateo 5:13-16)",
+        "La sal y la luz (Mateo 5:13-16)",
         "Plantas y animales (Génesis 1:28, 29; Mateo 6:19, 26, 28; 7:6, 10, 15, 16)"
       ],
-      "title": "Serie de discursos: Lecciones de las tierras donde estuvo Jesús",
+      "title": "Serie de discursos: Lecciones de las tierras por donde pasó Jesús",
       "category": "symposium"
     },
     "23": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Mañana",
+      "period": "AM",
       "time": "11:40",
       "displayTime": "11:40",
       "speaker": "Asamblea 2026",
@@ -332,8 +368,8 @@
     "24": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Mañana",
-      "time": "00:10",
+      "period": "AM",
+      "time": "12:10",
       "displayTime": "12:10",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
@@ -344,7 +380,7 @@
     "25": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Tarde",
+      "period": "PM",
       "time": "13:35",
       "displayTime": "1:35",
       "speaker": "Asamblea 2026",
@@ -356,7 +392,7 @@
     "26": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Tarde",
+      "period": "PM",
       "time": "13:45",
       "displayTime": "1:45",
       "speaker": "Asamblea 2026",
@@ -368,30 +404,30 @@
     "27": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Tarde",
+      "period": "PM",
       "time": "13:50",
       "displayTime": "1:50",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
       "subItems": [
-        "“Los que tienen conciencia de su necesidad espiritual” (Mateo 5:3)",
+        "“Los que reconocen sus necesidades espirituales” (Mateo 5:3)",
         "“Los que lloran” (Mateo 5:4)",
-        "“Los apacibles” (Mateo 5:5)",
+        "“Los de carácter apacible” (Mateo 5:5)",
         "“Los que tienen hambre y sed de justicia” (Mateo 5:6)",
         "“Los misericordiosos” (Mateo 5:7)",
-        "“Los que tienen un corazón puro” (Mateo 5:8)",
+        "“Los de corazón puro” (Mateo 5:8)",
         "“Los que fomentan la paz” (Mateo 5:9)",
         "“Los que han sido perseguidos por causa de la justicia” (Mateo 5:10)",
         "“Cuando la gente los insulte” (Mateo 5:11, 12)"
       ],
-      "title": "Serie de discursos: “Felices son”",
+      "title": "Serie de discursos: “Felices son...”",
       "category": "symposium"
     },
     "28": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Tarde",
+      "period": "PM",
       "time": "15:20",
       "displayTime": "3:20",
       "speaker": "Asamblea 2026",
@@ -403,31 +439,31 @@
     "29": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Tarde",
+      "period": "PM",
       "time": "15:30",
       "displayTime": "3:30",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "“¿Por qué se angustian?” (Mateo 6:19-33)",
+      "title": "“¿Por qué angustiarse?” (Mateo 6:19-33)",
       "category": "talk"
     },
     "30": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Tarde",
+      "period": "PM",
       "time": "15:55",
       "displayTime": "3:55",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "“Entren por la puerta estrecha” (Mateo 7:1-5, 12-14, 16-18, 24-27)",
+      "title": "“Entren por la puerta angosta” (Mateo 7:1-5,12-14,16-18,24-27)",
       "category": "talk"
     },
     "31": {
       "day": "saturday",
       "dayLabel": "Sábado",
-      "period": "Tarde",
+      "period": "PM",
       "time": "16:30",
       "displayTime": "4:30",
       "speaker": "Asamblea 2026",
@@ -439,7 +475,7 @@
     "32": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Mañana",
+      "period": "AM",
       "time": "09:20",
       "displayTime": "9:20",
       "speaker": "Asamblea 2026",
@@ -451,7 +487,7 @@
     "33": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Mañana",
+      "period": "AM",
       "time": "09:30",
       "displayTime": "9:30",
       "speaker": "Asamblea 2026",
@@ -463,18 +499,18 @@
     "34": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Mañana",
+      "period": "AM",
       "time": "09:40",
       "displayTime": "9:40",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
       "subItems": [
-        "Los cuatro tipos de terreno (Mateo 13:18-23)",
+        "Cuatro tipos de suelo (Mateo 13:18-23)",
         "El trigo y la cizaña (Mateo 13:24-30)",
         "El grano de mostaza (Mateo 13:31, 32)",
         "La levadura (Mateo 13:33)",
-        "La red (Mateo 13:47-50)"
+        "La red de arrastre (Mateo 13:47-50)"
       ],
       "title": "Serie de discursos: Lecciones de las parábolas de Jesús",
       "category": "symposium"
@@ -482,7 +518,7 @@
     "35": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Mañana",
+      "period": "AM",
       "time": "11:00",
       "displayTime": "11:00",
       "speaker": "Asamblea 2026",
@@ -494,7 +530,7 @@
     "36": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Mañana",
+      "period": "AM",
       "time": "11:10",
       "displayTime": "11:10",
       "speaker": "Asamblea 2026",
@@ -506,7 +542,7 @@
     "37": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Mañana",
+      "period": "AM",
       "time": "11:40",
       "displayTime": "11:40",
       "speaker": "Asamblea 2026",
@@ -518,8 +554,8 @@
     "38": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Mañana",
-      "time": "00:10",
+      "period": "AM",
+      "time": "12:10",
       "displayTime": "12:10",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
@@ -530,7 +566,7 @@
     "39": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Tarde",
+      "period": "PM",
       "time": "13:35",
       "displayTime": "1:35",
       "speaker": "Asamblea 2026",
@@ -542,7 +578,7 @@
     "40": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Tarde",
+      "period": "PM",
       "time": "13:45",
       "displayTime": "1:45",
       "speaker": "Asamblea 2026",
@@ -554,19 +590,19 @@
     "41": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Tarde",
+      "period": "PM",
       "time": "13:50",
       "displayTime": "1:50",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "Drama bíblico: «Las buenas noticias según Jesús» Episodio 6: “¿Eres tú el que tiene que venir?” (Mateo 8:5-13; 11:2–13:53; Marcos 3:19–4:34; Lucas 7:1–8:21)",
+      "title": "Drama bíblico: 'Las buenas noticias según Jesús', episodio 6: '¿Eres tú el que ha de venir?' (Mateo 8:5-13; 11:2–13:53; Marcos 3:19–4:34; Lucas 7:1–8:21)",
       "category": "drama"
     },
     "42": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Tarde",
+      "period": "PM",
       "time": "14:35",
       "displayTime": "2:35",
       "speaker": "Asamblea 2026",
@@ -578,31 +614,31 @@
     "43": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Tarde",
+      "period": "PM",
       "time": "14:45",
       "displayTime": "2:45",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "¿Qué hemos aprendido?",
+      "title": "[TODO][es] 무엇을 배웠습니까?",
       "category": "talk"
     },
     "44": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Tarde",
-      "time": "14:45",
-      "displayTime": "2:45",
+      "period": "PM",
+      "time": "14:55",
+      "displayTime": "2:55",
       "speaker": "Asamblea 2026",
       "location": "KINTEX",
       "status": "upcoming",
-      "title": "“Felices los ojos de ustedes porque ven” (Mateo 7:1-5; 13:16, 17; Lucas 6:46-49; 10:21; Juan 17:6; Santiago 1:22-25)",
+      "title": "“Felices los ojos de ustedes porque ven” (Mateo 7:1-5; 13:16,17; Lucas 6:46-49; 10:21; Juan 17:6; Santiago 1:22-25)",
       "category": "talk"
     },
     "45": {
       "day": "sunday",
       "dayLabel": "Domingo",
-      "period": "Tarde",
+      "period": "PM",
       "time": "15:45",
       "displayTime": "3:45",
       "speaker": "Asamblea 2026",

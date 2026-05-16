@@ -1,9 +1,15 @@
 <script setup>
+/**
+ * [ 페이지 컴포넌트 상단 ]
+ * 알림 허브 뷰
+ * 시스템 공지, 이벤트 업데이트, 개인화된 알림 메시지를 관리하고 표시합니다.
+ */
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
-const { t } = useI18n()
+const { t, te } = useI18n({ useScope: 'global' })
+import { resolveI18nText } from '@/utils/i18nResolver'
 const scope = 'NotificationHub'
 
 const notificationsData = ref([
@@ -35,9 +41,9 @@ const notificationsData = ref([
 const notifications = computed(() => {
   return notificationsData.value.map(noti => ({
     ...noti,
-    title: t(`notifications.items.${noti.id}.title`),
-    content: t(`notifications.items.${noti.id}.content`),
-    time: t(`notifications.items.${noti.id}.time`)
+    title: resolveI18nText({ key: `notifications.items.${noti.id}.title`, t, te, context: `noti:${noti.id}:title` }),
+    content: resolveI18nText({ key: `notifications.items.${noti.id}.content`, t, te, context: `noti:${noti.id}:content` }),
+    time: resolveI18nText({ key: `notifications.items.${noti.id}.time`, t, te, context: `noti:${noti.id}:time` })
   }))
 })
 

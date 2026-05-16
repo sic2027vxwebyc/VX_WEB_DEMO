@@ -1,19 +1,19 @@
 {
-  "intro": "About Space",
-  "area": "Total Area: {value}",
+  "intro": "Об этом месте",
+  "area": "Общая площадь: {value}",
   "actions": {
-    "startRoute": "Start Guide to this Space",
-    "share": "Share Location",
-    "open360": "Open 360 Viewer"
+    "startRoute": "Начать маршрут к этому месту",
+    "share": "Поделиться местоположением",
+    "open360": "Открыть 360-просмотр"
   },
   "stats": {
-    "title": "Live Space Metrics",
-    "occupancy": "Current Occupancy",
-    "airQuality": "Air Quality",
-    "airQualityNormal": "Within Normal Range"
+    "title": "Показатели в реальном времени",
+    "occupancy": "Текущая заполненность",
+    "airQuality": "Качество воздуха",
+    "airQualityNormal": "В пределах нормы"
   },
   "accessibility": {
-    "title": "Accessibility & Comfort"
+    "title": "Доступность и удобство"
   },
-  "nearby": "Recommended Nearby"
+  "nearby": "Рекомендуемые места рядом"
 }

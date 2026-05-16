@@ -1,0 +1,13 @@
+{
+  "detecting": "QR Code 感應中",
+  "selectTestQr": "選擇測試 QR",
+  "scanSuccess": "掃描成功",
+  "invalidQr": "非正式活動印章 QR Code",
+  "alreadyCollected": "已獲得該印章",
+  "tryNextLocation": "請移動至下一個地點",
+  "cameraPermissionRequired": "需要相機權限",
+  "scanAgain": "重新掃描",
+  "testQrList": "測試用 QR 列表",
+  "scannerGuideLine1": "[TODO][zh-TW] 실제 대회장에서는 공간 곳곳에 배치된",
+  "scannerGuideLine2": "[TODO][zh-TW] QR 코드를 카메라로 스캔해 주세요."
+}

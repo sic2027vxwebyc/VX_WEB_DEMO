@@ -10,6 +10,11 @@
   "help": "Ayuda",
   "logout": "Cerrar sesión",
   "newRoute": "Crear Nueva Ruta",
+  "stamp": "Tour de sellos",
+  "passport": "Pasaporte",
+  "quests": "Hub de Quests",
+  "badges": "Colección de Insignias",
+  "reward": "Reclamar Recompensa",
   "globalNav": "Navegación Global",
   "spatialIntelligence": "Inteligencia Espacial VX"
 }

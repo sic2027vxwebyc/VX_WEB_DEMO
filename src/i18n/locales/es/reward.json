@@ -1,0 +1,23 @@
+{
+  "title": "Guía de recogida de regalos",
+  "claimLocation": "Lugar de recogida",
+  "operatingHours": "Horario de operación",
+  "allStampsCollected": "Todos los 20 sellos reunidos",
+  "conditionsNotMet": "Condiciones no cumplidas aún",
+  "remainingStampsCount": "Sellos restantes",
+  "claimCompleted": "Recogida completada",
+  "congratulations": "¡Felicidades!",
+  "rewardGuideLine1": "[TODO][es] 20개의 모든 스탬프를 성공적으로 수집하셨습니다.",
+  "rewardGuideHighlight": "[TODO][es] 기프트 존",
+  "rewardGuideLine2": "[TODO][es] 에서 한정판 기념품을 수령하세요.",
+  "locationDetail": "Lobby Central 1F, Hall de Exhibición 1",
+  "locationSubDetail": "Al lado del mostrador de información",
+  "hoursDetail": "Disponible durante el horario del evento",
+  "goToGiftZone": "Ruta a la Gift Zone",
+  "demoClaimAction": "Demo: Marcar como recogido",
+  "alreadyClaimed": "Ya has recogido la recompensa. ¡Gracias!",
+  "notCompleteYet": "Colección en curso",
+  "notCompleteDescLine1": "[TODO][es] 보상을 받으려면 20개의 스탬프를 모두 모아야 합니다.",
+  "notCompleteDescLine2": "[TODO][es] 현재 {current} / {total} 완료",
+  "continueChallenge": "Continuar desafío"
+}

@@ -1,4 +1,9 @@
 <script setup>
+/**
+ * [ 컴포넌트 상단 ]
+ * 이벤트 필터 컴포넌트
+ * 요일별, 카테고리별 필터링 기능을 제공하며 수평 스크롤을 지원합니다.
+ */
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useDragScroll } from '@/composables/ui/useDragScroll'
@@ -12,7 +17,7 @@ const props = defineProps({
 
 const emit = defineEmits(['update:activeDay', 'update:activeCategory'])
 
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const dayFilterRef = ref(null)
 const categoryFilterRef = ref(null)
 

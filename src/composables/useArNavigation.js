@@ -66,7 +66,7 @@ export function useArNavigation() {
     // 원뿔(Cone)을 사용하여 화살표 표현
     const geometry = new THREE.ConeGeometry(0.5, 1.5, 3)
     const material = new THREE.MeshPhongMaterial({ 
-      color: 0x00dbe9, // Primary color
+      color: 0x00dbe9, // 브랜드 메인 컬러
       emissive: 0x00dbe9,
       emissiveIntensity: 0.5,
       flatShading: true

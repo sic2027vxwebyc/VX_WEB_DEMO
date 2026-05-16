@@ -3,7 +3,7 @@
   "confirmed": "Reserva Confirmada",
   "details": {
     "date": "Fecha",
-    "time": "Hora",
+    "time": "시간",
     "location": "Ubicación"
   },
   "instructions": "* La activación comienza 5 minutos antes de la entrada. Escanee el código QR en el lector de la entrada.",

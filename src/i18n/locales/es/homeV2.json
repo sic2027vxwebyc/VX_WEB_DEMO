@@ -1,0 +1,91 @@
+{
+  "liveOperating": "EN OPERACIÓN LIVE",
+  "liveOperatingFeed": "Feed de Operación en Vivo",
+  "hallBMain": "Hall B (Principal)",
+  "congestion": "Congestión",
+  "currentHall": "Hall actual",
+  "currentlyIn": "En curso",
+  "currentProgram": "Programa actual",
+  "nextProgram": "Próximo programa",
+  "noCurrentProgram": "No hay programas en curso.",
+  "nextSchedule": "Siguiente horario",
+  "congestionLevel": "Nivel de congestión",
+  "recommendedEntrance": "Entrada recomendada",
+  "startRouting": "Iniciar ruta",
+  "findSeat": "Buscar asiento",
+  "todaySchedule": "Horario de hoy",
+  "nearbyFacilities": "Instalaciones cercanas",
+  "emergencyNotice": "Aviso de emergencia",
+  "viewAll": "Ver todo",
+  "situationalAwareness": "Situational Awareness",
+  "operationalIntelligence": "Inteligencia operativa",
+  "nearbySpaces": "Espacios cercanos",
+  "popularSpaces": "Espacios populares",
+  "optimalEntrance": "Entrada óptima: {name}",
+  "optimalEntranceGate": "GATE {gate} ({name})",
+  "entranceGuide": "Actualmente hay mucha gente en la Puerta Norte. Usar {name} permite entrar de inmediato sin esperar.",
+  "ticker": {
+    "emergency": "High congestion in Hall C. We recommend using the West Gate.",
+    "info": "Interpretation equipment battery replacement is available at the 1st-floor info desk.",
+    "status": "오후 식사 공간 운영이 시작되었습니다."
+  },
+  "nextProgramTitle": "Eternal Happiness (Drama Part 2)",
+  "connectionSecure": "Connected",
+  "lastSync": "Last sync: {time}",
+  "phases": {
+    "morning": {
+      "greeting": "Good morning!",
+      "message": "Morning programs are actively in progress."
+    },
+    "lunch": {
+      "greeting": "Enjoy your lunch!",
+      "message": "We'll guide you to nearby dining and rest areas."
+    },
+    "afternoon": {
+      "greeting": "Check the afternoon schedule.",
+      "message": "All sessions are operating normally."
+    },
+    "evening": {
+      "greeting": "Good job today!",
+      "message": "Check traffic information for a safe return home."
+    }
+  },
+  "navigation": {
+    "startNow": "Start Navigating\nto Destination",
+    "optimizedPath": "Start Optimized Routing",
+    "nextProgram": "Next Program",
+    "remaining": "mins left",
+    "viewFullSchedule": "View Full Schedule"
+  },
+  "gamification": {
+    "title": "Spatial Stamp Tour Challenge",
+    "description": "Explore the convention center, collect 20 stamps, and receive a special gift.",
+    "tag": "Convention Gamification"
+  },
+  "quickActions": {
+    "findSeat": "Find Seat",
+    "nearby": "Nearby",
+    "language": "Language",
+    "explore": "Explore"
+  },
+  "status": {
+    "majorAreas": "Major Areas Status",
+    "liveStatus": "Live Status",
+    "operationalGuide": "Operational Guide",
+    "diningOpen": "Dining area is now open. We recommend using the {hall} instead of the congested Hall 1.",
+    "hall3Dining": "Hall 3 Dining",
+    "viewAllNotices": "View All Notices",
+    "low": "[TODO][es] 여유",
+    "moderate": "[TODO][es] 보통",
+    "high": "[TODO][es] 혼잡"
+  },
+  "messages": {
+    "beforeConvention": "La Asamblea Internacional comienza mañana.\nDescanse bien y nos vemos mañana.",
+    "beforeTodayFirstSession": "El programa de hoy comenzará pronto.\nPrepárese con calma.",
+    "betweenSessions": "Por favor, tome un breve descanso antes de la próxima sesión.",
+    "fridayEnded": "Las sesiones de hoy han concluido.\nHasta mañana.",
+    "saturdayEnded": "Las sesiones de hoy han concluido.\nNos vemos mañana para el último día.",
+    "conventionFinished": "Gracias por asistir a la Asamblea Internacional de Seúl 2026.\nEsperamos que hayan disfrutado del programa.",
+    "startingSoon": "Comenzará pronto."
+  }
+}

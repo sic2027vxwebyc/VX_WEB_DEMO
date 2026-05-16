@@ -1,161 +1,183 @@
 {
-  "hall-1": {
+  "hall1": {
     "name": "第1展覽館 1號廳",
+    "shortName": "1號廳",
+    "description": "KINTEX 第1展覽館的主廳之一,適合舉辦大型展覽和活動。",
     "zone": "第1展覽館 1樓",
-    "description": "KINTEX 第1展覽館的主要展廳之一，適合大規模展覽及活動。",
-    "tags": [
-      "大型展覽",
-      "5 ton/㎡"
-    ]
+    "location": "第1展覽館"
   },
-  "hall-2": {
+  "hall2": {
     "name": "第1展覽館 2號廳",
+    "shortName": "2號廳",
+    "description": "舉辦各類產業展覽和會議的多功能展示空間。",
     "zone": "第1展覽館 1樓",
-    "description": "舉辦各種產業展覽會和會議的多功能展覽空間。",
-    "tags": [
-      "產業展覽",
-      "5 ton/㎡"
-    ]
+    "location": "第1展覽館"
   },
-  "hall-3": {
+  "hall3": {
     "name": "第1展覽館 3號廳",
+    "shortName": "3號廳",
+    "description": "擁有極高挑空的展示廳,可安裝雙層攤位。",
     "zone": "第1展覽館 1樓",
-    "description": "擁有極高挑高的展覽廳，可安裝雙層攤位。",
-    "tags": [
-      "挑高空間",
-      "會議中心"
-    ]
+    "location": "第1展覽館"
   },
-  "hall-4": {
+  "hall4": {
     "name": "第1展覽館 4號廳",
+    "shortName": "4號廳",
+    "description": "地板承重力強,適合展示重型機具的空間。",
     "zone": "第1展覽館 1樓",
-    "description": "具備堅固地面負載能力的空間，可展出重型設備。",
-    "tags": [
-      "重型設備展覽",
-      "無柱空間"
-    ]
+    "location": "第1展覽館"
   },
-  "hall-5": {
+  "hall5": {
     "name": "第1展覽館 5號廳",
+    "shortName": "5號廳",
+    "description": "第1展覽館的最後一個廳,可與 4 號廳連通進行大規模整合展覽。",
     "zone": "第1展覽館 1樓",
-    "description": "第1展覽館的最後一個展廳，可與 4 號廳連通進行大規模整合展覽。",
-    "tags": [
-      "整合展覽",
-      "活動"
-    ]
+    "location": "第1展覽館"
   },
-  "hall-6": {
+  "hall6": {
     "name": "第2展覽館 6號廳",
+    "shortName": "6號廳",
+    "description": "第2展覽館的起點廳,適合中小型專業展覽。",
     "zone": "第2展覽館 1樓",
-    "description": "第2展覽館的起點展廳，適合中小規模專業展覽會。",
-    "tags": [
-      "專業展覽",
-      "2 ton/㎡"
-    ]
+    "location": "第2展覽館"
   },
-  "hall-7": {
+  "hall7": {
     "name": "第2展覽館 7號廳",
+    "shortName": "7號廳",
+    "description": "第2展覽館的大型廳,提供現代化的設施與寬敞空間。",
     "zone": "第2展覽館 1樓",
-    "description": "第2展覽館的大型展廳，提供現代化設施與寬敞空間。",
-    "tags": [
-      "大型會議",
-      "最新設施"
-    ]
+    "location": "第2展覽館"
   },
-  "hall-8": {
+  "hall8": {
     "name": "第2展覽館 8號廳",
+    "shortName": "8號廳",
+    "description": "頻繁舉辦國際性展覽與企業活動的空間。",
     "zone": "第2展覽館 1樓",
-    "description": "頻繁舉辦國際性展覽會和企業活動的空間。",
-    "tags": [
-      "國際會議",
-      "IT 展覽"
-    ]
+    "location": "第2展覽館"
   },
-  "hall-9": {
+  "hall9": {
     "name": "第2展覽館 9號廳",
+    "shortName": "9號廳",
+    "description": "KINTEX 最大的單一廳之一,針對超大型活動進行了優化。",
     "zone": "第2展覽館 1樓",
-    "description": "KINTEX 最大的單一展廳之一，優化用於超大型活動。",
-    "tags": [
-      "超大型展廳",
-      "可辦演唱會"
-    ]
+    "location": "第2展覽館"
   },
-  "hall-10": {
+  "hall10": {
     "name": "第2展覽館 10號廳",
+    "shortName": "10號廳",
+    "description": "集結最新建築技術的展覽廳,與 9 號廳共同支援重量級活動。",
     "zone": "第2展覽館 1樓",
-    "description": "集約最新建築技術的展覽場，可與 9 號廳共同支援巨型活動。",
-    "tags": [
-      "智慧展覽場",
-      "複合文化"
-    ]
+    "location": "第2展覽館"
   },
-  "f-sodam": {
-    "name": "素淡 (韓式料理)",
-    "zone": "第1展覽館 1樓",
+  "fSodam": {
+    "name": "Sodam (韓式料理)",
+    "shortName": "Sodam",
     "description": "提供精緻韓式套餐的 KINTEX 代表性韓式餐廳。",
-    "tags": [
-      "韓式料理",
-      "家庭聚餐"
-    ]
+    "zone": "餐飲區",
+    "location": "第1展覽館 1樓"
   },
-  "f-benvenuto": {
+  "fBenvenuto": {
     "name": "Caffe Bene",
-    "zone": "第1展覽館 2樓",
-    "description": "提供可俯瞰展覽場景觀的舒適休息空間。",
-    "tags": [
-      "咖啡",
-      "WiFi"
-    ]
+    "shortName": "Caffe Bene",
+    "description": "可俯瞰展場、提供舒適休息空間的咖啡廳。",
+    "zone": "餐飲區",
+    "location": "第1展覽館 2樓"
   },
-  "f-myeongdong": {
+  "fMyeongdong": {
     "name": "明洞刀削麵",
-    "zone": "第2展覽館 1樓",
+    "shortName": "明洞刀削麵",
     "description": "以濃郁湯頭和 Q 彈麵條聞名的刀削麵專賣店。",
-    "tags": [
-      "刀削麵",
-      "快速用餐"
-    ]
+    "zone": "餐飲區",
+    "location": "第2展覽館 1樓"
   },
-  "c-cu1": {
+  "cCu1": {
     "name": "CU 便利商店",
-    "zone": "第1展覽館 2號廳前",
-    "description": "為參觀者準備了各種飲料、零食及便利物品。",
-    "tags": [
-      "24小時",
-      "現金 ATM"
-    ]
+    "shortName": "CU",
+    "description": "為遊客準備了各種飲料、點心及便利物品。",
+    "zone": "便利設施",
+    "location": "第1展覽館 2號廳前"
   },
-  "c-press": {
+  "cPress": {
     "name": "新聞中心",
-    "zone": "第1展覽館 2樓",
-    "description": "供媒體人士撰寫稿件及進行簡報的空間。",
-    "tags": [
-      "媒體",
-      "商務"
-    ]
+    "shortName": "新聞中心",
+    "description": "為媒體工作者提供撰稿與簡報的空間。",
+    "zone": "營運支援",
+    "location": "第1展覽館 2樓"
   },
-  "h-sonocalm": {
+  "hSonocalm": {
     "name": "Sono Calm 高陽",
-    "zone": "高陽市 璋項洞 (車程 10 分鐘)",
-    "description": "鄰近 KINTEX 的尊貴五星級飯店，提供最佳休憩環境。",
-    "tags": [
-      "五星級",
-      "接駁車運行"
-    ]
+    "shortName": "Sono Calm",
+    "description": "位於 KINTEX 附近的高級五星級酒店,提供最佳休息體驗。",
+    "zone": "外部連繫",
+    "location": "獐項洞"
   },
-  "h-gloucester": {
+  "hGloucester": {
     "name": "Gloucester Hotel KINTEX",
-    "zone": "高陽市 大化洞 (步行 3 分鐘)",
-    "description": "位於 KINTEX 旁邊，為商務訪客提供最佳便捷性。",
-    "tags": [
-      "三星級",
-      "極近距離"
-    ]
+    "shortName": "Gloucester",
+    "description": "緊鄰 KINTEX,為商務旅客提供最佳的便利性。",
+    "zone": "外部連繫",
+    "location": "大化洞"
+  },
+  "exitWest": {
+    "name": "西門",
+    "shortName": "西出口",
+    "description": "第一展覽館的西側入口。",
+    "zone": "出口",
+    "location": "西側門"
+  },
+  "exitEast": {
+    "name": "東門",
+    "shortName": "東出口",
+    "description": "適合前往東側方向的出口。",
+    "zone": "出口",
+    "location": "東側門"
+  },
+  "toilet1": {
+    "name": "洗手間 1",
+    "shortName": "洗手間",
+    "description": "離目前位置最近的洗手間。",
+    "zone": "便利設施",
+    "location": "中央通道"
+  },
+  "toilet2": {
+    "name": "洗手間 2",
+    "shortName": "洗手間",
+    "description": "人流較少的輔助洗手間。",
+    "zone": "便利設施",
+    "location": "外圍通道"
+  },
+  "medical": {
+    "name": "醫務室",
+    "shortName": "醫務室",
+    "description": "在緊急情況或健康問題時可獲得幫助的空間。",
+    "zone": "安全支援",
+    "location": "營運支援區"
+  },
+  "welcomeZone": {
+    "name": "歡迎區",
+    "shortName": "歡迎",
+    "description": "宣告大會開始的歡迎空間。",
+    "zone": "入口",
+    "location": "入口周邊"
+  },
+  "translationCenter": {
+    "name": "翻譯支援中心",
+    "shortName": "翻譯",
+    "description": "支援多國語言翻譯及導引的中心。",
+    "zone": "語言支援",
+    "location": "中央導覽區"
+  },
+  "giftZone": {
+    "name": "紀念品贈送區域",
+    "shortName": "禮物",
+    "description": "領取活動完成獎勵的地方。",
+    "zone": "活動",
+    "location": "營運服務台周邊"
   },
   "congestion": {
     "low": "低",
-    "moderate": "普通",
+    "moderate": "中",
     "high": "高",
-    "easy": "充裕"
+    "easy": "順暢"
   }
 }

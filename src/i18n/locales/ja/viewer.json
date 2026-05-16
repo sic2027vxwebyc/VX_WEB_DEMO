@@ -3,17 +3,74 @@
   "exit": "Close",
   "hotspots": {
     "next": "Next Space",
-    "info": "Info"
+    "info": "Info",
+    "hall1": "[TODO][ja] 제1전시장 1홀",
+    "hall2": "[TODO][ja] 제1전시장 2홀",
+    "infoDesk": "[TODO][ja] 안내 데스크",
+    "westGate": "[TODO][ja] 서문 (West Gate)",
+    "foodZone": "[TODO][ja] 식당가 (소담)",
+    "restroom": "[TODO][ja] 화장실",
+    "nearby": "[TODO][ja] 인접 구역",
+    "jumpTo": "[TODO][ja] 이동하기"
   },
   "controls": {
     "zoomIn": "Zoom In",
     "zoomOut": "Zoom Out",
     "north": "North",
-    "vrMode": "VR Mode"
+    "vrMode": "VR Mode",
+    "vrNotSupported": "このデバイスまたはブラウザではVRモードをサポートしていません。"
   },
   "stats": {
     "title": "Space Stats",
     "occupancy": "Current Occupancy",
-    "airQuality": "Maintaining optimal air quality"
+    "airQuality": "Maintaining optimal air quality",
+    "temp": "[TODO][ja] 온도",
+    "humid": "[TODO][ja] 습도"
+  },
+  "hotspot": {
+    "guideBusy": "現在地から徒歩約 {min}分の距離にあります。混雑が予想されますのでご注意ください。",
+    "guideOptimal": "現在地から徒歩約 {min}分の距離にあります。移動は非常にスムーズな状態です。"
+  },
+  "vr": {
+    "notSupportedToast": "このデバイスはVRモードをサポートしていません。",
+    "interface": "[TODO][ja] 하드웨어 인터페이스",
+    "available": "[TODO][ja] VR 모드 사용 가능",
+    "noSecureContext": "[TODO][ja] HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.",
+    "sessionError": "[TODO][ja] VR 세션을 시작할 수 없습니다."
+  },
+  "status": {
+    "normal": "システム正常",
+    "operational": "[TODO][ja] 운영 상태"
+  },
+  "v2": {
+    "scanning": "[TODO][ja] 공간 스캔 중...",
+    "initializing": "[TODO][ja] 신경망 포인트 클라우드 초기화 중",
+    "experience": "[TODO][ja] 360 경험",
+    "nearbyTerminals": "[TODO][ja] 인접 터미널"
+  },
+  "live": {
+    "realtimeData": "リアルタイムデータ",
+    "switchToMap": "地図ビューに切り替え",
+    "spaceDensity": "リアルタイム空間密度",
+    "densityHigh": "高い",
+    "densityNormal": "普通",
+    "currentDensity": "現在の密度",
+    "estimatedVisitors": "予想訪問者数",
+    "peakTime": "ピーク時間",
+    "optimizedPathSearch": "最適ルート探索",
+    "scanningTitle": "ニューラルパスマッピング",
+    "scanningDesc": "{name} のための空間クラスターを最適化中",
+    "liveSpatial": "ライブ空間",
+    "terminalStatus": "ターミナル状態: 最適フロー",
+    "telemetry": "リアルタイムテレメトリ",
+    "occupancy": "占有率",
+    "airQuality": "空気質",
+    "excellent": "最上",
+    "dashboard": "ダッシュボード",
+    "density": "密度",
+    "distance": "距離",
+    "eta": "予想時間",
+    "enterSpace": "空間入場",
+    "getDirections": "道順を表示"
   }
 }

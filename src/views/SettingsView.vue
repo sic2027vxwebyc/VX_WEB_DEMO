@@ -1,4 +1,9 @@
 <script setup>
+/**
+ * [ 페이지 컴포넌트 상단 ]
+ * 설정 화면 뷰
+ * 테마 변경, 텍스트 크기 조절, 캐시 삭제 등 사용자 환경설정을 관리합니다.
+ */
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useThemeStore } from '@/stores/theme'
@@ -6,7 +11,7 @@ import { logger } from '@/utils/logger'
 import LanguageSelector from '@/components/settings/LanguageSelector.vue'
 
 const scope = 'SettingsView'
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const themeStore = useThemeStore()
 
 const settings = ref({
@@ -21,7 +26,7 @@ const settings = ref({
   }
 })
 
-// Add computed for dynamic data like alert message
+// 알림 메시지 등 동적 데이터 처리를 위한 computed 속성
 const cacheClearedMessage = computed(() => t('settings.data.cacheCleared'))
 
 const toggleTheme = () => {

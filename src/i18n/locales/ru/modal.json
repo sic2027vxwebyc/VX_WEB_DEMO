@@ -1,18 +1,18 @@
 {
   "confirm": {
-    "title": "Confirm",
-    "message": "Do you want to continue?"
+    "title": "Подтверждение",
+    "message": "Вы хотите продолжить?"
   },
   "cancel": {
-    "title": "Cancel",
-    "message": "Do you want to cancel the operation?"
+    "title": "Отмена",
+    "message": "Вы хотите отменить операцию?"
   },
   "error": {
-    "title": "Error",
-    "message": "Something went wrong. Please try again."
+    "title": "Ошибка",
+    "message": "Что-то пошло не так. Пожалуйста, попробуйте еще раз."
   },
   "success": {
-    "title": "Success",
-    "message": "Operation completed successfully."
+    "title": "Успех",
+    "message": "Операция успешно завершена."
   }
 }

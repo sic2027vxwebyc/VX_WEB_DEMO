@@ -1,0 +1,102 @@
+{
+  "stampTour": "Тур за марками",
+  "challengeTitle": "Челлендж: Исследование конгресса",
+  "challengeDesc": "Сканируйте QR-коды по всему выставочному центру и заполните свой паспорт.",
+  "startExploration": "Начать исследование",
+  "scanQr": "Сканировать QR",
+  "viewPassport": "Мой паспорт",
+  "viewBadges": "Мои значки",
+  "currentProgress": "Текущий прогресс",
+  "recentStamps": "Последние марки",
+  "nextRecommended": "Рекомендуемое место",
+  "completed": "Завершено",
+  "remaining": "Осталось",
+  "allCompleted": "Все собрано",
+  "remainingStamps": "Оставшиеся марки",
+  "resetProgress": "Сбросить прогресс демо",
+  "totalProgress": "Общий прогресс",
+  "exploreSpaces": "Исследовать пространства",
+  "collectedToday": "Собрано сегодня",
+  "items": {
+    "hall1": {
+      "name": "[TODO][ru] 1홀",
+      "description": "[TODO][ru] 메인 컨벤션 홀"
+    },
+    "hall2": {
+      "name": "[TODO][ru] 2홀",
+      "description": "[TODO][ru] 전시 구역 B"
+    },
+    "hall3": {
+      "name": "[TODO][ru] 3홀",
+      "description": "[TODO][ru] 이벤트 및 세미나"
+    },
+    "hall4": {
+      "name": "[TODO][ru] 4홀",
+      "description": "[TODO][ru] 테크 전시 존"
+    },
+    "hall5": {
+      "name": "[TODO][ru] 5홀",
+      "description": "[TODO][ru] 글로벌 라운지"
+    },
+    "fSodam": {
+      "name": "[TODO][ru] 식당가",
+      "description": "[TODO][ru] 전통 한식 식당가"
+    },
+    "cCu1": {
+      "name": "[TODO][ru] 안내소",
+      "description": "[TODO][ru] 안내 및 배터리 지원"
+    },
+    "hall6": {
+      "name": "[TODO][ru] 6홀",
+      "description": "[TODO][ru] 고급 세미나 구역"
+    },
+    "hall7": {
+      "name": "[TODO][ru] 7홀",
+      "description": "[TODO][ru] 디지털 체험 존"
+    },
+    "hall8": {
+      "name": "[TODO][ru] 8홀",
+      "description": "[TODO][ru] 예술 및 문화 존"
+    },
+    "hall9": {
+      "name": "[TODO][ru] 9홀",
+      "description": "[TODO][ru] 메인 오디토리움"
+    },
+    "hall10": {
+      "name": "[TODO][ru] 10홀",
+      "description": "[TODO][ru] 폐막식 존"
+    },
+    "fMyeongdong": {
+      "name": "[TODO][ru] 2F 식당가",
+      "description": "[TODO][ru] 세계 음식 푸드코트"
+    },
+    "exitWest": {
+      "name": "[TODO][ru] 서문",
+      "description": "[TODO][ru] 주차장 연결 출구"
+    },
+    "toilet1": {
+      "name": "[TODO][ru] 중앙 화장실",
+      "description": "[TODO][ru] 깨끗한 편의 시설"
+    },
+    "medical": {
+      "name": "Медпункт",
+      "description": "Центр неотложной помощи"
+    },
+    "giftZone": {
+      "name": "[TODO][ru] 기프트 존",
+      "description": "[TODO][ru] 보상 수령 장소"
+    },
+    "translationCenter": {
+      "name": "[TODO][ru] 통역 지원 센터",
+      "description": "[TODO][ru] 다국어 지원 허브"
+    },
+    "welcomeZone": {
+      "name": "[TODO][ru] 웰컴 존",
+      "description": "[TODO][ru] 대회 시작 지점"
+    },
+    "experienceZone": {
+      "name": "[TODO][ru] 체험 존",
+      "description": "[TODO][ru] 인터랙티브 공간 VR"
+    }
+  }
+}

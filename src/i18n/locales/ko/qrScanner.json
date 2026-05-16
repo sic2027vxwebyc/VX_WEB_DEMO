@@ -1,0 +1,13 @@
+{
+  "detecting": "QR 감지 중",
+  "selectTestQr": "테스트 QR 선택",
+  "scanSuccess": "스캔 성공",
+  "invalidQr": "공식 스탬프 QR이 아닙니다",
+  "alreadyCollected": "이미 획득한 스탬프입니다",
+  "tryNextLocation": "다음 장소로 이동해 보세요",
+  "cameraPermissionRequired": "카메라 권한이 필요합니다",
+  "scanAgain": "다시 스캔하기",
+  "testQrList": "테스트용 QR 목록",
+  "scannerGuideLine1": "실제 대회장에서는 공간 곳곳에 배치된",
+  "scannerGuideLine2": "QR 코드를 카메라로 스캔해 주세요."
+}

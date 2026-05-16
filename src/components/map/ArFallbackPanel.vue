@@ -16,7 +16,7 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['useMap', 'useQr'])
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 
 const scope = 'ArFallback'
 

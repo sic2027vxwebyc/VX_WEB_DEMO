@@ -14,7 +14,7 @@ import ArFallbackPanel from '@/components/map/ArFallbackPanel.vue'
 const route = useRoute()
 const router = useRouter()
 const spacesStore = useSpacesStore()
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const scope = 'RouteGuide'
 
 // AR 폴백 여부 확인

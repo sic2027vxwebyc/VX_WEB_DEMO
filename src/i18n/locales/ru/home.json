@@ -1,35 +1,35 @@
 {
   "hero": {
-    "active": "Space Hub Active",
+    "active": "Пространственный хаб активен",
     "title": "Региональный конгресс 2026 года «Вечное счастье»",
     "subtitle": "Сердечно приглашаем вас посетить трехдневный конгресс, который в этом году проведут Свидетели Иеговы.",
-    "masterMap": "Master the Map",
+    "masterMap": "Освойте карту",
     "viewAllFacilities": "Посмотреть все объекты",
     "altText": "Вид на выставочный центр KINTEX"
   },
   "stats": {
-    "liveData": "Live Data",
-    "eventInProgress": "Event in Progress",
-    "occupancy": "Current Occupancy",
-    "climate": "Temperature",
-    "waitTime": "Estimated Wait",
-    "airQuality": "Air Quality",
-    "qualityOptimal": "Optimal",
-    "mainEvent": "Main Event: \"{event}\" in progress"
+    "liveData": "Данные в реальном времени",
+    "eventInProgress": "Мероприятие идет",
+    "occupancy": "Текущая заполненность",
+    "climate": "Температура",
+    "waitTime": "Ожидаемое время",
+    "airQuality": "Качество воздуха",
+    "qualityOptimal": "Оптимальное",
+    "mainEvent": "Главное событие: идет «{event}»"
   },
   "congestedZones": {
-    "title": "Zone Congestion",
-    "desc": "Tracking real-time density of major service zones.",
-    "findEmptySpace": "Find Empty Space"
+    "title": "Загруженность зон",
+    "desc": "Отслеживание плотности основных сервисных зон в реальном времени.",
+    "findEmptySpace": "Найти свободное место"
   },
   "location": {
-    "title": "My Current Location",
-    "accuracy": "Accuracy: ± {accuracy}",
-    "current": "Lobby, Hall 2"
+    "title": "Мое текущее местоположение",
+    "accuracy": "Точность: ± {accuracy}",
+    "current": "Лобби, Зал 2"
   },
   "system": {
-    "activeBeacons": "Active Beacons",
-    "networkStatus": "Network Status",
-    "liveUsers": "Live Users"
+    "activeBeacons": "Активные маячки",
+    "networkStatus": "Статус сети",
+    "liveUsers": "Пользователи онлайн"
   }
 }

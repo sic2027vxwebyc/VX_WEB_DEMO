@@ -16,7 +16,7 @@ import { getWebXRDiagnostics } from '@/utils/webxrDiagnostics'
 const route = useRoute()
 const router = useRouter()
 const spacesStore = useSpacesStore()
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const scope = 'Viewer360'
 
 // DOM 참조
@@ -153,8 +153,8 @@ const toggleVr = async () => {
   
   if (!isVrSupported.value) {
     let message = t('viewer.controls.vrNotSupported')
-    if (!diagnostics.value?.isSecureContext) {
-      message = 'HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.'
+    if (diagnostics.value && !diagnostics.value.isSecureContext) {
+      message = t('viewer.vr.noSecureContext')
     }
     
     vrErrorMessage.value = message
@@ -169,7 +169,7 @@ const toggleVr = async () => {
     logger.info(scope, 'VR 세션 시작 성공')
   } catch (error) {
     logger.error(scope, 'VR 세션 시작 실패:', error)
-    vrErrorMessage.value = 'VR 세션을 시작할 수 없습니다.'
+    vrErrorMessage.value = t('viewer.vr.sessionError')
     setTimeout(() => { vrErrorMessage.value = '' }, 3000)
   }
 }
@@ -222,7 +222,7 @@ const exitViewer = () => {
       <div class="flex items-center gap-md">
         <span class="font-headline-md text-headline-md font-bold text-primary tracking-tight">VX Web</span>
         <div class="h-6 w-[1px] bg-outline-variant/30 mx-2"></div>
-        <span class="font-label-lg text-label-lg text-on-surface-variant uppercase tracking-widest">{{ spaceData.name }} 360</span>
+        <span class="font-label-lg text-label-lg text-on-surface-variant uppercase tracking-widest">{{ spaceData.nameKey ? t(spaceData.nameKey) : spaceData.name }} 360</span>
       </div>
       
       <button 

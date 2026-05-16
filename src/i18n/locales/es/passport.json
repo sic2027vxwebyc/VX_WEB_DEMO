@@ -1,0 +1,21 @@
+{
+  "title": "Pasaporte de la Convención",
+  "subtitle": "Mi registro de exploración",
+  "journeyHistory": "Journey History",
+  "visitedSpaces": "Espacios visitados",
+  "collectedStamps": "Sellos obtenidos",
+  "earnedBadges": "Insignias obtenidas",
+  "completedQuests": "Misiones completadas",
+  "rewardAvailable": "Recompensa disponible",
+  "rewardClaimed": "Recompensa reclamada",
+  "goToGiftZone": "Ir a la Gift Zone",
+  "todayFootprint": "Huella de hoy",
+  "visitRecord": "Visita a {name}",
+  "noVisitsYet": "Aún no has visitado ningún lugar.",
+  "challengeComplete": "¡Felicidades! Desafío completado",
+  "challengeCompleteDesc": "Has reunido todos los sellos. Recoge tu regalo en la Gift Zone.",
+  "claimReward": "Reclamar recompensa",
+  "mockUser": "MOCK USER",
+  "userId": "ID: #VX2026-9901",
+  "stampCollection": "Colección de Sellos"
+}

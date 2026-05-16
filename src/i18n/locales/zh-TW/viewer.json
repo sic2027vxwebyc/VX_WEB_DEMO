@@ -1,19 +1,76 @@
 {
-  "title": "360 Viewer",
-  "exit": "Close",
+  "title": "360 預覽",
+  "exit": "關閉",
   "hotspots": {
-    "next": "Next Space",
-    "info": "Info"
+    "next": "下個空間",
+    "info": "資訊",
+    "hall1": "[TODO][zh-TW] 제1전시장 1홀",
+    "hall2": "[TODO][zh-TW] 제1전시장 2홀",
+    "infoDesk": "[TODO][zh-TW] 안내 데스크",
+    "westGate": "[TODO][zh-TW] 서문 (West Gate)",
+    "foodZone": "[TODO][zh-TW] 식당가 (소담)",
+    "restroom": "[TODO][zh-TW] 화장실",
+    "nearby": "[TODO][zh-TW] 인접 구역",
+    "jumpTo": "[TODO][zh-TW] 이동하기"
   },
   "controls": {
-    "zoomIn": "Zoom In",
-    "zoomOut": "Zoom Out",
-    "north": "North",
-    "vrMode": "VR Mode"
+    "zoomIn": "放大",
+    "zoomOut": "縮小",
+    "north": "北",
+    "vrMode": "VR 模式",
+    "vrNotSupported": "此裝置或瀏覽器不支援 VR 模式。"
   },
   "stats": {
-    "title": "Space Stats",
-    "occupancy": "Current Occupancy",
-    "airQuality": "Maintaining optimal air quality"
+    "title": "空間統計",
+    "occupancy": "目前人數",
+    "airQuality": "維持最佳空氣品質中",
+    "temp": "[TODO][zh-TW] 온도",
+    "humid": "[TODO][zh-TW] 습도"
+  },
+  "hotspot": {
+    "guideBusy": "距離目前位置步行約 {min} 分鐘。預計人潮擁擠，請注意。",
+    "guideOptimal": "距離目前位置步行約 {min} 分鐘。目前移動動線非常順暢。"
+  },
+  "vr": {
+    "notSupportedToast": "此設備不支援 VR 模式。",
+    "interface": "[TODO][zh-TW] 하드웨어 인터페이스",
+    "available": "[TODO][zh-TW] VR 모드 사용 가능",
+    "noSecureContext": "[TODO][zh-TW] HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.",
+    "sessionError": "[TODO][zh-TW] VR 세션을 시작할 수 없습니다."
+  },
+  "status": {
+    "normal": "系統正常",
+    "operational": "[TODO][zh-TW] 운영 상태"
+  },
+  "v2": {
+    "scanning": "[TODO][zh-TW] 공간 스캔 중...",
+    "initializing": "[TODO][zh-TW] 신경망 포인트 클라우드 초기화 중",
+    "experience": "[TODO][zh-TW] 360 경험",
+    "nearbyTerminals": "[TODO][zh-TW] 인접 터미널"
+  },
+  "live": {
+    "realtimeData": "即時數據",
+    "switchToMap": "切換至地圖檢視",
+    "spaceDensity": "即時空間密度",
+    "densityHigh": "高",
+    "densityNormal": "普通",
+    "currentDensity": "目前密度",
+    "estimatedVisitors": "預計訪客數",
+    "peakTime": "尖峰時間",
+    "optimizedPathSearch": "最佳路徑搜尋",
+    "scanningTitle": "神經網路路徑對映",
+    "scanningDesc": "正在為 {name} 優化空間群集",
+    "liveSpatial": "實況空間",
+    "terminalStatus": "終端狀態: 最佳流向",
+    "telemetry": "即時遙測",
+    "occupancy": "佔用率",
+    "airQuality": "空氣品質",
+    "excellent": "極佳",
+    "dashboard": "儀表板",
+    "density": "密度",
+    "distance": "距離",
+    "eta": "預計時間",
+    "enterSpace": "進入空間",
+    "getDirections": "導航"
   }
 }

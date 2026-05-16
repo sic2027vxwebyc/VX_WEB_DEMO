@@ -1,0 +1,21 @@
+{
+  "title": "Convention Passport",
+  "subtitle": "나의 탐험 기록",
+  "journeyHistory": "Journey History",
+  "visitedSpaces": "방문한 공간",
+  "collectedStamps": "획득한 스탬프",
+  "earnedBadges": "획득한 배지",
+  "completedQuests": "완료한 Quest",
+  "rewardAvailable": "보상 수령 가능",
+  "rewardClaimed": "보상 수령 완료",
+  "goToGiftZone": "Gift Zone으로 이동",
+  "todayFootprint": "오늘의 발자취",
+  "visitRecord": "{name} 방문",
+  "noVisitsYet": "아직 방문한 장소가 없습니다.",
+  "challengeComplete": "축하합니다! 챌린지 완료",
+  "challengeCompleteDesc": "모든 스탬프를 모았습니다. 기프트 존에서 선물을 수령하세요.",
+  "claimReward": "보상 수령하기",
+  "mockUser": "MOCK USER",
+  "userId": "ID: #VX2026-9901",
+  "stampCollection": "스탬프 수집 현황"
+}

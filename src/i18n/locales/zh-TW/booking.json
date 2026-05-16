@@ -3,7 +3,7 @@
   "confirmed": "預約完成",
   "details": {
     "date": "日期",
-    "time": "時間",
+    "time": "시간",
     "location": "地點"
   },
   "instructions": "* 入場前5分鐘開始啟用。請在入口讀卡機上掃描QR碼。",

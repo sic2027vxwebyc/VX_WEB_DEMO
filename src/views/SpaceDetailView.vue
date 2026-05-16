@@ -13,7 +13,7 @@ import { useSpacesStore } from '@/stores/spaces'
 const route = useRoute()
 const router = useRouter()
 const spacesStore = useSpacesStore()
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const scope = 'SpaceDetail'
 
 // 공간 데이터 상태

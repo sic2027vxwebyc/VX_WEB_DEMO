@@ -1,0 +1,21 @@
+{
+  "title": "コンベンション・パスポート",
+  "subtitle": "私の探索記録",
+  "journeyHistory": "Journey History",
+  "visitedSpaces": "訪問したスペース",
+  "collectedStamps": "獲得したスタンプ",
+  "earnedBadges": "獲得したバッジ",
+  "completedQuests": "完了したクエスト",
+  "rewardAvailable": "特典受け取り可能",
+  "rewardClaimed": "特典受け取り済み",
+  "goToGiftZone": "ギフトゾーンへ移動",
+  "todayFootprint": "本日の足跡",
+  "visitRecord": "{name} を訪問",
+  "noVisitsYet": "まだ訪問した場所がありません。",
+  "challengeComplete": "おめでとうございます！チャレンジ完了",
+  "challengeCompleteDesc": "すべてのスタンプが集まりました。ギフトゾーンで特典を受け取ってください。",
+  "claimReward": "特典を受け取る",
+  "mockUser": "MOCK USER",
+  "userId": "ID: #VX2026-9901",
+  "stampCollection": "スタンプ収集"
+}

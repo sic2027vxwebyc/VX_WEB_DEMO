@@ -1,105 +1,178 @@
 {
-  "hall-1": {
+  "hall1": {
     "name": "1展示場 1ホール",
+    "shortName": "[TODO][ja] 1홀",
+    "description": "[TODO][ja] 국제대회 주요 프로그램이 진행되는 공간입니다.",
     "zone": "第1展示場 1階",
-    "description": "KINTEX第1展示場のメインホールの一つで、大規模な展示やイベント이 가능합니다.",
-    "tags": ["大型展示", "5 ton/㎡"]
+    "location": "[TODO][ja] 제1전시장"
   },
-  "hall-2": {
+  "hall2": {
     "name": "1展示場 2ホール",
+    "shortName": "[TODO][ja] 2홀",
+    "description": "[TODO][ja] 연결 동선과 보조 프로그램 안내가 제공되는 공간입니다.",
     "zone": "第1展示場 1階",
-    "description": "様々な産業展示会やコンベンション이 개최되는 다목적 전시 공간입니다.",
-    "tags": ["産業展示", "5 ton/㎡"]
+    "location": "[TODO][ja] 제1전시장"
   },
-  "hall-3": {
+  "hall3": {
     "name": "1展示場 3ホール",
-    "zone": "第1展示장 1층",
+    "shortName": "[TODO][ja] 3홀",
     "description": "複層ブスの設置が可能な高い天井高を誇る展示場です.",
-    "tags": ["高天井", "コンベンション"]
+    "zone": "[TODO][ja] 제1전시장",
+    "location": "[TODO][ja] 제1전시장"
   },
-  "hall-4": {
+  "hall4": {
     "name": "1展示場 4ホール",
-    "zone": "第1展示場 1階",
+    "shortName": "[TODO][ja] 4홀",
     "description": "重装備の展示が可能な堅牢な床荷重を備えた空間です.",
-    "tags": ["重装備展示", "無柱空間"]
-  },
-  "hall-5": {
-    "name": "1展示場 5ホール",
     "zone": "第1展示場 1階",
-    "description": "第1展示場の最後のホールで、4홀과 연계하여 대규모 통합 전시가 가능합니다.",
-    "tags": ["統合展示", "イベント"]
+    "location": "[TODO][ja] 제1전시장"
   },
-  "hall-6": {
+  "hall5": {
+    "name": "1展示場 5ホール",
+    "shortName": "[TODO][ja] 5홀",
+    "description": "[TODO][ja] 목적지 안내 및 주요 이동 경로가 연결되는 공간입니다.",
+    "zone": "第1展示場 1階",
+    "location": "[TODO][ja] 제1전시장"
+  },
+  "hall6": {
     "name": "2展示場 6ホール",
-    "zone": "第2展示場 1階",
+    "shortName": "[TODO][ja] 6홀",
     "description": "第2展示場の開始点となるホールで、中小規模の専門展示会に適しています.",
-    "tags": ["専門展示", "2 ton/㎡"]
+    "zone": "第2展示場 1階",
+    "location": "[TODO][ja] 제2전시장"
   },
-  "hall-7": {
+  "hall7": {
     "name": "2展示場 7ホール",
+    "shortName": "[TODO][ja] 7홀",
+    "description": "[TODO][ja] 대형 컨벤션 및 최신 시설을 갖춘 공간입니다.",
     "zone": "第2展示場 1階",
-    "description": "第2展示장의 대형 홀로, 현대적인 시설과 넓은 공간을 제공합니다.",
-    "tags": ["大規模コンベンション", "最新施設"]
+    "location": "[TODO][ja] 제2전시장"
   },
-  "hall-8": {
+  "hall8": {
     "name": "2展示場 8ホール",
-    "zone": "第2展示場 1階",
+    "shortName": "[TODO][ja] 8홀",
     "description": "国際的な展示会や企業イベントが活発に開かれる空間です.",
-    "tags": ["国際会議", "IT展示"]
+    "zone": "第2展示場 1階",
+    "location": "[TODO][ja] 제2전시장"
   },
-  "hall-9": {
+  "hall9": {
     "name": "2展示場 9ホール",
-    "zone": "第2展示場 1階",
+    "shortName": "[TODO][ja] 9홀",
     "description": "KINTEXで最も広い単一ホールの一つで、超大型イベントに最適化されています.",
-    "tags": ["超大型ホール", "コンサート可能"]
+    "zone": "第2展示場 1階",
+    "location": "[TODO][ja] 제2전시장"
   },
-  "hall-10": {
+  "hall10": {
     "name": "2展示場 10ホール",
-    "zone": "第2展示場 1階",
+    "shortName": "[TODO][ja] 10홀",
     "description": "最新の建築技術が集約された展示場で、9ホールと共にマンモス級の行事をサポートします.",
-    "tags": ["スマート展示場", "複合文化"]
-  },
-  "f-sodam": {
-    "name": "ソダム (韓食)",
-    "zone": "第1展示場 1층",
-    "description": "丁寧な韓食膳を提供するKINTEX代表の韓国料理店です.",
-    "tags": ["韓食", "家族での食事"]
-  },
-  "f-benvenuto": {
-    "name": "カフェベネ",
-    "zone": "第1展示場 2階",
-    "description": "展示場の眺望が可能な快適な休息空間を提供するカフェです.",
-    "tags": ["コーヒー", "WiFi"]
-  },
-  "f-myeongdong": {
-    "name": "明洞칼국수",
     "zone": "第2展示場 1階",
+    "location": "[TODO][ja] 제2전시장"
+  },
+  "fSodam": {
+    "name": "ソダム (韓食)",
+    "shortName": "[TODO][ja] 소담",
+    "description": "丁寧な韓食膳を提供するKINTEX代表の韓国料理店です.",
+    "zone": "[TODO][ja] 식사 구역",
+    "location": "[TODO][ja] 편의시설 구역"
+  },
+  "fBenvenuto": {
+    "name": "カフェベネ",
+    "shortName": "[TODO][ja] 벤베누토",
+    "description": "展示場の眺望が可能な快適な休息空間を提供するカフェです.",
+    "zone": "[TODO][ja] 식사 구역",
+    "location": "[TODO][ja] 편의시설 구역"
+  },
+  "fMyeongdong": {
+    "name": "[TODO][ja] 명동칼국수 식사 구역",
+    "shortName": "[TODO][ja] 명동칼국수",
     "description": "深い味わいのスープともちもちした麺で有名なカルグクス専門店です.",
-    "tags": ["カルグクス", "早い食事"]
+    "zone": "[TODO][ja] 식사 구역",
+    "location": "[TODO][ja] 편의시설 구역"
   },
-  "c-cu1": {
+  "cCu1": {
     "name": "CU コンビニ",
-    "zone": "第1展示場 2홀 앞",
+    "shortName": "CU",
     "description": "観覧客のための各種飲料やスナック、便利な物品が用意されています.",
-    "tags": ["24時", "現金ATM"]
+    "zone": "[TODO][ja] 편의시설",
+    "location": "[TODO][ja] 중앙 통로"
   },
-  "c-press": {
+  "cPress": {
     "name": "プレスセンター",
-    "zone": "第1展示場 2階",
+    "shortName": "[TODO][ja] 프레스",
     "description": "報道関係者のための記事作成およびブリーフィング空間です.",
-    "tags": ["メディア", "ビジネス"]
+    "zone": "[TODO][ja] 운영 지원",
+    "location": "[TODO][ja] 운영 구역"
   },
-  "h-sonocalm": {
+  "hSonocalm": {
     "name": "ソノカム高陽",
-    "zone": "高陽市 璋項洞 (車で10分)",
+    "shortName": "[TODO][ja] 소노캄",
     "description": "KINTEX近隣のプレミアム5つ星ホテルで、最高の休息を提供します.",
-    "tags": ["5つ星", "シャトル運行"]
+    "zone": "[TODO][ja] 외부 연계",
+    "location": "[TODO][ja] 연결 통로"
   },
-  "h-gloucester": {
+  "hGloucester": {
     "name": "グロスターホテル KINTEX",
-    "zone": "高陽市 大化洞 (徒歩3分)",
+    "shortName": "[TODO][ja] 글로스터",
     "description": "KINTEXのすぐ横に位置し、ビジネス訪問客に最適なアクセスを提供します.",
-    "tags": ["3つ星", "超隣接"]
+    "zone": "[TODO][ja] 외부 연계",
+    "location": "[TODO][ja] 연결 통로"
+  },
+  "exitWest": {
+    "name": "西門",
+    "shortName": "[TODO][ja] 서쪽 출구",
+    "description": "第1展示場の西側出入口です。",
+    "zone": "[TODO][ja] 출구",
+    "location": "[TODO][ja] 서쪽 게이트"
+  },
+  "exitEast": {
+    "name": "[TODO][ja] 동쪽 출구",
+    "shortName": "[TODO][ja] 동쪽 출구",
+    "description": "[TODO][ja] 동쪽 방향 이동에 적합한 출구입니다.",
+    "zone": "[TODO][ja] 출구",
+    "location": "[TODO][ja] 동쪽 게이트"
+  },
+  "toilet1": {
+    "name": "[TODO][ja] 화장실 1",
+    "shortName": "[TODO][ja] 화장실",
+    "description": "[TODO][ja] 현재 위치에서 가까운 화장실입니다.",
+    "zone": "[TODO][ja] 편의시설",
+    "location": "[TODO][ja] 중앙 통로"
+  },
+  "toilet2": {
+    "name": "[TODO][ja] 화장실 2",
+    "shortName": "[TODO][ja] 화장실",
+    "description": "[TODO][ja] 혼잡이 적은 보조 화장실입니다.",
+    "zone": "[TODO][ja] 편의시설",
+    "location": "[TODO][ja] 외곽 통로"
+  },
+  "medical": {
+    "name": "[TODO][ja] 의무실",
+    "shortName": "[TODO][ja] 의무실",
+    "description": "[TODO][ja] 응급 상황이나 건강 문제가 있을 때 도움을 받을 수 있는 공간입니다.",
+    "zone": "[TODO][ja] 안전 지원",
+    "location": "[TODO][ja] 운영 지원 구역"
+  },
+  "welcomeZone": {
+    "name": "ウェルカムゾーン",
+    "shortName": "[TODO][ja] 환영",
+    "description": "大会の始まりを知らせる歓迎空間です。",
+    "zone": "[TODO][ja] 입구",
+    "location": "[TODO][ja] 입구 주변"
+  },
+  "translationCenter": {
+    "name": "通訳支援センター",
+    "shortName": "[TODO][ja] 통역",
+    "description": "多言語通訳および案内を支援するハブです。",
+    "zone": "[TODO][ja] 언어 지원",
+    "location": "[TODO][ja] 중앙 안내 구역"
+  },
+  "giftZone": {
+    "name": "記念品贈呈エリア",
+    "shortName": "[TODO][ja] 선물",
+    "description": "イベント完了報酬を受け取る場所です。",
+    "zone": "[TODO][ja] 이벤트",
+    "location": "[TODO][ja] 운영 데스크 주변"
   },
   "congestion": {
     "low": "低い",

@@ -1,0 +1,33 @@
+{
+  "title": "勳章收藏",
+  "earnedBadges": "獲得的勳章",
+  "lockedBadges": "未解鎖勳章",
+  "unlockCondition": "獲得條件",
+  "rarity": "稀有度",
+  "common": "普通",
+  "rare": "稀有",
+  "epic": "史詩",
+  "special": "特別",
+  "items": {
+    "badgeWelcomeExplorer": {
+      "name": "歡迎探索者",
+      "description": "成功踏入會場的第一步。",
+      "unlockCondition": "完成歡迎之旅任務"
+    },
+    "badgeHallExplorer": {
+      "name": "展廳探索者",
+      "description": "全面掌握展館的所有空間。",
+      "unlockCondition": "訪問5個主展廳"
+    },
+    "badgeGourmet": {
+      "name": "空間美食家",
+      "description": "探索了會場內所有的便利設施與餐廳。",
+      "unlockCondition": "訪問所有餐飲區"
+    },
+    "badgeMaster": {
+      "name": "特別大師",
+      "description": "收集了全部20個印章的真正大師。",
+      "unlockCondition": "收集所有印章"
+    }
+  }
+}

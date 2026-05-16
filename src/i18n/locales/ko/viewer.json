@@ -3,7 +3,15 @@
   "exit": "닫기",
   "hotspots": {
     "next": "다음 공간",
-    "info": "정보"
+    "info": "정보",
+    "hall1": "제1전시장 1홀",
+    "hall2": "제1전시장 2홀",
+    "infoDesk": "안내 데스크",
+    "westGate": "서문 (West Gate)",
+    "foodZone": "식당가 (소담)",
+    "restroom": "화장실",
+    "nearby": "인접 구역",
+    "jumpTo": "이동하기"
   },
   "controls": {
     "zoomIn": "확대",
@@ -15,6 +23,54 @@
   "stats": {
     "title": "공간 통계",
     "occupancy": "현재 인원",
-    "airQuality": "최적의 공기질 유지 중"
+    "airQuality": "최적의 공기질 유지 중",
+    "temp": "온도",
+    "humid": "습도"
+  },
+  "hotspot": {
+    "guideBusy": "현재 위치에서 도보로 약 {min}분 거리에 있습니다. 혼잡이 예상되니 주의하세요.",
+    "guideOptimal": "현재 위치에서 도보로 약 {min}분 거리에 있습니다. 이동하기 매우 원활한 상태입니다."
+  },
+  "vr": {
+    "notSupportedToast": "이 기기는 VR 모드를 지원하지 않습니다.",
+    "interface": "하드웨어 인터페이스",
+    "available": "VR 모드 사용 가능",
+    "noSecureContext": "HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.",
+    "sessionError": "VR 세션을 시작할 수 없습니다."
+  },
+  "status": {
+    "normal": "시스템 정상",
+    "operational": "운영 상태"
+  },
+  "v2": {
+    "scanning": "공간 스캔 중...",
+    "initializing": "신경망 포인트 클라우드 초기화 중",
+    "experience": "360 경험",
+    "nearbyTerminals": "인접 터미널"
+  },
+  "live": {
+    "realtimeData": "실시간 데이터",
+    "switchToMap": "지도 뷰로 전환",
+    "spaceDensity": "실시간 공간 밀도",
+    "densityHigh": "높음",
+    "densityNormal": "보통",
+    "currentDensity": "현재 밀도",
+    "estimatedVisitors": "예상 방문자 수",
+    "peakTime": "피크 시간",
+    "optimizedPathSearch": "최적 경로 탐색",
+    "scanningTitle": "신경망 경로 매핑",
+    "scanningDesc": "{name}을(를) 위한 공간 클러스터 최적화 중",
+    "liveSpatial": "라이브 공간",
+    "terminalStatus": "터미널 상태: 최적 흐름",
+    "telemetry": "실시간 텔레메트리",
+    "occupancy": "점유율",
+    "airQuality": "공기질",
+    "excellent": "최상",
+    "dashboard": "대시보드",
+    "density": "밀도",
+    "distance": "거리",
+    "eta": "예상 시간",
+    "enterSpace": "공간 입장",
+    "getDirections": "길찾기"
   }
 }

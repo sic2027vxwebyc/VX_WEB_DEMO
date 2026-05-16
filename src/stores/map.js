@@ -1,73 +1,90 @@
+/**
+ * [ 지도 스토어 ]
+ * 층별 정보, 현재 선택된 층, 줌 레벨 등 인터랙티브 지도의 상태를 관리합니다.
+ * 실시간 혼잡도 점수, 흐름 방향 및 추천 우회 경로 데이터를 포함합니다.
+ */
 import { defineStore } from 'pinia'
-import { ref, computed } from 'vue'
-import { useI18n } from 'vue-i18n'
+import { ref, reactive, computed } from 'vue'
+import { useOperationalStore } from './operational'
 
 export const useMapStore = defineStore('map', () => {
-  const { t } = useI18n()
-
-  // 층 정보 정의
-  const floors = ['hall1', 'hall2']
+  const opStore = useOperationalStore()
+  const currentFloor = ref('hall1')
+  const mapScale = ref(1)
   
-  // 층별 공간 구조 데이터
-  const floorDataRaw = {
+  const floors = [
+    { id: 'hall1', labelKey: 'map.floors.hall1' },
+    { id: 'hall2', labelKey: 'map.floors.hall2' }
+  ]
+
+  const currentFloorKey = computed(() => currentFloor.value)
+
+  // 각 층별 공간 데이터 (시각화 및 혼잡도 지능 포함)
+  const floorData = reactive({
     'hall1': [
-      { id: 'hall-1', type: 'exhibition', x: 50, y: 50, w: 120, h: 200, status: 'low' },
-      { id: 'hall-2', type: 'exhibition', x: 180, y: 50, w: 120, h: 200, status: 'moderate' },
-      { id: 'hall-3', type: 'exhibition', x: 310, y: 50, w: 120, h: 200, status: 'high' },
-      { id: 'hall-4', type: 'exhibition', x: 440, y: 50, w: 120, h: 200, status: 'low' },
-      { id: 'hall-5', type: 'exhibition', x: 570, y: 50, w: 120, h: 200, status: 'moderate' },
-      { id: 'lobby-1', type: 'info', x: 50, y: 300, w: 640, h: 100, status: 'moderate' },
-      { id: 'cafe-1', type: 'dining', x: 50, y: 420, w: 200, h: 100, status: 'high' }
+      { id: 'hall-1', x: 50, y: 50, w: 120, h: 180, nameKey: 'spaces.hall1.name', type: 'exhibition', recommended: true },
+      { id: 'hall-2', x: 180, y: 50, w: 120, h: 180, nameKey: 'spaces.hall2.name', type: 'exhibition', recommended: true },
+      { id: 'hall-3', x: 310, y: 50, w: 120, h: 180, nameKey: 'spaces.hall3.name', type: 'exhibition', recommended: false, alternativeId: 'hall-1' },
+      { id: 'hall-4', x: 440, y: 50, w: 120, h: 180, nameKey: 'spaces.hall4.name', type: 'exhibition', recommended: true },
+      { id: 'hall-5', x: 570, y: 50, w: 120, h: 180, nameKey: 'spaces.hall5.name', type: 'exhibition', recommended: true },
+      { id: 'f-sodam', x: 50, y: 250, w: 100, h: 80, nameKey: 'spaces.fSodam.name', type: 'dining', recommended: false, alternativeId: 'f-benvenuto' },
+      { id: 'c-cu1', x: 180, y: 250, w: 100, h: 60, nameKey: 'spaces.cCu1.name', type: 'info', recommended: true },
+      { id: 'medical', x: 310, y: 250, w: 100, h: 60, nameKey: 'spaces.medical.name', type: 'info', recommended: false }
     ],
     'hall2': [
-      { id: 'hall-6', type: 'exhibition', x: 100, y: 100, w: 150, h: 150, status: 'moderate' },
-      { id: 'hall-7', type: 'exhibition', x: 260, y: 100, w: 150, h: 150, status: 'low' },
-      { id: 'hall-8', type: 'exhibition', x: 420, y: 100, w: 150, h: 150, status: 'high' },
-      { id: 'hall-9', type: 'exhibition', x: 100, y: 260, w: 230, h: 150, status: 'moderate' },
-      { id: 'hall-10', type: 'exhibition', x: 340, y: 260, w: 230, h: 150, status: 'low' }
+      { id: 'hall-6', x: 50, y: 50, w: 120, h: 180, nameKey: 'spaces.hall6.name', type: 'exhibition', recommended: true },
+      { id: 'hall-7', x: 180, y: 50, w: 120, h: 180, nameKey: 'spaces.hall7.name', type: 'exhibition', recommended: true },
+      { id: 'hall-8', x: 310, y: 50, w: 120, h: 180, nameKey: 'spaces.hall8.name', type: 'exhibition', recommended: false, alternativeId: 'hall-6' },
+      { id: 'hall-9', x: 440, y: 50, w: 120, h: 180, nameKey: 'spaces.hall9.name', type: 'exhibition', recommended: true },
+      { id: 'hall-10', x: 570, y: 50, w: 120, h: 180, nameKey: 'spaces.hall10.name', type: 'exhibition', recommended: true },
+      { id: 'f-myeongdong', x: 50, y: 250, w: 150, h: 100, nameKey: 'spaces.fMyeongdong.name', type: 'dining', recommended: false, alternativeId: 'f-sodam' }
     ]
-  }
-
-  /**
-   * 번역 및 상태가 포함된 층별 데이터
-   */
-  const floorData = computed(() => {
-    const processed = {}
-    floors.forEach(floor => {
-      processed[floor] = floorDataRaw[floor].map(space => ({
-        ...space,
-        name: space.type === 'exhibition' ? t(`map.floors.halls.${space.id.split('-')[1]}`) : t(`map.filters.${space.type}`)
-      }))
-    })
-    return processed
   })
 
-  // 현재 지도 상태
-  const currentFloorKey = ref('hall1')
-  const mapScale = ref(1)
-  const activeFilters = ref({
+  // 혼잡도 데이터 실시간 병합 (operationalStore 연동)
+  const liveFloorData = computed(() => {
+    const data = JSON.parse(JSON.stringify(floorData))
+    Object.keys(data).forEach(floor => {
+      data[floor] = data[floor].map(item => {
+        const live = opStore.congestionData[item.id] || { level: 'low', percent: 10 }
+        return {
+          ...item,
+          status: live.level,
+          congestionScore: live.percent,
+          flowDirection: live.percent > 70 ? 'outward' : 'inward'
+        }
+      })
+    })
+    return data
+  })
+
+  const activeFilters = reactive({
     exhibition: true,
     dining: true,
     info: true
   })
 
-  const setFloor = (key) => {
-    currentFloorKey.value = key
+  const setFloor = (floorId) => {
+    currentFloor.value = floorId
   }
 
-  const setScale = (scale) => {
-    mapScale.value = scale
+  const setScale = (level) => {
+    mapScale.value = level
   }
 
   const toggleFilter = (type) => {
-    activeFilters.value[type] = !activeFilters.value[type]
+    if (activeFilters[type] !== undefined) {
+      activeFilters[type] = !activeFilters[type]
+    }
   }
 
   return {
+    currentFloor,
+    mapScale,
+    currentFloorKey,
     floors,
     floorData,
-    currentFloorKey,
-    mapScale,
+    liveFloorData,
     activeFilters,
     setFloor,
     setScale,

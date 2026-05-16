@@ -1,65 +1,59 @@
 /**
- * 날짜 및 시간 관련 순수 함수 유틸리티
+ * [ 날짜 및 시간 유틸리티 ]
+ * 이벤트 일정 계산, 시간 형식 변환 및 실시간 상태 비교를 위한 순수 함수들을 제공합니다.
  */
-
-/**
- * 시간 정규화
- * @param {Object} event 이벤트 객체
- * @returns {string} 정규화된 시간 (HH:mm)
- */
-export function normalizeEventTime(event) {
-  if (event.time === '00:10' && event.displayTime === '12:10') {
-    return '12:10'
-  }
-  return event.time
-}
-
-/**
- * HH:mm 형식을 분 단위로 변환
- * @param {string} timeStr 시간 문자열
- * @returns {number} 분 단위 시간
- */
-export function toMinutes(timeStr) {
-  if (!timeStr) return 0
-  const [hours, minutes] = timeStr.split(':').map(Number)
-  return hours * 60 + (minutes || 0)
-}
 
 /**
  * 요일 순서 정의
  */
 export const DAY_ORDER = {
-  friday: 1,
-  saturday: 2,
-  sunday: 3
+  'monday': 1, 'tuesday': 2, 'wednesday': 3, 'thursday': 4, 'friday': 5, 'saturday': 6, 'sunday': 7
 }
 
 /**
- * 요일 목록
+ * 이벤트 시간 형식을 표준화합니다.
+ * @param {Object} item 이벤트 객체
+ * @returns {string} HH:mm 형식의 시작 시간
  */
-export const DAYS = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
+export function normalizeEventTime(item) {
+  if (!item || !item.time) return '00:00'
+  
+  // "14:00 - 16:00" -> "14:00"
+  let timeStr = item.time.split('-')[0].trim()
+  
+  // PM 처리
+  if (timeStr.includes('PM')) {
+    let [h, m] = timeStr.replace('PM', '').trim().split(':')
+    if (h !== '12') h = parseInt(h) + 12
+    timeStr = h + ':' + m
+  } else if (timeStr.includes('AM')) {
+    let [h, m] = timeStr.replace('AM', '').trim().split(':')
+    if (h === '12') h = '00'
+    timeStr = h + ':' + m
+  }
+  
+  return timeStr
+}
 
 /**
- * 현재 요일 반환 (Mock 지원)
- * @param {Date} date 현재 시간 객체
- * @returns {string} 요일 키값
+ * HH:mm 형식을 분 단위 숫자로 변환합니다.
+ */
+export function toMinutes(timeStr) {
+  const [h, m] = timeStr.split(':').map(Number)
+  return h * 60 + m
+}
+
+/**
+ * 현재 요일을 소문자 영문 전체 명칭으로 반환합니다. (ex: friday, saturday)
  */
 export function getNowDay(date) {
-  const mockDay = localStorage.getItem('EVENTS_MOCK_NOW_DAY')
-  if (mockDay) return mockDay
-  
-  return DAYS[date.getDay()]
+  const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
+  return days[date.getDay()]
 }
 
 /**
- * 현재 분 반환 (Mock 지원)
- * @param {Date} date 현재 시간 객체
- * @returns {number} 분 단위 시간
+ * 현재 시간을 분 단위로 반환합니다.
  */
 export function getNowMinutes(date) {
-  const mockTime = localStorage.getItem('EVENTS_MOCK_NOW_TIME')
-  if (mockTime) {
-    return toMinutes(mockTime)
-  }
   return date.getHours() * 60 + date.getMinutes()
 }

@@ -1,0 +1,23 @@
+{
+  "title": "Souvenir Guide",
+  "claimLocation": "Gift Zone Location",
+  "operatingHours": "Operating Hours",
+  "allStampsCollected": "All 20 stamps collected",
+  "conditionsNotMet": "Conditions not met",
+  "remainingStampsCount": "Remaining stamps",
+  "claimCompleted": "Collection Completed",
+  "congratulations": "Congratulations!",
+  "rewardGuideLine1": "[TODO][en] 20개의 모든 스탬프를 성공적으로 수집하셨습니다.",
+  "rewardGuideHighlight": "[TODO][en] 기프트 존",
+  "rewardGuideLine2": "[TODO][en] 에서 한정판 기념품을 수령하세요.",
+  "locationDetail": "1F Central Lobby, Exhibition Hall 1",
+  "locationSubDetail": "Next to the Information Desk",
+  "hoursDetail": "Available during event hours",
+  "goToGiftZone": "Route to Gift Zone",
+  "demoClaimAction": "Demo: Mark as collected",
+  "alreadyClaimed": "You have already collected the reward. Thank you!",
+  "notCompleteYet": "Collection in progress",
+  "notCompleteDescLine1": "[TODO][en] 보상을 받으려면 20개의 스탬프를 모두 모아야 합니다.",
+  "notCompleteDescLine2": "[TODO][en] 현재 {current} / {total} 완료",
+  "continueChallenge": "Continue Challenge"
+}

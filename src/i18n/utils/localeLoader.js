@@ -1,67 +1,48 @@
+/**
+ * [ 동적 로케일 로더 유틸리티 ]
+ * 사용자의 언어 선택에 따라 필요한 JSON 번역 파일을 비동기적으로 로드합니다.
+ * 도메인별(common, map, spaces 등)로 분리된 파일을 하나로 병합하여 적용합니다.
+ */
 import { nextTick } from 'vue'
 import i18n from '@/i18n'
 import { logger } from '@/utils/logger'
 
 const scope = 'LocaleLoader'
 
+/**
+ * 특정 언어의 모든 도메인 메시지를 로드합니다.
+ * @param {string} locale - 로드할 언어 코드 (ko, en, ja 등)
+ */
 export async function loadLocaleMessages(locale) {
-  // 이미 로드된 언어인지 확인 (모든 도메인 파일이 로드되었다고 가정)
-  const isLoaded = i18n.global.availableLocales.includes(locale) && 
-                   Object.keys(i18n.global.getLocaleMessage(locale)).length > 10
-                   
-  if (isLoaded) {
-    logger.debug(scope, `이미 로드된 언어입니다: ${locale}`)
-    return setI18nLanguage(locale)
-  }
-
   try {
-    logger.info(scope, `새로운 언어 도메인 파일 로드 시작: ${locale}`)
-    
-    // 도메인별 파일 목록
-    const domains = ['common', 'home', 'settings', 'map', 'ar', 'navigation', 'admin', 'events', 'directory', 'spaceDetail', 'notifications', 'booking', 'errors', 'viewer', 'modal', 'auth', 'session', 'spaces']
+    // 모든 도메인 파일을 병렬로 로드
+    const domains = [
+      'admin', 'ar', 'auth', 'booking', 'common', 'directory', 
+      'errors', 'events', 'home', 'map', 'modal', 'navigation', 
+      'notifications', 'session', 'settings', 'spaceDetail', 'spaces', 'viewer',
+      'gamification', 'passport', 'quests', 'badges', 'reward', 'qrScanner', 'homeV2'
+    ]
+
     const messages = {}
     
-    // 병렬 로드로 성능 최적화
-    await Promise.all(domains.map(async (domain) => {
+    // Vite의 glob import 기능을 사용하여 메시지 로드 (실제 구현 예시)
+    // 여기서는 개념 증명을 위해 개별 import를 시뮬레이션합니다.
+    const messagePromises = domains.map(async (domain) => {
       try {
         const module = await import(`../locales/${locale}/${domain}.json`)
         messages[domain] = module.default
       } catch (e) {
-        logger.warn(scope, `${locale} 언어의 ${domain} 도메인 파일이 없거나 로드할 수 없습니다.`)
-        messages[domain] = {}
+        logger.warn(scope, `${locale} 언어의 ${domain} 도메인을 로드할 수 없습니다.`)
       }
-    }))
-    
-    // 메시지 추가 (merge)
-    const existingMessages = i18n.global.getLocaleMessage(locale) || {}
-    i18n.global.setLocaleMessage(locale, { ...existingMessages, ...messages })
-    
-    logger.info(scope, `${locale} 언어 팩 로드 완료 (${Object.keys(messages).length} 도메인)`)
-    return setI18nLanguage(locale)
-  } catch (error) {
-    logger.error(scope, `언어 로드 중 치명적 실패: ${locale}`, error)
-    // 실패 시 한국어로 폴백하되 무한 루프 방지
-    if (locale !== 'ko') {
-      return loadLocaleMessages('ko')
-    }
-    return setI18nLanguage('ko')
-  }
-}
+    })
 
-function setI18nLanguage(locale) {
-  if (i18n.mode === 'legacy') {
-    i18n.global.locale = locale
-  } else {
-    i18n.global.locale.value = locale
+    await Promise.all(messagePromises)
+
+    // i18n 인스턴스에 메시지 설정
+    i18n.global.setLocaleMessage(locale, messages)
+
+    return nextTick()
+  } catch (error) {
+    logger.error(scope, `로케일 로드 실패: ${locale}`, error)
   }
-  
-  // HTML lang 속성 업데이트 및 방향성 처리 (RTL 지원 대비)
-  const html = document.querySelector('html')
-  if (html) {
-    html.setAttribute('lang', locale)
-    // 아랍어 등 RTL 언어 대응을 위한 확장성 확보
-    html.setAttribute('dir', locale === 'ar' ? 'rtl' : 'ltr')
-  }
-  
-  return nextTick()
 }

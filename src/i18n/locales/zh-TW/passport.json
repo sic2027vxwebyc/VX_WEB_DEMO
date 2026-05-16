@@ -1,0 +1,21 @@
+{
+  "title": "大會護照",
+  "subtitle": "我的探索紀錄",
+  "journeyHistory": "旅程紀錄",
+  "visitedSpaces": "訪問過的空間",
+  "collectedStamps": "獲得的印章",
+  "earnedBadges": "獲得的勳章",
+  "completedQuests": "完成的任務",
+  "rewardAvailable": "可領取獎勵",
+  "rewardClaimed": "獎勵領取完成",
+  "goToGiftZone": "前往禮品區",
+  "todayFootprint": "今日足跡",
+  "visitRecord": "訪問 {name}",
+  "noVisitsYet": "尚無訪問紀錄。",
+  "challengeComplete": "恭喜！挑戰完成",
+  "challengeCompleteDesc": "已集齊所有印章，請前往禮品區領取獎勵。",
+  "claimReward": "領取獎勵",
+  "mockUser": "MOCK USER",
+  "userId": "ID: #VX2026-9901",
+  "stampCollection": "集章"
+}

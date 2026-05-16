@@ -12,7 +12,7 @@ import { useSpacesStore } from '@/stores/spaces'
 
 const scope = 'HomeView'
 const router = useRouter()
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const spacesStore = useSpacesStore()
 
 // 메인 하이라이트 공간 (1홀)

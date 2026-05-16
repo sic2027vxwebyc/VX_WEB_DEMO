@@ -1,0 +1,102 @@
+{
+  "stampTour": "Tour de sellos",
+  "challengeTitle": "Convention Exploration Challenge",
+  "challengeDesc": "Escanea los QR en el recinto y completa tu propio pasaporte.",
+  "startExploration": "Iniciar exploración",
+  "scanQr": "Escanear QR",
+  "viewPassport": "Ver mi pasaporte",
+  "viewBadges": "Ver insignias obtenidas",
+  "currentProgress": "Progreso actual",
+  "recentStamps": "Sellos recientes",
+  "nextRecommended": "Siguiente recomendado",
+  "completed": "Completado",
+  "remaining": "Restante",
+  "allCompleted": "Todo completado",
+  "remainingStamps": "Sellos restantes",
+  "resetProgress": "Reiniciar progreso de demo",
+  "totalProgress": "Progreso total",
+  "exploreSpaces": "Explorar espacios",
+  "collectedToday": "Recolectado Hoy",
+  "items": {
+    "hall1": {
+      "name": "[TODO][es] 1홀",
+      "description": "[TODO][es] 메인 컨벤션 홀"
+    },
+    "hall2": {
+      "name": "[TODO][es] 2홀",
+      "description": "[TODO][es] 전시 구역 B"
+    },
+    "hall3": {
+      "name": "[TODO][es] 3홀",
+      "description": "[TODO][es] 이벤트 및 세미나"
+    },
+    "hall4": {
+      "name": "[TODO][es] 4홀",
+      "description": "[TODO][es] 테크 전시 존"
+    },
+    "hall5": {
+      "name": "[TODO][es] 5홀",
+      "description": "[TODO][es] 글로벌 라운지"
+    },
+    "fSodam": {
+      "name": "[TODO][es] 식당가",
+      "description": "[TODO][es] 전통 한식 식당가"
+    },
+    "cCu1": {
+      "name": "[TODO][es] 안내소",
+      "description": "[TODO][es] 안내 및 배터리 지원"
+    },
+    "hall6": {
+      "name": "[TODO][es] 6홀",
+      "description": "[TODO][es] 고급 세미나 구역"
+    },
+    "hall7": {
+      "name": "[TODO][es] 7홀",
+      "description": "[TODO][es] 디지털 체험 존"
+    },
+    "hall8": {
+      "name": "[TODO][es] 8홀",
+      "description": "[TODO][es] 예술 및 문화 존"
+    },
+    "hall9": {
+      "name": "[TODO][es] 9홀",
+      "description": "[TODO][es] 메인 오디토리움"
+    },
+    "hall10": {
+      "name": "[TODO][es] 10홀",
+      "description": "[TODO][es] 폐막식 존"
+    },
+    "fMyeongdong": {
+      "name": "[TODO][es] 2F 식당가",
+      "description": "[TODO][es] 세계 음식 푸드코트"
+    },
+    "exitWest": {
+      "name": "[TODO][es] 서문",
+      "description": "[TODO][es] 주차장 연결 출구"
+    },
+    "toilet1": {
+      "name": "[TODO][es] 중앙 화장실",
+      "description": "[TODO][es] 깨끗한 편의 시설"
+    },
+    "medical": {
+      "name": "Enfermería",
+      "description": "Centro Médico de Emergencias"
+    },
+    "giftZone": {
+      "name": "[TODO][es] 기프트 존",
+      "description": "[TODO][es] 보상 수령 장소"
+    },
+    "translationCenter": {
+      "name": "[TODO][es] 통역 지원 센터",
+      "description": "[TODO][es] 다국어 지원 허브"
+    },
+    "welcomeZone": {
+      "name": "[TODO][es] 웰컴 존",
+      "description": "[TODO][es] 대회 시작 지점"
+    },
+    "experienceZone": {
+      "name": "[TODO][es] 체험 존",
+      "description": "[TODO][es] 인터랙티브 공간 VR"
+    }
+  }
+}

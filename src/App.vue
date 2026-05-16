@@ -17,7 +17,7 @@ import { logger } from './utils/logger'
 const themeStore = useThemeStore()
 const route = useRoute()
 const router = useRouter()
-const { t, locale } = useI18n()
+const { t, locale } = useI18n({ useScope: 'global' })
 
 /**
  * 전역 타이틀 업데이트 핸들러
@@ -35,9 +35,13 @@ const updateTitle = () => {
  * 전역 네비게이션 핸들러
  * 하위 컴포넌트에서 발생한 이동 요청을 처리합니다.
  */
-const handleNavigation = ({ path, name }) => {
+const handleNavigation = async ({ path, name }) => {
   logger.info('App', `페이지 이동 요청 수신: ${name} (${path})`)
-  router.push(path)
+  try {
+    await router.push(path)
+  } catch (error) {
+    logger.error('App', '페이지 이동 실패', error)
+  }
 }
 
 // 언어 변경 감지

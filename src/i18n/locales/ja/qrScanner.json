@@ -1,0 +1,13 @@
+{
+  "detecting": "QRを検知中",
+  "selectTestQr": "テストQRを選択",
+  "scanSuccess": "スキャン成功",
+  "invalidQr": "公式スタンプQRではありません",
+  "alreadyCollected": "すでに獲得済みのスタンプです",
+  "tryNextLocation": "次の場所へ移動してみましょう",
+  "cameraPermissionRequired": "カメラの権限が必要です",
+  "scanAgain": "再スキャン",
+  "testQrList": "テスト用QRリスト",
+  "scannerGuideLine1": "[TODO][ja] 실제 대회장에서는 공간 곳곳에 배치된",
+  "scannerGuideLine2": "[TODO][ja] QR 코드를 카메라로 스캔해 주세요."
+}

@@ -1,15 +1,17 @@
 {
   "connection": {
-    "title": "Unstable Connection",
-    "desc": "Unable to load real-time data due to poor network conditions. Switch to offline mode?",
-    "retry": "Retry Connection",
-    "offlineMap": "Use Offline Map",
-    "errorCode": "Error Code: {code}"
+    "title": "Нестабильное соединение",
+    "desc": "Не удается загрузить данные из-за плохого сетевого соединения. Перейти в оффлайн-режим?",
+    "retry": "Повторить попытку",
+    "offlineMap": "Оффлайн-карта",
+    "errorCode": "Код ошибки: {code}"
   },
   "restricted": {
-    "title": "Access Denied",
-    "desc": "This area is only accessible to those with <strong>Security Level {level} or higher</strong>.<br>Please contact the information desk ({gate}) for authorization.",
-    "bypass": "Find Alternative Route",
-    "callSecurity": "Call Security Officer"
+    "title": "Доступ ограничен",
+    "descLine1": "[TODO][ru] 이 구역은",
+    "descHighlight": "[TODO][ru] 보안 등급 {level} 이상",
+    "descLine2": "[TODO][ru] 소지자만 출입이 가능합니다. 권한이 필요하시면 안내 데스크({gate})로 문의해 주세요.",
+    "bypass": "Найти альтернативный маршрут",
+    "callSecurity": "Вызвать охрану"
   }
 }

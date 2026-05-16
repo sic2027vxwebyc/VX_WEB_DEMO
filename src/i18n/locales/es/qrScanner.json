@@ -1,0 +1,13 @@
+{
+  "detecting": "Detectando QR",
+  "selectTestQr": "Seleccionar QR de prueba",
+  "scanSuccess": "Escaneo exitoso",
+  "invalidQr": "No es un QR oficial",
+  "alreadyCollected": "Sello ya obtenido",
+  "tryNextLocation": "Intenta ir a la siguiente ubicación",
+  "cameraPermissionRequired": "Permiso de cámara requerido",
+  "scanAgain": "Escanear de nuevo",
+  "testQrList": "Lista de QR de prueba",
+  "scannerGuideLine1": "[TODO][es] 실제 대회장에서는 공간 곳곳에 배치된",
+  "scannerGuideLine2": "[TODO][es] QR 코드를 카메라로 스캔해 주세요."
+}

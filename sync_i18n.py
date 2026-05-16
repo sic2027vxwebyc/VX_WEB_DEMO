@@ -4,20 +4,10 @@ import os
 locales_dir = 'src/i18n/locales'
 master_locale = 'ko'
 placeholder_locale = 'en'
-target_locales = ['en', 'ja', 'es', 'ru', 'zh-TW']
+target_locales = ['en', 'ja', 'es', 'ru', 'zh-TW', 'ko'] # Include ko to normalize it if needed, though it's the master
 
-domains = [
-    'admin', 'ar', 'booking', 'common', 'directory', 'errors', 'events', 
-    'home', 'map', 'navigation', 'notifications', 'settings', 'spaceDetail', 'viewer'
-]
-
-def get_nested_key(data, keys):
-    for key in keys:
-        if isinstance(data, dict) and key in data:
-            data = data[key]
-        else:
-            return None
-    return data
+# Automatically detect all domains from the master locale directory
+domains = [f[:-5] for f in os.listdir(os.path.join(locales_dir, master_locale)) if f.endswith('.json')]
 
 def sync_dict(master, placeholder, current, path=[]):
     synced = {}
@@ -57,7 +47,7 @@ for locale in target_locales:
             master_data = json.load(f)
             
         placeholder_data = {}
-        if os.path.exists(placeholder_file):
+        if locale != placeholder_locale and os.path.exists(placeholder_file):
             with open(placeholder_file, 'r', encoding='utf-8') as f:
                 placeholder_data = json.load(f)
         
@@ -69,6 +59,7 @@ for locale in target_locales:
                 except json.JSONDecodeError:
                     print(f"Warning: Could not decode {target_file}")
         
+        # If the locale is the master locale itself, we just want to normalize it (ensure same key order as logic would produce, though sync_dict might slightly alter it if we aren't careful. Actually for master, sync_dict(master_data, {}, master_data) should return master_data with normalized structure)
         synced_data = sync_dict(master_data, placeholder_data, current_data)
         
         with open(target_file, 'w', encoding='utf-8') as f:

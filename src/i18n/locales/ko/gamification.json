@@ -1,0 +1,102 @@
+{
+  "stampTour": "스탬프 투어",
+  "challengeTitle": "Convention Exploration Challenge",
+  "challengeDesc": "전시장 곳곳의 QR을 스캔하고 나만의 패스포트를 완성하세요.",
+  "startExploration": "탐험 시작",
+  "scanQr": "QR 스캔하기",
+  "viewPassport": "내 Passport 보기",
+  "viewBadges": "획득 배지 보기",
+  "currentProgress": "현재 진행률",
+  "recentStamps": "최근 획득한 스탬프",
+  "nextRecommended": "다음 추천 장소",
+  "completed": "완료",
+  "remaining": "남음",
+  "allCompleted": "전체 완료",
+  "remainingStamps": "아직 남은 스탬프",
+  "resetProgress": "데모 진행률 초기화",
+  "totalProgress": "전체 진행도",
+  "exploreSpaces": "공간 탐험하기",
+  "collectedToday": "오늘 획득함",
+  "items": {
+    "hall1": {
+      "name": "1홀",
+      "description": "메인 컨벤션 홀"
+    },
+    "hall2": {
+      "name": "2홀",
+      "description": "전시 구역 B"
+    },
+    "hall3": {
+      "name": "3홀",
+      "description": "이벤트 및 세미나"
+    },
+    "hall4": {
+      "name": "4홀",
+      "description": "테크 전시 존"
+    },
+    "hall5": {
+      "name": "5홀",
+      "description": "글로벌 라운지"
+    },
+    "fSodam": {
+      "name": "식당가",
+      "description": "전통 한식 식당가"
+    },
+    "cCu1": {
+      "name": "안내소",
+      "description": "안내 및 배터리 지원"
+    },
+    "hall6": {
+      "name": "6홀",
+      "description": "고급 세미나 구역"
+    },
+    "hall7": {
+      "name": "7홀",
+      "description": "디지털 체험 존"
+    },
+    "hall8": {
+      "name": "8홀",
+      "description": "예술 및 문화 존"
+    },
+    "hall9": {
+      "name": "9홀",
+      "description": "메인 오디토리움"
+    },
+    "hall10": {
+      "name": "10홀",
+      "description": "폐막식 존"
+    },
+    "fMyeongdong": {
+      "name": "2F 식당가",
+      "description": "세계 음식 푸드코트"
+    },
+    "exitWest": {
+      "name": "서문",
+      "description": "주차장 연결 출구"
+    },
+    "toilet1": {
+      "name": "중앙 화장실",
+      "description": "깨끗한 편의 시설"
+    },
+    "medical": {
+      "name": "의무실",
+      "description": "응급 의료 센터"
+    },
+    "giftZone": {
+      "name": "기프트 존",
+      "description": "보상 수령 장소"
+    },
+    "translationCenter": {
+      "name": "통역 지원 센터",
+      "description": "다국어 지원 허브"
+    },
+    "welcomeZone": {
+      "name": "웰컴 존",
+      "description": "대회 시작 지점"
+    },
+    "experienceZone": {
+      "name": "체험 존",
+      "description": "인터랙티브 공간 VR"
+    }
+  }
+}

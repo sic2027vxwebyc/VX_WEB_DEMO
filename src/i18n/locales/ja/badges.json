@@ -1,0 +1,33 @@
+{
+  "title": "バッジ・コレクション",
+  "earnedBadges": "獲得したバッジ",
+  "lockedBadges": "未獲得のバッジ",
+  "unlockCondition": "獲得条件",
+  "rarity": "レア度",
+  "common": "コモン",
+  "rare": "レア",
+  "epic": "エピック",
+  "special": "スペシャル",
+  "items": {
+    "badgeWelcomeExplorer": {
+      "name": "[TODO][ja] 웰컴 익스플로러",
+      "description": "[TODO][ja] 대회장에 성공적으로 첫 발을 내디뎠습니다.",
+      "unlockCondition": "[TODO][ja] 웰컴 투어 퀘스트 완료"
+    },
+    "badgeHallExplorer": {
+      "name": "[TODO][ja] 홀 익스플로러",
+      "description": "[TODO][ja] 전시장의 모든 공간을 속속들이 파악했습니다.",
+      "unlockCondition": "[TODO][ja] 5개 메인 홀 방문"
+    },
+    "badgeGourmet": {
+      "name": "[TODO][ja] 공간 미식가",
+      "description": "[TODO][ja] 대회장의 모든 편의 시설과 식당을 탐방했습니다.",
+      "unlockCondition": "[TODO][ja] 모든 식당가 방문"
+    },
+    "badgeMaster": {
+      "name": "[TODO][ja] 스페셜 마스터",
+      "description": "[TODO][ja] 20개의 모든 스탬프를 수집한 진정한 마스터입니다.",
+      "unlockCondition": "[TODO][ja] 모든 스탬프 수집"
+    }
+  }
+}

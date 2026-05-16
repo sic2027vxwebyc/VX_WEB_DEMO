@@ -19,7 +19,9 @@
   },
   "success": {
     "title": "목적지에 도착했습니다!",
-    "desc": "{name}에 성공적으로 도착하셨습니다.<br>현재 해당 구역에서 <strong>{event}</strong>가 진행 중입니다.",
+    "descLine1": "{name}에 성공적으로 도착하셨습니다.",
+    "descHighlight": "{event}",
+    "descLine2": "진행 중입니다.",
     "goHome": "홈으로 돌아가기",
     "viewNearby": "주변 시설 둘러보기",
     "mockName": "홀 알파(Hall Alpha)",

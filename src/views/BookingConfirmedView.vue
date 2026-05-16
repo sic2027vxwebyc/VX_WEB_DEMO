@@ -1,9 +1,14 @@
 <script setup>
+/**
+ * [ 페이지 컴포넌트 상단 ]
+ * 예약 확정 뷰
+ * 공간 또는 티켓 예약이 완료되었음을 알리고 QR 코드 및 상세 정보를 표시합니다.
+ */
 import { onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const scope = 'BookingConfirmed'
 
 onMounted(() => {

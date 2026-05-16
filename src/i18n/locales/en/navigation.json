@@ -10,6 +10,11 @@
   "help": "Help",
   "logout": "Logout",
   "newRoute": "Create New Route",
+  "stamp": "Stamp Tour",
+  "passport": "Passport",
+  "quests": "Quest Hub",
+  "badges": "Badge Collection",
+  "reward": "Claim Reward",
   "globalNav": "Global Navigation",
   "spatialIntelligence": "VX Spatial Intelligence"
 }

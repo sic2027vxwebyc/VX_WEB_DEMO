@@ -7,7 +7,7 @@
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
 
-const { t } = useI18n()
+const { t } = useI18n({ useScope: 'global' })
 const emit = defineEmits(['navigate'])
 
 // 알림 센터로 이동 요청
@@ -27,6 +27,13 @@ const handleSettingsClick = () => {
   <header class="fixed top-0 w-full z-50 flex items-center justify-between px-margin-desktop h-16 bg-white/40 dark:bg-surface/40 backdrop-blur-[30px] border-b border-black/5 dark:border-white/10 shadow-sm transition-colors duration-300">
     <div class="flex items-center gap-md">
       <span class="font-headline-md text-headline-md font-bold text-primary dark:text-surface-tint tracking-tight">VX Web</span>
+      <router-link 
+        to="/v2" 
+        class="hidden sm:flex items-center gap-2 px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[10px] font-bold text-primary hover:bg-primary/20 transition-all uppercase tracking-tighter"
+      >
+        <span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+        {{ t('common.v2Experience') }}
+      </router-link>
     </div>
 
     <!-- 데스크톱 네비게이션 및 유틸리티 -->
@@ -62,7 +69,7 @@ const handleSettingsClick = () => {
         <div class="w-8 h-8 rounded-full overflow-hidden border border-primary/20 ml-2 cursor-pointer hover:border-primary transition-colors">
           <img 
             :alt="t('navigation.admin')" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxDMHW0xKEHh0_8m20pvwk6hx5Io35zkqSV60N_JnRPJqyhZVOJrHOa55kX95K8sSk-Fb07tPF8l_IQN0qS2haCOpOUrNrepe5HwsYBxDUbFxZGrfrhUd3SDJfSdYrydnoQ7nDrn3vlnsIn-7jbI5VHu52I159jbkSZUNQzSYeYQI8zsV7qb3FXsrTU3vL_d8pMvNTSN6afxtcj_nwiMaI4t8GR6WRpzUEnJV4ne7ywmnC_Z1P7XJg8SaiScYLnys2Md8g4buYpvWO"
+            src="/src/assets/IMG_2798.jpg"
           />
         </div>
       </div>

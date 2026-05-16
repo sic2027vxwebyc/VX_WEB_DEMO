@@ -10,6 +10,11 @@
   "help": "幫助與支援",
   "logout": "登出帳戶",
   "newRoute": "建立新路線",
+  "stamp": "集章活動",
+  "passport": "護照",
+  "quests": "任務中心",
+  "badges": "徽章收藏",
+  "reward": "領取獎勵",
   "globalNav": "全域導航",
   "spatialIntelligence": "VX 空間智能"
 }

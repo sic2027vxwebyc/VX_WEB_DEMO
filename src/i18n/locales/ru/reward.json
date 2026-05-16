@@ -1,0 +1,23 @@
+{
+  "title": "Инструкция по получению сувениров",
+  "claimLocation": "Место получения подарка",
+  "operatingHours": "Часы работы",
+  "allStampsCollected": "Все 20 марок собраны",
+  "conditionsNotMet": "Условия еще не выполнены",
+  "remainingStampsCount": "Недостающее количество марок",
+  "claimCompleted": "Получение подтверждено",
+  "congratulations": "Поздравляем!",
+  "rewardGuideLine1": "[TODO][ru] 20개의 모든 스탬프를 성공적으로 수집하셨습니다.",
+  "rewardGuideHighlight": "[TODO][ru] 기프트 존",
+  "rewardGuideLine2": "[TODO][ru] 에서 한정판 기념품을 수령하세요.",
+  "locationDetail": "Центральное лобби, 1 этаж, Выставочный зал 1",
+  "locationSubDetail": "Рядом со стойкой информации",
+  "hoursDetail": "Доступно в часы работы конгресса",
+  "goToGiftZone": "Маршрут к Гифт-зоне",
+  "demoClaimAction": "Демо: Подтвердить получение",
+  "alreadyClaimed": "Вы уже получили награду. Спасибо!",
+  "notCompleteYet": "Сбор еще продолжается",
+  "notCompleteDescLine1": "[TODO][ru] 보상을 받으려면 20개의 스탬프를 모두 모아야 합니다.",
+  "notCompleteDescLine2": "[TODO][ru] 현재 {current} / {total} 완료",
+  "continueChallenge": "Продолжить челлендж"
+}

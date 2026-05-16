@@ -1,0 +1,21 @@
+{
+  "title": "Convention Passport",
+  "subtitle": "My Exploration Record",
+  "journeyHistory": "Journey History",
+  "visitedSpaces": "Visited Spaces",
+  "collectedStamps": "Collected Stamps",
+  "earnedBadges": "Earned Badges",
+  "completedQuests": "Completed Quests",
+  "rewardAvailable": "Reward Available",
+  "rewardClaimed": "Reward Claimed",
+  "goToGiftZone": "Go to Gift Zone",
+  "todayFootprint": "Today's Footprint",
+  "visitRecord": "Visited {name}",
+  "noVisitsYet": "No places visited yet.",
+  "challengeComplete": "Congratulations! Challenge Complete",
+  "challengeCompleteDesc": "All stamps collected. Claim your gift at the Gift Zone.",
+  "claimReward": "Claim Reward",
+  "mockUser": "MOCK USER",
+  "userId": "ID: #VX2026-9901",
+  "stampCollection": "Stamp Collection"
+}
