@@ -8,6 +8,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
+import screenIcon from '@/assets/screen.png'
 
 const route = useRoute()
 const { t } = useI18n({ useScope: 'global' })
@@ -46,8 +47,8 @@ const handleNavClick = (path, name) => {
   <aside class="fixed left-0 top-0 h-full flex flex-col pt-20 pb-8 bg-white/60 dark:bg-surface-dim/60 backdrop-blur-[40px] border-r border-black/5 dark:border-outline-variant/10 shadow-2xl w-64 hidden lg:flex z-40 transition-colors duration-300">
     <div class="px-6 mb-8">
       <div class="flex items-center gap-3 mb-6">
-        <div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center border border-primary/20">
-          <span class="material-symbols-outlined text-primary">hub</span>
+        <div class="w-10 h-10 rounded-xl bg-primary/10 overflow-hidden border border-primary/20">
+          <img :src="screenIcon" alt="Logo" class="w-full h-full object-cover" />
         </div>
         <div>
           <p class="font-label-lg text-label-lg text-surface-dark dark:text-on-surface">{{ t('navigation.spatialIntelligence') }}</p>
