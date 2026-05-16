@@ -75,9 +75,9 @@
     "diningOpen": "Dining area is now open. We recommend using the {hall} instead of the congested Hall 1.",
     "hall3Dining": "Hall 3 Dining",
     "viewAllNotices": "View All Notices",
-    "low": "[TODO][en] 여유",
-    "moderate": "[TODO][en] 보통",
-    "high": "[TODO][en] 혼잡"
+    "low": "Smooth",
+    "moderate": "Moderate",
+    "high": "Busy"
   },
   "messages": {
     "beforeConvention": "The International Convention begins tomorrow.\nGet plenty of rest and we'll see you then.",

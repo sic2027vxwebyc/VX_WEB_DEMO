@@ -1,7 +1,7 @@
 {
   "stampTour": "スタンプラリー",
   "challengeTitle": "Convention Exploration Challenge",
-  "challengeDesc": "会場内のQRコードをスキャンして、自分だけのパスポートを完成させましょう。",
+  "challengeDesc": "会場内のQRコード를スキャンして、自分だけのパスポートを完成させましょう。",
   "startExploration": "探索を開始",
   "scanQr": "QRスキャン",
   "viewPassport": "パスポートを表示",
@@ -19,84 +19,84 @@
   "collectedToday": "今日獲得済み",
   "items": {
     "hall1": {
-      "name": "[TODO][ja] 1홀",
-      "description": "[TODO][ja] 메인 컨벤션 홀"
+      "name": "第1ホール",
+      "description": "メインコンベンションホール"
     },
     "hall2": {
-      "name": "[TODO][ja] 2홀",
-      "description": "[TODO][ja] 전시 구역 B"
+      "name": "第2ホール",
+      "description": "展示エリアB"
     },
     "hall3": {
-      "name": "[TODO][ja] 3홀",
-      "description": "[TODO][ja] 이벤트 및 세미나"
+      "name": "第3ホール",
+      "description": "イベントおよびセミナー"
     },
     "hall4": {
-      "name": "[TODO][ja] 4홀",
-      "description": "[TODO][ja] 테크 전시 존"
+      "name": "第4ホール",
+      "description": "テック展示ゾーン"
     },
     "hall5": {
-      "name": "[TODO][ja] 5홀",
-      "description": "[TODO][ja] 글로벌 라운지"
+      "name": "第5ホール",
+      "description": "グローバルラウンジ"
     },
     "fSodam": {
-      "name": "[TODO][ja] 식당가",
-      "description": "[TODO][ja] 전통 한식 식당가"
+      "name": "レストラン街",
+      "description": "伝統韓国料理レストラン街"
     },
     "cCu1": {
-      "name": "[TODO][ja] 안내소",
-      "description": "[TODO][ja] 안내 및 배터리 지원"
+      "name": "案内所",
+      "description": "案内およびバッテリーサポート"
     },
     "hall6": {
-      "name": "[TODO][ja] 6홀",
-      "description": "[TODO][ja] 고급 세미나 구역"
+      "name": "第6ホール",
+      "description": "高級セミナーエリア"
     },
     "hall7": {
-      "name": "[TODO][ja] 7홀",
-      "description": "[TODO][ja] 디지털 체험 존"
+      "name": "第7ホール",
+      "description": "デジタル体験ゾーン"
     },
     "hall8": {
-      "name": "[TODO][ja] 8홀",
-      "description": "[TODO][ja] 예술 및 문화 존"
+      "name": "第8ホール",
+      "description": "芸術および文化ゾーン"
     },
     "hall9": {
-      "name": "[TODO][ja] 9홀",
-      "description": "[TODO][ja] 메인 오디토리움"
+      "name": "第9ホール",
+      "description": "メインオーディトリアム"
     },
     "hall10": {
-      "name": "[TODO][ja] 10홀",
-      "description": "[TODO][ja] 폐막식 존"
+      "name": "第10ホール",
+      "description": "閉幕式ゾーン"
     },
     "fMyeongdong": {
-      "name": "[TODO][ja] 2F 식당가",
-      "description": "[TODO][ja] 세계 음식 푸드코트"
+      "name": "2F レストラン街",
+      "description": "世界料理フードコート"
     },
     "exitWest": {
-      "name": "[TODO][ja] 서문",
-      "description": "[TODO][ja] 주차장 연결 출구"
+      "name": "西門",
+      "description": "駐車場連結出口"
     },
     "toilet1": {
-      "name": "[TODO][ja] 중앙 화장실",
-      "description": "[TODO][ja] 깨끗한 편의 시설"
+      "name": "中央トイレ",
+      "description": "清潔な利便施設"
     },
     "medical": {
       "name": "医務室",
       "description": "応急医療センター"
     },
     "giftZone": {
-      "name": "[TODO][ja] 기프트 존",
-      "description": "[TODO][ja] 보상 수령 장소"
+      "name": "ギフトゾーン",
+      "description": "報酬受取場所"
     },
     "translationCenter": {
-      "name": "[TODO][ja] 통역 지원 센터",
-      "description": "[TODO][ja] 다국어 지원 허브"
+      "name": "通訳支援センター",
+      "description": "多言語支援ハブ"
     },
     "welcomeZone": {
-      "name": "[TODO][ja] 웰컴 존",
-      "description": "[TODO][ja] 대회 시작 지점"
+      "name": "ウェルカムゾーン",
+      "description": "大会開始地点"
     },
     "experienceZone": {
-      "name": "[TODO][ja] 체험 존",
-      "description": "[TODO][ja] 인터랙티브 공간 VR"
+      "name": "体験ゾーン",
+      "description": "インタラクティブ空間VR"
     }
   }
 }

@@ -1,178 +1,178 @@
 {
   "hall1": {
     "name": "Sala 1",
-    "shortName": "[TODO][es] 1홀",
+    "shortName": "Sala 1",
     "description": "Una de las salas principales del Centro 1 de KINTEX, adecuada para exposiciones y eventos a gran escala.",
     "zone": "Piso 1, Centro 1",
-    "location": "[TODO][es] 제1전시장"
+    "location": "Centro de Exhibiciones 1"
   },
   "hall2": {
     "name": "Sala 2",
-    "shortName": "[TODO][es] 2홀",
+    "shortName": "Sala 2",
     "description": "Un espacio de exposición polivalente que acoge diversas exposiciones industriales y convenciones.",
     "zone": "Piso 1, Centro 1",
-    "location": "[TODO][es] 제1전시장"
+    "location": "Centro de Exhibiciones 1"
   },
   "hall3": {
     "name": "Sala 3",
-    "shortName": "[TODO][es] 3홀",
+    "shortName": "Sala 3",
     "description": "Una sala de exposiciones que cuenta con una gran altura de techo que permite la instalación de stands de dos pisos.",
     "zone": "Piso 1, Centro 1",
-    "location": "[TODO][es] 제1전시장"
+    "location": "Centro de Exhibiciones 1"
   },
   "hall4": {
     "name": "Sala 4",
-    "shortName": "[TODO][es] 4홀",
+    "shortName": "Sala 4",
     "description": "Un espacio con una carga de suelo sólida capaz de albergar exposiciones de equipos pesados.",
     "zone": "Piso 1, Centro 1",
-    "location": "[TODO][es] 제1전시장"
+    "location": "Centro de Exhibiciones 1"
   },
   "hall5": {
     "name": "Sala 5",
-    "shortName": "[TODO][es] 5홀",
+    "shortName": "Sala 5",
     "description": "La última sala del Centro 1, capaz de realizar exposiciones integradas a gran escala en conjunto con la Sala 4.",
     "zone": "Piso 1, Centro 1",
-    "location": "[TODO][es] 제1전시장"
+    "location": "Centro de Exhibiciones 1"
   },
   "hall6": {
     "name": "Sala 6",
-    "shortName": "[TODO][es] 6홀",
+    "shortName": "Sala 6",
     "description": "La sala de inicio del Centro 2, adecuada para exposiciones profesionales de pequeño y mediano tamaño.",
     "zone": "Piso 1, Centro 2",
-    "location": "[TODO][es] 제2전시장"
+    "location": "Centro de Exhibiciones 2"
   },
   "hall7": {
     "name": "Sala 7",
-    "shortName": "[TODO][es] 7홀",
+    "shortName": "Sala 7",
     "description": "Una gran sala del Centro 2, que ofrece instalaciones modernas y amplios espacios.",
     "zone": "Piso 1, Centro 2",
-    "location": "[TODO][es] 제2전시장"
+    "location": "Centro de Exhibiciones 2"
   },
   "hall8": {
     "name": "Sala 8",
-    "shortName": "[TODO][es] 8홀",
+    "shortName": "Sala 8",
     "description": "Un espacio donde se celebran activamente exposiciones internacionales y eventos corporativos.",
     "zone": "Piso 1, Centro 2",
-    "location": "[TODO][es] 제2전시장"
+    "location": "Centro de Exhibiciones 2"
   },
   "hall9": {
     "name": "Sala 9",
-    "shortName": "[TODO][es] 9홀",
+    "shortName": "Sala 9",
     "description": "Una de las salas individuales más grandes de KINTEX, optimizada para eventos ultra grandes.",
     "zone": "Piso 1, Centro 2",
-    "location": "[TODO][es] 제2전시장"
+    "location": "Centro de Exhibiciones 2"
   },
   "hall10": {
     "name": "Sala 10",
-    "shortName": "[TODO][es] 10홀",
+    "shortName": "Sala 10",
     "description": "Una sala de exposiciones donde se concentran las últimas tecnologías arquitectónicas, apoyando eventos de escala gigantesca con la Sala 9.",
     "zone": "Piso 1, Centro 2",
-    "location": "[TODO][es] 제2전시장"
+    "location": "Centro de Exhibiciones 2"
   },
   "fSodam": {
     "name": "Sodam (Comida Coreana)",
-    "shortName": "[TODO][es] 소담",
+    "shortName": "Sodam",
     "description": "Restaurante coreano representativo de KINTEX que ofrece comidas coreanas tradicionales.",
-    "zone": "[TODO][es] 식사 구역",
-    "location": "[TODO][es] 편의시설 구역"
+    "zone": "Zona de restauración",
+    "location": "Área de instalaciones"
   },
   "fBenvenuto": {
     "name": "Caffe Bene",
-    "shortName": "[TODO][es] 벤베누토",
+    "shortName": "Benvenuto",
     "description": "Una cafetería que ofrece un espacio de descanso confortable con vistas a la sala de exposiciones.",
-    "zone": "[TODO][es] 식사 구역",
-    "location": "[TODO][es] 편의시설 구역"
+    "zone": "Zona de restauración",
+    "location": "Área de instalaciones"
   },
   "fMyeongdong": {
     "name": "Myeongdong Kalguksu",
-    "shortName": "[TODO][es] 명동칼국수",
+    "shortName": "Myeongdong",
     "description": "Un restaurante de fideos famoso por su caldo profundo y fideos elásticos.",
-    "zone": "[TODO][es] 식사 구역",
-    "location": "[TODO][es] 편의시설 구역"
+    "zone": "Zona de restauración",
+    "location": "Área de instalaciones"
   },
   "cCu1": {
     "name": "Tienda CU",
     "shortName": "CU",
     "description": "Diversas bebidas, aperitivos y artículos de conveniencia están preparados para los visitantes.",
-    "zone": "[TODO][es] 편의시설",
-    "location": "[TODO][es] 중앙 통로"
+    "zone": "Instalaciones",
+    "location": "Pasillo central"
   },
   "cPress": {
     "name": "Centro de Prensa",
-    "shortName": "[TODO][es] 프레스",
+    "shortName": "Prensa",
     "description": "Un espacio para que los periodistas escriban artículos y realicen sesiones informativas.",
-    "zone": "[TODO][es] 운영 지원",
-    "location": "[TODO][es] 운영 구역"
+    "zone": "Soporte operativo",
+    "location": "Zona operativa"
   },
   "hSonocalm": {
     "name": "Sono Calm Goyang",
-    "shortName": "[TODO][es] 소노캄",
+    "shortName": "Sonocalm",
     "description": "Un hotel premium de 5 estrellas cerca de KINTEX que ofrece el mejor descanso.",
-    "zone": "[TODO][es] 외부 연계",
-    "location": "[TODO][es] 연결 통로"
+    "zone": "Conexión externa",
+    "location": "Pasillo de conexión"
   },
   "hGloucester": {
     "name": "Hotel Gloucester KINTEX",
-    "shortName": "[TODO][es] 글로스터",
+    "shortName": "Gloucester",
     "description": "Situado justo al lado de KINTEX, ofrece una accesibilidad óptima para los visitantes de negocios.",
-    "zone": "[TODO][es] 외부 연계",
-    "location": "[TODO][es] 연결 통로"
+    "zone": "Conexión externa",
+    "location": "Pasillo de conexión"
   },
   "exitWest": {
     "name": "Puerta Oeste",
-    "shortName": "[TODO][es] 서쪽 출구",
+    "shortName": "Salida Oeste",
     "description": "Entrada oeste del Hall de Exhibiciones 1.",
-    "zone": "[TODO][es] 출구",
-    "location": "[TODO][es] 서쪽 게이트"
+    "zone": "Salida",
+    "location": "Puerta Oeste"
   },
   "exitEast": {
-    "name": "[TODO][es] 동쪽 출구",
-    "shortName": "[TODO][es] 동쪽 출구",
-    "description": "[TODO][es] 동쪽 방향 이동에 적합한 출구입니다.",
-    "zone": "[TODO][es] 출구",
-    "location": "[TODO][es] 동쪽 게이트"
+    "name": "Salida Este",
+    "shortName": "Salida Este",
+    "description": "Salida adecuada para dirigirse al este.",
+    "zone": "Salida",
+    "location": "Puerta Este"
   },
   "toilet1": {
-    "name": "[TODO][es] 화장실 1",
-    "shortName": "[TODO][es] 화장실",
-    "description": "[TODO][es] 현재 위치에서 가까운 화장실입니다.",
-    "zone": "[TODO][es] 편의시설",
-    "location": "[TODO][es] 중앙 통로"
+    "name": "Baño 1",
+    "shortName": "Baño",
+    "description": "Baño cercano a su ubicación actual.",
+    "zone": "Instalaciones",
+    "location": "Pasillo central"
   },
   "toilet2": {
-    "name": "[TODO][es] 화장실 2",
-    "shortName": "[TODO][es] 화장실",
-    "description": "[TODO][es] 혼잡이 적은 보조 화장실입니다.",
-    "zone": "[TODO][es] 편의시설",
-    "location": "[TODO][es] 외곽 통로"
+    "name": "Baño 2",
+    "shortName": "Baño",
+    "description": "Baño auxiliar con menos congestión.",
+    "zone": "Instalaciones",
+    "location": "Pasillo periférico"
   },
   "medical": {
-    "name": "[TODO][es] 의무실",
-    "shortName": "[TODO][es] 의무실",
-    "description": "[TODO][es] 응급 상황이나 건강 문제가 있을 때 도움을 받을 수 있는 공간입니다.",
-    "zone": "[TODO][es] 안전 지원",
-    "location": "[TODO][es] 운영 지원 구역"
+    "name": "Enfermería",
+    "shortName": "Enfermería",
+    "description": "Lugar donde recibir ayuda en caso de emergencia o problemas de salud.",
+    "zone": "Soporte de seguridad",
+    "location": "Área de soporte operativo"
   },
   "welcomeZone": {
     "name": "Zona de Bienvenida",
-    "shortName": "[TODO][es] 환영",
+    "shortName": "Bienvenida",
     "description": "Área de bienvenida que marca el inicio de la convención.",
-    "zone": "[TODO][es] 입구",
-    "location": "[TODO][es] 입구 주변"
+    "zone": "Entrada",
+    "location": "Cerca de la entrada"
   },
   "translationCenter": {
     "name": "Centro de Soporte de Traducción",
-    "shortName": "[TODO][es] 통역",
+    "shortName": "Traducción",
     "description": "Centro de traducción y orientación multilingüe.",
-    "zone": "[TODO][es] 언어 지원",
-    "location": "[TODO][es] 중앙 안내 구역"
+    "zone": "Soporte de idiomas",
+    "location": "Área central de información"
   },
   "giftZone": {
     "name": "Zona de Recuerdos",
-    "shortName": "[TODO][es] 선물",
+    "shortName": "Regalos",
     "description": "Lugar para recoger recompensas por completar eventos.",
-    "zone": "[TODO][es] 이벤트",
-    "location": "[TODO][es] 운영 데스크 주변"
+    "zone": "Eventos",
+    "location": "Cerca del mostrador operativo"
   },
   "congestion": {
     "low": "Bajo",

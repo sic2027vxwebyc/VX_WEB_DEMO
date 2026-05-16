@@ -1,178 +1,178 @@
 {
   "hall1": {
     "name": "1展示場 1ホール",
-    "shortName": "[TODO][ja] 1홀",
-    "description": "[TODO][ja] 국제대회 주요 프로그램이 진행되는 공간입니다.",
+    "shortName": "1ホール",
+    "description": "国際大会の主要プログラムが進行する空間です。",
     "zone": "第1展示場 1階",
-    "location": "[TODO][ja] 제1전시장"
+    "location": "第1展示場"
   },
   "hall2": {
     "name": "1展示場 2ホール",
-    "shortName": "[TODO][ja] 2홀",
-    "description": "[TODO][ja] 연결 동선과 보조 프로그램 안내가 제공되는 공간입니다.",
+    "shortName": "2ホール",
+    "description": "連結動線と補助プログラムの案内が提供される空間です。",
     "zone": "第1展示場 1階",
-    "location": "[TODO][ja] 제1전시장"
+    "location": "第1展示장"
   },
   "hall3": {
     "name": "1展示場 3ホール",
-    "shortName": "[TODO][ja] 3홀",
-    "description": "複層ブスの設置が可能な高い天井高を誇る展示場です.",
-    "zone": "[TODO][ja] 제1전시장",
-    "location": "[TODO][ja] 제1전시장"
+    "shortName": "3ホール",
+    "description": "複層ブースの設置が可能な高い天井高を誇る展示場です。",
+    "zone": "第1展示場 1階",
+    "location": "第1展示場"
   },
   "hall4": {
     "name": "1展示場 4ホール",
-    "shortName": "[TODO][ja] 4홀",
-    "description": "重装備の展示が可能な堅牢な床荷重を備えた空間です.",
+    "shortName": "4ホール",
+    "description": "重装備の展示が可能な堅牢な床荷重を備えた空間です。",
     "zone": "第1展示場 1階",
-    "location": "[TODO][ja] 제1전시장"
+    "location": "第1展示場"
   },
   "hall5": {
     "name": "1展示場 5ホール",
-    "shortName": "[TODO][ja] 5홀",
-    "description": "[TODO][ja] 목적지 안내 및 주요 이동 경로가 연결되는 공간입니다.",
+    "shortName": "5ホール",
+    "description": "目的地案内および主要移動経路が連結される空間입니다。",
     "zone": "第1展示場 1階",
-    "location": "[TODO][ja] 제1전시장"
+    "location": "第1展示場"
   },
   "hall6": {
     "name": "2展示場 6ホール",
-    "shortName": "[TODO][ja] 6홀",
-    "description": "第2展示場の開始点となるホールで、中小規模の専門展示会に適しています.",
+    "shortName": "6ホール",
+    "description": "第2展示場の開始点となるホールで、中小規模の専門展示会に適しています。",
     "zone": "第2展示場 1階",
-    "location": "[TODO][ja] 제2전시장"
+    "location": "第2展示場"
   },
   "hall7": {
     "name": "2展示場 7ホール",
-    "shortName": "[TODO][ja] 7홀",
-    "description": "[TODO][ja] 대형 컨벤션 및 최신 시설을 갖춘 공간입니다.",
+    "shortName": "7ホール",
+    "description": "大型コンベンションおよび最新施設を備えた空間です。",
     "zone": "第2展示場 1階",
-    "location": "[TODO][ja] 제2전시장"
+    "location": "第2展示場"
   },
   "hall8": {
     "name": "2展示場 8ホール",
-    "shortName": "[TODO][ja] 8홀",
-    "description": "国際的な展示会や企業イベントが活発に開かれる空間です.",
+    "shortName": "8ホール",
+    "description": "国際的な展示会や企業イベントが活発に開かれる空間です。",
     "zone": "第2展示場 1階",
-    "location": "[TODO][ja] 제2전시장"
+    "location": "第2展示場"
   },
   "hall9": {
     "name": "2展示場 9ホール",
-    "shortName": "[TODO][ja] 9홀",
-    "description": "KINTEXで最も広い単一ホールの一つで、超大型イベントに最適化されています.",
+    "shortName": "9ホール",
+    "description": "KINTEXで最も広い単一ホールの一つで、超大型イベントに最適化されています。",
     "zone": "第2展示場 1階",
-    "location": "[TODO][ja] 제2전시장"
+    "location": "第2展示場"
   },
   "hall10": {
     "name": "2展示場 10ホール",
-    "shortName": "[TODO][ja] 10홀",
-    "description": "最新の建築技術が集約された展示場で、9ホールと共にマンモス級の行事をサポートします.",
+    "shortName": "10ホール",
+    "description": "最新の建築技術が集約された展示場で、9ホールと共にマンモス級の行事をサポートします。",
     "zone": "第2展示場 1階",
-    "location": "[TODO][ja] 제2전시장"
+    "location": "第2展示場"
   },
   "fSodam": {
     "name": "ソダム (韓食)",
-    "shortName": "[TODO][ja] 소담",
-    "description": "丁寧な韓食膳を提供するKINTEX代表の韓国料理店です.",
-    "zone": "[TODO][ja] 식사 구역",
-    "location": "[TODO][ja] 편의시설 구역"
+    "shortName": "ソダム",
+    "description": "丁寧な韓食膳を提供するKINTEX代表の韓国料理店です。",
+    "zone": "食事エリア",
+    "location": "利便施設エリア"
   },
   "fBenvenuto": {
     "name": "カフェベネ",
-    "shortName": "[TODO][ja] 벤베누토",
-    "description": "展示場の眺望が可能な快適な休息空間を提供するカフェです.",
-    "zone": "[TODO][ja] 식사 구역",
-    "location": "[TODO][ja] 편의시설 구역"
+    "shortName": "ベンベヌト",
+    "description": "展示場の眺望が可能な快適な休息空間を提供するカフェです。",
+    "zone": "食事エリア",
+    "location": "利便施設エリア"
   },
   "fMyeongdong": {
-    "name": "[TODO][ja] 명동칼국수 식사 구역",
-    "shortName": "[TODO][ja] 명동칼국수",
-    "description": "深い味わいのスープともちもちした麺で有名なカルグクス専門店です.",
-    "zone": "[TODO][ja] 식사 구역",
-    "location": "[TODO][ja] 편의시설 구역"
+    "name": "明洞カルグクス レストラン街",
+    "shortName": "明洞カルグクス",
+    "description": "深い味わいのスープともちもちした麺で有名なカルグクス専門店です。",
+    "zone": "食事エリア",
+    "location": "利便施設エリア"
   },
   "cCu1": {
     "name": "CU コンビニ",
     "shortName": "CU",
-    "description": "観覧客のための各種飲料やスナック、便利な物品が用意されています.",
-    "zone": "[TODO][ja] 편의시설",
-    "location": "[TODO][ja] 중앙 통로"
+    "description": "観覧客のための各種飲料やスナック、便利な物品が用意されています。",
+    "zone": "利便施設",
+    "location": "中央通路"
   },
   "cPress": {
     "name": "プレスセンター",
-    "shortName": "[TODO][ja] 프레스",
-    "description": "報道関係者のための記事作成およびブリーフィング空間です.",
-    "zone": "[TODO][ja] 운영 지원",
-    "location": "[TODO][ja] 운영 구역"
+    "shortName": "プレス",
+    "description": "報道関係者のための記事作成およびブリーフィング空間です。",
+    "zone": "運営支援",
+    "location": "運営エリア"
   },
   "hSonocalm": {
-    "name": "ソノカム高陽",
-    "shortName": "[TODO][ja] 소노캄",
-    "description": "KINTEX近隣のプレミアム5つ星ホテルで、最高の休息を提供します.",
-    "zone": "[TODO][ja] 외부 연계",
-    "location": "[TODO][ja] 연결 통로"
+    "name": "ソ노カム高陽",
+    "shortName": "ソ노カム",
+    "description": "KINTEX近隣のプレミアム5つ星ホテルで、最高の休息を提供します。",
+    "zone": "外部連携",
+    "location": "連絡通路"
   },
   "hGloucester": {
     "name": "グロスターホテル KINTEX",
-    "shortName": "[TODO][ja] 글로스터",
-    "description": "KINTEXのすぐ横に位置し、ビジネス訪問客に最適なアクセスを提供します.",
-    "zone": "[TODO][ja] 외부 연계",
-    "location": "[TODO][ja] 연결 통로"
+    "shortName": "グロスター",
+    "description": "KINTEXのすぐ横に位置し、ビジネス訪問客に最適なアクセスを提供します。",
+    "zone": "外部連携",
+    "location": "連絡通路"
   },
   "exitWest": {
     "name": "西門",
-    "shortName": "[TODO][ja] 서쪽 출구",
+    "shortName": "西出口",
     "description": "第1展示場の西側出入口です。",
-    "zone": "[TODO][ja] 출구",
-    "location": "[TODO][ja] 서쪽 게이트"
+    "zone": "出口",
+    "location": "西ゲート"
   },
   "exitEast": {
-    "name": "[TODO][ja] 동쪽 출구",
-    "shortName": "[TODO][ja] 동쪽 출구",
-    "description": "[TODO][ja] 동쪽 방향 이동에 적합한 출구입니다.",
-    "zone": "[TODO][ja] 출구",
-    "location": "[TODO][ja] 동쪽 게이트"
+    "name": "東出口",
+    "shortName": "東出口",
+    "description": "東方向への移動に適した出口です。",
+    "zone": "出口",
+    "location": "東ゲート"
   },
   "toilet1": {
-    "name": "[TODO][ja] 화장실 1",
-    "shortName": "[TODO][ja] 화장실",
-    "description": "[TODO][ja] 현재 위치에서 가까운 화장실입니다.",
-    "zone": "[TODO][ja] 편의시설",
-    "location": "[TODO][ja] 중앙 통로"
+    "name": "トイレ 1",
+    "shortName": "トイレ",
+    "description": "現在地から近いトイレです。",
+    "zone": "利便施設",
+    "location": "中央通路"
   },
   "toilet2": {
-    "name": "[TODO][ja] 화장실 2",
-    "shortName": "[TODO][ja] 화장실",
-    "description": "[TODO][ja] 혼잡이 적은 보조 화장실입니다.",
-    "zone": "[TODO][ja] 편의시설",
-    "location": "[TODO][ja] 외곽 통로"
+    "name": "トイレ 2",
+    "shortName": "トイレ",
+    "description": "混雑の少ない補助トイレです。",
+    "zone": "利便施設",
+    "location": "外郭通路"
   },
   "medical": {
-    "name": "[TODO][ja] 의무실",
-    "shortName": "[TODO][ja] 의무실",
-    "description": "[TODO][ja] 응급 상황이나 건강 문제가 있을 때 도움을 받을 수 있는 공간입니다.",
-    "zone": "[TODO][ja] 안전 지원",
-    "location": "[TODO][ja] 운영 지원 구역"
+    "name": "医務室",
+    "shortName": "医務室",
+    "description": "緊急事態や健康問題がある時に助けを受けられる空間です。",
+    "zone": "安全支援",
+    "location": "運営支援エリア"
   },
   "welcomeZone": {
     "name": "ウェルカムゾーン",
-    "shortName": "[TODO][ja] 환영",
+    "shortName": "歓迎",
     "description": "大会の始まりを知らせる歓迎空間です。",
-    "zone": "[TODO][ja] 입구",
-    "location": "[TODO][ja] 입구 주변"
+    "zone": "入口",
+    "location": "入口周辺"
   },
   "translationCenter": {
     "name": "通訳支援センター",
-    "shortName": "[TODO][ja] 통역",
+    "shortName": "通訳",
     "description": "多言語通訳および案内を支援するハブです。",
-    "zone": "[TODO][ja] 언어 지원",
-    "location": "[TODO][ja] 중앙 안내 구역"
+    "zone": "言語支援",
+    "location": "中央案内エリア"
   },
   "giftZone": {
     "name": "記念品贈呈エリア",
-    "shortName": "[TODO][ja] 선물",
+    "shortName": "ギフト",
     "description": "イベント完了報酬を受け取る場所です。",
-    "zone": "[TODO][ja] 이벤트",
-    "location": "[TODO][ja] 운영 데스크 주변"
+    "zone": "イベント",
+    "location": "運営デスク周辺"
   },
   "congestion": {
     "low": "低い",

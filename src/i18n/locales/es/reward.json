@@ -7,9 +7,9 @@
   "remainingStampsCount": "Sellos restantes",
   "claimCompleted": "Recogida completada",
   "congratulations": "¡Felicidades!",
-  "rewardGuideLine1": "[TODO][es] 20개의 모든 스탬프를 성공적으로 수집하셨습니다.",
-  "rewardGuideHighlight": "[TODO][es] 기프트 존",
-  "rewardGuideLine2": "[TODO][es] 에서 한정판 기념품을 수령하세요.",
+  "rewardGuideLine1": "Ha coleccionado con éxito los 20 sellos.",
+  "rewardGuideHighlight": "Zona de Regalos",
+  "rewardGuideLine2": "Puede recoger su recuerdo de edición limitada allí.",
   "locationDetail": "Lobby Central 1F, Hall de Exhibición 1",
   "locationSubDetail": "Al lado del mostrador de información",
   "hoursDetail": "Disponible durante el horario del evento",
@@ -17,7 +17,7 @@
   "demoClaimAction": "Demo: Marcar como recogido",
   "alreadyClaimed": "Ya has recogido la recompensa. ¡Gracias!",
   "notCompleteYet": "Colección en curso",
-  "notCompleteDescLine1": "[TODO][es] 보상을 받으려면 20개의 스탬프를 모두 모아야 합니다.",
-  "notCompleteDescLine2": "[TODO][es] 현재 {current} / {total} 완료",
+  "notCompleteDescLine1": "Debe coleccionar los 20 sellos para recibir la recompensa.",
+  "notCompleteDescLine2": "Progreso actual: {current} / {total}",
   "continueChallenge": "Continuar desafío"
 }

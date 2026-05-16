@@ -4,9 +4,9 @@
   "display": {
     "title": "表示",
     "darkMode": "ダークモード",
-    "darkModeDesc": "システム全体にダークテーマを適用します。",
+    "darkModeDesc": "システム全体にダークテーマ을適用します。",
     "highContrast": "高コントラスト",
-    "highContrastDesc": "読みやすさを向上させるために色のコントラストを上げます。",
+    "highContrastDesc": "読みやすさ을向上させるために色コントラスト을上げます。",
     "fontSize": "フォントサイズ",
     "fontSizeSmall": "小",
     "fontSizeMedium": "中",
@@ -21,12 +21,12 @@
     "offlineMaps": "オフラインマップデータ",
     "offlineMapsDesc": "ネットワーク接続がない場合でもマップを使用できるように、データを事前ダウンロードします。",
     "biometricAuth": "生体認証ロック",
-    "biometricAuthDesc": "[TODO][ja] 관리자 페이지 접근 시 FaceID/지문을 요구합니다."
+    "biometricAuthDesc": "管理者ページへのアクセス時にFaceID/指紋認証を要求します。"
   },
   "data": {
     "title": "データ管理",
     "cache": "キャッシュデータ",
-    "cacheDesc": "[TODO][ja] 현재 앱에 저장된 캐시 데이터를 삭제합니다.",
+    "cacheDesc": "現在アプリに保存されているキャッシュデータを削除します。",
     "clearCache": "キャッシュをクリア",
     "cacheCleared": "キャッシュが正常にクリアされました。"
   },

@@ -1,17 +1,17 @@
 {
   "connection": {
-    "title": "Unstable Connection",
-    "desc": "Unable to load real-time data due to poor network conditions. Switch to offline mode?",
-    "retry": "Retry Connection",
-    "offlineMap": "Use Offline Map",
-    "errorCode": "Error Code: {code}"
+    "title": "連線不穩定",
+    "desc": "由於網路環境不佳，無法載入即時數據。是否切換至離線模式？",
+    "retry": "重新連線",
+    "offlineMap": "使用離線地圖",
+    "errorCode": "錯誤代碼: {code}"
   },
   "restricted": {
-    "title": "Access Denied",
-    "descLine1": "[TODO][zh-TW] 이 구역은",
-    "descHighlight": "[TODO][zh-TW] 보안 등급 {level} 이상",
-    "descLine2": "[TODO][zh-TW] 소지자만 출입이 가능합니다. 권한이 필요하시면 안내 데스크({gate})로 문의해 주세요.",
-    "bypass": "Find Alternative Route",
-    "callSecurity": "Call Security Officer"
+    "title": "拒絕存取",
+    "descLine1": "此區域僅限",
+    "descHighlight": "持有安全等級 {level} 以上勳章者",
+    "descLine2": "進入。若需要權限，請諮詢服務台 ({gate})。",
+    "bypass": "尋找替代路徑",
+    "callSecurity": "呼叫安保人員"
   }
 }

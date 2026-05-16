@@ -19,84 +19,84 @@
   "collectedToday": "Собрано сегодня",
   "items": {
     "hall1": {
-      "name": "[TODO][ru] 1홀",
-      "description": "[TODO][ru] 메인 컨벤션 홀"
+      "name": "Зал 1",
+      "description": "Главный конференц-зал"
     },
     "hall2": {
-      "name": "[TODO][ru] 2홀",
-      "description": "[TODO][ru] 전시 구역 B"
+      "name": "Зал 2",
+      "description": "Выставочная зона B"
     },
     "hall3": {
-      "name": "[TODO][ru] 3홀",
-      "description": "[TODO][ru] 이벤트 및 세미나"
+      "name": "Зал 3",
+      "description": "События и семинары"
     },
     "hall4": {
-      "name": "[TODO][ru] 4홀",
-      "description": "[TODO][ru] 테크 전시 존"
+      "name": "Зал 4",
+      "description": "Зона технологических выставок"
     },
     "hall5": {
-      "name": "[TODO][ru] 5홀",
-      "description": "[TODO][ru] 글로벌 라운지"
+      "name": "Зал 5",
+      "description": "Глобальный лаундж"
     },
     "fSodam": {
-      "name": "[TODO][ru] 식당가",
-      "description": "[TODO][ru] 전통 한식 식당가"
+      "name": "Ресторанный дворик",
+      "description": "Традиционная корейская кухня"
     },
     "cCu1": {
-      "name": "[TODO][ru] 안내소",
-      "description": "[TODO][ru] 안내 및 배터리 지원"
+      "name": "Информационное бюро",
+      "description": "Информация и поддержка батарей"
     },
     "hall6": {
-      "name": "[TODO][ru] 6홀",
-      "description": "[TODO][ru] 고급 세미나 구역"
+      "name": "Зал 6",
+      "description": "Зона премиум-семинаров"
     },
     "hall7": {
-      "name": "[TODO][ru] 7홀",
-      "description": "[TODO][ru] 디지털 체험 존"
+      "name": "Зал 7",
+      "description": "Зона цифрового опыта"
     },
     "hall8": {
-      "name": "[TODO][ru] 8홀",
-      "description": "[TODO][ru] 예술 및 문화 존"
+      "name": "Зал 8",
+      "description": "Зона искусства и культуры"
     },
     "hall9": {
-      "name": "[TODO][ru] 9홀",
-      "description": "[TODO][ru] 메인 오디토리움"
+      "name": "Зал 9",
+      "description": "Главный зал"
     },
     "hall10": {
-      "name": "[TODO][ru] 10홀",
-      "description": "[TODO][ru] 폐막식 존"
+      "name": "Зал 10",
+      "description": "Зона церемонии закрытия"
     },
     "fMyeongdong": {
-      "name": "[TODO][ru] 2F 식당가",
-      "description": "[TODO][ru] 세계 음식 푸드코트"
+      "name": "Фуд-корт (2 этаж)",
+      "description": "Мировая кухня"
     },
     "exitWest": {
-      "name": "[TODO][ru] 서문",
-      "description": "[TODO][ru] 주차장 연결 출구"
+      "name": "Западные ворота",
+      "description": "Выход к парковке"
     },
     "toilet1": {
-      "name": "[TODO][ru] 중앙 화장실",
-      "description": "[TODO][ru] 깨끗한 편의 시설"
+      "name": "Центральный туалет",
+      "description": "Чистые удобства"
     },
     "medical": {
       "name": "Медпункт",
       "description": "Центр неотложной помощи"
     },
     "giftZone": {
-      "name": "[TODO][ru] 기프트 존",
-      "description": "[TODO][ru] 보상 수령 장소"
+      "name": "Зона подарков",
+      "description": "Место получения наград"
     },
     "translationCenter": {
-      "name": "[TODO][ru] 통역 지원 센터",
-      "description": "[TODO][ru] 다국어 지원 허브"
+      "name": "Центр перевода",
+      "description": "Хаб многоязычной поддержки"
     },
     "welcomeZone": {
-      "name": "[TODO][ru] 웰컴 존",
-      "description": "[TODO][ru] 대회 시작 지점"
+      "name": "Зона приветствия",
+      "description": "Точка начала конгресса"
     },
     "experienceZone": {
-      "name": "[TODO][ru] 체험 존",
-      "description": "[TODO][ru] 인터랙티브 공간 VR"
+      "name": "Зона впечатлений",
+      "description": "Интерактивное VR-пространство"
     }
   }
 }

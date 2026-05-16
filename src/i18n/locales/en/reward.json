@@ -7,9 +7,9 @@
   "remainingStampsCount": "Remaining stamps",
   "claimCompleted": "Collection Completed",
   "congratulations": "Congratulations!",
-  "rewardGuideLine1": "[TODO][en] 20개의 모든 스탬프를 성공적으로 수집하셨습니다.",
-  "rewardGuideHighlight": "[TODO][en] 기프트 존",
-  "rewardGuideLine2": "[TODO][en] 에서 한정판 기념품을 수령하세요.",
+  "rewardGuideLine1": "You have successfully collected all 20 stamps.",
+  "rewardGuideHighlight": "Gift Zone",
+  "rewardGuideLine2": "Please collect your limited edition souvenir at the .",
   "locationDetail": "1F Central Lobby, Exhibition Hall 1",
   "locationSubDetail": "Next to the Information Desk",
   "hoursDetail": "Available during event hours",
@@ -17,7 +17,7 @@
   "demoClaimAction": "Demo: Mark as collected",
   "alreadyClaimed": "You have already collected the reward. Thank you!",
   "notCompleteYet": "Collection in progress",
-  "notCompleteDescLine1": "[TODO][en] 보상을 받으려면 20개의 스탬프를 모두 모아야 합니다.",
-  "notCompleteDescLine2": "[TODO][en] 현재 {current} / {total} 완료",
+  "notCompleteDescLine1": "You must collect all 20 stamps to receive the reward.",
+  "notCompleteDescLine2": "Currently {current} / {total} completed.",
   "continueChallenge": "Continue Challenge"
 }

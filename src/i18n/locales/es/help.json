@@ -7,9 +7,96 @@
   "categories": {
     "all": "Todo",
     "vision": "Visión y Valor",
-    "roadmap": "Hoja de ruta",
+    "roadmap": "Hoja de ruta y Tecnología",
     "gamification": "Gamificación",
-    "security": "Seguridad y Datos",
-    "tech": "Estándares técnicos"
-  }
+    "security": "Seguridad y Analítica",
+    "standards": "Estándares de ingeniería",
+    "architecture": "Arquitectura y QA"
+  },
+  "items": [
+    {
+      "id": "qa-01",
+      "category": "vision",
+      "question": "¿Cuál es el valor fundamental de la 'Plataforma de Experiencia Espacial' a la que aspira VX Web V2?",
+      "answer": "Consiste en hacer realidad la filosofía **Runtime UX**, donde el espacio físico y la información digital se combinan en tiempo real, de modo que **\"los usuarios no buscan información, sino que el espacio sugiere información según la situación\"**.\n*   **Zero-thought Navigation:** Exposición automática de información óptima según la ubicación y el tiempo.\n*   **Crowd-aware Experience:** Guía de desvío proactiva basada en la congestión en tiempo real.\n*   **Accessibility First:** Modo de accesibilidad y guía de rutas exclusivas para sillas de ruedas para ancianos y personas con discapacidad.\n*   **Immersive & Gamified Journey:** Inducción a la exploración activa a través de visores espaciales de 360 grados y recorridos de sellos QR."
+    },
+    {
+      "id": "qa-02",
+      "category": "roadmap",
+      "question": "¿Cuál es la hoja de ruta para convertirse en 'The Convention OS' (El Sistema Operativo de Convenciones)?",
+      "answer": "*   **Fase 1: Infraestructura en tiempo real:** Sincronización en vivo basada en WebSocket y Sistema de Autenticación Integrado (Auth System).\n*   **Fase 2: Inteligencia Espacial Avanzada:** Posicionamiento en interiores (IPS), predicción de rutas basada en IA y soporte para WebXR.\n*   **Fase 3: Expansión de Gamificación:** Integración social, mercado de recompensas y archivos digitales avanzados."
+    },
+    {
+      "id": "qa-03",
+      "category": "roadmap",
+      "question": "¿Cuáles son los desafíos técnicos clave a resolver en un entorno a gran escala?",
+      "answer": "1.  **Alta Disponibilidad (High Availability):** Mantener conexiones de socket estables para responder a decenas de miles de usuarios simultáneos.\n2.  **Offline First:** Optimizar PWA y Service Workers para prepararse ante la inestabilidad de la red.\n3.  **Privacidad desde el diseño (Privacy by Design):** Aplicar un procesamiento de seguridad estricto al recopilar y analizar datos de ubicación."
+    },
+    {
+      "id": "qa-04",
+      "category": "gamification",
+      "question": "¿Cómo se estructuran el mercado de recompensas y el pasaporte?",
+      "answer": "*   **Recompensas:** Provisión de productos físicos en el sitio, cupones de descuento y vales.\n*   **Pasaporte de Convención:** Un registro digital que entrelaza lugares visitados, sesiones participadas y sellos obtenidos en orden cronológico, induciendo la participación continua y las visitas de regreso de los participantes."
+    },
+    {
+      "id": "qa-05",
+      "category": "gamification",
+      "question": "¿Cuál es el principio de verificación de visitas y registro automático?",
+      "answer": "*   **Actualidad:** Implementado como una interfaz de usuario de simulación (Mocking UI) para experimentar virtualmente el proceso de escaneo de la cámara.\n*   **Futuro:** Verificación de QR en el servidor, seguimiento de registros de actividad en tiempo real e introducción de **registro automático basado en NFC/Beacon**.\n*   **Principio técnico:** Utilizar tecnología BLE o Wi-Fi Fingerprinting en áreas interiores donde no llegan las señales de GPS, para procesar automáticamente la verificación al acercarse a una ubicación específica sin manipulación."
+    },
+    {
+      "id": "qa-06",
+      "category": "gamification",
+      "question": "¿Cómo se implementa la función de intercambio social del pasaporte?",
+      "answer": "Más que compartir todo el pasaporte, se implementa en torno a las **'Insignias adquiridas' (Badges)**, que son elementos clave de logro.\n*   **Intercambio social de insignias:** Comparta instantáneamente sus logros en eventos a través de SNS.\n*   **Tabla de clasificación:** Inducción a la competencia social a través de clasificaciones de recolección de sellos entre los participantes.\n*   **Integración social entre participantes:** Compartir ubicación selectiva y misiones colaborativas basadas en equipos."
+    },
+    {
+      "id": "qa-07",
+      "category": "security",
+      "question": "¿Cuáles son las medidas de seguridad específicas para proteger los datos de ubicación de los usuarios?",
+      "answer": "*   **Recopilación anonimizada:** Se elimina la información de identificación personal al recopilar registros de actividad y ubicación en tiempo real de los participantes.\n*   **Anonimización proactiva del lado del cliente:** Antes de que los datos se almacenen en el servidor, **los datos de la ruta en movimiento se anonimizan primero en el terminal del usuario (lado del cliente)** y luego se transmiten para bloquear fundamentalmente la infracción de la privacidad."
+    },
+    {
+      "id": "qa-08",
+      "category": "security",
+      "question": "¿Cómo se utilizan los datos de Edge Analytics?",
+      "answer": "1.  **Generación automática de informes operativos:** Análisis del tiempo de estancia y patrones de movimiento por zona.\n2.  **Aprendizaje de Pathfinding con IA:** Predecir situaciones de congestión futuras y sugerir rutas de desvío aprendiendo datos de congestión pasados.\n3.  **Mejora de la precisión de la planificación de eventos:** Optimización del diseño de la disposición espacial y el flujo de movimiento basándose en datos."
+    },
+    {
+      "id": "qa-09",
+      "category": "standards",
+      "question": "¿Cuáles son los estándares para la gestión de idiomas (i18n) y el registro (logging)?",
+      "answer": "*   **i18n:** Mantener la integridad de los datos duplicando todos los archivos de idioma basándose en 'ko (coreano)' como Master.\n*   **Logging:** Prevenir problemas asíncronos y accidentes operativos mediante el seguimiento omnidireccional de eventos a través de la utilidad `logger` (Harness Engineering)."
+    },
+    {
+      "id": "qa-10",
+      "category": "standards",
+      "question": "¿Cuál es el valor fundamental de la estrategia Offline-first?",
+      "answer": "Incluso si la red se desconecta en un entorno concurrido, maximiza la confiabilidad del sistema al asegurar que las funciones principales, como la navegación espacial, funcionen sin interrupciones basándose en los datos almacenados en caché por los service workers con antelación."
+    },
+    {
+      "id": "qa-11",
+      "category": "architecture",
+      "question": "¿Cuál es el método de implementación técnica del diseño para mantener un UX premium?",
+      "answer": "VX Web V2 utiliza un **Sistema de Design Tokens basado en Material Design 3 (M3)**. En lugar de simplemente usar códigos de color fijos (#hex), define y gestiona tokens semánticos como `surface-container-high`, `on-surface-variant` y `primary-fixed`. Esto asegura la mejor calidad visual e identidad de marca de manera consistente en cualquier entorno, como el modo oscuro o el modo de alto contraste."
+    },
+    {
+      "id": "qa-12",
+      "category": "architecture",
+      "question": "¿Cuáles son los 9 alcances de registro (logging scopes) que son la realidad de 'Harness Engineering'?",
+      "answer": "Para realizar un seguimiento inmediato de los errores menores que ocurren durante la operación, se designan y gestionan las siguientes 9 áreas como alcances de registro estándar:\n1. Inicialización y configuración de la aplicación, 2. Transiciones de ruta de página, 3. Montaje/desmontaje de componentes, 4. Carga de datos de espacio/activos, 5. Cambios de estado del visor 360, 6. Manipulación de búsqueda/filtro, 7. Interacciones de la interfaz de usuario modal/expandida, 8. Eventos de toque y redimensionamiento, 9. Errores de tiempo de ejecución y manejo de fallback."
+    },
+    {
+      "id": "qa-13",
+      "category": "architecture",
+      "question": "¿Cómo garantizar la integridad de los datos operativos en tiempo real?",
+      "answer": "La plataforma adopta una **estructura de gestión de estado centralizada basada en Pinia**. Un almacén global como `OperationalStore` sirve como una 'Única Fuente de Verdad' para todos los estados en tiempo real, como la congestión, el progreso de la sesión y los avisos de emergencia. Esto bloquea fundamentalmente la corrupción o distorsión de datos incluso cuando numerosos componentes se actualizan simultáneamente."
+    },
+    {
+      "id": "qa-14",
+      "category": "architecture",
+      "question": "¿Cómo está diseñado el sistema para responder en caso de una emergencia?",
+      "answer": "El sistema tiene incorporado un **Emergency Ticker**, que es la interfaz de respuesta a emergencias de mayor prioridad. En caso de emergencia, se activa inmediatamente un ticker de animación de alto contraste en la capa superior de todas las páginas. Este ticker tiene un z-index más alto que cualquier otro elemento de la interfaz de usuario, y está diseñado para que los usuarios puedan reconocer y responder inmediatamente al peligro sin importar en qué página se encuentren."
+    }
+  ]
 }

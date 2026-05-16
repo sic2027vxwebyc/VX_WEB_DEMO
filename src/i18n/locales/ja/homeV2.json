@@ -25,66 +25,66 @@
   "optimalEntranceGate": "GATE {gate} ({name})",
   "entranceGuide": "現在、北門に人波が集中しています。{name}を利用すれば待ち時間なしで即座に入場可能です。",
   "ticker": {
-    "emergency": "High congestion in Hall C. We recommend using the West Gate.",
-    "info": "Interpretation equipment battery replacement is available at the 1st-floor info desk.",
-    "status": "오후 식사 공간 운영이 시작되었습니다."
+    "emergency": "ホールCで高い混雑が検知されました。西門の利用をお勧めします。",
+    "info": "通訳機器のバッテリー交換は、1階の案内デスクで承っております。",
+    "status": "午後の食事スペースの運営が開始されました。"
   },
-  "nextProgramTitle": "Eternal Happiness (Drama Part 2)",
-  "connectionSecure": "Connected",
-  "lastSync": "Last sync: {time}",
+  "nextProgramTitle": "永遠の幸福 (ドラマ第2部)",
+  "connectionSecure": "接続中",
+  "lastSync": "最終同期: {time}",
   "phases": {
     "morning": {
-      "greeting": "Good morning!",
-      "message": "Morning programs are actively in progress."
+      "greeting": "おはようございます！",
+      "message": "午前のプログラムが活発に進行中です。"
     },
     "lunch": {
-      "greeting": "Enjoy your lunch!",
-      "message": "We'll guide you to nearby dining and rest areas."
+      "greeting": "ランチタイムをお楽しみください！",
+      "message": "周辺のレストランや休憩スペースをご案内します。"
     },
     "afternoon": {
-      "greeting": "Check the afternoon schedule.",
-      "message": "All sessions are operating normally."
+      "greeting": "午後のスケジュールを確認してください。",
+      "message": "すべてのセッションが正常に運営されています。"
     },
     "evening": {
-      "greeting": "Good job today!",
-      "message": "Check traffic information for a safe return home."
+      "greeting": "今日もお疲れ様でした！",
+      "message": "安全な帰路のために交通情報を確認してください。"
     }
   },
   "navigation": {
-    "startNow": "Start Navigating\nto Destination",
-    "optimizedPath": "Start Optimized Routing",
-    "nextProgram": "Next Program",
-    "remaining": "mins left",
-    "viewFullSchedule": "View Full Schedule"
+    "startNow": "目的地へ案内を開始",
+    "optimizedPath": "最適ルート案内開始",
+    "nextProgram": "次のプログラム",
+    "remaining": "分残り",
+    "viewFullSchedule": "全スケジュールを表示"
   },
   "gamification": {
-    "title": "Spatial Stamp Tour Challenge",
-    "description": "Explore the convention center, collect 20 stamps, and receive a special gift.",
-    "tag": "Convention Gamification"
+    "title": "空間スタンプラリー・チャレンジ",
+    "description": "コンベンションセンターを探索して20個のスタンプを集め、特別なギフトを受け取ってください。",
+    "tag": "コンベンション・ゲーミフィケーション"
   },
   "quickActions": {
-    "findSeat": "Find Seat",
-    "nearby": "Nearby",
-    "language": "Language",
-    "explore": "Explore"
+    "findSeat": "座席探し",
+    "nearby": "周辺施設",
+    "language": "言語設定",
+    "explore": "探索"
   },
   "status": {
-    "majorAreas": "Major Areas Status",
-    "liveStatus": "Live Status",
-    "operationalGuide": "Operational Guide",
-    "diningOpen": "Dining area is now open. We recommend using the {hall} instead of the congested Hall 1.",
-    "hall3Dining": "Hall 3 Dining",
-    "viewAllNotices": "View All Notices",
-    "low": "[TODO][ja] 여유",
-    "moderate": "[TODO][ja] 보통",
-    "high": "[TODO][ja] 혼잡"
+    "majorAreas": "主要エリアの現況",
+    "liveStatus": "ライブ状況",
+    "operationalGuide": "運営ガイド",
+    "diningOpen": "レストラン街の運営が開始されました。混雑している第1ホールの代わりに{hall}の利用をお勧めします。",
+    "hall3Dining": "第3ホール・レストラン",
+    "viewAllNotices": "すべてのお知らせを表示",
+    "low": "スムーズ",
+    "moderate": "普通",
+    "high": "混雑"
   },
   "messages": {
     "beforeConvention": "明日から国際大会が始まります。\nゆっくり休んで、明日またお会いしましょう。",
     "beforeTodayFirstSession": "本日のプログラムがまもなく始まります。\n余裕を持ってご準備ください。",
     "betweenSessions": "次のセッションまで、しばらく休憩してください。",
     "fridayEnded": "本日のセッションは終了しました。\nまた明日お会いしましょう。",
-    "saturdayEnded": "[TODO][ja] 오늘 회기가 종료되었습니다.\n내일 마지막 회기에서 다시 뵙겠습니다.",
+    "saturdayEnded": "本日のセッションは終了しました。\n明日の最終セッションでお会いしましょう。",
     "conventionFinished": "2026年ソウル国際大会にご参加いただきありがとうございました。\n3日間のプログラムをお楽しみいただけましたでしょうか。",
     "startingSoon": "まもなく開始します。"
   },

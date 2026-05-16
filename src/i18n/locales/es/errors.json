@@ -1,17 +1,17 @@
 {
   "connection": {
-    "title": "Unstable Connection",
-    "desc": "Unable to load real-time data due to poor network conditions. Switch to offline mode?",
-    "retry": "Retry Connection",
-    "offlineMap": "Use Offline Map",
-    "errorCode": "Error Code: {code}"
+    "title": "Conexión inestable",
+    "desc": "No se pueden cargar los datos en tiempo real debido a las malas condiciones de la red. ¿Cambiar al modo fuera de línea?",
+    "retry": "Reintentar conexión",
+    "offlineMap": "Usar mapa fuera de línea",
+    "errorCode": "Código de error: {code}"
   },
   "restricted": {
-    "title": "Access Denied",
-    "descLine1": "[TODO][es] 이 구역은",
-    "descHighlight": "[TODO][es] 보안 등급 {level} 이상",
-    "descLine2": "[TODO][es] 소지자만 출입이 가능합니다. 권한이 필요하시면 안내 데스크({gate})로 문의해 주세요.",
-    "bypass": "Find Alternative Route",
-    "callSecurity": "Call Security Officer"
+    "title": "Acceso denegado",
+    "descLine1": "Esta área está",
+    "descHighlight": "restringida a titulares de insignias de nivel de seguridad {level} o superior",
+    "descLine2": ". Para obtener ayuda, visite el mostrador de información en {gate}.",
+    "bypass": "Buscar ruta alternativa",
+    "callSecurity": "Llamar al oficial de seguridad"
   }
 }

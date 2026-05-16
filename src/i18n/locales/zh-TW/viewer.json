@@ -4,14 +4,14 @@
   "hotspots": {
     "next": "下個空間",
     "info": "資訊",
-    "hall1": "[TODO][zh-TW] 제1전시장 1홀",
-    "hall2": "[TODO][zh-TW] 제1전시장 2홀",
-    "infoDesk": "[TODO][zh-TW] 안내 데스크",
-    "westGate": "[TODO][zh-TW] 서문 (West Gate)",
-    "foodZone": "[TODO][zh-TW] 식당가 (소담)",
-    "restroom": "[TODO][zh-TW] 화장실",
-    "nearby": "[TODO][zh-TW] 인접 구역",
-    "jumpTo": "[TODO][zh-TW] 이동하기"
+    "hall1": "第1展覽館 1號展廳",
+    "hall2": "第1展覽館 2號展廳",
+    "infoDesk": "服務台",
+    "westGate": "西門 (West Gate)",
+    "foodZone": "美食街 (素淡)",
+    "restroom": "洗手間",
+    "nearby": "相鄰區域",
+    "jumpTo": "前往"
   },
   "controls": {
     "zoomIn": "放大",
@@ -24,8 +24,8 @@
     "title": "空間統計",
     "occupancy": "目前人數",
     "airQuality": "維持最佳空氣品質中",
-    "temp": "[TODO][zh-TW] 온도",
-    "humid": "[TODO][zh-TW] 습도"
+    "temp": "溫度",
+    "humid": "濕度"
   },
   "hotspot": {
     "guideBusy": "距離目前位置步行約 {min} 分鐘。預計人潮擁擠，請注意。",
@@ -33,20 +33,20 @@
   },
   "vr": {
     "notSupportedToast": "此設備不支援 VR 模式。",
-    "interface": "[TODO][zh-TW] 하드웨어 인터페이스",
-    "available": "[TODO][zh-TW] VR 모드 사용 가능",
-    "noSecureContext": "[TODO][zh-TW] HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.",
-    "sessionError": "[TODO][zh-TW] VR 세션을 시작할 수 없습니다."
+    "interface": "硬體介面",
+    "available": "VR 模式可用",
+    "noSecureContext": "非 HTTPS 環境。VR 需要安全連線。",
+    "sessionError": "無法啟動 VR 模式。"
   },
   "status": {
     "normal": "系統正常",
-    "operational": "[TODO][zh-TW] 운영 상태"
+    "operational": "營運狀態"
   },
   "v2": {
-    "scanning": "[TODO][zh-TW] 공간 스캔 중...",
-    "initializing": "[TODO][zh-TW] 신경망 포인트 클라우드 초기화 중",
-    "experience": "[TODO][zh-TW] 360 경험",
-    "nearbyTerminals": "[TODO][zh-TW] 인접 터미널"
+    "scanning": "空間掃描中...",
+    "initializing": "神經網路點雲初始化中",
+    "experience": "360 體驗",
+    "nearbyTerminals": "相鄰終端"
   },
   "live": {
     "realtimeData": "即時數據",

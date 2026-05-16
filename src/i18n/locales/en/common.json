@@ -12,7 +12,7 @@
   "viewAll": "View All",
   "details": "Details",
   "viewDetails": "View details",
-  "status": "현황",
+  "status": "Status",
   "live": "Live",
   "morning": "Morning",
   "afternoon": "Afternoon",
@@ -58,13 +58,13 @@
     "wheelchairAccess": "Wheelchair Access"
   },
   "facilities": {
-    "restroom": "[TODO][en] 화장실",
-    "infoDesk": "[TODO][en] 안내 데스크",
-    "diningArea": "[TODO][en] 식당가",
-    "exit": "[TODO][en] 출구",
-    "westGate": "[TODO][en] 서문",
-    "nearby": "[TODO][en] 인접 구역"
+    "restroom": "Restroom",
+    "infoDesk": "Information Desk",
+    "diningArea": "Dining Area",
+    "exit": "Exit",
+    "westGate": "West Gate",
+    "nearby": "Nearby Areas"
   },
-  "telemetry": "[TODO][en] 원격 측정",
-  "unknown": "[TODO][en] 알 수 없음"
+  "telemetry": "Telemetry",
+  "unknown": "Unknown"
 }

@@ -232,7 +232,7 @@
   "ar.json:controls.exit": {
     "sourceHash": "0a76403d0145eb1a3925e06b29a09bb1f9ced611d38fb7dd5f8587886897eb09",
     "sourceText": "안내 종료",
-    "timestamp": "2026-05-16T13:53:27.699Z"
+    "timestamp": "2026-05-16T16:16:55.536Z"
   },
   "ar.json:permissions.title": {
     "sourceHash": "f1e1f08391e6923eb6692d154b8011503d6f9571de9d0c09aaf8eefb704b7ac1",
@@ -242,7 +242,7 @@
   "ar.json:permissions.desc": {
     "sourceHash": "5db2b78609dfe93fc6a3922c1f39e351b5c2c469e6f0f7d320150509eb3f4575",
     "sourceText": "AR 내비게이션을 이용하기 위해 아래 권한 허용이 필요합니다.",
-    "timestamp": "2026-05-16T13:53:27.699Z"
+    "timestamp": "2026-05-16T16:16:55.536Z"
   },
   "ar.json:permissions.camera": {
     "sourceHash": "6e2b53040cd15b607281800eb31e8903907965f67c54e811722cfc44d852eb0d",
@@ -287,7 +287,7 @@
   "ar.json:success.descLine1": {
     "sourceHash": "aa4b182667e3a87b929e0b92a88f4eade090ae8fcafdabc576a50511a95cfaac",
     "sourceText": "{name}에 성공적으로 도착하셨습니다.",
-    "timestamp": "2026-05-16T13:53:27.700Z"
+    "timestamp": "2026-05-16T16:16:55.538Z"
   },
   "ar.json:success.descHighlight": {
     "sourceHash": "4e8b10f5aec0b7970139f0fb3877f0f80832bc802d8f06083428970ef5ac326c",
@@ -297,7 +297,7 @@
   "ar.json:success.descLine2": {
     "sourceHash": "130503466d08501a4b02bf691625252ae2e658f14dd0eeed6e916d72846a161b",
     "sourceText": "진행 중입니다.",
-    "timestamp": "2026-05-16T13:53:27.700Z"
+    "timestamp": "2026-05-16T16:16:55.538Z"
   },
   "ar.json:success.goHome": {
     "sourceHash": "a6b52fcce0ad05dbfd3c011a6e5b1a4ab8391dafacf7f735d6ee583545492637",
@@ -397,62 +397,62 @@
   "badges.json:items.badgeWelcomeExplorer.name": {
     "sourceHash": "9b4d0040a9c4f789b857a2ee47626d20b8cf082ad9579c3c29765e1a89ceb034",
     "sourceText": "웰컴 익스플로러",
-    "timestamp": "2026-05-16T13:53:27.702Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeWelcomeExplorer.description": {
     "sourceHash": "c87e4c992502ca159f3b48bc65c5b8c488973300802ad9b1bcb2e98db431e492",
     "sourceText": "대회장에 성공적으로 첫 발을 내디뎠습니다.",
-    "timestamp": "2026-05-16T13:53:27.702Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeWelcomeExplorer.unlockCondition": {
     "sourceHash": "a04b98a31474f0fc023964a1fb3a55e3f6fdd82aa79479f38d80997964e669d7",
     "sourceText": "웰컴 투어 퀘스트 완료",
-    "timestamp": "2026-05-16T13:53:27.702Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeHallExplorer.name": {
     "sourceHash": "05d28932766f30889fa68670d891f4327983b3c9f0eb0c65bbddd66f8c3058a8",
     "sourceText": "홀 익스플로러",
-    "timestamp": "2026-05-16T13:53:27.702Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeHallExplorer.description": {
     "sourceHash": "0d0691e7a995922354f4d774cd616fc4f085fd08b5ce0c69869bc0b436ff52a1",
     "sourceText": "전시장의 모든 공간을 속속들이 파악했습니다.",
-    "timestamp": "2026-05-16T13:53:27.702Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeHallExplorer.unlockCondition": {
     "sourceHash": "1292d90eb34cd0ee5a2f2bd457f5c69db07659f05a7634c9d360098a994a9c84",
     "sourceText": "5개 메인 홀 방문",
-    "timestamp": "2026-05-16T13:53:27.702Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeGourmet.name": {
     "sourceHash": "7af37c0c8bd17dba30b33aeae6572a818bc3f91b2c9b351562764d9dc7b326a9",
     "sourceText": "공간 미식가",
-    "timestamp": "2026-05-16T13:53:27.702Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeGourmet.description": {
     "sourceHash": "8f947039cbdff613c18a726485ade122cd96b0509e5b6d1cfd56430cd9218cf4",
     "sourceText": "대회장의 모든 편의 시설과 식당을 탐방했습니다.",
-    "timestamp": "2026-05-16T13:53:27.703Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeGourmet.unlockCondition": {
     "sourceHash": "651d5b29b4edbaa62bfaabf259129e384d441fdba59a4d0c0a282a3fd1f65f34",
     "sourceText": "모든 식당가 방문",
-    "timestamp": "2026-05-16T13:53:27.703Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeMaster.name": {
     "sourceHash": "cee62103a95b152ec062088f89acb6b4202d0da8d95bd683d6c8f613b4098e97",
     "sourceText": "스페셜 마스터",
-    "timestamp": "2026-05-16T13:53:27.703Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeMaster.description": {
     "sourceHash": "cbad15fa110c10f26c0967f6b78a36eb3212f1462e0a6f6d8f1199e0d5dfb79f",
     "sourceText": "20개의 모든 스탬프를 수집한 진정한 마스터입니다.",
-    "timestamp": "2026-05-16T13:53:27.703Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "badges.json:items.badgeMaster.unlockCondition": {
     "sourceHash": "4785f96b8400e5823b713698b76ba0a0fbaf111eb1714138817921e3b259acd9",
     "sourceText": "모든 스탬프 수집",
-    "timestamp": "2026-05-16T13:53:27.703Z"
+    "timestamp": "2026-05-16T16:16:55.545Z"
   },
   "booking.json:title": {
     "sourceHash": "2e937665514ec01a3b8f4812da23bd071c0a21b26e75a0597494be5d85de1c77",
@@ -757,42 +757,42 @@
   "common.json:facilities.restroom": {
     "sourceHash": "477b8e1cccfde276bae7cef2c0d1a75b0592c0fb159e2039fff196fdff08fc0a",
     "sourceText": "화장실",
-    "timestamp": "2026-05-16T13:53:27.706Z"
+    "timestamp": "2026-05-16T16:16:55.551Z"
   },
   "common.json:facilities.infoDesk": {
     "sourceHash": "549412caeff0cf4c60a839cbc36288e4e2f5f48782011d4cb97a00f13912faba",
     "sourceText": "안내 데스크",
-    "timestamp": "2026-05-16T13:53:27.706Z"
+    "timestamp": "2026-05-16T16:16:55.551Z"
   },
   "common.json:facilities.diningArea": {
     "sourceHash": "4fbd3dd6fc61f6d18fda02ff7ac63e047f0e1ce1088fe370d8294136e109874d",
     "sourceText": "식당가",
-    "timestamp": "2026-05-16T13:53:27.706Z"
+    "timestamp": "2026-05-16T16:16:55.551Z"
   },
   "common.json:facilities.exit": {
     "sourceHash": "b4231a6de8f04520b2cd01542a56c71ec5bbf6340025c5820372e9826efd674f",
     "sourceText": "출구",
-    "timestamp": "2026-05-16T13:53:27.706Z"
+    "timestamp": "2026-05-16T16:16:55.551Z"
   },
   "common.json:facilities.westGate": {
     "sourceHash": "c1675e639b6506f660161cf2cde25a8c59afcb29fd6e35e62321bfb0cfad3a26",
     "sourceText": "서문",
-    "timestamp": "2026-05-16T13:53:27.706Z"
+    "timestamp": "2026-05-16T16:16:55.551Z"
   },
   "common.json:facilities.nearby": {
     "sourceHash": "dbe3203aec310e24165b700f9418f4f01494154505a6a96be6308a6f3808da54",
     "sourceText": "인접 구역",
-    "timestamp": "2026-05-16T13:53:27.706Z"
+    "timestamp": "2026-05-16T16:16:55.551Z"
   },
   "common.json:telemetry": {
     "sourceHash": "0ba030eb3f8fb59c97284663fdc319317d3b6962ca2850904d5f8267923bb618",
     "sourceText": "원격 측정",
-    "timestamp": "2026-05-16T13:53:27.707Z"
+    "timestamp": "2026-05-16T16:16:55.552Z"
   },
   "common.json:unknown": {
     "sourceHash": "dde574ea72941e0eba016048ff4c1f2eb627c54c27bba16020cdc404d6a8a918",
     "sourceText": "알 수 없음",
-    "timestamp": "2026-05-16T13:53:27.707Z"
+    "timestamp": "2026-05-16T16:16:55.552Z"
   },
   "directory.json:title": {
     "sourceHash": "0cc7337cbc9e2f747192782c50e901d4d1af43dfb0b3fed6f9e70bf71dad75fb",
@@ -887,17 +887,17 @@
   "errors.json:restricted.descLine1": {
     "sourceHash": "7b7ac359d44cda02d2a339b6769fcbbf8b36d5a17737e0fb15f8880236ae7cfc",
     "sourceText": "이 구역은",
-    "timestamp": "2026-05-16T13:53:27.709Z"
+    "timestamp": "2026-05-16T16:16:55.559Z"
   },
   "errors.json:restricted.descHighlight": {
     "sourceHash": "f1be9ac5a69692f4df368b29a2384a3c4342d021fe83464e896b2f6220c1b3b7",
     "sourceText": "보안 등급 {level} 이상",
-    "timestamp": "2026-05-16T13:53:27.709Z"
+    "timestamp": "2026-05-16T16:16:55.559Z"
   },
   "errors.json:restricted.descLine2": {
     "sourceHash": "5c417b3eddb65fb0749442fadb2ae44333e4a41b9ad105700b08daad483c852e",
     "sourceText": "소지자만 출입이 가능합니다. 권한이 필요하시면 안내 데스크({gate})로 문의해 주세요.",
-    "timestamp": "2026-05-16T13:53:27.709Z"
+    "timestamp": "2026-05-16T16:16:55.559Z"
   },
   "errors.json:restricted.bypass": {
     "sourceHash": "a46cdc557449f70ddb8e14ba250b125bae398b2ad1ff5a6bb78baaf7e0c4edae",
@@ -1812,7 +1812,7 @@
   "events.json:items.20.title": {
     "sourceHash": "d0c51d5c81f4545648411126b5693fe28a95392cc9ec863b5475e6765a426be9",
     "sourceText": "무엇이 행복에 방해가 될 수 있습니까? (누가복음 6:24-26)",
-    "timestamp": "2026-05-16T13:53:27.719Z"
+    "timestamp": "2026-05-16T16:16:55.567Z"
   },
   "events.json:items.21.day": {
     "sourceHash": "32f556c7248e9893205497fad5588b52a815c9a2008d165b36c015a90f534bfa",
@@ -2582,7 +2582,7 @@
   "events.json:items.43.title": {
     "sourceHash": "7c88b8b0fd316eab381d2972791715cec0bd63e0c791fc9215b03317b66c0fad",
     "sourceText": "무엇을 배웠습니까?",
-    "timestamp": "2026-05-16T13:53:27.719Z"
+    "timestamp": "2026-05-16T16:16:55.568Z"
   },
   "events.json:items.44.day": {
     "sourceHash": "b6ac44e3f415a3a8475647092d3ea45fda2c4480219b7a660cb67a32dcf0882d",
@@ -2737,152 +2737,152 @@
   "gamification.json:items.hall1.name": {
     "sourceHash": "6a444f5411b957af834334c85ed5fc7c63715f499b527817ab8a2b3e5ab40a2b",
     "sourceText": "1홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall1.description": {
     "sourceHash": "687e0f035d2e8a0b3d43a24c663131f6de64fdbf0893f6bdeda2244b8e5f0429",
     "sourceText": "메인 컨벤션 홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall2.name": {
     "sourceHash": "26a2ef82debefb7a2e9e8765747e308be16a606c16e1ae4cbf9e85dd4745feda",
     "sourceText": "2홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall2.description": {
     "sourceHash": "a41f6842410c842a79ed8c8ff3b6208859b294dd337d14b408d4e41a300bee09",
     "sourceText": "전시 구역 B",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall3.name": {
     "sourceHash": "a2c6e1a0527ecf8f7e1811e538bfbf9c11133fa97109689ec752a7a4151e3d68",
     "sourceText": "3홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall3.description": {
     "sourceHash": "f41d259ac84e0372812d3e85a5774451feec359dc20501d70b307fca73dea3e6",
     "sourceText": "이벤트 및 세미나",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall4.name": {
     "sourceHash": "30cb332eee53847ad81ad5aa6904b72c623db25cac36359186eade11af0689cc",
     "sourceText": "4홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall4.description": {
     "sourceHash": "8220b215c52817a252b3608a1fbc401c08f1c3f88349e12df07ff8e27c91d8c5",
     "sourceText": "테크 전시 존",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall5.name": {
     "sourceHash": "bfffda9486ca4e149f7587f6e0d853887416a2c2fc2d62108845448e2a07f5ba",
     "sourceText": "5홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall5.description": {
     "sourceHash": "c1f9968b14508be9476bbdc6d60925769d1ffec2a0ebe653c1c0975c5635807b",
     "sourceText": "글로벌 라운지",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.fSodam.name": {
     "sourceHash": "4fbd3dd6fc61f6d18fda02ff7ac63e047f0e1ce1088fe370d8294136e109874d",
     "sourceText": "식당가",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.fSodam.description": {
     "sourceHash": "40a8700dca12fcbde84f8608c2d12d436a1e1c9bc5e4a8597933f00b4b85bb7d",
     "sourceText": "전통 한식 식당가",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.cCu1.name": {
     "sourceHash": "c23372bf7e221a187a8d4856388da08fccdf28cf28a75696a89f9f3049cc2507",
     "sourceText": "안내소",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.cCu1.description": {
     "sourceHash": "86250b90639de6210c871a8944064ce68a192509bb91d2794b7c874425734508",
     "sourceText": "안내 및 배터리 지원",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall6.name": {
     "sourceHash": "be809a5a45d26cb79770041ed86fbd4e5edb96540382d5ea2cc57969a969bc13",
     "sourceText": "6홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall6.description": {
     "sourceHash": "56e3bd336113311a9125ee4603e834516f836287e15577c8710d0b63344e8c09",
     "sourceText": "고급 세미나 구역",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall7.name": {
     "sourceHash": "3bb60d8f5df889f56edd349297be863c980580b7a49b7f119496c2ffd76fc58b",
     "sourceText": "7홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall7.description": {
     "sourceHash": "f375259b7864f31dafabe991f204c98a7ffc0fff268abbc664a113ce622ace08",
     "sourceText": "디지털 체험 존",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall8.name": {
     "sourceHash": "a23dc0d9bc670adfab1eca0b0c7d033e7b0eab845459f14e534ba3fb6869e722",
     "sourceText": "8홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall8.description": {
     "sourceHash": "37a6a19fd971fb18038037be1fb0804f70ee49fd9ebcab09da830689ebb7dede",
     "sourceText": "예술 및 문화 존",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall9.name": {
     "sourceHash": "63e1f559c3926f39a950129986e41c22c309d3ca704efa65b0b63d9239dd9933",
     "sourceText": "9홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall9.description": {
     "sourceHash": "8ad5b1d9dc7e976f7906bd2686312155fa9384c644c77ff2b8e3d3b4a8a7d930",
     "sourceText": "메인 오디토리움",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall10.name": {
     "sourceHash": "2a8804045a5df53b9c639ec11e7243c784c140e205574ff8b92e2b84568d5d9d",
     "sourceText": "10홀",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.hall10.description": {
     "sourceHash": "a707e49d41427928ae34b032e27c27573f1821a5351b2717806fc94bec353aec",
     "sourceText": "폐막식 존",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.fMyeongdong.name": {
     "sourceHash": "5fa52d2a37bba19fc0f0a0ec253b91d17f7f3f03daa6a99629eb613cc790dc1e",
     "sourceText": "2F 식당가",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.fMyeongdong.description": {
     "sourceHash": "26a3a85c4117264076d6ea67c5fe5bd0e2728aacbd758827a43ec36509a7ad26",
     "sourceText": "세계 음식 푸드코트",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.exitWest.name": {
     "sourceHash": "c1675e639b6506f660161cf2cde25a8c59afcb29fd6e35e62321bfb0cfad3a26",
     "sourceText": "서문",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.exitWest.description": {
     "sourceHash": "f98bf75a5f1fff2b774d4c1305e0ffe90e3803f76d79f8340d443ac0ef5bdfa3",
     "sourceText": "주차장 연결 출구",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.toilet1.name": {
     "sourceHash": "547e83491132a4418b36a585d6b733ad9e466c6e9c12ec6cf6d7986c56494503",
     "sourceText": "중앙 화장실",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.toilet1.description": {
     "sourceHash": "af832e00e2600daeec3da5fa698f699ac323abf401ff7ae22ffca7139f6fc062",
     "sourceText": "깨끗한 편의 시설",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.medical.name": {
     "sourceHash": "4e0bb3b5485f98917f82b09389ddcab836a86c21b05c645b34db518624afa2b0",
@@ -2897,42 +2897,42 @@
   "gamification.json:items.giftZone.name": {
     "sourceHash": "69fa4d072a6bb92b0f5606ee4d2853d20557d01be1e068ab261bbb2fb56173ae",
     "sourceText": "기프트 존",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.giftZone.description": {
     "sourceHash": "1e6bdee4e621a8d7a9cf5baab40614b9a6091312496ed100c5ea2104a9654b8a",
     "sourceText": "보상 수령 장소",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.translationCenter.name": {
     "sourceHash": "95380faf44a577512ab5d1200c7af70cde91415b6b5c05bf03526c79c4361ff2",
     "sourceText": "통역 지원 센터",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.translationCenter.description": {
     "sourceHash": "dca6b9ea9a00419c899d35901170817006a406ceffec8897be5cefaef97c9087",
     "sourceText": "다국어 지원 허브",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.welcomeZone.name": {
     "sourceHash": "1c11cba3454362c7261f53440d7d3f080e20e91628d37d804d3bdf79faf35a3e",
     "sourceText": "웰컴 존",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.welcomeZone.description": {
     "sourceHash": "45e4d0363153c5366ddc94dae6df77f952bbd5d66597d44337317a125305be3c",
     "sourceText": "대회 시작 지점",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.experienceZone.name": {
     "sourceHash": "98fa6352d47a55d6c5fac855f64e2e507d73e2c0096bd58c90ad514041649f9f",
     "sourceText": "체험 존",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "gamification.json:items.experienceZone.description": {
     "sourceHash": "9081a6acb2d4bbf526c9ae682ef96774ef6c278e6f5ba6bd096cdc8c80377fde",
     "sourceText": "인터랙티브 공간 VR",
-    "timestamp": "2026-05-16T13:53:27.722Z"
+    "timestamp": "2026-05-16T16:16:55.571Z"
   },
   "home.json:hero.active": {
     "sourceHash": "81f689ed4f07e6ea115bfaf3dbaaf877c005fbfdafec0888fb43a82d1742b6fc",
@@ -3112,7 +3112,7 @@
   "homeV2.json:startRouting": {
     "sourceHash": "11bd490992e842f4e420254a2e37d4d6c8d606c9dde7055de4b50595af0c788a",
     "sourceText": "길찾기 시작",
-    "timestamp": "2026-05-16T13:53:27.727Z"
+    "timestamp": "2026-05-16T16:16:55.581Z"
   },
   "homeV2.json:findSeat": {
     "sourceHash": "61a2004bd854d548705c0537923f09341c0adccd72b4130fe7f80a2e86e15d4b",
@@ -3317,7 +3317,7 @@
   "homeV2.json:status.diningOpen": {
     "sourceHash": "8e9d184f8dc41b49abfc614d6746dc360b7a7823e1065a23614d66d560ac4197",
     "sourceText": "현재 식사 공간이 개방되었습니다. 혼잡한 1홀 대신 {hall} 이용을 추천드립니다.",
-    "timestamp": "2026-05-16T13:53:27.726Z"
+    "timestamp": "2026-05-16T16:16:55.581Z"
   },
   "homeV2.json:status.hall3Dining": {
     "sourceHash": "36e9c9efc7a105236f33ea10498e5f72a343df23933f62315ef4caa4939365e8",
@@ -3332,17 +3332,17 @@
   "homeV2.json:status.low": {
     "sourceHash": "6652674430e5064bcf87c4a187e33fe91a8a9b9349a1956969e04e02996c60f5",
     "sourceText": "여유",
-    "timestamp": "2026-05-16T13:53:27.727Z"
+    "timestamp": "2026-05-16T16:16:55.581Z"
   },
   "homeV2.json:status.moderate": {
     "sourceHash": "666599febd987f532ea6ab000ee16ee7d5838beed690d2f9b174aab30ce78307",
     "sourceText": "보통",
-    "timestamp": "2026-05-16T13:53:27.727Z"
+    "timestamp": "2026-05-16T16:16:55.581Z"
   },
   "homeV2.json:status.high": {
     "sourceHash": "75211bacf638e73075f505fa84318228650ae8763f83df6214251de41aa4b870",
     "sourceText": "혼잡",
-    "timestamp": "2026-05-16T13:53:27.727Z"
+    "timestamp": "2026-05-16T16:16:55.581Z"
   },
   "homeV2.json:messages.beforeConvention": {
     "sourceHash": "3cef8508b7a7bbc183cafd6a61f5752b7d56b1b523d194c9b771d3b2d39e1f82",
@@ -3367,7 +3367,7 @@
   "homeV2.json:messages.saturdayEnded": {
     "sourceHash": "b5c5d8621434dcbfc7665fc7c5021721ace3be96f7ffb0d221bbff59d27fbb6b",
     "sourceText": "오늘 회기가 종료되었습니다.\n내일 마지막 회기에서 다시 뵙겠습니다.",
-    "timestamp": "2026-05-16T13:53:27.725Z"
+    "timestamp": "2026-05-16T16:16:55.580Z"
   },
   "homeV2.json:messages.conventionFinished": {
     "sourceHash": "118dba1ac9fcd2f33ec5b3fa1ce837cf266f8a51a4a4ead8095df7c9267fa3a7",
@@ -3542,17 +3542,17 @@
   "map.json:detourRecommendLine1": {
     "sourceHash": "195b2695d705eac654d0f727b29ecf3eb708f21f0072f610f2db635b44d5d5c3",
     "sourceText": "현재 해당 구역이 매우 혼잡합니다.",
-    "timestamp": "2026-05-16T13:53:27.731Z"
+    "timestamp": "2026-05-16T16:16:55.587Z"
   },
   "map.json:detourRecommendHighlight": {
     "sourceHash": "0d229b0394a1e16483c716a8a3ea38d7fb52bbda4d4ddb3cd409632b09dac8e4",
     "sourceText": "우회 경로(중앙 통로)",
-    "timestamp": "2026-05-16T13:53:27.731Z"
+    "timestamp": "2026-05-16T16:16:55.587Z"
   },
   "map.json:detourRecommendLine2": {
     "sourceHash": "9621a676abf4e7ac0b5fc43fbd8f2b18407d9cabac3704d71930dc7537304444",
     "sourceText": "이용을 추천드립니다.",
-    "timestamp": "2026-05-16T13:53:27.731Z"
+    "timestamp": "2026-05-16T16:16:55.587Z"
   },
   "map.json:congestion": {
     "sourceHash": "55a02abe603633ad2c5f8d5798d92b583d29261c18f5f5ab2fb4236742ec7f5c",
@@ -3817,7 +3817,7 @@
   "map.json:navigation.steps.straightWithDist": {
     "sourceHash": "85932209668446e4e2556239830ae4b2b752d5ac2d7b025728f18435176e95b9",
     "sourceText": "{dist} 직진하세요",
-    "timestamp": "2026-05-16T13:53:27.731Z"
+    "timestamp": "2026-05-16T16:16:55.587Z"
   },
   "map.json:navigation.steps.straightDesc": {
     "sourceHash": "81d0b8cc10c935665313fb9702454da98d7f96e2dbae6254958355f31dc5964b",
@@ -4277,12 +4277,12 @@
   "qrScanner.json:scannerGuideLine1": {
     "sourceHash": "c78fb9f02404a518e02d34877a38bfba61a43d3494b12638bdf4325b33534118",
     "sourceText": "실제 대회장에서는 공간 곳곳에 배치된",
-    "timestamp": "2026-05-16T13:53:27.742Z"
+    "timestamp": "2026-05-16T16:16:55.600Z"
   },
   "qrScanner.json:scannerGuideLine2": {
     "sourceHash": "6776ce25eec4ffaa7826f6b00792357db0aacd018b0a29e7dbd2c2b3c8ad774f",
     "sourceText": "QR 코드를 카메라로 스캔해 주세요.",
-    "timestamp": "2026-05-16T13:53:27.742Z"
+    "timestamp": "2026-05-16T16:16:55.600Z"
   },
   "quests.json:todayMission": {
     "sourceHash": "e1350b9047fa2ffd1def11dee0ff041e4dd342f5a2edc943f05534cd90b5cb21",
@@ -4342,32 +4342,32 @@
   "quests.json:items.questWelcomeTour.title": {
     "sourceHash": "f60dfff3691dc83c028753b2d6a4311be41eea9f7f64a752ed89f67b02ec62ce",
     "sourceText": "웰컴 투어",
-    "timestamp": "2026-05-16T13:53:27.744Z"
+    "timestamp": "2026-05-16T16:16:55.604Z"
   },
   "quests.json:items.questWelcomeTour.description": {
     "sourceHash": "e51fd7b20ef1e6c91c67417ddfc867f66e484fb982c2c84e3f94d7edb893b872",
     "sourceText": "대회장의 주요 안내 구역을 방문하세요.",
-    "timestamp": "2026-05-16T13:53:27.744Z"
+    "timestamp": "2026-05-16T16:16:55.604Z"
   },
   "quests.json:items.questHallMaster.title": {
     "sourceHash": "b76bf95f0d0d2ed55c0dcbf3d2be003b4388860ba80b828da8c6badf86f5f963",
     "sourceText": "홀 마스터",
-    "timestamp": "2026-05-16T13:53:27.744Z"
+    "timestamp": "2026-05-16T16:16:55.604Z"
   },
   "quests.json:items.questHallMaster.description": {
     "sourceHash": "9b8ff8f355165fa02c174a81a100e8107c3492eab862b6c71d8a15ad415cd193",
     "sourceText": "제1전시장의 모든 홀을 탐험하세요.",
-    "timestamp": "2026-05-16T13:53:27.744Z"
+    "timestamp": "2026-05-16T16:16:55.604Z"
   },
   "quests.json:items.questFoodie.title": {
     "sourceHash": "42f32c695f853869a5ac6f9b7339f1a5dd980fa2294faab16e09b3466d5d97f7",
     "sourceText": "미식가",
-    "timestamp": "2026-05-16T13:53:27.744Z"
+    "timestamp": "2026-05-16T16:16:55.604Z"
   },
   "quests.json:items.questFoodie.description": {
     "sourceHash": "d06993db0063cf342236e5420b7775152160e23f0e3c0104925291637e5425a7",
     "sourceText": "모든 식당 구역을 방문하세요.",
-    "timestamp": "2026-05-16T13:53:27.744Z"
+    "timestamp": "2026-05-16T16:16:55.604Z"
   },
   "reward.json:title": {
     "sourceHash": "db02af50de572cf30f81b91f5c3bd0ab7440b2251f2af9eba7026d0e17c60c29",
@@ -4412,17 +4412,17 @@
   "reward.json:rewardGuideLine1": {
     "sourceHash": "c1f00cb65a6cd8b3d0c9079ffc489fa884441fefa001a23acbbabbcfb02ad95f",
     "sourceText": "20개의 모든 스탬프를 성공적으로 수집하셨습니다.",
-    "timestamp": "2026-05-16T13:53:27.747Z"
+    "timestamp": "2026-05-16T16:16:55.606Z"
   },
   "reward.json:rewardGuideHighlight": {
     "sourceHash": "69fa4d072a6bb92b0f5606ee4d2853d20557d01be1e068ab261bbb2fb56173ae",
     "sourceText": "기프트 존",
-    "timestamp": "2026-05-16T13:53:27.747Z"
+    "timestamp": "2026-05-16T16:16:55.606Z"
   },
   "reward.json:rewardGuideLine2": {
     "sourceHash": "0d20219b8947eb0691c14dd25a2766f99365d76684d8c9ca7d54a13da4d80229",
     "sourceText": "에서 한정판 기념품을 수령하세요.",
-    "timestamp": "2026-05-16T13:53:27.747Z"
+    "timestamp": "2026-05-16T16:16:55.606Z"
   },
   "reward.json:locationDetail": {
     "sourceHash": "36958cc24a55103e3cd77da36d42501b23a7225e558d902ee3a73d77514e3f5a",
@@ -4462,12 +4462,12 @@
   "reward.json:notCompleteDescLine1": {
     "sourceHash": "f3f291b1e0f71d5991611667ab6eaaef41c7b0a04ae827f361b40be877c8158e",
     "sourceText": "보상을 받으려면 20개의 스탬프를 모두 모아야 합니다.",
-    "timestamp": "2026-05-16T13:53:27.747Z"
+    "timestamp": "2026-05-16T16:16:55.606Z"
   },
   "reward.json:notCompleteDescLine2": {
     "sourceHash": "e50ea1a2dcbab1d9bb631f0cc8c546c308691121028d8ec979e442dc18617ff7",
     "sourceText": "현재 {current} / {total} 완료",
-    "timestamp": "2026-05-16T13:53:27.747Z"
+    "timestamp": "2026-05-16T16:16:55.606Z"
   },
   "reward.json:continueChallenge": {
     "sourceHash": "6b87ead26131148d345e65cc7e13ca7769a814c91a4b1f848cb8b1c4e16e1bc9",
@@ -4577,7 +4577,7 @@
   "settings.json:system.biometricAuthDesc": {
     "sourceHash": "75f29e2d46fc52b9f2e332a23f686105e3224af06b308cd89d0ae2c2ec28569d",
     "sourceText": "관리자 페이지 접근 시 FaceID/지문을 요구합니다.",
-    "timestamp": "2026-05-16T13:53:27.750Z"
+    "timestamp": "2026-05-16T16:16:55.611Z"
   },
   "settings.json:data.title": {
     "sourceHash": "af767bb7c13118d6213fab341626f009393cc8549f83b3c6b054994f65895a93",
@@ -4592,7 +4592,7 @@
   "settings.json:data.cacheDesc": {
     "sourceHash": "4198b256bf42b7309befbb1d31df7431ed3ff6ea214052a180498327c643c746",
     "sourceText": "현재 앱에 저장된 캐시 데이터를 삭제합니다.",
-    "timestamp": "2026-05-16T13:53:27.750Z"
+    "timestamp": "2026-05-16T16:16:55.611Z"
   },
   "settings.json:data.clearCache": {
     "sourceHash": "e8a0465fe3a482a7add6e54ff8e2f9daf3325d66723bef4718c22961a7aebe02",
@@ -4677,12 +4677,12 @@
   "spaces.json:hall1.shortName": {
     "sourceHash": "6a444f5411b957af834334c85ed5fc7c63715f499b527817ab8a2b3e5ab40a2b",
     "sourceText": "1홀",
-    "timestamp": "2026-05-16T13:53:27.757Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall1.description": {
     "sourceHash": "1e7e827008ac66c5e943c3d7c5a1528ae003d91f5cc16c828ac7ef0c6b0296d7",
     "sourceText": "국제대회 주요 프로그램이 진행되는 공간입니다.",
-    "timestamp": "2026-05-16T13:53:27.756Z"
+    "timestamp": "2026-05-16T16:16:55.616Z"
   },
   "spaces.json:hall1.zone": {
     "sourceHash": "d2b83dd0d1f0a5bd880372c8637a81ae9e695fb578131860efe9de1507239039",
@@ -4692,7 +4692,7 @@
   "spaces.json:hall1.location": {
     "sourceHash": "d2b83dd0d1f0a5bd880372c8637a81ae9e695fb578131860efe9de1507239039",
     "sourceText": "제1전시장",
-    "timestamp": "2026-05-16T13:53:27.757Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall2.name": {
     "sourceHash": "845d2c8c652f34e3306e644aece0e2c2b10535b8a5c2236ee78e8a8f69f7ed15",
@@ -4702,12 +4702,12 @@
   "spaces.json:hall2.shortName": {
     "sourceHash": "26a2ef82debefb7a2e9e8765747e308be16a606c16e1ae4cbf9e85dd4745feda",
     "sourceText": "2홀",
-    "timestamp": "2026-05-16T13:53:27.757Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall2.description": {
     "sourceHash": "992e04e4ce5ddded8e1ce0240bfa4ad1174cac16255e434739c462c2c5bc6abd",
     "sourceText": "연결 동선과 보조 프로그램 안내가 제공되는 공간입니다.",
-    "timestamp": "2026-05-16T13:53:27.756Z"
+    "timestamp": "2026-05-16T16:16:55.616Z"
   },
   "spaces.json:hall2.zone": {
     "sourceHash": "d2b83dd0d1f0a5bd880372c8637a81ae9e695fb578131860efe9de1507239039",
@@ -4717,7 +4717,7 @@
   "spaces.json:hall2.location": {
     "sourceHash": "d2b83dd0d1f0a5bd880372c8637a81ae9e695fb578131860efe9de1507239039",
     "sourceText": "제1전시장",
-    "timestamp": "2026-05-16T13:53:27.757Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall3.name": {
     "sourceHash": "e41e5d2bd42a5323dad5ea488710ce65b8e60da89f4a97ee1d8a43bc7b21a1c1",
@@ -4727,7 +4727,7 @@
   "spaces.json:hall3.shortName": {
     "sourceHash": "a2c6e1a0527ecf8f7e1811e538bfbf9c11133fa97109689ec752a7a4151e3d68",
     "sourceText": "3홀",
-    "timestamp": "2026-05-16T13:53:27.757Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall3.description": {
     "sourceHash": "ac9d59e90d6b1ef41ba87c66ada0707e24d522a665b818421f4bd30866bc8b79",
@@ -4737,12 +4737,12 @@
   "spaces.json:hall3.zone": {
     "sourceHash": "d2b83dd0d1f0a5bd880372c8637a81ae9e695fb578131860efe9de1507239039",
     "sourceText": "제1전시장",
-    "timestamp": "2026-05-16T13:53:27.756Z"
+    "timestamp": "2026-05-16T16:16:55.616Z"
   },
   "spaces.json:hall3.location": {
     "sourceHash": "d2b83dd0d1f0a5bd880372c8637a81ae9e695fb578131860efe9de1507239039",
     "sourceText": "제1전시장",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall4.name": {
     "sourceHash": "91d73cdbd95d7352bc96ef2062b6a8cd396a1d222c2e8e3acc82958148859fe0",
@@ -4752,7 +4752,7 @@
   "spaces.json:hall4.shortName": {
     "sourceHash": "30cb332eee53847ad81ad5aa6904b72c623db25cac36359186eade11af0689cc",
     "sourceText": "4홀",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall4.description": {
     "sourceHash": "5739e2e10b2b01aa18ca4894dcf064a85879b60faa37f9871945248780ed1e30",
@@ -4767,7 +4767,7 @@
   "spaces.json:hall4.location": {
     "sourceHash": "d2b83dd0d1f0a5bd880372c8637a81ae9e695fb578131860efe9de1507239039",
     "sourceText": "제1전시장",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall5.name": {
     "sourceHash": "444627ff29c3613c090174f43189e6cf5f2f42e3c935a399d30dfec9ebba6602",
@@ -4777,12 +4777,12 @@
   "spaces.json:hall5.shortName": {
     "sourceHash": "bfffda9486ca4e149f7587f6e0d853887416a2c2fc2d62108845448e2a07f5ba",
     "sourceText": "5홀",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall5.description": {
     "sourceHash": "4a80536b1ab735382e62d7282e9c135f4cb8bacd8786373e6dde8dcbe7c949ef",
     "sourceText": "목적지 안내 및 주요 이동 경로가 연결되는 공간입니다.",
-    "timestamp": "2026-05-16T13:53:27.756Z"
+    "timestamp": "2026-05-16T16:16:55.616Z"
   },
   "spaces.json:hall5.zone": {
     "sourceHash": "d2b83dd0d1f0a5bd880372c8637a81ae9e695fb578131860efe9de1507239039",
@@ -4792,7 +4792,7 @@
   "spaces.json:hall5.location": {
     "sourceHash": "d2b83dd0d1f0a5bd880372c8637a81ae9e695fb578131860efe9de1507239039",
     "sourceText": "제1전시장",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall6.name": {
     "sourceHash": "4cfcdc443424cf2ede27f7ec1b041e2250da5a31b32a8f40dbc373891851ec3b",
@@ -4802,7 +4802,7 @@
   "spaces.json:hall6.shortName": {
     "sourceHash": "be809a5a45d26cb79770041ed86fbd4e5edb96540382d5ea2cc57969a969bc13",
     "sourceText": "6홀",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall6.description": {
     "sourceHash": "472f61cb6432d5560233ac97874efe55d2074811b029449f4a8992e2f9c84428",
@@ -4817,7 +4817,7 @@
   "spaces.json:hall6.location": {
     "sourceHash": "f9743735505e45fe04e2ece1387247b9fe06cf21c2d3303a1bcd227168ae574a",
     "sourceText": "제2전시장",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall7.name": {
     "sourceHash": "032abbf41b913d6c5e5340fe85c8321b7e2549c81dd68a5c1a7ee563fa47eb3a",
@@ -4827,12 +4827,12 @@
   "spaces.json:hall7.shortName": {
     "sourceHash": "3bb60d8f5df889f56edd349297be863c980580b7a49b7f119496c2ffd76fc58b",
     "sourceText": "7홀",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall7.description": {
     "sourceHash": "27e755b0466701cd371e5f151676603cf377abe7134f59a7b7a5e799f7346c8d",
     "sourceText": "대형 컨벤션 및 최신 시설을 갖춘 공간입니다.",
-    "timestamp": "2026-05-16T13:53:27.756Z"
+    "timestamp": "2026-05-16T16:16:55.616Z"
   },
   "spaces.json:hall7.zone": {
     "sourceHash": "f9743735505e45fe04e2ece1387247b9fe06cf21c2d3303a1bcd227168ae574a",
@@ -4842,7 +4842,7 @@
   "spaces.json:hall7.location": {
     "sourceHash": "f9743735505e45fe04e2ece1387247b9fe06cf21c2d3303a1bcd227168ae574a",
     "sourceText": "제2전시장",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall8.name": {
     "sourceHash": "6bbac7bcb6c26482368fc743cb13800affcaf22183396bff2834e88cb9a9f8ec",
@@ -4852,7 +4852,7 @@
   "spaces.json:hall8.shortName": {
     "sourceHash": "a23dc0d9bc670adfab1eca0b0c7d033e7b0eab845459f14e534ba3fb6869e722",
     "sourceText": "8홀",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall8.description": {
     "sourceHash": "341157e7960211e56ef8d3e8780e4a6d52e086d916cc6cc75b173cd6924171e8",
@@ -4867,7 +4867,7 @@
   "spaces.json:hall8.location": {
     "sourceHash": "f9743735505e45fe04e2ece1387247b9fe06cf21c2d3303a1bcd227168ae574a",
     "sourceText": "제2전시장",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall9.name": {
     "sourceHash": "5d15f218bb36018133b2bd5bd093ddce8ed9bf143f04a16676e13ca9f538e244",
@@ -4877,7 +4877,7 @@
   "spaces.json:hall9.shortName": {
     "sourceHash": "63e1f559c3926f39a950129986e41c22c309d3ca704efa65b0b63d9239dd9933",
     "sourceText": "9홀",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall9.description": {
     "sourceHash": "1a9179a0013931a2aa0988049a126b6bd266089d72677a2cf4a332a7a8c37949",
@@ -4892,7 +4892,7 @@
   "spaces.json:hall9.location": {
     "sourceHash": "f9743735505e45fe04e2ece1387247b9fe06cf21c2d3303a1bcd227168ae574a",
     "sourceText": "제2전시장",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall10.name": {
     "sourceHash": "3a56866c7763a553d9eabe3ea943a14ec393f0d11f8a07d282fe3de63d51422b",
@@ -4902,7 +4902,7 @@
   "spaces.json:hall10.shortName": {
     "sourceHash": "2a8804045a5df53b9c639ec11e7243c784c140e205574ff8b92e2b84568d5d9d",
     "sourceText": "10홀",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hall10.description": {
     "sourceHash": "42f420f4fc31014f6e97561c61eb45a4ebcb49905ac607b656f9ff1369dedd51",
@@ -4917,7 +4917,7 @@
   "spaces.json:hall10.location": {
     "sourceHash": "f9743735505e45fe04e2ece1387247b9fe06cf21c2d3303a1bcd227168ae574a",
     "sourceText": "제2전시장",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:fSodam.name": {
     "sourceHash": "35292d7ae789203ac07c8dcd31632220bec91cb7b0a5ea677703c95d6740f0e1",
@@ -4927,7 +4927,7 @@
   "spaces.json:fSodam.shortName": {
     "sourceHash": "3234e73f8fe78a5be166754145d7da13a83715c18223bfb0eb6045b72aeeb2f3",
     "sourceText": "소담",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:fSodam.description": {
     "sourceHash": "a4b385990c68a8cb380c65895c2cdef43d3748ff9cfaf4a5f7760e94ae7009c7",
@@ -4937,12 +4937,12 @@
   "spaces.json:fSodam.zone": {
     "sourceHash": "a5d02ad4d046b17f5078a4358f39c2a3a06b6342bbb81e9c1ebd4f25dc7b2892",
     "sourceText": "식사 구역",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:fSodam.location": {
     "sourceHash": "6f483c7071d004bc2a8ec69f261253bd9160980946e5b342789b74d8ac2d41ec",
     "sourceText": "편의시설 구역",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:fBenvenuto.name": {
     "sourceHash": "96c1e4f88908778a8f959c1f96338eb9f12e7e43060e3e4fbb9f7b31e4a7a04c",
@@ -4952,7 +4952,7 @@
   "spaces.json:fBenvenuto.shortName": {
     "sourceHash": "acdf7642d3a1feaf7ad2902a5afb2f15555601feb3382f46589d3ea84dab2c16",
     "sourceText": "벤베누토",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:fBenvenuto.description": {
     "sourceHash": "a205b97bf24af2c548b8040baf73e5804ebb1524dba7716948b341e353390b02",
@@ -4962,22 +4962,22 @@
   "spaces.json:fBenvenuto.zone": {
     "sourceHash": "a5d02ad4d046b17f5078a4358f39c2a3a06b6342bbb81e9c1ebd4f25dc7b2892",
     "sourceText": "식사 구역",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:fBenvenuto.location": {
     "sourceHash": "6f483c7071d004bc2a8ec69f261253bd9160980946e5b342789b74d8ac2d41ec",
     "sourceText": "편의시설 구역",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:fMyeongdong.name": {
     "sourceHash": "f602acb1b2a316a193a2311229bde4208cf80af073dffdbcebec642b2f6d5f59",
     "sourceText": "명동칼국수 식사 구역",
-    "timestamp": "2026-05-16T13:53:27.756Z"
+    "timestamp": "2026-05-16T16:16:55.616Z"
   },
   "spaces.json:fMyeongdong.shortName": {
     "sourceHash": "cc70b7174783bf80078b821a028c9e04b123af05adb232592924e343de270a08",
     "sourceText": "명동칼국수",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:fMyeongdong.description": {
     "sourceHash": "c491089e230a7e69defe5c97dff69768ef1360b7ce4414d41865751da17cb123",
@@ -4987,12 +4987,12 @@
   "spaces.json:fMyeongdong.zone": {
     "sourceHash": "a5d02ad4d046b17f5078a4358f39c2a3a06b6342bbb81e9c1ebd4f25dc7b2892",
     "sourceText": "식사 구역",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:fMyeongdong.location": {
     "sourceHash": "6f483c7071d004bc2a8ec69f261253bd9160980946e5b342789b74d8ac2d41ec",
     "sourceText": "편의시설 구역",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:cCu1.name": {
     "sourceHash": "09ec849806b68bcd889c7785f08007983b90311cf7e0144ce01b1aeea20719a9",
@@ -5012,12 +5012,12 @@
   "spaces.json:cCu1.zone": {
     "sourceHash": "0819a85b1ff2440eb32fb5909af22f63c781687637f09011aa2bf2de65233b52",
     "sourceText": "편의시설",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:cCu1.location": {
     "sourceHash": "c000f8c768a251d764754f03d591d6a02fa7a3fc3413adcce7118ab9d6c618b5",
     "sourceText": "중앙 통로",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:cPress.name": {
     "sourceHash": "9465f989bdbf45ebb8a8440a257c77ffef0097bfb64ba050f57386e46b941466",
@@ -5027,7 +5027,7 @@
   "spaces.json:cPress.shortName": {
     "sourceHash": "e33b1c76be3e6c1d59f6998f09eb057731a7948886885ae23c156c3dc7af257d",
     "sourceText": "프레스",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:cPress.description": {
     "sourceHash": "ff5b3be465ac2cb050c6117d56c3a167b789a454e2e57d31843747b882d03255",
@@ -5037,12 +5037,12 @@
   "spaces.json:cPress.zone": {
     "sourceHash": "b4ae7e6988ff856a446a7c092c87d27894b42935938778f72a3cabf6e250a664",
     "sourceText": "운영 지원",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:cPress.location": {
     "sourceHash": "d25f6b164bdb6f556c0c1112fdec466fcc39ea3335312a121fee4d6cee4b7112",
     "sourceText": "운영 구역",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hSonocalm.name": {
     "sourceHash": "bccf3fc7dca6368e8c20d8b4d1684fcfaf21068ed4d972fbd3d542a9fbeec643",
@@ -5052,7 +5052,7 @@
   "spaces.json:hSonocalm.shortName": {
     "sourceHash": "7652def4d7f8da227dadf12d40ccfc1f80d58cc585bc4054c7f88447fcc72db1",
     "sourceText": "소노캄",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hSonocalm.description": {
     "sourceHash": "ea1b4d1c312cdff37b0cf4990ea6e3c89601ae5e5e93b8ebfaac6173b601939d",
@@ -5062,12 +5062,12 @@
   "spaces.json:hSonocalm.zone": {
     "sourceHash": "b2798ae6200689eef5402fc4fb805634f3c51ddb4287e2daa47c05744150486d",
     "sourceText": "외부 연계",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hSonocalm.location": {
     "sourceHash": "e22adf116dda9bbdd1d17f1440d643b596924212d88aae49c27abc6040dd759a",
     "sourceText": "연결 통로",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hGloucester.name": {
     "sourceHash": "08304b8c4a2d1aa5d09f66c5fda7c95b7f63153c486872b77e701d6b420322f5",
@@ -5077,7 +5077,7 @@
   "spaces.json:hGloucester.shortName": {
     "sourceHash": "ca9fe7569a07df04be96fca48fd7ef9f8b42ba4af7267ffd5454589fdfce14e5",
     "sourceText": "글로스터",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hGloucester.description": {
     "sourceHash": "4a556eb3ec500dfc36a2d5a24877451c05b74409d0ceb86d2c5ff663af7ba5ed",
@@ -5087,12 +5087,12 @@
   "spaces.json:hGloucester.zone": {
     "sourceHash": "b2798ae6200689eef5402fc4fb805634f3c51ddb4287e2daa47c05744150486d",
     "sourceText": "외부 연계",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:hGloucester.location": {
     "sourceHash": "e22adf116dda9bbdd1d17f1440d643b596924212d88aae49c27abc6040dd759a",
     "sourceText": "연결 통로",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:exitWest.name": {
     "sourceHash": "0c3f3fd48d1ee68d3609afd3568cb3fc10aa9e77d01bbd83c31c2c35d77cdc51",
@@ -5102,7 +5102,7 @@
   "spaces.json:exitWest.shortName": {
     "sourceHash": "0c3f3fd48d1ee68d3609afd3568cb3fc10aa9e77d01bbd83c31c2c35d77cdc51",
     "sourceText": "서쪽 출구",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:exitWest.description": {
     "sourceHash": "5249ade7ff6462e47cead893e752920c77448a1a4a1dd8359bcbfd8193e16349",
@@ -5112,112 +5112,112 @@
   "spaces.json:exitWest.zone": {
     "sourceHash": "b4231a6de8f04520b2cd01542a56c71ec5bbf6340025c5820372e9826efd674f",
     "sourceText": "출구",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:exitWest.location": {
     "sourceHash": "23403b3dcc24e874e364de7269b393162ea2e6765131882ab5fa8bce1f768146",
     "sourceText": "서쪽 게이트",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:exitEast.name": {
     "sourceHash": "9701bdd868472ada0a2fa764fe07c7cd9e8c44424b5aaed2e2d0b009c65eef09",
     "sourceText": "동쪽 출구",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:exitEast.shortName": {
     "sourceHash": "9701bdd868472ada0a2fa764fe07c7cd9e8c44424b5aaed2e2d0b009c65eef09",
     "sourceText": "동쪽 출구",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:exitEast.description": {
     "sourceHash": "931057ee464dd3b56b0a69cc7f807886e63ac2a8881c53437e7b8a40cff5ed35",
     "sourceText": "동쪽 방향 이동에 적합한 출구입니다.",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:exitEast.zone": {
     "sourceHash": "b4231a6de8f04520b2cd01542a56c71ec5bbf6340025c5820372e9826efd674f",
     "sourceText": "출구",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:exitEast.location": {
     "sourceHash": "38f56ab3e1a5b4e1e4a43684bbbc1242ffed7ef9b57dbce08d53d80dfb8d8549",
     "sourceText": "동쪽 게이트",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:toilet1.name": {
     "sourceHash": "a0f4434886bb9bbc60a3d77b65670e2b24652c3a5843fe72b059e6e3b054bfaa",
     "sourceText": "화장실 1",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:toilet1.shortName": {
     "sourceHash": "477b8e1cccfde276bae7cef2c0d1a75b0592c0fb159e2039fff196fdff08fc0a",
     "sourceText": "화장실",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:toilet1.description": {
     "sourceHash": "5b44eebf8ce75063cbbd6fb9e410483c85fb592d059b8d1579040fca6859383c",
     "sourceText": "현재 위치에서 가까운 화장실입니다.",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:toilet1.zone": {
     "sourceHash": "0819a85b1ff2440eb32fb5909af22f63c781687637f09011aa2bf2de65233b52",
     "sourceText": "편의시설",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:toilet1.location": {
     "sourceHash": "c000f8c768a251d764754f03d591d6a02fa7a3fc3413adcce7118ab9d6c618b5",
     "sourceText": "중앙 통로",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:toilet2.name": {
     "sourceHash": "605874b7ad1f3c17e0fd32c8cadbebb23e3190c612c8d2329a29938dff26c821",
     "sourceText": "화장실 2",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:toilet2.shortName": {
     "sourceHash": "477b8e1cccfde276bae7cef2c0d1a75b0592c0fb159e2039fff196fdff08fc0a",
     "sourceText": "화장실",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:toilet2.description": {
     "sourceHash": "2ae4160d3fbd8876f7f9c7d1fb081f5782079649b5bbeb1023d2b7d707cf6e33",
     "sourceText": "혼잡이 적은 보조 화장실입니다.",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:toilet2.zone": {
     "sourceHash": "0819a85b1ff2440eb32fb5909af22f63c781687637f09011aa2bf2de65233b52",
     "sourceText": "편의시설",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:toilet2.location": {
     "sourceHash": "da85e012b516ff4ff6b18ae198b0a3b5f7b33d013cd1ae6e95abedd024949932",
     "sourceText": "외곽 통로",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:medical.name": {
     "sourceHash": "4e0bb3b5485f98917f82b09389ddcab836a86c21b05c645b34db518624afa2b0",
     "sourceText": "의무실",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:medical.shortName": {
     "sourceHash": "4e0bb3b5485f98917f82b09389ddcab836a86c21b05c645b34db518624afa2b0",
     "sourceText": "의무실",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:medical.description": {
     "sourceHash": "62560aa651d3d49a8768ed44871009249fb473d66c8f9a0ca9e2c35dc20204e9",
     "sourceText": "응급 상황이나 건강 문제가 있을 때 도움을 받을 수 있는 공간입니다.",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:medical.zone": {
     "sourceHash": "652bf94ef266b3bdeee201fb09d57e068094829d0feb71b5566b80c4a0656b86",
     "sourceText": "안전 지원",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:medical.location": {
     "sourceHash": "8526b1d10ac2b6a6e3ee16cf4d99ca68cd5fd9e13e7bf16911da0e0950ed652d",
     "sourceText": "운영 지원 구역",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:welcomeZone.name": {
     "sourceHash": "68b1c3015bf7bc8745a7d7b9bad6b71f0bf1ca448b1688d936e50589046b82be",
@@ -5227,7 +5227,7 @@
   "spaces.json:welcomeZone.shortName": {
     "sourceHash": "cbcf77839a2e8a913f96fef3c40fe102e09a2e6d460c383c50c872211977e4e1",
     "sourceText": "환영",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:welcomeZone.description": {
     "sourceHash": "d90f950f9b60197c79152907de4b85a6af2bdae5cda63ab5b9e7b7ef9880fb95",
@@ -5237,12 +5237,12 @@
   "spaces.json:welcomeZone.zone": {
     "sourceHash": "b181506242234aee487ac5b08f416f6d16eb009998581bb23ffd1b2aff8a155c",
     "sourceText": "입구",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:welcomeZone.location": {
     "sourceHash": "165907671e734fb77a54c925fddd5ff46524eb96cc2399a1b1a1c623bd73a7f0",
     "sourceText": "입구 주변",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:translationCenter.name": {
     "sourceHash": "95380faf44a577512ab5d1200c7af70cde91415b6b5c05bf03526c79c4361ff2",
@@ -5252,7 +5252,7 @@
   "spaces.json:translationCenter.shortName": {
     "sourceHash": "624011eb48def7af62e3d519502c7d7b2a0d76d3eb66c4305550892e48bed243",
     "sourceText": "통역",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:translationCenter.description": {
     "sourceHash": "3c2fe4e56a1c9cc255566fdbcb594e8e08bafdebc32a1baeac07b5871fff467c",
@@ -5262,12 +5262,12 @@
   "spaces.json:translationCenter.zone": {
     "sourceHash": "7a14557ae194a9915b46f9a3ad8a67d15cc221634ee2f442a9ef65ebf5688eb2",
     "sourceText": "언어 지원",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:translationCenter.location": {
     "sourceHash": "199a91213053644359858a81dcf590abf26b6c382729aa94326f28b435b802fc",
     "sourceText": "중앙 안내 구역",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:giftZone.name": {
     "sourceHash": "710b76be67e03269f69e767789d4501d6f52dff84830ad2d177979596b9639ac",
@@ -5277,7 +5277,7 @@
   "spaces.json:giftZone.shortName": {
     "sourceHash": "807cae1b570857696082557e7acbc2ac728fc3918b225f075b3dfd3e65579c45",
     "sourceText": "선물",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:giftZone.description": {
     "sourceHash": "b0eafe8d2e3046889292b05d594256e003bd5e41cc8a106ec686bbec3df1f96d",
@@ -5287,12 +5287,12 @@
   "spaces.json:giftZone.zone": {
     "sourceHash": "46b289bb0a9e2a002985007cea757de883ff09dd885b2d91f5f1f2452f7208cb",
     "sourceText": "이벤트",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:giftZone.location": {
     "sourceHash": "b2c1f8ebdda9a09ecf3fa267d7df0461fa50e55e01e76fb112988e30802c1119",
     "sourceText": "운영 데스크 주변",
-    "timestamp": "2026-05-16T13:53:27.758Z"
+    "timestamp": "2026-05-16T16:16:55.618Z"
   },
   "spaces.json:congestion.low": {
     "sourceHash": "9f07b9bc5fbea83e2660aa3e3914817735006601b47c153b8cf37eb5843a3419",
@@ -5337,42 +5337,42 @@
   "viewer.json:hotspots.hall1": {
     "sourceHash": "0ccc0c4288efd419faadd8b694861a63444f0704763429e976886f131946b128",
     "sourceText": "제1전시장 1홀",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:hotspots.hall2": {
     "sourceHash": "845d2c8c652f34e3306e644aece0e2c2b10535b8a5c2236ee78e8a8f69f7ed15",
     "sourceText": "제1전시장 2홀",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:hotspots.infoDesk": {
     "sourceHash": "549412caeff0cf4c60a839cbc36288e4e2f5f48782011d4cb97a00f13912faba",
     "sourceText": "안내 데스크",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:hotspots.westGate": {
     "sourceHash": "56ad7fc9c0ad3894b9af24c73eb40e85f40ba5c2b8c09164034e0f743e5495a2",
     "sourceText": "서문 (West Gate)",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:hotspots.foodZone": {
     "sourceHash": "a971baa22eb5496f858e17ea5b5e29134551d8fff376732370df58795782a988",
     "sourceText": "식당가 (소담)",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:hotspots.restroom": {
     "sourceHash": "477b8e1cccfde276bae7cef2c0d1a75b0592c0fb159e2039fff196fdff08fc0a",
     "sourceText": "화장실",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:hotspots.nearby": {
     "sourceHash": "dbe3203aec310e24165b700f9418f4f01494154505a6a96be6308a6f3808da54",
     "sourceText": "인접 구역",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:hotspots.jumpTo": {
     "sourceHash": "c5cd9479cbb9f62695c84a57bf116d20def1afdff3aba77f68373069f631b282",
     "sourceText": "이동하기",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:controls.zoomIn": {
     "sourceHash": "11c2e8e755e47360b4abe161451e42dd30a0fd5aec308e5c7ee14f5f224a76ac",
@@ -5417,12 +5417,12 @@
   "viewer.json:stats.temp": {
     "sourceHash": "d798e80bd2d0c8c8d8bee1499f9869a22f68c8920ca3e23d0e36049f0c5d9d49",
     "sourceText": "온도",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:stats.humid": {
     "sourceHash": "6a39dc792dabc09c109845a95ac472d6aa5eddbba37e057904c372a4130b9460",
     "sourceText": "습도",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:hotspot.guideBusy": {
     "sourceHash": "c05d8aad86fda010703bf851d22c518849473e855493f11ce97a99c5fdc69a9d",
@@ -5442,22 +5442,22 @@
   "viewer.json:vr.interface": {
     "sourceHash": "77d1a1fc0079ed6f4d98bb80fc1cc81e6481153deb9ea86cbd2e23ae51f1d72f",
     "sourceText": "하드웨어 인터페이스",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:vr.available": {
     "sourceHash": "5b05d5697b0e02b9babf35bca54c8fe0f3063098bb5ad56075bb4525b5821639",
     "sourceText": "VR 모드 사용 가능",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:vr.noSecureContext": {
     "sourceHash": "7f2668988cf07505faaef93f5e1b7f5ffc371a654334ee591eec30ece0b5e7ca",
     "sourceText": "HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:vr.sessionError": {
     "sourceHash": "7276a8df640b21497e242e77bb194f444e6501d8a2db7714fbe2cd1cebd24597",
     "sourceText": "VR 세션을 시작할 수 없습니다.",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:status.normal": {
     "sourceHash": "b20054228d26b4a64eed26dcaab5ce2d948ae389a81e8af5c1a033e952eee8c6",
@@ -5467,27 +5467,27 @@
   "viewer.json:status.operational": {
     "sourceHash": "e4163930fd1ace8fecd59c6275fb7b020e99098a5ebc11bd5f547ad4040c7e69",
     "sourceText": "운영 상태",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:v2.scanning": {
     "sourceHash": "5d012b1cd04582bb491d6cefcab1a93c2fd724da99d20deeb50da26e09ca25ac",
     "sourceText": "공간 스캔 중...",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:v2.initializing": {
     "sourceHash": "3ae335098561c969afac0af0d73becec6b7a5eedbe0010731ab5e9106710e756",
     "sourceText": "신경망 포인트 클라우드 초기화 중",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:v2.experience": {
     "sourceHash": "6903de1c471aa5c64765fbfcdee94e18fddf854a06b2e934285b18626cf9db0f",
     "sourceText": "360 경험",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:v2.nearbyTerminals": {
     "sourceHash": "84f9da6dfd1b8d4c912da5865a577fea34efffe88e2670597c3b65bbd43f29d0",
     "sourceText": "인접 터미널",
-    "timestamp": "2026-05-16T13:53:27.761Z"
+    "timestamp": "2026-05-16T16:16:55.622Z"
   },
   "viewer.json:live.realtimeData": {
     "sourceHash": "3ab6403a100056950196663057aa56eeb8ddaaade95762ed60ecd196dfb8c591",
@@ -5603,5 +5603,205 @@
     "sourceHash": "b3ca0edf2ca2a4c5e90a2f81a4502de34efa4c3dbb62df8b9042db2ee43420c8",
     "sourceText": "길찾기",
     "timestamp": "2026-05-16T13:53:27.759Z"
+  },
+  "help.json:title": {
+    "sourceHash": "b185e24b4553deb9edb73c575a2680f63fbb72c6e797b21c6fecee4ef987e4b5",
+    "sourceText": "도움말 / Q&A",
+    "timestamp": "2026-05-16T16:16:19.115Z"
+  },
+  "help.json:subtitle": {
+    "sourceHash": "c6768716bf072481cb5b69547cfe554235ed298b989d793ff58c6c4c07db867d",
+    "sourceText": "국제대회 플랫폼 사용에 필요한 안내를 확인하세요.",
+    "timestamp": "2026-05-16T16:16:19.116Z"
+  },
+  "help.json:searchPlaceholder": {
+    "sourceHash": "5823a609a1fc16f4f1e3a2e6c17a22233c6f37e24f57bec0baf81bd8a6b9ce71",
+    "sourceText": "궁금한 내용을 검색하세요.",
+    "timestamp": "2026-05-16T16:16:55.573Z"
+  },
+  "help.json:noResults": {
+    "sourceHash": "58726bf27e70848422d17cc3f7d838fcfb442c0eda3bdcd50aa94651f16bbfbc",
+    "sourceText": "검색 결과가 없습니다.",
+    "timestamp": "2026-05-16T16:16:19.116Z"
+  },
+  "help.json:backHome": {
+    "sourceHash": "64a9bf4fc5ecfc989efbe5830180c611a0bb0bdef6d178449f93d405bd1c66e3",
+    "sourceText": "홈으로 이동",
+    "timestamp": "2026-05-16T16:16:19.116Z"
+  },
+  "help.json:categories.all": {
+    "sourceHash": "a4b69faf0c1113faf1f7cf9d9a6224cf3b62a16c6e841a22882adafcced64db9",
+    "sourceText": "전체",
+    "timestamp": "2026-05-16T16:16:19.116Z"
+  },
+  "help.json:categories.vision": {
+    "sourceHash": "44294bdc90c24c4940c64e32549633b1adbcbf9f26a2c280a3814a5d3ff1cc24",
+    "sourceText": "비전 & 가치",
+    "timestamp": "2026-05-16T16:16:19.116Z"
+  },
+  "help.json:categories.roadmap": {
+    "sourceHash": "6a68ea479f4744088a3da34a43df10821bc99bbd32cb7cfe9036992a1b44188c",
+    "sourceText": "로드맵 & 기술",
+    "timestamp": "2026-05-16T16:16:19.116Z"
+  },
+  "help.json:categories.gamification": {
+    "sourceHash": "f5553a3b240b53e9219717eca16ed1009f5e2b016a95cf385b3986321d803445",
+    "sourceText": "게이미피케이션",
+    "timestamp": "2026-05-16T16:16:19.116Z"
+  },
+  "help.json:categories.security": {
+    "sourceHash": "28b501d54fe04c378852999f65665287bf4c901e19c047d9ac99043f2ef9533c",
+    "sourceText": "보안 & 분석",
+    "timestamp": "2026-05-16T16:16:19.116Z"
+  },
+  "help.json:categories.standards": {
+    "sourceHash": "d8e5ca86214739ad5ded2c6444e57899eaf28ae73dd4ea02d80e9fdab590a3ce",
+    "sourceText": "엔지니어링 표준",
+    "timestamp": "2026-05-16T16:16:19.116Z"
+  },
+  "help.json:categories.architecture": {
+    "sourceHash": "c0dd62a44817e0d7803f85cd68f3f7811456d0033c3478a4386310b819893b68",
+    "sourceText": "아키텍처 & QA",
+    "timestamp": "2026-05-16T16:16:19.116Z"
+  },
+  "help.json:items.0.question": {
+    "sourceHash": "9430692aac8a5f250eb04275b1431ab675777aac83797dcd4672292d21a2072a",
+    "sourceText": "VX Web V2가 지향하는 '공간 경험 플랫폼'의 핵심 가치는 무엇인가요?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.0.answer": {
+    "sourceHash": "f3e061534a5aebf88ed2febfc9b09c4590224b98cdf0298c29088363321568ad",
+    "sourceText": "물리적 공간과 디지털 정보를 실시간으로 결합하여, **\"사용자가 정보를 찾아다니는 것이 아니라, 공간이 상황에 맞춰 정보를 제안한다\"**는 **런타임 UX(Runtime UX)** 철학을 실현하는 것입니다.\n*   **Zero-thought Navigation:** 위치와 시간에 맞는 최적 정보 자동 노출.\n*   **Crowd-aware Experience:** 실시간 혼잡도 기반 선제적 우회 경로 안내.\n*   **Accessibility First:** 고령자/장애인을 위한 접근성 모드 및 휠체어 전용 경로 안내.\n*   **Immersive & Gamified Journey:** 360도 공간 뷰어와 QR 스탬프 투어를 통한 능동적 탐험 유도.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.1.question": {
+    "sourceHash": "ed9b451e9c0bd98a5b57744af5013a2dbd2f1c66f20aa03dc653b91dc476b6b6",
+    "sourceText": "컨벤션 전용 운영체제(The Convention OS)로 거듭나기 위한 로드맵은?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.1.answer": {
+    "sourceHash": "a0beb936c8c03af83364f99285c3429251423ba14d16432d91e401b323af3c8a",
+    "sourceText": "*   **Phase 1: 실시간 인프라:** WebSocket 기반 라이브 동기화 및 통합 인증 시스템(Auth System).\n*   **Phase 2: 공간 지능 고도화:** 실내 위치 측위(IPS), AI 기반 경로 예측, WebXR 지원.\n*   **Phase 3: 게이미피케이션 확장:** 소셜 통합, 리워드 마켓플레이스, 디지털 아카이브 고도화.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.2.question": {
+    "sourceHash": "b5670688eb1e5062c76ebda2eeb0e347f7681de827a9fa3ab2db485e3767bb71",
+    "sourceText": "대규모 환경에서 해결해야 할 핵심 기술 과제는?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.2.answer": {
+    "sourceHash": "ec6341fee1cf0c7ea37ffda98da6178a16753abeffc237e965247c55cd990172",
+    "sourceText": "1.  **고가용성 (High Availability):** 만 단위 동시 접속자 대응을 위한 안정적 소켓 연결 유지.\n2.  **오프라인 퍼스트 (Offline First):** 네트워크 불안정 상황에 대비한 PWA 및 Service Worker 최적화.\n3.  **설계 기반 개인정보 보호 (Privacy by Design):** 위치 데이터 수집 및 분석 시 엄격한 보안 처리 적용.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.3.question": {
+    "sourceHash": "b56eee53f362bf3ebed1c175f0c921fb52a4a8e66e316dc2c6547c8b58a175ed",
+    "sourceText": "리워드 마켓플레이스와 패스포트는 어떻게 구성되나요?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.3.answer": {
+    "sourceHash": "f55918e91677ce2c396a0cc10bc22b9233f694c4e2868a5b0d0c3c501e90c518",
+    "sourceText": "*   **리워드:** 현장 실물 굿즈, 할인 쿠폰 및 교환권 제공.\n*   **컨벤션 패스포트:** 방문 장소, 참여 세션, 획득 스탬프를 시간순으로 엮은 디지털 기록물로, 참가자의 지속적 참여와 재방문을 유도합니다.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.4.question": {
+    "sourceHash": "411467c7ab6b600579d223bc071479d1ec70e635e53fa39b10f2be4cc386c6c6",
+    "sourceText": "방문 인증 및 자동 체크인 원리는 무엇인가요?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.4.answer": {
+    "sourceHash": "c3eafa91ccef84a9b329f472720b8525318f346d2fbeffa511b820a39493f9c6",
+    "sourceText": "*   **현재:** 카메라 스캔 과정을 가상으로 체험하는 모킹(Mocking) UI로 구현.\n*   **향후:** 서버 측 QR 검증, 실시간 활동 로그 추적, 그리고 **NFC/비콘(Beacon) 기반 자동 체크인** 도입.\n*   **기술 원리:** GPS 신호가 닿지 않는 실내에서 BLE 또는 Wi-Fi 지문인식(Fingerprinting) 기술을 활용해 특정 위치 접근 시 조작 없이 자동으로 인증 처리.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.5.question": {
+    "sourceHash": "9de13db397aa76d97696747a069e15ab5096ab07d28adad0589350decaa61f58",
+    "sourceText": "패스포트의 소셜 공유 기능은 어떻게 구현되나요?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.5.answer": {
+    "sourceHash": "602bf6573184fc8a948b06f879a3ee5d6b8f9176249c6c0b8059dcc612e82052",
+    "sourceText": "패스포트 전체를 공유하기보다 핵심 성취 요소인 **'획득한 배지(Badges)'**를 중심으로 구현됩니다.\n*   **소셜 배지 공유:** SNS를 통해 자신의 행사 성취를 즉시 공유.\n*   **리더보드:** 참가자 간 스탬프 수집 순위를 통한 소셜 경쟁 유도.\n*   **참가자 간 소셜 통합:** 선택적 위치 공유 및 팀 기반 협동 퀘스트 수행.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.6.question": {
+    "sourceHash": "fb4446d2c069a78e0129155bf4c1ba1d8927b999c8afff21fc3e7fa653fd55ad",
+    "sourceText": "사용자 위치 데이터 보호를 위한 구체적인 보안 대책은?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.6.answer": {
+    "sourceHash": "d6c4b85faefc8d0b85d16cd504dca83c32464fd34d2d0ab6745a6e0fa4f88e12",
+    "sourceText": "*   **익명화 수집:** 참가자의 실시간 위치 및 활동 로그를 수집 시 개인 식별 정보를 제거합니다.\n*   **클라이언트 사이드 선제적 익명화:** 데이터가 서버에 저장되기 전, **사용자의 단말기(클라이언트 측)에서 이동 경로 데이터를 먼저 익명화**한 후 전송하여 프라이버시 침해를 원천 차단합니다.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.7.question": {
+    "sourceHash": "fe3e215e96d8d4271bb2265e6f72d4dd3b0e2cbee0146c4fa275ad700ca1dbc7",
+    "sourceText": "에지 애널리틱스(Edge Analytics) 데이터는 어떻게 활용되나요?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.7.answer": {
+    "sourceHash": "6a9798778716eef4778120060eca70e8497c7281ef40a6db486d91f9c6bd1638",
+    "sourceText": "1.  **운영 리포트 자동 생성:** 구역별 체류 시간 및 이동 패턴 분석.\n2.  **AI Pathfinding 학습:** 과거 혼잡 데이터를 학습하여 미래의 혼잡 상황 예측 및 우회 경로 제안.\n3.  **행사 기획 정밀도 향상:** 데이터에 기반한 공간 배치 및 동선 설계 최적화.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.8.question": {
+    "sourceHash": "d8cf01812194fb501ca9f443e23203d1ac36230d6868120a5abadd57210aebc7",
+    "sourceText": "다국어(i18n) 관리 및 로깅 표준은 무엇인가요?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.8.answer": {
+    "sourceHash": "eaad65cab050213d6f55f85bd79b563f7ec0e20be708c7a79f2b61b0c088b4f6",
+    "sourceText": "*   **i18n:** 'ko(한국어)'를 기준(Master)으로 모든 언어 파일을 미러링하여 데이터 정합성 유지.\n*   **Logging:** `logger` 유틸리티를 통한 전방위적 이벤트 트래킹으로 비동기 이슈 및 운영 사고 방지(Harness Engineering).",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.9.question": {
+    "sourceHash": "6f38bf7c8ea29a081c798abdc30c91621caa6462ac6fe36187fdf3a3fc55b237",
+    "sourceText": "오프라인 퍼스트 전략의 핵심 가치는?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.9.answer": {
+    "sourceHash": "bcdcfe1df7a954400562852cf90fab5c54acb0cad4e3d44d696dc84a3df692b9",
+    "sourceText": "접속자가 밀집한 환경에서 네트워크가 끊기더라도, 서비스 워커가 사전에 캐싱한 데이터를 기반으로 공간 내비게이션 등 핵심 기능이 중단 없이 작동하도록 보장하여 시스템의 신뢰성을 극대화합니다.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.10.question": {
+    "sourceHash": "c2c8aaaa31b4168ec75e45adfc63f232cc0bcb63081b376965ac0bcfa23619af",
+    "sourceText": "프리미엄 UX를 유지하기 위한 기술적인 디자인 구현 방식은 무엇인가요?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.10.answer": {
+    "sourceHash": "5810c581644d788a8ccd59f4da27ac0d0b1bb20929f727e26a4ff4c0172be9df",
+    "sourceText": "VX Web V2는 **Material Design 3(M3) 기반의 디자인 토큰 시스템**을 사용합니다. 단순히 고정된 색상 코드(#hex)를 사용하는 대신, `surface-container-high`, `on-surface-variant`, `primary-fixed`와 같은 시맨틱 토큰을 정의하여 관리합니다. 이를 통해 다크 모드, 고대비 모드 등 어떠한 환경에서도 브랜드 정체성을 유지하면서 최상의 시각적 품질을 일관되게 제공합니다.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.11.question": {
+    "sourceHash": "7c3f8f59157f0ae4425d2219b509ba7903fdc99baf58c951b7f593b77d62334e",
+    "sourceText": "'Harness Engineering'의 실체인 9대 로깅 스코프는 무엇인가요?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.11.answer": {
+    "sourceHash": "be75b0ae5bf1b506878fa96bc12417606537c2a164951752662cdef4fa9277fb",
+    "sourceText": "운영 중 발생하는 미세한 오류를 즉각 추적하기 위해 다음 9가지 영역을 표준 로깅 스코프로 지정하여 관리합니다.\n1. 앱 초기화 및 설정, 2. 페이지 라우트 전환, 3. 컴포넌트 마운트/언마운트, 4. 공간/자산 데이터 로딩, 5. 360 뷰어 상태 변화, 6. 검색 및 필터 조작, 7. 모달/확장 UI 상호작용, 8. 터치 및 리사이즈 이벤트, 9. 런타임 에러 및 폴백 핸들링.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.12.question": {
+    "sourceHash": "54f754dcb1ac74d12ba8f0d121d8ccfef89ad8b2ac7458fb7a69fcf670affb96",
+    "sourceText": "실시간 운영 데이터의 정합성을 어떻게 보장하나요?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.12.answer": {
+    "sourceHash": "e582b11f3969068e78d75b4c9836e3b72c8612187c957e1557684140003e633b",
+    "sourceText": "플랫폼은 **Pinia 기반의 중앙 집중식 상태 관리** 구조를 취합니다. `OperationalStore`와 같은 전역 저장소가 혼잡도, 세션 진행률, 긴급 공지 등 모든 실시간 상태의 '단일 소스(Single Source of Truth)' 역할을 합니다. 이를 통해 수많은 컴포넌트가 동시에 업데이트되어도 데이터가 꼬이거나 왜곡되는 현상을 원천적으로 차단합니다.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.13.question": {
+    "sourceHash": "3ed4cf4c6c3b4d02b302b4bad490d065c6fe5afef3d3b37ab5b1d4b8969c64c8",
+    "sourceText": "비상 상황 발생 시 시스템은 어떻게 반응하도록 설계되었나요?",
+    "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "help.json:items.13.answer": {
+    "sourceHash": "0067bb032e9b59c1d76f3cd870f7647aa33095756b428b19d270785f447d2e4f",
+    "sourceText": "시스템에는 **최우선 순위 긴급 대응 UI(Emergency Ticker)**가 내장되어 있습니다. 비상 상황 발생 시, 모든 페이지의 최상단 레이어에 고대비 애니메이션 티커가 즉각 활성화됩니다. 이 티커는 다른 어떤 UI 요소보다 높은 z-index를 가지며, 사용자가 어떤 페이지에 있더라도 즉각적으로 위험을 인지하고 대처할 수 있도록 설계되었습니다.",
+    "timestamp": "2026-05-16T16:16:55.575Z"
   }
 }

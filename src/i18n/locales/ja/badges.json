@@ -10,24 +10,24 @@
   "special": "スペシャル",
   "items": {
     "badgeWelcomeExplorer": {
-      "name": "[TODO][ja] 웰컴 익스플로러",
-      "description": "[TODO][ja] 대회장에 성공적으로 첫 발을 내디뎠습니다.",
-      "unlockCondition": "[TODO][ja] 웰컴 투어 퀘스트 완료"
+      "name": "ウェルカム・エクスプローラー",
+      "description": "会場への第一歩を無事に踏み出しました。",
+      "unlockCondition": "ウェルカムツアー・クエスト完了"
     },
     "badgeHallExplorer": {
-      "name": "[TODO][ja] 홀 익스플로러",
-      "description": "[TODO][ja] 전시장의 모든 공간을 속속들이 파악했습니다.",
-      "unlockCondition": "[TODO][ja] 5개 메인 홀 방문"
+      "name": "ホール・エクスプローラー",
+      "description": "展示場のすべての空間を隅々まで把握しました。",
+      "unlockCondition": "5つのメインホールを訪問"
     },
     "badgeGourmet": {
-      "name": "[TODO][ja] 공간 미식가",
-      "description": "[TODO][ja] 대회장의 모든 편의 시설과 식당을 탐방했습니다.",
-      "unlockCondition": "[TODO][ja] 모든 식당가 방문"
+      "name": "空間の美食家",
+      "description": "会場のすべての利便施設とレストランを訪れました。",
+      "unlockCondition": "すべてのレストラン街を訪問"
     },
     "badgeMaster": {
-      "name": "[TODO][ja] 스페셜 마스터",
-      "description": "[TODO][ja] 20개의 모든 스탬프를 수집한 진정한 마스터입니다.",
-      "unlockCondition": "[TODO][ja] 모든 스탬프 수집"
+      "name": "スペシャル・マスター",
+      "description": "20個すべてのスタンプを集めた真のマスターです。",
+      "unlockCondition": "すべてのスタンプを収集"
     }
   }
 }

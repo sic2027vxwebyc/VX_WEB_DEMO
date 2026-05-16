@@ -12,7 +12,7 @@
   "viewAll": "Показать все",
   "details": "Подробности",
   "viewDetails": "Посмотреть детали",
-  "status": "현황",
+  "status": "Статус",
   "live": "В эфире",
   "morning": "Утро",
   "afternoon": "День",
@@ -65,6 +65,6 @@
     "westGate": "Западные ворота",
     "nearby": "Ближайшая зона"
   },
-  "telemetry": "[TODO][ru] 원격 측정",
-  "unknown": "[TODO][ru] 알 수 없음"
+  "telemetry": "Телеметрия",
+  "unknown": "Неизвестно"
 }

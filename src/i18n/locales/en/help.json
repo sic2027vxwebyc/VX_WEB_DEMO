@@ -7,9 +7,96 @@
   "categories": {
     "all": "All",
     "vision": "Vision & Value",
-    "roadmap": "Roadmap",
+    "roadmap": "Roadmap & Tech",
     "gamification": "Gamification",
-    "security": "Security & Data",
-    "tech": "Technical Standards"
-  }
+    "security": "Security & Analytics",
+    "standards": "Engineering Standards",
+    "architecture": "Architecture & QA"
+  },
+  "items": [
+    {
+      "id": "qa-01",
+      "category": "vision",
+      "question": "What is the core value of the 'Spatial Experience Platform' that VX Web V2 aims for?",
+      "answer": "It is to realize the **Runtime UX** philosophy, where physical space and digital information are combined in real-time, so that **\"users do not search for information, but the space suggests information according to the situation.\"**\n*   **Zero-thought Navigation:** Automatic exposure of optimal information tailored to location and time.\n*   **Crowd-aware Experience:** Proactive detour guidance based on real-time congestion.\n*   **Accessibility First:** Accessibility mode and wheelchair-only route guidance for the elderly and disabled.\n*   **Immersive & Gamified Journey:** Inducing active exploration through 360-degree space viewers and QR stamp tours."
+    },
+    {
+      "id": "qa-02",
+      "category": "roadmap",
+      "question": "What is the roadmap to become 'The Convention OS'?",
+      "answer": "*   **Phase 1: Real-time Infrastructure:** Live synchronization based on WebSocket and Integrated Authentication System (Auth System).\n*   **Phase 2: Advanced Spatial Intelligence:** Indoor positioning (IPS), AI-based path prediction, and WebXR support.\n*   **Phase 3: Gamification Expansion:** Social integration, reward marketplace, and advanced digital archives."
+    },
+    {
+      "id": "qa-03",
+      "category": "roadmap",
+      "question": "What are the key technical challenges to solve in a large-scale environment?",
+      "answer": "1.  **High Availability:** Maintaining stable socket connections to respond to tens of thousands of simultaneous users.\n2.  **Offline First:** Optimizing PWA and Service Workers to prepare for network instability.\n3.  **Privacy by Design:** Applying strict security processing when collecting and analyzing location data."
+    },
+    {
+      "id": "qa-04",
+      "category": "gamification",
+      "question": "How are the reward marketplace and passport structured?",
+      "answer": "*   **Rewards:** Providing on-site physical goods, discount coupons, and vouchers.\n*   **Convention Passport:** A digital record that weaves visited places, participating sessions, and acquired stamps in chronological order, inducing continuous participation and return visits from participants."
+    },
+    {
+      "id": "qa-05",
+      "category": "gamification",
+      "question": "What is the principle of visit verification and automatic check-in?",
+      "answer": "*   **Current:** Implemented as a Mocking UI to virtually experience the camera scanning process.\n*   **Future:** Server-side QR verification, real-time activity log tracking, and introduction of **NFC/Beacon-based automatic check-in**.\n*   **Technical Principle:** Utilizing BLE or Wi-Fi Fingerprinting technology in indoor areas where GPS signals do not reach, to automatically process verification when approaching a specific location without manipulation."
+    },
+    {
+      "id": "qa-06",
+      "category": "gamification",
+      "question": "How is the social sharing function of the passport implemented?",
+      "answer": "Rather than sharing the entire passport, it is implemented around **'Acquired Badges'**, which are key achievement elements.\n*   **Social Badge Sharing:** Instantly share your event achievements through SNS.\n*   **Leaderboard:** Inducing social competition through stamp collection rankings among participants.\n*   **Social Integration between Participants:** Selective location sharing and team-based collaborative quests."
+    },
+    {
+      "id": "qa-07",
+      "category": "security",
+      "question": "What are the specific security measures to protect user location data?",
+      "answer": "*   **Anonymized Collection:** Personal identification information is removed when collecting real-time location and activity logs of participants.\n*   **Client-side Proactive Anonymization:** Before data is stored on the server, **the moving path data is first anonymized on the user's terminal (client side)** and then transmitted to fundamentally block privacy infringement."
+    },
+    {
+      "id": "qa-08",
+      "category": "security",
+      "question": "How is Edge Analytics data utilized?",
+      "answer": "1.  **Automatic Generation of Operational Reports:** Analysis of stay time and movement patterns by zone.\n2.  **AI Pathfinding Learning:** Predicting future congestion situations and suggesting detour routes by learning past congestion data.\n3.  **Improving Event Planning Precision:** Optimizing spatial layout and movement flow design based on data."
+    },
+    {
+      "id": "qa-09",
+      "category": "standards",
+      "question": "What are the standards for multi-language (i18n) management and logging?",
+      "answer": "*   **i18n:** Maintaining data integrity by mirroring all language files based on 'ko (Korean)' as the Master.\n*   **Logging:** Preventing asynchronous issues and operational accidents through omnidirectional event tracking via the `logger` utility (Harness Engineering)."
+    },
+    {
+      "id": "qa-10",
+      "category": "standards",
+      "question": "What is the core value of the Offline-first strategy?",
+      "answer": "Even if the network is disconnected in a crowded environment, it maximizes the reliability of the system by ensuring that core functions such as space navigation work without interruption based on data cached by service workers in advance."
+    },
+    {
+      "id": "qa-11",
+      "category": "architecture",
+      "question": "What is the technical design implementation method to maintain premium UX?",
+      "answer": "VX Web V2 uses a **Design Token System based on Material Design 3 (M3)**. Instead of simply using fixed color codes (#hex), it defines and manages semantic tokens such as `surface-container-high`, `on-surface-variant`, and `primary-fixed`. This ensures the best visual quality and brand identity consistently in any environment, such as dark mode or high-contrast mode."
+    },
+    {
+      "id": "qa-12",
+      "category": "architecture",
+      "question": "What are the 9 logging scopes that are the reality of 'Harness Engineering'?",
+      "answer": "To immediately track minor errors occurring during operation, the following 9 areas are designated and managed as standard logging scopes:\n1. App initialization and settings, 2. Page route transitions, 3. Component mount/unmount, 4. Space/Asset data loading, 5. 360 Viewer state changes, 6. Search/Filter manipulation, 7. Modal/Expand UI interactions, 8. Touch and resize events, 9. Runtime errors and fallback handling."
+    },
+    {
+      "id": "qa-13",
+      "category": "architecture",
+      "question": "How to ensure the integrity of real-time operational data?",
+      "answer": "The platform adopts a **Pinia-based centralized state management** structure. A global store such as `OperationalStore` serves as a 'Single Source of Truth' for all real-time states such as congestion, session progress, and emergency notices. This fundamentally blocks data corruption or distortion even when numerous components are updated simultaneously."
+    },
+    {
+      "id": "qa-14",
+      "category": "architecture",
+      "question": "How is the system designed to respond in case of an emergency?",
+      "answer": "The system has a built-in **Emergency Ticker**, which is the highest priority emergency response UI. In case of an emergency, a high-contrast animation ticker is immediately activated on the top layer of all pages. This ticker has a higher z-index than any other UI element, and it is designed so that users can immediately recognize and respond to danger regardless of which page they are on."
+    }
+  ]
 }

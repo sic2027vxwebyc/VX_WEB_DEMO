@@ -1,3 +1,6 @@
+> **NOTICE:** Runtime Q&A 화면은 `src/i18n/locales/ko/help.json`을 기준으로 렌더링됩니다.
+> 이 문서를 수정한 경우 `help.json`에도 반영해야 하며, 다국어 번역은 `npm run translate:locales`를 통해 업데이트할 수 있습니다.
+
 # VX Web V2: Spatial Experience Platform Comprehensive Q&A
 
 본 문서는 VX Web V2 플랫폼의 핵심 가치, 미래 로드맵, 게이미피케이션 전략 및 기술적 표준을 총망라한 종합 Q&A 아카이브입니다.

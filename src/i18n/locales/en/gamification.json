@@ -19,84 +19,84 @@
   "collectedToday": "Collected Today",
   "items": {
     "hall1": {
-      "name": "[TODO][en] 1홀",
-      "description": "[TODO][en] 메인 컨벤션 홀"
+      "name": "Hall 1",
+      "description": "Main Convention Hall"
     },
     "hall2": {
-      "name": "[TODO][en] 2홀",
-      "description": "[TODO][en] 전시 구역 B"
+      "name": "Hall 2",
+      "description": "Exhibition Area B"
     },
     "hall3": {
-      "name": "[TODO][en] 3홀",
-      "description": "[TODO][en] 이벤트 및 세미나"
+      "name": "Hall 3",
+      "description": "Events and Seminars"
     },
     "hall4": {
-      "name": "[TODO][en] 4홀",
-      "description": "[TODO][en] 테크 전시 존"
+      "name": "Hall 4",
+      "description": "Tech Exhibition Zone"
     },
     "hall5": {
-      "name": "[TODO][en] 5홀",
-      "description": "[TODO][en] 글로벌 라운지"
+      "name": "Hall 5",
+      "description": "Global Lounge"
     },
     "fSodam": {
-      "name": "[TODO][en] 식당가",
-      "description": "[TODO][en] 전통 한식 식당가"
+      "name": "Dining Area",
+      "description": "Traditional Korean Cuisine"
     },
     "cCu1": {
-      "name": "[TODO][en] 안내소",
-      "description": "[TODO][en] 안내 및 배터리 지원"
+      "name": "Info Desk",
+      "description": "Information and Battery Support"
     },
     "hall6": {
-      "name": "[TODO][en] 6홀",
-      "description": "[TODO][en] 고급 세미나 구역"
+      "name": "Hall 6",
+      "description": "Premium Seminar Area"
     },
     "hall7": {
-      "name": "[TODO][en] 7홀",
-      "description": "[TODO][en] 디지털 체험 존"
+      "name": "Hall 7",
+      "description": "Digital Experience Zone"
     },
     "hall8": {
-      "name": "[TODO][en] 8홀",
-      "description": "[TODO][en] 예술 및 문화 존"
+      "name": "Hall 8",
+      "description": "Art and Culture Zone"
     },
     "hall9": {
-      "name": "[TODO][en] 9홀",
-      "description": "[TODO][en] 메인 오디토리움"
+      "name": "Hall 9",
+      "description": "Main Auditorium"
     },
     "hall10": {
-      "name": "[TODO][en] 10홀",
-      "description": "[TODO][en] 폐막식 존"
+      "name": "Hall 10",
+      "description": "Closing Ceremony Zone"
     },
     "fMyeongdong": {
-      "name": "[TODO][en] 2F 식당가",
-      "description": "[TODO][en] 세계 음식 푸드코트"
+      "name": "2F Dining Area",
+      "description": "World Food Court"
     },
     "exitWest": {
-      "name": "[TODO][en] 서문",
-      "description": "[TODO][en] 주차장 연결 출구"
+      "name": "West Gate",
+      "description": "Parking Lot Connector"
     },
     "toilet1": {
-      "name": "[TODO][en] 중앙 화장실",
-      "description": "[TODO][en] 깨끗한 편의 시설"
+      "name": "Central Restroom",
+      "description": "Clean Facility"
     },
     "medical": {
       "name": "Medical Room",
       "description": "Emergency Medical Center"
     },
     "giftZone": {
-      "name": "[TODO][en] 기프트 존",
-      "description": "[TODO][en] 보상 수령 장소"
+      "name": "Gift Zone",
+      "description": "Reward Pickup Location"
     },
     "translationCenter": {
-      "name": "[TODO][en] 통역 지원 센터",
-      "description": "[TODO][en] 다국어 지원 허브"
+      "name": "Interpretation Center",
+      "description": "Multilingual Support Hub"
     },
     "welcomeZone": {
-      "name": "[TODO][en] 웰컴 존",
-      "description": "[TODO][en] 대회 시작 지점"
+      "name": "Welcome Zone",
+      "description": "Convention Starting Point"
     },
     "experienceZone": {
-      "name": "[TODO][en] 체험 존",
-      "description": "[TODO][en] 인터랙티브 공간 VR"
+      "name": "Experience Zone",
+      "description": "Interactive VR Space"
     }
   }
 }

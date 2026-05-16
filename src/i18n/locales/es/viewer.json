@@ -1,72 +1,72 @@
 {
-  "title": "360 Viewer",
-  "exit": "Close",
+  "title": "Visor 360",
+  "exit": "Cerrar",
   "hotspots": {
-    "next": "Next Space",
-    "info": "Info",
-    "hall1": "[TODO][es] 제1전시장 1홀",
-    "hall2": "[TODO][es] 제1전시장 2홀",
-    "infoDesk": "[TODO][es] 안내 데스크",
-    "westGate": "[TODO][es] 서문 (West Gate)",
-    "foodZone": "[TODO][es] 식당가 (소담)",
-    "restroom": "[TODO][es] 화장실",
-    "nearby": "[TODO][es] 인접 구역",
-    "jumpTo": "[TODO][es] 이동하기"
+    "next": "Siguiente Espacio",
+    "info": "Información",
+    "hall1": "Pabellón de Exposiciones 1",
+    "hall2": "Pabellón de Exposiciones 2",
+    "infoDesk": "Mostrador de Información",
+    "westGate": "Puerta Oeste (West Gate)",
+    "foodZone": "Zona de Restaurantes (Sodam)",
+    "restroom": "Baños",
+    "nearby": "Áreas Cercanas",
+    "jumpTo": "Ir a"
   },
   "controls": {
-    "zoomIn": "Zoom In",
-    "zoomOut": "Zoom Out",
-    "north": "North",
-    "vrMode": "VR Mode",
+    "zoomIn": "Acercar",
+    "zoomOut": "Alejar",
+    "north": "Norte",
+    "vrMode": "Modo VR",
     "vrNotSupported": "El modo VR no es compatible con este dispositivo o navegador."
   },
   "stats": {
-    "title": "Space Stats",
-    "occupancy": "Current Occupancy",
-    "airQuality": "Maintaining optimal air quality",
-    "temp": "[TODO][es] 온도",
-    "humid": "[TODO][es] 습도"
+    "title": "Estadísticas del Espacio",
+    "occupancy": "Ocupación Actual",
+    "airQuality": "Manteniendo calidad de aire óptima",
+    "temp": "Temperatura",
+    "humid": "Humedad"
   },
   "hotspot": {
-    "guideBusy": "Situado a unos {min} min a pie de su posición actual. Tenga en cuenta la congestión prevista.",
-    "guideOptimal": "Situado a unos {min} min a pie de su posición actual. El movimiento es actualmente muy fluido."
+    "guideBusy": "Ubicado a unos {min} min a pie de su posición actual. Tenga en cuenta la congestión esperada.",
+    "guideOptimal": "Ubicado a unos {min} min a pie de su posición actual. El movimiento es actualmente muy fluido."
   },
   "vr": {
-    "notSupportedToast": "Este dispositivo no soporta el modo VR.",
-    "interface": "[TODO][es] 하드웨어 인터페이스",
-    "available": "[TODO][es] VR 모드 사용 가능",
-    "noSecureContext": "[TODO][es] HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.",
-    "sessionError": "[TODO][es] VR 세션을 시작할 수 없습니다."
+    "notSupportedToast": "Este dispositivo no admite el modo VR.",
+    "interface": "Interfaz de Hardware",
+    "available": "Modo VR Disponible",
+    "noSecureContext": "No está en HTTPS. VR requiere una conexión segura.",
+    "sessionError": "No se pudo iniciar la sesión de VR."
   },
   "status": {
     "normal": "Sistema Normal",
-    "operational": "[TODO][es] 운영 상태"
+    "operational": "Estado Operativo"
   },
   "v2": {
-    "scanning": "[TODO][es] 공간 스캔 중...",
-    "initializing": "[TODO][es] 신경망 포인트 클라우드 초기화 중",
-    "experience": "[TODO][es] 360 경험",
-    "nearbyTerminals": "[TODO][es] 인접 터미널"
+    "scanning": "Escaneando espacio...",
+    "initializing": "Inicializando nube de puntos neuronal",
+    "experience": "Experiencia 360",
+    "nearbyTerminals": "Terminales Cercanas"
   },
   "live": {
     "realtimeData": "Datos en Tiempo Real",
     "switchToMap": "Cambiar a Vista de Mapa",
-    "spaceDensity": "Densidad Espacial en Tiempo Real",
+    "spaceDensity": "Densidad de Espacio en Tiempo Real",
     "densityHigh": "Alta",
     "densityNormal": "Normal",
     "currentDensity": "Densidad Actual",
     "estimatedVisitors": "Visitantes Estimados",
     "peakTime": "Hora Pico",
     "optimizedPathSearch": "Búsqueda de Ruta Optimizada",
-    "scanningTitle": "Mapeo de Rutas Neuronales",
-    "scanningDesc": "Optimizando el clúster espacial para {name}",
-    "liveSpatial": "Espacial en Vivo",
-    "terminalStatus": "Estado de la Terminal: Flujo Óptimo",
+    "scanningTitle": "Mapeo de Rutas Neuronal",
+    "scanningDesc": "Optimizando clúster espacial para {name}",
+    "liveSpatial": "Espacio en Vivo",
+    "terminalStatus": "Estado de Terminal: Flujo Óptimo",
     "telemetry": "Telemetría en Tiempo Real",
     "occupancy": "Ocupación",
     "airQuality": "Calidad del Aire",
     "excellent": "Excelente",
-    "dashboard": "Dashboard",
+    "dashboard": "Panel de Control",
     "density": "Densidad",
     "distance": "Distancia",
     "eta": "Tiempo Estimado",

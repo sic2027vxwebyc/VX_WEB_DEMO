@@ -25,59 +25,59 @@
   "optimalEntranceGate": "GATE {gate} ({name})",
   "entranceGuide": "Actualmente hay mucha gente en la Puerta Norte. Usar {name} permite entrar de inmediato sin esperar.",
   "ticker": {
-    "emergency": "High congestion in Hall C. We recommend using the West Gate.",
-    "info": "Interpretation equipment battery replacement is available at the 1st-floor info desk.",
-    "status": "오후 식사 공간 운영이 시작되었습니다."
+    "emergency": "Alta congestión en el Hall C. Recomendamos usar la Puerta Oeste.",
+    "info": "El reemplazo de la batería del equipo de interpretación está disponible en el mostrador de información del primer piso.",
+    "status": "La operación del área de comida de la tarde ha comenzado."
   },
-  "nextProgramTitle": "Eternal Happiness (Drama Part 2)",
-  "connectionSecure": "Connected",
-  "lastSync": "Last sync: {time}",
+  "nextProgramTitle": "Felicidad Eterna (Drama Parte 2)",
+  "connectionSecure": "Conectado",
+  "lastSync": "Última sincronización: {time}",
   "phases": {
     "morning": {
-      "greeting": "Good morning!",
-      "message": "Morning programs are actively in progress."
+      "greeting": "¡Buenos días!",
+      "message": "Los programas matutinos están en curso."
     },
     "lunch": {
-      "greeting": "Enjoy your lunch!",
-      "message": "We'll guide you to nearby dining and rest areas."
+      "greeting": "¡Disfrute de su almuerzo!",
+      "message": "Le guiaremos a las áreas de comida y descanso cercanas."
     },
     "afternoon": {
-      "greeting": "Check the afternoon schedule.",
-      "message": "All sessions are operating normally."
+      "greeting": "Consulte el horario de la tarde.",
+      "message": "Todas las sesiones están operando normalmente."
     },
     "evening": {
-      "greeting": "Good job today!",
-      "message": "Check traffic information for a safe return home."
+      "greeting": "¡Buen trabajo hoy!",
+      "message": "Consulte la información de tráfico para un regreso seguro a casa."
     }
   },
   "navigation": {
-    "startNow": "Start Navigating\nto Destination",
-    "optimizedPath": "Start Optimized Routing",
-    "nextProgram": "Next Program",
-    "remaining": "mins left",
-    "viewFullSchedule": "View Full Schedule"
+    "startNow": "Iniciar navegación\nal destino",
+    "optimizedPath": "Iniciar ruta optimizada",
+    "nextProgram": "Próximo programa",
+    "remaining": "min restantes",
+    "viewFullSchedule": "Ver horario completo"
   },
   "gamification": {
-    "title": "Spatial Stamp Tour Challenge",
-    "description": "Explore the convention center, collect 20 stamps, and receive a special gift.",
-    "tag": "Convention Gamification"
+    "title": "Desafío de Tour de Sellos",
+    "description": "Explore el centro de convenciones, coleccione 20 sellos y reciba un regalo especial.",
+    "tag": "Gamificación de Convenciones"
   },
   "quickActions": {
-    "findSeat": "Find Seat",
-    "nearby": "Nearby",
-    "language": "Language",
-    "explore": "Explore"
+    "findSeat": "Buscar asiento",
+    "nearby": "Cercano",
+    "language": "Idioma",
+    "explore": "Explorar"
   },
   "status": {
-    "majorAreas": "Major Areas Status",
-    "liveStatus": "Live Status",
-    "operationalGuide": "Operational Guide",
-    "diningOpen": "Dining area is now open. We recommend using the {hall} instead of the congested Hall 1.",
-    "hall3Dining": "Hall 3 Dining",
-    "viewAllNotices": "View All Notices",
-    "low": "[TODO][es] 여유",
-    "moderate": "[TODO][es] 보통",
-    "high": "[TODO][es] 혼잡"
+    "majorAreas": "Estado de áreas principales",
+    "liveStatus": "Estado en vivo",
+    "operationalGuide": "Guía operativa",
+    "diningOpen": "El área de comida ya está abierta. Recomendamos usar {hall} en lugar del congestionado Hall 1.",
+    "hall3Dining": "Comida del Hall 3",
+    "viewAllNotices": "Ver todos los avisos",
+    "low": "Despejado",
+    "moderate": "Normal",
+    "high": "Congestionado"
   },
   "messages": {
     "beforeConvention": "La Asamblea Internacional comienza mañana.\nDescanse bien y nos vemos mañana.",

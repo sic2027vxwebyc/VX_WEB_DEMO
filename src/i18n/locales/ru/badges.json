@@ -10,24 +10,24 @@
   "special": "Особый",
   "items": {
     "badgeWelcomeExplorer": {
-      "name": "[TODO][ru] 웰컴 익스플로러",
-      "description": "[TODO][ru] 대회장에 성공적으로 첫 발을 내디뎠습니다.",
-      "unlockCondition": "[TODO][ru] 웰컴 투어 퀘스트 완료"
+      "name": "Первооткрыватель",
+      "description": "Вы успешно сделали первый шаг на территории конгресс-центра.",
+      "unlockCondition": "Завершение квеста «Приветственный тур»"
     },
     "badgeHallExplorer": {
-      "name": "[TODO][ru] 홀 익스플로러",
-      "description": "[TODO][ru] 전시장의 모든 공간을 속속들이 파악했습니다.",
-      "unlockCondition": "[TODO][ru] 5개 메인 홀 방문"
+      "name": "Исследователь залов",
+      "description": "Вы детально изучили каждое пространство выставочного центра.",
+      "unlockCondition": "Посещение 5 основных залов"
     },
     "badgeGourmet": {
-      "name": "[TODO][ru] 공간 미식가",
-      "description": "[TODO][ru] 대회장의 모든 편의 시설과 식당을 탐방했습니다.",
-      "unlockCondition": "[TODO][ru] 모든 식당가 방문"
+      "name": "Пространственный гурман",
+      "description": "Вы посетили все удобства и зоны питания конгресс-центра.",
+      "unlockCondition": "Посещение всех ресторанных двориков"
     },
     "badgeMaster": {
-      "name": "[TODO][ru] 스페셜 마스터",
-      "description": "[TODO][ru] 20개의 모든 스탬프를 수집한 진정한 마스터입니다.",
-      "unlockCondition": "[TODO][ru] 모든 스탬프 수집"
+      "name": "Специальный мастер",
+      "description": "Настоящий мастер, собравший все 20 штампов.",
+      "unlockCondition": "Сбор всех штампов"
     }
   }
 }

@@ -27,7 +27,7 @@
   "ticker": {
     "emergency": "Hall C 區域擁擠度極高。建議使用西門。",
     "info": "1 樓服務台提供翻譯設備電池更換支援。",
-    "status": "오후 식사 공간 운영이 시작되었습니다."
+    "status": "下午用餐空間已開放。"
   },
   "nextProgramTitle": "永遠幸福 (聖經劇第 2 部分)",
   "connectionSecure": "已連接",
@@ -72,12 +72,12 @@
     "majorAreas": "主要區域現況",
     "liveStatus": "實時狀態",
     "operationalGuide": "營運指南",
-    "diningOpen": "[TODO][zh-TW] 현재 식사 공간이 개방되었습니다. 혼잡한 1홀 대신 {hall} 이용을 추천드립니다.",
+    "diningOpen": "用餐區域已開放。建議前往較不擁擠的 {hall}，而非 1 號廳。",
     "hall3Dining": "3 號展廳美食街",
     "viewAllNotices": "查看所有公告",
-    "low": "[TODO][zh-TW] 여유",
-    "moderate": "[TODO][zh-TW] 보통",
-    "high": "[TODO][zh-TW] 혼잡"
+    "low": "空閒",
+    "moderate": "普通",
+    "high": "擁擠"
   },
   "messages": {
     "beforeConvention": "國際大會將於明天開始。\n請充分休息，我們明天見。",

@@ -1,52 +1,52 @@
 {
-  "title": "360 Viewer",
-  "exit": "Close",
+  "title": "360ビューア",
+  "exit": "閉じる",
   "hotspots": {
-    "next": "Next Space",
-    "info": "Info",
-    "hall1": "[TODO][ja] 제1전시장 1홀",
-    "hall2": "[TODO][ja] 제1전시장 2홀",
-    "infoDesk": "[TODO][ja] 안내 데스크",
-    "westGate": "[TODO][ja] 서문 (West Gate)",
-    "foodZone": "[TODO][ja] 식당가 (소담)",
-    "restroom": "[TODO][ja] 화장실",
-    "nearby": "[TODO][ja] 인접 구역",
-    "jumpTo": "[TODO][ja] 이동하기"
+    "next": "次の空間",
+    "info": "情報",
+    "hall1": "第1展示場 1ホール",
+    "hall2": "第1展示場 2ホール",
+    "infoDesk": "案内デスク",
+    "westGate": "西門 (West Gate)",
+    "foodZone": "レストラン街 (ソダム)",
+    "restroom": "トイレ",
+    "nearby": "隣接エリア",
+    "jumpTo": "移動する"
   },
   "controls": {
-    "zoomIn": "Zoom In",
-    "zoomOut": "Zoom Out",
-    "north": "North",
-    "vrMode": "VR Mode",
-    "vrNotSupported": "このデバイスまたはブラウザではVRモードをサポートしていません。"
+    "zoomIn": "拡大",
+    "zoomOut": "縮小",
+    "north": "北",
+    "vrMode": "VRモード",
+    "vrNotSupported": "このデバイスやブラウザではVRモードをサポートしていません。"
   },
   "stats": {
-    "title": "Space Stats",
-    "occupancy": "Current Occupancy",
-    "airQuality": "Maintaining optimal air quality",
-    "temp": "[TODO][ja] 온도",
-    "humid": "[TODO][ja] 습도"
+    "title": "空間統計",
+    "occupancy": "現在人数",
+    "airQuality": "最適な空気質を維持中",
+    "temp": "温度",
+    "humid": "湿度"
   },
   "hotspot": {
-    "guideBusy": "現在地から徒歩約 {min}分の距離にあります。混雑が予想されますのでご注意ください。",
-    "guideOptimal": "現在地から徒歩約 {min}分の距離にあります。移動は非常にスムーズな状態です。"
+    "guideBusy": "現在地から徒歩約 {min} 分の距離にあります。混雑が予想されますのでご注意ください。",
+    "guideOptimal": "現在地から徒歩約 {min} 分の距離에あります。移動は非常にスムーズな状態です。"
   },
   "vr": {
     "notSupportedToast": "このデバイスはVRモードをサポートしていません。",
-    "interface": "[TODO][ja] 하드웨어 인터페이스",
-    "available": "[TODO][ja] VR 모드 사용 가능",
-    "noSecureContext": "[TODO][ja] HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.",
-    "sessionError": "[TODO][ja] VR 세션을 시작할 수 없습니다."
+    "interface": "ハードウェアインターフェース",
+    "available": "VRモード使用可能",
+    "noSecureContext": "HTTPS環境ではありません。VRにはセキュアな接続が必要です。",
+    "sessionError": "VRセッションを開始できません。"
   },
   "status": {
     "normal": "システム正常",
-    "operational": "[TODO][ja] 운영 상태"
+    "operational": "運用状態"
   },
   "v2": {
-    "scanning": "[TODO][ja] 공간 스캔 중...",
-    "initializing": "[TODO][ja] 신경망 포인트 클라우드 초기화 중",
-    "experience": "[TODO][ja] 360 경험",
-    "nearbyTerminals": "[TODO][ja] 인접 터미널"
+    "scanning": "空間スキャン中...",
+    "initializing": "ニューラルポイントクラウド初期化中",
+    "experience": "360体験",
+    "nearbyTerminals": "隣接ターミナル"
   },
   "live": {
     "realtimeData": "リアルタイムデータ",
@@ -57,20 +57,20 @@
     "currentDensity": "現在の密度",
     "estimatedVisitors": "予想訪問者数",
     "peakTime": "ピーク時間",
-    "optimizedPathSearch": "最適ルート探索",
+    "optimizedPathSearch": "最適経路探索",
     "scanningTitle": "ニューラルパスマッピング",
-    "scanningDesc": "{name} のための空間クラスターを最適化中",
+    "scanningDesc": "{name} のための空間クラスター最適化中",
     "liveSpatial": "ライブ空間",
-    "terminalStatus": "ターミナル状態: 最適フロー",
+    "terminalStatus": "ターミナルステータス: 最適な流れ",
     "telemetry": "リアルタイムテレメトリ",
     "occupancy": "占有率",
     "airQuality": "空気質",
-    "excellent": "最上",
+    "excellent": "最高",
     "dashboard": "ダッシュボード",
     "density": "密度",
     "distance": "距離",
     "eta": "予想時間",
     "enterSpace": "空間入場",
-    "getDirections": "道順を表示"
+    "getDirections": "道案内"
   }
 }

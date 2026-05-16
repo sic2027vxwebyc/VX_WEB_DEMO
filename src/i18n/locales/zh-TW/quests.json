@@ -12,16 +12,16 @@
   "missionSuccessDesc": "完成任務並獲得了特別勳章。",
   "items": {
     "questWelcomeTour": {
-      "title": "[TODO][zh-TW] 웰컴 투어",
-      "description": "[TODO][zh-TW] 대회장의 주요 안내 구역을 방문하세요."
+      "title": "歡迎之旅",
+      "description": "請造訪大會中心的主要資訊區域。"
     },
     "questHallMaster": {
-      "title": "[TODO][zh-TW] 홀 마스터",
-      "description": "[TODO][zh-TW] 제1전시장의 모든 홀을 탐험하세요."
+      "title": "展廳大師",
+      "description": "探索第 1 展覽館的所有展廳。"
     },
     "questFoodie": {
-      "title": "[TODO][zh-TW] 미식가",
-      "description": "[TODO][zh-TW] 모든 식당 구역을 방문하세요."
+      "title": "美食家",
+      "description": "請造訪所有的餐飲區域。"
     }
   }
 }

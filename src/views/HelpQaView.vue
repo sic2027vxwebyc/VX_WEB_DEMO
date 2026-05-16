@@ -4,17 +4,14 @@
  * 도움말 및 Q&A 화면
  * QA.md를 Source of Truth로 사용하여 실시간 렌더링 및 검색 기능을 제공합니다.
  */
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import MarkdownIt from 'markdown-it'
 import { logger } from '@/utils/logger'
 
-// QA.md를 Raw 텍스트로 임포트 (Vite 기능)
-import qaMarkdown from '@/../QA.md?raw'
-
 const router = useRouter()
-const { t } = useI18n()
+const { t, tm, locale } = useI18n()
 const scope = 'HelpQaView'
 
 const md = new MarkdownIt({
@@ -27,81 +24,71 @@ const md = new MarkdownIt({
 const searchQuery = ref('')
 const activeCategory = ref('all')
 
-// Q&A 데이터 상태
-const qaSections = ref([])
+// Q&A 데이터 상태 (반응형 상태 관리를 위해 ref 사용)
+const qaItems = ref([])
 
-// Q&A 데이터 구조화를 위한 파싱 로직
-const parseMarkdown = () => {
-  const sections = []
-  const lines = qaMarkdown.split('\n')
-  let currentCategory = null
-  let currentQA = null
-
-  lines.forEach(line => {
-    const trimmed = line.trim()
-    
-    // 카테고리 감지 (## 01. 카테고리명)
-    if (trimmed.startsWith('## ') && !trimmed.includes('00.')) {
-      const categoryName = trimmed.replace(/## \d+\.\s+/, '').split('(')[0].trim()
-      currentCategory = {
-        id: sections.length + 1,
-        title: categoryName,
-        items: []
-      }
-      sections.push(currentCategory)
-    } 
-    // 질문 감지 (### Q1. 질문내용)
-    else if (trimmed.startsWith('### Q')) {
-      if (currentCategory) {
-        currentQA = {
-          question: trimmed.replace(/### Q\d+\.\s+/, '').trim(),
-          answerRaw: '',
-          isOpen: false
-        }
-        currentCategory.items.push(currentQA)
-      }
-    }
-    // 답변 내용 누적
-    else if (currentQA && trimmed !== '---' && !trimmed.startsWith('#')) {
-      currentQA.answerRaw += line + '\n'
-    }
-  })
-
-  qaSections.value = sections
+/**
+ * i18n 메시지에서 Q&A 데이터를 로드하고 상태를 초기화합니다.
+ */
+const initData = () => {
+  const items = tm('help.items')
+  if (Array.isArray(items)) {
+    qaItems.value = items.map(item => ({
+      ...item,
+      isOpen: false
+    }))
+  }
 }
 
-// 검색 및 필터링된 결과
-const filteredSections = computed(() => {
-  const query = searchQuery.value.toLowerCase()
-  
-  return qaSections.value.map(section => {
-    // 카테고리 필터링
-    if (activeCategory.value !== 'all' && section.title.toLowerCase() !== activeCategory.value.toLowerCase()) {
-      if (!section.title.includes(activeCategory.value)) return null
-    }
-
-    const filteredItems = section.items.filter(item => {
-      const matchSearch = item.question.toLowerCase().includes(query) || 
-                          item.answerRaw.toLowerCase().includes(query)
-      return matchSearch
-    })
-
-    if (filteredItems.length === 0) return null
-
-    return {
-      ...section,
-      items: filteredItems
-    }
-  }).filter(Boolean)
+// 언어가 변경될 때마다 데이터를 재초기화하여 실시간 번역 적용
+watch(locale, () => {
+  initData()
 })
 
-// 카테고리 목록 추출
-const categories = computed(() => {
-  const list = [{ id: 'all', name: t('help.categories.all') }]
-  qaSections.value.forEach(s => {
-    list.push({ id: s.title, name: s.title })
+// 카테고리 그룹화 및 검색 필터링된 결과
+const filteredSections = computed(() => {
+  const query = searchQuery.value.toLowerCase()
+  const cats = tm('help.categories')
+  if (!cats) return []
+
+  const sections = []
+  
+  // 'all'을 제외한 실제 카테고리 키들을 순회
+  Object.keys(cats).forEach(catId => {
+    if (catId === 'all') return
+    
+    // 현재 선택된 카테고리 필터링
+    if (activeCategory.value !== 'all' && activeCategory.value !== catId) return
+
+    // 해당 카테고리에 속하면서 검색어를 포함하는 항목 필터링
+    const itemsInSection = qaItems.value.filter(item => {
+      const isCorrectCategory = item.category === catId
+      const matchesSearch = item.question.toLowerCase().includes(query) || 
+                            item.answer.toLowerCase().includes(query)
+      return isCorrectCategory && matchesSearch
+    })
+
+    if (itemsInSection.length > 0) {
+      sections.push({
+        id: catId,
+        title: t(`help.categories.${catId}`),
+        items: itemsInSection
+      })
+    }
   })
-  return list
+
+  return sections
+})
+
+// 카테고리 필터 목록
+const categories = computed(() => {
+  const cats = tm('help.categories')
+  if (!cats) return []
+  
+  return Object.keys(cats).map(key => ({
+    id: key,
+    name: cats[key]
+  }))
 })
 
 const navigateTo = (path) => {
@@ -118,8 +105,8 @@ const toggleItem = (item) => {
 }
 
 onMounted(() => {
-  parseMarkdown()
-  logger.info(scope, '도움말 페이지 마운트 완료')
+  initData()
+  logger.info(scope, '도움말 페이지 마운트 완료 (i18n 데이터 소스)')
 })
 </script>
 
@@ -223,7 +210,7 @@ onMounted(() => {
                 <div class="h-[1px] w-full bg-outline-variant/10 mb-6"></div>
                 <div 
                   class="qa-content text-lg text-on-surface-variant leading-relaxed font-medium"
-                  v-html="md.render(item.answerRaw)"
+                  v-html="md.render(item.answer)"
                 ></div>
               </div>
             </div>

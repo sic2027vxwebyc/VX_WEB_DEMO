@@ -12,16 +12,16 @@
   "missionSuccessDesc": "クエストを完了し、特別バッジを獲得しました。",
   "items": {
     "questWelcomeTour": {
-      "title": "[TODO][ja] 웰컴 투어",
-      "description": "[TODO][ja] 대회장의 주요 안내 구역을 방문하세요."
+      "title": "ウェルカムツアー",
+      "description": "会場の主要な案内区域を訪問してください。"
     },
     "questHallMaster": {
-      "title": "[TODO][ja] 홀 마스터",
-      "description": "[TODO][ja] 제1전시장의 모든 홀을 탐험하세요."
+      "title": "ホールマスター",
+      "description": "第1展示場のすべてのホールを探索してください。"
     },
     "questFoodie": {
-      "title": "[TODO][ja] 미식가",
-      "description": "[TODO][ja] 모든 식당 구역을 방문하세요."
+      "title": "美食家",
+      "description": "すべてのレストラン区域を訪問してください。"
     }
   }
 }

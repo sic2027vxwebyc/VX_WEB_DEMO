@@ -19,84 +19,84 @@
   "collectedToday": "今日已獲得",
   "items": {
     "hall1": {
-      "name": "[TODO][zh-TW] 1홀",
-      "description": "[TODO][zh-TW] 메인 컨벤션 홀"
+      "name": "1號廳",
+      "description": "主會議廳"
     },
     "hall2": {
-      "name": "[TODO][zh-TW] 2홀",
-      "description": "[TODO][zh-TW] 전시 구역 B"
+      "name": "2號廳",
+      "description": "展覽區域 B"
     },
     "hall3": {
-      "name": "[TODO][zh-TW] 3홀",
-      "description": "[TODO][zh-TW] 이벤트 및 세미나"
+      "name": "3號廳",
+      "description": "活動與研討會"
     },
     "hall4": {
-      "name": "[TODO][zh-TW] 4홀",
-      "description": "[TODO][zh-TW] 테크 전시 존"
+      "name": "4號廳",
+      "description": "科技展覽區"
     },
     "hall5": {
-      "name": "[TODO][zh-TW] 5홀",
-      "description": "[TODO][zh-TW] 글로벌 라운지"
+      "name": "5號廳",
+      "description": "全球貴賓室"
     },
     "fSodam": {
-      "name": "[TODO][zh-TW] 식당가",
-      "description": "[TODO][zh-TW] 전통 한식 식당가"
+      "name": "美食街",
+      "description": "傳統韓式美食街"
     },
     "cCu1": {
-      "name": "[TODO][zh-TW] 안내소",
-      "description": "[TODO][zh-TW] 안내 및 배터리 지원"
+      "name": "諮詢處",
+      "description": "諮詢與電池更換支援"
     },
     "hall6": {
-      "name": "[TODO][zh-TW] 6홀",
-      "description": "[TODO][zh-TW] 고급 세미나 구역"
+      "name": "6號廳",
+      "description": "高級研討會區域"
     },
     "hall7": {
-      "name": "[TODO][zh-TW] 7홀",
-      "description": "[TODO][zh-TW] 디지털 체험 존"
+      "name": "7號廳",
+      "description": "數位體驗區"
     },
     "hall8": {
-      "name": "[TODO][zh-TW] 8홀",
-      "description": "[TODO][zh-TW] 예술 및 문화 존"
+      "name": "8號廳",
+      "description": "藝術與文化區"
     },
     "hall9": {
-      "name": "[TODO][zh-TW] 9홀",
-      "description": "[TODO][zh-TW] 메인 오디토리움"
+      "name": "9號廳",
+      "description": "大禮堂"
     },
     "hall10": {
-      "name": "[TODO][zh-TW] 10홀",
-      "description": "[TODO][zh-TW] 폐막식 존"
+      "name": "10號廳",
+      "description": "閉幕式區域"
     },
     "fMyeongdong": {
-      "name": "[TODO][zh-TW] 2F 식당가",
-      "description": "[TODO][zh-TW] 세계 음식 푸드코트"
+      "name": "2樓美食街",
+      "description": "世界美食美食廣場"
     },
     "exitWest": {
-      "name": "[TODO][zh-TW] 서문",
-      "description": "[TODO][zh-TW] 주차장 연결 출구"
+      "name": "西門",
+      "description": "停車場連接出口"
     },
     "toilet1": {
-      "name": "[TODO][zh-TW] 중앙 화장실",
-      "description": "[TODO][zh-TW] 깨끗한 편의 시설"
+      "name": "中央化妝室",
+      "description": "乾淨的便利設施"
     },
     "medical": {
       "name": "醫務室",
       "description": "緊急醫療中心"
     },
     "giftZone": {
-      "name": "[TODO][zh-TW] 기프트 존",
-      "description": "[TODO][zh-TW] 보상 수령 장소"
+      "name": "禮品區",
+      "description": "領取獎勵的地點"
     },
     "translationCenter": {
-      "name": "[TODO][zh-TW] 통역 지원 센터",
-      "description": "[TODO][zh-TW] 다국어 지원 허브"
+      "name": "口譯支援中心",
+      "description": "多語言支援中心"
     },
     "welcomeZone": {
-      "name": "[TODO][zh-TW] 웰컴 존",
-      "description": "[TODO][zh-TW] 대회 시작 지점"
+      "name": "歡迎區",
+      "description": "大會開始地點"
     },
     "experienceZone": {
-      "name": "[TODO][zh-TW] 체험 존",
-      "description": "[TODO][zh-TW] 인터랙티브 공간 VR"
+      "name": "體驗區",
+      "description": "互動空間 VR"
     }
   }
 }

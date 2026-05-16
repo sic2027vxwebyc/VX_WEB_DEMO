@@ -7,9 +7,96 @@
   "categories": {
     "all": "全部",
     "vision": "願景與價值",
-    "roadmap": "路線圖",
+    "roadmap": "路線圖與技術",
     "gamification": "遊戲化",
-    "security": "安全與數據",
-    "tech": "技術標準"
-  }
+    "security": "安全與數據分析",
+    "standards": "工程標準",
+    "architecture": "架構與 QA"
+  },
+  "items": [
+    {
+      "id": "qa-01",
+      "category": "vision",
+      "question": "VX Web V2 所追求的「空間體驗平台」核心價值是什麼？",
+      "answer": "核心價值在於實現 **Runtime UX (運行時使用者體驗)** 哲學，將物理空間與數位資訊即時結合，使 **「不再是使用者尋找資訊，而是空間根據情境主動建議資訊」**。\n*   **Zero-thought Navigation (零思考導航)：** 根據位置與時間自動呈現最佳資訊。\n*   **Crowd-aware Experience (人群感知體驗)：** 基於即時擁擠度的預見性繞道指引。\n*   **Accessibility First (無障礙優先)：** 為老年人/身心障礙者提供無障礙模式及輪椅專用路徑指引。\n*   **Immersive & Gamified Journey (沉浸式遊戲化旅程)：** 透過 360 度空間檢視器和 QR 集章活動，引導使用者進行主動探索。"
+    },
+    {
+      "id": "qa-02",
+      "category": "roadmap",
+      "question": "成為「會議專用作業系統 (The Convention OS)」的路線圖是什麼？",
+      "answer": "*   **階段 1：即時基礎設施：** 基於 WebSocket 的現場同步及整合身分驗證系統 (Auth System)。\n*   **階段 2：空間智慧進化：** 室內定位 (IPS)、基於 AI 的路徑預測、支援 WebXR。\n*   **階段 3：遊戲化擴展：** 社交整合、獎勵市場、數位存檔進化。"
+    },
+    {
+      "id": "qa-03",
+      "category": "roadmap",
+      "question": "在大規模環境中需要解決的核心技術挑戰是什麼？",
+      "answer": "1.  **高可用性 (High Availability)：** 維持穩定的 Socket 連線，以應對萬人規模的同時在線使用者。\n2.  **離線優先 (Offline First)：** 優化 PWA 和 Service Worker，以應對網路不穩定的情況。\n3.  **隱私安全設計 (Privacy by Design)：** 在收集與分析位置數據時，應用嚴格的安全處理程序。"
+    },
+    {
+      "id": "qa-04",
+      "category": "gamification",
+      "question": "獎勵市場與會議通行證是如何構成的？",
+      "answer": "*   **獎勵：** 提供現場實體週邊、折扣券及兌換券。\n*   **會議通行證：** 將訪問地點、參與場次及獲得的印章按時間順序編織而成的數位記錄，引導參加者持續參與並再次訪問。"
+    },
+    {
+      "id": "qa-05",
+      "category": "gamification",
+      "question": "訪問驗證與自動報到的原理是什麼？",
+      "answer": "*   **目前：** 以模擬 (Mocking) UI 的方式實現，讓使用者虛擬體驗相機掃描過程。\n*   **未來：** 伺服器端 QR 碼驗證、即時活動日誌追蹤，並引入 **基於 NFC/Beacon 的自動報到**。\n*   **技術原理：** 在 GPS 訊號無法到達的室內，利用 BLE 或 Wi-Fi 指紋辨識 (Fingerprinting) 技術，在使用者接近特定位置時，無需操作即可自動完成驗證。"
+    },
+    {
+      "id": "qa-06",
+      "category": "gamification",
+      "question": "通行證的社交分享功能是如何實現的？",
+      "answer": "比起分享整個通行證，目前更著重於以核心成就要素 **「獲得的勳章 (Badges)」** 為中心來實現。\n*   **社交勳章分享：** 透過社群媒體即時分享自己的活動成就。\n*   **排行榜：** 透過參加者間的集章排名來引導社交競爭。\n*   **參加者間的社交整合：** 選擇性的位置分享及基於團隊的協作任務。"
+    },
+    {
+      "id": "qa-07",
+      "category": "security",
+      "question": "保護使用者位置數據的具體安全措施有哪些？",
+      "answer": "*   **匿名化收集：** 在收集參加者的即時位置與活動日誌時，會移除個人識別資訊。\n*   **客戶端主動匿名化：** 在數據儲存到伺服器之前，**在使用者終端 (客戶端) 先對移動路徑數據進行匿名化處理**後再發送，從源頭阻斷隱私侵害。"
+    },
+    {
+      "id": "qa-08",
+      "category": "security",
+      "question": "邊緣分析 (Edge Analytics) 數據是如何運用的？",
+      "answer": "1.  **自動生成營運報告：** 分析各區域的停留時間與移動模式。\n2.  **AI 路徑尋找學習：** 學習過往擁擠數據以預測未來的擁擠情況，並建議繞道控制路徑。\n3.  **提高活動規劃精準度：** 基於數據優化空間配置與動線設計。"
+    },
+    {
+      "id": "qa-09",
+      "category": "standards",
+      "question": "多語系 (i18n) 管理與日誌記錄的標準是什麼？",
+      "answer": "*   **i18n：** 以「ko (韓語)」為基準 (Master) 對所有語言文件進行鏡像處理，以維持數據一致性。\n*   **日誌記錄：** 透過 `logger` 工具進行全方位的事件追蹤，以防止非同步問題與營運事故 (Harness Engineering)。"
+    },
+    {
+      "id": "qa-10",
+      "category": "standards",
+      "question": "離線優先策略的核心價值是什麼？",
+      "answer": "即使在人潮密集、網路中斷的環境下，也能確保基於 Service Worker 預先快取的數據，使空間導航等核心功能不間斷運行，將系統的可靠性最大化。"
+    },
+    {
+      "id": "qa-11",
+      "category": "architecture",
+      "question": "維持頂級 UX 的技術設計實現方式是什麼？",
+      "answer": "VX Web V2 使用 **基於 Material Design 3 (M3) 的設計符記 (Design Token) 系統**。並非單純使用固定色碼 (#hex)，而是定義並管理語義符記 (Semantic Tokens)，如 `surface-container-high`、`on-surface-variant` 和 `primary-fixed`。這確保了在任何環境 (如深色模式、高對比模式) 下，都能在維持品牌識別的同時，提供一致的高品質視覺體驗。"
+    },
+    {
+      "id": "qa-12",
+      "category": "architecture",
+      "question": "作為「Harness Engineering」核心的 9 大日誌記錄範圍是什麼？",
+      "answer": "為了即時追蹤營運中發生的微小錯誤，我們指定並管理以下 9 個領域作為標準日誌記錄範圍：\n1. 應用程式初始化與設定、2. 頁面路由轉換、3. 元件掛載/卸載、4. 空間/資產數據載入、5. 360 檢視器狀態變更、6. 搜尋與篩選操作、7. 互動式視窗/展開 UI 互動、8. 觸控與縮放事件、9. 執行時錯誤與備援處理。"
+    },
+    {
+      "id": "qa-13",
+      "category": "architecture",
+      "question": "如何確保即時營運數據的一致性？",
+      "answer": "平台採用 **基於 Pinia 的集中式狀態管理** 結構。像 `OperationalStore` 這樣的全域儲存空間充當所有即時狀態 (如擁擠度、場次進度、緊急通知) 的「單一事實來源 (Single Source of Truth)」。這從根本上防止了即使多個元件同時更新時可能產生的數據錯誤或扭曲。"
+    },
+    {
+      "id": "qa-14",
+      "category": "architecture",
+      "question": "發生緊急情況時，系統是如何設計反應的？",
+      "answer": "系統內建了 **Emergency Ticker (緊急通知跑馬燈)**，這是最高優先權的緊急應變 UI。發生緊急情況時，所有頁面的最頂層會立即啟用高對比動畫跑馬燈。此跑馬燈的 z-index 高於任何其他 UI 元素，其設計旨在讓使用者無論位於哪個頁面，都能立即察覺並對危險做出反應。"
+    }
+  ]
 }

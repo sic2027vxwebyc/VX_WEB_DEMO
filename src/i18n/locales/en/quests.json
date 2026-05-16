@@ -12,16 +12,16 @@
   "missionSuccessDesc": "You earned a special badge for completing the quest.",
   "items": {
     "questWelcomeTour": {
-      "title": "[TODO][en] 웰컴 투어",
-      "description": "[TODO][en] 대회장의 주요 안내 구역을 방문하세요."
+      "title": "Welcome Tour",
+      "description": "Visit the major information areas of the venue."
     },
     "questHallMaster": {
-      "title": "[TODO][en] 홀 마스터",
-      "description": "[TODO][en] 제1전시장의 모든 홀을 탐험하세요."
+      "title": "Hall Master",
+      "description": "Explore all halls in Exhibition Center 1."
     },
     "questFoodie": {
-      "title": "[TODO][en] 미식가",
-      "description": "[TODO][en] 모든 식당 구역을 방문하세요."
+      "title": "Gourmet",
+      "description": "Visit all dining areas."
     }
   }
 }

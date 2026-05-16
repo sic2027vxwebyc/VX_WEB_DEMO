@@ -12,7 +12,7 @@
   "viewAll": "すべて表示",
   "details": "詳細",
   "viewDetails": "詳細を見る",
-  "status": "현황",
+  "status": "状況",
   "live": "ライブ",
   "morning": "午前",
   "afternoon": "午後",
@@ -58,13 +58,13 @@
     "wheelchairAccess": "車椅子対応"
   },
   "facilities": {
-    "restroom": "[TODO][ja] 화장실",
-    "infoDesk": "[TODO][ja] 안내 데스크",
-    "diningArea": "[TODO][ja] 식당가",
-    "exit": "[TODO][ja] 출구",
-    "westGate": "[TODO][ja] 서문",
-    "nearby": "[TODO][ja] 인접 구역"
+    "restroom": "トイレ",
+    "infoDesk": "案内デスク",
+    "diningArea": "レストラン街",
+    "exit": "出口",
+    "westGate": "西門",
+    "nearby": "周辺区域"
   },
-  "telemetry": "[TODO][ja] 원격 측정",
-  "unknown": "[TODO][ja] 알 수 없음"
+  "telemetry": "テレメトリー",
+  "unknown": "不明"
 }

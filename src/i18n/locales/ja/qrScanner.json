@@ -8,6 +8,6 @@
   "cameraPermissionRequired": "カメラの権限が必要です",
   "scanAgain": "再スキャン",
   "testQrList": "テスト用QRリスト",
-  "scannerGuideLine1": "[TODO][ja] 실제 대회장에서는 공간 곳곳에 배치된",
-  "scannerGuideLine2": "[TODO][ja] QR 코드를 카메라로 스캔해 주세요."
+  "scannerGuideLine1": "実際の会場では、空間のあちこちに配置された",
+  "scannerGuideLine2": "QRコードをカメラでスキャンしてください。"
 }

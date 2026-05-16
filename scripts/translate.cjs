@@ -2,7 +2,7 @@
  * VX Web V2 - Locale Synchronization & Translation Script
  * 
  * Source of Truth: src/i18n/locales/ko/*.json
- * Targets: en, ja, zh-TW, es, ru (Optional: ar)
+ * Targets: en, ja, zh-TW, es, ru
  */
 
 const fs = require('fs');
@@ -20,9 +20,20 @@ const META_PATH = path.resolve(PROJECT_ROOT, 'src/i18n/.translation-meta.json');
 
 // --- CLI Arguments ---
 const args = process.argv.slice(2);
+const getArg = (name) => {
+  const arg = args.find(a => a.startsWith(`${name}=`));
+  if (arg) return arg.split('=')[1];
+  const idx = args.indexOf(name);
+  if (idx !== -1 && args[idx + 1] && !args[idx + 1].startsWith('--')) return args[idx + 1];
+  return null;
+};
+
+const MODE = getArg('--mode') || process.env.TRANSLATION_MODE || 'api'; // api, dry-run, mock
 const IS_FORCE = args.includes('--force');
-const TARGET_FILE = args.find(arg => arg.startsWith('--file='))?.split('=')[1] || 
-                    (args.includes('--file') ? args[args.indexOf('--file') + 1] : null);
+const IS_FORCE_TODO = args.includes('--force-todo');
+const TARGET_FILE = getArg('--file');
+
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 // Keys that should NEVER be translated
 const EXCLUDE_KEYS = new Set([
@@ -52,15 +63,17 @@ function isTranslatable(key, value) {
   if (typeof value !== 'string') return false;
   if (EXCLUDE_KEYS.has(key)) return false;
   if (EXCLUDE_PATTERNS.some(pattern => pattern.test(value))) return false;
-  // If it's a URL or path, don't translate
   if (value.startsWith('/') || value.startsWith('http')) return false;
-  // If it's a single word all-caps, likely an ID or Enum
   if (/^[A-Z0-9_]+$/.test(value)) return false;
   return true;
 }
 
 function hasKorean(text) {
-  return /[\uac00-\ud7af]/.test(text);
+  return typeof text === 'string' && /[\uac00-\ud7af]/.test(text);
+}
+
+function isTodoValue(text) {
+  return typeof text === 'string' && /\[TODO/i.test(text);
 }
 
 function hashText(text) {
@@ -68,21 +81,93 @@ function hashText(text) {
 }
 
 /**
+ * Actual translation via OpenAI API
+ */
+async function translateText(sourceText, targetLang) {
+  if (MODE === 'mock') {
+    return `[TODO][${targetLang}] ${sourceText}`;
+  }
+
+  if (MODE === 'dry-run') {
+    return `[WILL TRANSLATE to ${targetLang}] ${sourceText}`;
+  }
+
+  if (!OPENAI_API_KEY) {
+    if (MODE === 'api') {
+      throw new Error('OPENAI_API_KEY is required for "api" mode. Please set it in your environment.');
+    }
+    return `[TODO][${targetLang}] ${sourceText}`;
+  }
+
+  console.log(`   🌐 Translating to ${targetLang}: "${sourceText.substring(0, 30)}${sourceText.length > 30 ? '...' : ''}"`);
+
+  try {
+    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${OPENAI_API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        model: 'gpt-4o',
+        messages: [
+          {
+            role: 'system',
+            content: `You are a professional translator for a spatial experience web application.
+Translate the following Korean text into ${targetLang}.
+Guidelines:
+- Maintain a professional and intuitive tone suitable for a convention/exhibition app.
+- Preserve all placeholders like {count}, {name}, {minutes}, etc.
+- Preserve Markdown syntax if present.
+- Do not translate technical terms, IDs, or brand names if they look like identifiers.
+- For zh-TW, use Traditional Chinese as used in Taiwan.
+- Return ONLY the translated text without any explanation or quotes.`
+          },
+          {
+            role: 'user',
+            content: sourceText
+          }
+        ],
+        temperature: 0.3
+      })
+    });
+
+    if (!response.ok) {
+      const errorData = await response.json();
+      throw new Error(`OpenAI API error: ${errorData.error?.message || response.statusText}`);
+    }
+
+    const data = await response.json();
+    let translated = data.choices[0].message.content.trim();
+    
+    // Cleanup any accidental quotes the LLM might have added
+    if (translated.startsWith('"') && translated.endsWith('"')) {
+      translated = translated.substring(1, translated.length - 1);
+    }
+
+    return translated;
+  } catch (error) {
+    console.error(`   ❌ Translation failed for ${targetLang}:`, error.message);
+    throw error; // Fail fast in api mode
+  }
+}
+
+/**
  * Deep merge and sync structure from source to target
  */
-function syncObjects(source, target, lang, fileName, pathArr = [], meta = {}, initialMeta = {}) {
+async function syncObjects(source, target, lang, fileName, pathArr = [], meta = {}, initialMeta = {}) {
   const result = Array.isArray(source) ? [] : {};
   let changed = false;
 
-  for (const key in source) {
+  const keys = Object.keys(source);
+  for (const key of keys) {
     const sourceValue = source[key];
     const targetValue = target ? target[key] : undefined;
     const currentPath = [...pathArr, key].join('.');
     const currentHash = typeof sourceValue === 'string' ? hashText(sourceValue) : null;
 
     if (sourceValue && typeof sourceValue === 'object') {
-      // Recursive sync
-      const { synced, subChanged } = syncObjects(
+      const { synced, subChanged } = await syncObjects(
         sourceValue, 
         targetValue || (Array.isArray(sourceValue) ? [] : {}), 
         lang, 
@@ -94,37 +179,38 @@ function syncObjects(source, target, lang, fileName, pathArr = [], meta = {}, in
       result[key] = synced;
       if (subChanged) changed = true;
     } else {
-      // Leaf node
       if (isTranslatable(key, sourceValue)) {
         const metaKey = `${fileName}:${currentPath}`;
         const metaEntry = initialMeta[metaKey];
         const isStale = metaEntry && metaEntry.sourceHash !== currentHash;
+        
+        const needsTranslation = IS_FORCE || 
+                                 !targetValue || 
+                                 (IS_FORCE_TODO && (isTodoValue(targetValue) || hasKorean(targetValue))) ||
+                                 isStale;
 
-        // Force re-translate OR no target value OR stale translation
-        if (IS_FORCE || !targetValue || hasKorean(targetValue) || isStale) {
-          if (isStale && lang === MASTER_LOCALE) { // Log once per file if source changed (actually we process targets)
-             // We don't process MASTER_LOCALE in the loop, so we log for the first target
-          }
-          
+        if (needsTranslation) {
           if (isStale) {
-            console.warn(`[${lang}] Source changed for ${currentPath}. Marking for re-translation.`);
+            console.warn(`   ⚠️  Source changed for ${currentPath}.`);
+          } else if (isTodoValue(targetValue)) {
+            console.log(`   📝 Found TODO for ${currentPath}.`);
+          } else if (hasKorean(targetValue)) {
+            console.log(`   🇰🇷 Found Korean leakage in ${currentPath}.`);
+          } else if (!targetValue) {
+            console.log(`   🆕 Missing translation for ${currentPath}.`);
           }
-          
-          // Re-translate (Mark as TODO)
-          result[key] = `[TODO][${lang}] ${sourceValue}`;
+
+          const translated = await translateText(sourceValue, lang);
+          result[key] = translated;
           changed = true;
           
-          // Update meta for this file/key (shared across languages)
           meta[metaKey] = {
             sourceHash: currentHash,
             sourceText: sourceValue,
             timestamp: new Date().toISOString()
           };
         } else {
-          // Reuse existing target translation
           result[key] = targetValue;
-          
-          // Ensure meta exists even if reused
           if (!meta[metaKey]) {
             meta[metaKey] = {
               sourceHash: currentHash,
@@ -134,7 +220,6 @@ function syncObjects(source, target, lang, fileName, pathArr = [], meta = {}, in
           }
         }
       } else {
-        // Non-translatable key: always copy from source
         result[key] = sourceValue;
         if (targetValue !== sourceValue) changed = true;
       }
@@ -148,26 +233,30 @@ function syncObjects(source, target, lang, fileName, pathArr = [], meta = {}, in
 
 async function main() {
   console.log('========================================');
-  console.log('🌐 VX Web i18n Sync & Translation');
-  console.log(`PROJECT_ROOT: ${PROJECT_ROOT}`);
-  console.log(`LOCALES_DIR:  ${LOCALES_ROOT}`);
+  console.log('🌐 VX Web i18n Sync & Translation (API Mode)');
+  console.log(`MODE:         ${MODE}`);
   console.log(`Source:       ${MASTER_LOCALE}`);
   console.log(`Targets:      ${TARGET_LOCALES.join(', ')}`);
-  console.log(`Force Sync:   ${IS_FORCE}`);
+  console.log(`Force All:    ${IS_FORCE}`);
+  console.log(`Force TODO:   ${IS_FORCE_TODO}`);
   if (TARGET_FILE) console.log(`Target File:  ${TARGET_FILE}`);
   console.log('========================================\n');
 
-  // 1. Validate Locale Directory
+  if (MODE === 'api' && !OPENAI_API_KEY) {
+    console.error('❌ Error: OPENAI_API_KEY environment variable is missing.');
+    console.error('Please export it: export OPENAI_API_KEY=your_key_here');
+    process.exit(1);
+  }
+
   if (!fs.existsSync(LOCALES_ROOT)) {
-    throw new Error(`[translate.cjs] Locale directory not found: ${LOCALES_ROOT}`);
+    throw new Error(`Locale directory not found: ${LOCALES_ROOT}`);
   }
 
   const masterDir = path.resolve(LOCALES_ROOT, MASTER_LOCALE);
   if (!fs.existsSync(masterDir)) {
-    throw new Error(`[translate.cjs] Master locale directory missing: ${masterDir}`);
+    throw new Error(`Master locale directory missing: ${masterDir}`);
   }
 
-  // 2. Load Translation Metadata
   let meta = {};
   if (fs.existsSync(META_PATH)) {
     try {
@@ -177,19 +266,10 @@ async function main() {
     }
   }
 
-  // 3. Discover Locale Files
   let files = fs.readdirSync(masterDir).filter(f => f.endsWith('.json'));
   if (TARGET_FILE) {
     files = files.filter(f => f === TARGET_FILE || f === `${TARGET_FILE}.json`);
-    if (files.length === 0) {
-      console.error(`❌ Target file "${TARGET_FILE}" not found in ${masterDir}`);
-      return;
-    }
   }
-
-  console.log('Detected master locale files:');
-  console.table(files);
-  console.log('');
 
   for (const file of files) {
     console.log(`📄 Processing ${file}...`);
@@ -198,6 +278,7 @@ async function main() {
     const initialMeta = JSON.parse(JSON.stringify(meta));
 
     for (const lang of TARGET_LOCALES) {
+      console.log(`   [${lang}] Syncing...`);
       const targetDir = path.resolve(LOCALES_ROOT, lang);
       if (!fs.existsSync(targetDir)) {
         fs.mkdirSync(targetDir, { recursive: true });
@@ -209,29 +290,27 @@ async function main() {
         try {
           targetContent = JSON.parse(fs.readFileSync(targetPath, 'utf8'));
         } catch (e) {
-          console.error(`❌ Error parsing ${targetPath}: ${e.message}`);
+          console.error(`   ❌ Error parsing ${targetPath}: ${e.message}`);
         }
       }
 
-      const { synced, changed } = syncObjects(masterContent, targetContent, lang, file, [], meta, initialMeta);
+      const { synced, changed } = await syncObjects(masterContent, targetContent, lang, file, [], meta, initialMeta);
 
-      // Write back if changed or just to ensure structural parity and sorting
-      fs.writeFileSync(targetPath, JSON.stringify(synced, null, 2), 'utf8');
-      
-      if (changed) {
-        // Check for leakage in final write
-        // Note: Object.values only checks top level, so we rely on console logs from syncObjects for deep checks
+      if (changed && MODE !== 'dry-run') {
+        fs.writeFileSync(targetPath, JSON.stringify(synced, null, 2), 'utf8');
       }
     }
   }
 
-  // 4. Save Translation Metadata
-  fs.writeFileSync(META_PATH, JSON.stringify(meta, null, 2), 'utf8');
+  if (MODE !== 'dry-run') {
+    fs.writeFileSync(META_PATH, JSON.stringify(meta, null, 2), 'utf8');
+  }
 
   console.log('\n========================================');
-  console.log('🎉 Locale synchronization complete!');
-  console.log(`Metadata saved to: ${META_PATH}`);
-  console.log('Run "npm run i18n:check" to verify consistency.');
+  console.log(`🎉 Translation complete! Mode: ${MODE}`);
+  if (MODE !== 'dry-run') {
+    console.log(`Metadata saved to: ${META_PATH}`);
+  }
   console.log('========================================');
 }
 

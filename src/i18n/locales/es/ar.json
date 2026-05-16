@@ -19,9 +19,9 @@
   },
   "success": {
     "title": "¡Has llegado!",
-    "descLine1": "[TODO][es] {name}에 성공적으로 도착하셨습니다.",
+    "descLine1": "Ha llegado con éxito a {name}.",
     "descHighlight": "{event}",
-    "descLine2": "[TODO][es] 진행 중입니다.",
+    "descLine2": "está en curso.",
     "goHome": "Volver al inicio",
     "viewNearby": "Explorar instalaciones cercanas",
     "mockName": "Hall Alpha",

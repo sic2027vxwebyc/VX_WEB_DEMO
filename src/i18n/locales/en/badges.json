@@ -10,24 +10,24 @@
   "special": "Special",
   "items": {
     "badgeWelcomeExplorer": {
-      "name": "[TODO][en] 웰컴 익스플로러",
-      "description": "[TODO][en] 대회장에 성공적으로 첫 발을 내디뎠습니다.",
-      "unlockCondition": "[TODO][en] 웰컴 투어 퀘스트 완료"
+      "name": "Welcome Explorer",
+      "description": "Successfully took your first step into the venue.",
+      "unlockCondition": "Complete Welcome Tour Quest"
     },
     "badgeHallExplorer": {
-      "name": "[TODO][en] 홀 익스플로러",
-      "description": "[TODO][en] 전시장의 모든 공간을 속속들이 파악했습니다.",
-      "unlockCondition": "[TODO][en] 5개 메인 홀 방문"
+      "name": "Hall Explorer",
+      "description": "Explored every corner of the exhibition halls.",
+      "unlockCondition": "Visit 5 Main Halls"
     },
     "badgeGourmet": {
-      "name": "[TODO][en] 공간 미식가",
-      "description": "[TODO][en] 대회장의 모든 편의 시설과 식당을 탐방했습니다.",
-      "unlockCondition": "[TODO][en] 모든 식당가 방문"
+      "name": "Space Gourmet",
+      "description": "Visited all facilities and dining areas in the venue.",
+      "unlockCondition": "Visit All Dining Areas"
     },
     "badgeMaster": {
-      "name": "[TODO][en] 스페셜 마스터",
-      "description": "[TODO][en] 20개의 모든 스탬프를 수집한 진정한 마스터입니다.",
-      "unlockCondition": "[TODO][en] 모든 스탬프 수집"
+      "name": "Special Master",
+      "description": "A true master who has collected all 20 stamps.",
+      "unlockCondition": "Collect All Stamps"
     }
   }
 }

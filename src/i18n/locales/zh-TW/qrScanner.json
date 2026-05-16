@@ -8,6 +8,6 @@
   "cameraPermissionRequired": "需要相機權限",
   "scanAgain": "重新掃描",
   "testQrList": "測試用 QR 列表",
-  "scannerGuideLine1": "[TODO][zh-TW] 실제 대회장에서는 공간 곳곳에 배치된",
-  "scannerGuideLine2": "[TODO][zh-TW] QR 코드를 카메라로 스캔해 주세요."
+  "scannerGuideLine1": "在實際會場中，請掃描",
+  "scannerGuideLine2": "設置在空間各處的 QR Code。"
 }

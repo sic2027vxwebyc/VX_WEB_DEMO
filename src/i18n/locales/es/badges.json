@@ -10,24 +10,24 @@
   "special": "Especial",
   "items": {
     "badgeWelcomeExplorer": {
-      "name": "[TODO][es] 웰컴 익스플로러",
-      "description": "[TODO][es] 대회장에 성공적으로 첫 발을 내디뎠습니다.",
-      "unlockCondition": "[TODO][es] 웰컴 투어 퀘스트 완료"
+      "name": "Explorador de Bienvenida",
+      "description": "Ha dado con éxito su primer paso en el recinto del evento.",
+      "unlockCondition": "Misión de Tour de Bienvenida completada"
     },
     "badgeHallExplorer": {
-      "name": "[TODO][es] 홀 익스플로러",
-      "description": "[TODO][es] 전시장의 모든 공간을 속속들이 파악했습니다.",
-      "unlockCondition": "[TODO][es] 5개 메인 홀 방문"
+      "name": "Explorador de Salas",
+      "description": "Ha explorado cada rincón de las salas de exhibición.",
+      "unlockCondition": "Visitar 5 salas principales"
     },
     "badgeGourmet": {
-      "name": "[TODO][es] 공간 미식가",
-      "description": "[TODO][es] 대회장의 모든 편의 시설과 식당을 탐방했습니다.",
-      "unlockCondition": "[TODO][es] 모든 식당가 방문"
+      "name": "Gourmet Espacial",
+      "description": "Ha visitado todas las instalaciones y áreas de comida del recinto.",
+      "unlockCondition": "Visitar todas las zonas de restauración"
     },
     "badgeMaster": {
-      "name": "[TODO][es] 스페셜 마스터",
-      "description": "[TODO][es] 20개의 모든 스탬프를 수집한 진정한 마스터입니다.",
-      "unlockCondition": "[TODO][es] 모든 스탬프 수집"
+      "name": "Maestro Especial",
+      "description": "Un verdadero maestro que ha coleccionado los 20 sellos.",
+      "unlockCondition": "Coleccionar todos los sellos"
     }
   }
 }

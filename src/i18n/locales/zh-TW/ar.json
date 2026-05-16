@@ -19,9 +19,9 @@
   },
   "success": {
     "title": "您已抵達目的地！",
-    "descLine1": "[TODO][zh-TW] {name}에 성공적으로 도착하셨습니다.",
+    "descLine1": "您已成功抵達 {name}。",
     "descHighlight": "{event}",
-    "descLine2": "[TODO][zh-TW] 진행 중입니다.",
+    "descLine2": "正在進行中。",
     "goHome": "回到首頁",
     "viewNearby": "查看周邊設施",
     "mockName": "阿爾法廳 (Hall Alpha)",

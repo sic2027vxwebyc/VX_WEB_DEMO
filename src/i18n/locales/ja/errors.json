@@ -1,17 +1,17 @@
 {
   "connection": {
-    "title": "Unstable Connection",
-    "desc": "Unable to load real-time data due to poor network conditions. Switch to offline mode?",
-    "retry": "Retry Connection",
-    "offlineMap": "Use Offline Map",
-    "errorCode": "Error Code: {code}"
+    "title": "接続が不安定です",
+    "desc": "ネットワーク環境が良くないため、リアルタイムデータを読み込めません。オフラインモードに切り替えますか？",
+    "retry": "再試行",
+    "offlineMap": "オフラインマップを使用",
+    "errorCode": "エラーコード: {code}"
   },
   "restricted": {
-    "title": "Access Denied",
-    "descLine1": "[TODO][ja] 이 구역은",
-    "descHighlight": "[TODO][ja] 보안 등급 {level} 이상",
-    "descLine2": "[TODO][ja] 소지자만 출입이 가능합니다. 권한이 필요하시면 안내 데스크({gate})로 문의해 주세요.",
-    "bypass": "Find Alternative Route",
-    "callSecurity": "Call Security Officer"
+    "title": "アクセス拒否",
+    "descLine1": "この区域は",
+    "descHighlight": "セキュリティレベル {level} 以上",
+    "descLine2": "の所持者のみ立ち入り可能です. 権限が必要な場合は案内デスク({gate})にお問い合わせください。",
+    "bypass": "迂回ルートを探す",
+    "callSecurity": "警備員を呼ぶ"
   }
 }

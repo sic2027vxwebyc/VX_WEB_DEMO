@@ -7,9 +7,9 @@
   "remainingStampsCount": "不足しているスタンプ数",
   "claimCompleted": "受け取り完了処理",
   "congratulations": "おめでとうございます！",
-  "rewardGuideLine1": "[TODO][ja] 20개의 모든 스탬프를 성공적으로 수집하셨습니다.",
-  "rewardGuideHighlight": "[TODO][ja] 기프트 존",
-  "rewardGuideLine2": "[TODO][ja] 에서 한정판 기념품을 수령하세요.",
+  "rewardGuideLine1": "20個すべてのスタンプを正常に収集しました。",
+  "rewardGuideHighlight": "ギフトゾーン",
+  "rewardGuideLine2": "で限定版の記念品を受け取ってください。",
   "locationDetail": "第1展示場 1階 中央ロビー",
   "locationSubDetail": "案内デスクのすぐ横",
   "hoursDetail": "大会運営時間内に受け取り可能",
@@ -17,7 +17,7 @@
   "demoClaimAction": "デモ：受け取り完了にする",
   "alreadyClaimed": "すでに特典を受け取っています。ありがとうございます！",
   "notCompleteYet": "収集中です",
-  "notCompleteDescLine1": "[TODO][ja] 보상을 받으려면 20개의 스탬프를 모두 모아야 합니다.",
-  "notCompleteDescLine2": "[TODO][ja] 현재 {current} / {total} 완료",
+  "notCompleteDescLine1": "報酬を受け取るには、20個すべてのスタンプを集める必要があります。",
+  "notCompleteDescLine2": "現在 {current} / {total} 完了",
   "continueChallenge": "チャレンジを続ける"
 }

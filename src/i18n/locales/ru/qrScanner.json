@@ -8,6 +8,6 @@
   "cameraPermissionRequired": "Требуется разрешение на использование камеры",
   "scanAgain": "Сканировать снова",
   "testQrList": "Список тестовых QR",
-  "scannerGuideLine1": "[TODO][ru] 실제 대회장에서는 공간 곳곳에 배치된",
-  "scannerGuideLine2": "[TODO][ru] QR 코드를 카메라로 스캔해 주세요."
+  "scannerGuideLine1": "На реальной площадке мероприятия",
+  "scannerGuideLine2": "сканируйте камерой QR-коды, размещенные по всему пространству."
 }

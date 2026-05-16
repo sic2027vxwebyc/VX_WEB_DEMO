@@ -12,16 +12,16 @@
   "missionSuccessDesc": "Вы получили особый значок за выполнение квеста.",
   "items": {
     "questWelcomeTour": {
-      "title": "[TODO][ru] 웰컴 투어",
-      "description": "[TODO][ru] 대회장의 주요 안내 구역을 방문하세요."
+      "title": "Приветственный тур",
+      "description": "Посетите основные информационные зоны конгресс-центра."
     },
     "questHallMaster": {
-      "title": "[TODO][ru] 홀 마스터",
-      "description": "[TODO][ru] 제1전시장의 모든 홀을 탐험하세요."
+      "title": "Мастер залов",
+      "description": "Исследуйте все залы Выставочного центра 1."
     },
     "questFoodie": {
-      "title": "[TODO][ru] 미식가",
-      "description": "[TODO][ru] 모든 식당 구역을 방문하세요."
+      "title": "Гурман",
+      "description": "Посетите все зоны питания."
     }
   }
 }

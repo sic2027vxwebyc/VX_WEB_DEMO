@@ -4,14 +4,14 @@
   "hotspots": {
     "next": "Next Space",
     "info": "Info",
-    "hall1": "[TODO][en] 제1전시장 1홀",
-    "hall2": "[TODO][en] 제1전시장 2홀",
-    "infoDesk": "[TODO][en] 안내 데스크",
-    "westGate": "[TODO][en] 서문 (West Gate)",
-    "foodZone": "[TODO][en] 식당가 (소담)",
-    "restroom": "[TODO][en] 화장실",
-    "nearby": "[TODO][en] 인접 구역",
-    "jumpTo": "[TODO][en] 이동하기"
+    "hall1": "Exhibition Hall 1",
+    "hall2": "Exhibition Hall 2",
+    "infoDesk": "Information Desk",
+    "westGate": "West Gate",
+    "foodZone": "Dining Area (Sodam)",
+    "restroom": "Restroom",
+    "nearby": "Nearby Areas",
+    "jumpTo": "Jump to"
   },
   "controls": {
     "zoomIn": "Zoom In",
@@ -24,8 +24,8 @@
     "title": "Space Stats",
     "occupancy": "Current Occupancy",
     "airQuality": "Maintaining optimal air quality",
-    "temp": "[TODO][en] 온도",
-    "humid": "[TODO][en] 습도"
+    "temp": "Temperature",
+    "humid": "Humidity"
   },
   "hotspot": {
     "guideBusy": "Located about {min} min walk from your current position. Please be aware of expected congestion.",
@@ -33,20 +33,20 @@
   },
   "vr": {
     "notSupportedToast": "This device does not support VR mode.",
-    "interface": "[TODO][en] 하드웨어 인터페이스",
-    "available": "[TODO][en] VR 모드 사용 가능",
-    "noSecureContext": "[TODO][en] HTTPS 환경이 아닙니다. VR은 보안 연결이 필요합니다.",
-    "sessionError": "[TODO][en] VR 세션을 시작할 수 없습니다."
+    "interface": "Hardware Interface",
+    "available": "VR Mode Available",
+    "noSecureContext": "Not in HTTPS. VR requires a secure connection.",
+    "sessionError": "Unable to start VR session."
   },
   "status": {
     "normal": "System Normal",
-    "operational": "[TODO][en] 운영 상태"
+    "operational": "Operational Status"
   },
   "v2": {
-    "scanning": "[TODO][en] 공간 스캔 중...",
-    "initializing": "[TODO][en] 신경망 포인트 클라우드 초기화 중",
-    "experience": "[TODO][en] 360 경험",
-    "nearbyTerminals": "[TODO][en] 인접 터미널"
+    "scanning": "Scanning space...",
+    "initializing": "Initializing neural point cloud",
+    "experience": "360 Experience",
+    "nearbyTerminals": "Nearby Terminals"
   },
   "live": {
     "realtimeData": "Real-time Data",

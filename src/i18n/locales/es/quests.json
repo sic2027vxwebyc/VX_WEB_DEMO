@@ -12,16 +12,16 @@
   "missionSuccessDesc": "Has obtenido una insignia especial por completar la misión.",
   "items": {
     "questWelcomeTour": {
-      "title": "[TODO][es] 웰컴 투어",
-      "description": "[TODO][es] 대회장의 주요 안내 구역을 방문하세요."
+      "title": "Tour de Bienvenida",
+      "description": "Visite las principales áreas de información del recinto."
     },
     "questHallMaster": {
-      "title": "[TODO][es] 홀 마스터",
-      "description": "[TODO][es] 제1전시장의 모든 홀을 탐험하세요."
+      "title": "Maestro de Salas",
+      "description": "Explore todas las salas del Centro de Exhibiciones 1."
     },
     "questFoodie": {
-      "title": "[TODO][es] 미식가",
-      "description": "[TODO][es] 모든 식당 구역을 방문하세요."
+      "title": "Gourmet",
+      "description": "Visite todas las zonas de restauración."
     }
   }
 }
