@@ -4,7 +4,7 @@
  * 실제 카메라 연동 없이 QR 스캔 UX를 시뮬레이션합니다.
  * 테스트용 QR 목록을 제공하여 스탬프 획득 흐름을 검증할 수 있습니다.
  */
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { logger } from '@/utils/logger'
@@ -21,6 +21,45 @@ const scope = 'QrScannerMock_v2'
 const isScanning = ref(true)
 const scanResult = ref(null)
 const errorMessage = ref('')
+const videoRef = ref(null)
+const streamRef = ref(null)
+
+/**
+ * 카메라 스트림 시작
+ */
+const startCamera = async () => {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({
+      video: { facingMode: 'environment', width: { ideal: 1280 }, height: { ideal: 1280 } }
+    })
+    if (videoRef.value) {
+      videoRef.value.srcObject = stream
+      streamRef.value = stream
+    }
+    logger.info(scope, 'QR 스캐너 카메라 활성화됨')
+  } catch (error) {
+    logger.error(scope, '카메라 접근 실패', error)
+    errorMessage.value = t('qrScanner.cameraPermissionRequired')
+  }
+}
+
+/**
+ * 카메라 스트림 중지
+ */
+const stopCamera = () => {
+  if (streamRef.value) {
+    streamRef.value.getTracks().forEach(track => track.stop())
+    streamRef.value = null
+  }
+}
+
+onMounted(() => {
+  startCamera()
+})
+
+onUnmounted(() => {
+  stopCamera()
+})
 
 const handleScan = (qrCode) => {
   logger.info(scope, `QR 스캔 시도: ${qrCode}`)
@@ -31,6 +70,8 @@ const handleScan = (qrCode) => {
     stampStore.collectStamp(result.spot.id)
     scanResult.value = result.spot
     isScanning.value = false
+    stopCamera()
+    
     // 성공 애니메이션/모달 처리를 위해 1초 후 이동
     setTimeout(() => {
       router.push('/v2/stamp-event')
@@ -51,7 +92,10 @@ const handleScan = (qrCode) => {
     </div>
 
     <!-- 스캐너 프레임 UI -->
-    <div class="relative z-10 w-full max-w-md aspect-square mb-12">
+    <div class="relative z-10 w-full max-w-md aspect-square mb-12 bg-black/60 rounded-3xl overflow-hidden shadow-2xl">
+      <!-- 실제 카메라 화면 -->
+      <video ref="videoRef" autoplay playsinline muted class="absolute inset-0 w-full h-full object-cover opacity-60"></video>
+
       <!-- 코너 포인트 -->
       <div class="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-primary rounded-tl-3xl"></div>
       <div class="absolute top-0 right-0 w-12 h-12 border-t-4 border-r-4 border-primary rounded-tr-3xl"></div>

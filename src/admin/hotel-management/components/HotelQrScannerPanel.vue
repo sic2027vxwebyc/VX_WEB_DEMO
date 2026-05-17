@@ -1,11 +1,51 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { useHotelManagement } from '../composables/useHotelManagement'
+import { logger } from '@/utils/logger'
 
 const { scanQr, completeCheckIn, completeCheckOut, selectedReservation } = useHotelManagement()
+const scope = 'HotelQrScannerPanel'
 
 const payloadInput = ref('hotel-res-0001')
 const isProcessing = ref(false)
+const videoRef = ref(null)
+const streamRef = ref(null)
+
+/**
+ * 카메라 스트림 시작
+ */
+const startCamera = async () => {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({
+      video: { facingMode: 'environment' }
+    })
+    if (videoRef.value) {
+      videoRef.value.srcObject = stream
+      streamRef.value = stream
+    }
+    logger.info(scope, 'Hotel QR 스캐너 카메라 활성화됨')
+  } catch (error) {
+    logger.error(scope, '카메라 접근 실패', error)
+  }
+}
+
+/**
+ * 카메라 스트림 중지
+ */
+const stopCamera = () => {
+  if (streamRef.value) {
+    streamRef.value.getTracks().forEach(track => track.stop())
+    streamRef.value = null
+  }
+}
+
+onMounted(() => {
+  startCamera()
+})
+
+onUnmounted(() => {
+  stopCamera()
+})
 
 const handleScan = () => {
   if (!payloadInput.value) return
@@ -40,8 +80,11 @@ const handleCheckOut = async () => {
 
     <div class="space-y-6 flex-1 overflow-y-auto custom-scrollbar pr-1">
       <div class="relative w-full aspect-square max-w-[160px] mx-auto border-2 border-dashed border-blue-500/30 rounded-3xl flex items-center justify-center bg-blue-500/5 group overflow-hidden">
+        <!-- 실제 카메라 화면 -->
+        <video ref="videoRef" autoplay playsinline muted class="absolute inset-0 w-full h-full object-cover opacity-40"></video>
+        
         <div class="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-        <div class="absolute top-0 w-full h-[2px] bg-blue-400 shadow-[0_0_15px_#60A5FA] animate-scan-slow"></div>
+        <div class="absolute top-0 w-full h-[2px] bg-blue-400 shadow-[0_0_15px_#60A5FA] animate-scan-slow z-10"></div>
         <span class="material-symbols-outlined text-4xl text-blue-500/20">qr_code_2</span>
       </div>
 

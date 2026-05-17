@@ -1,11 +1,51 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { useMealDistribution } from '../composables/useMealDistribution'
+import { logger } from '@/utils/logger'
 
 const { scanMockQr } = useMealDistribution()
+const scope = 'MealQrScannerPanel'
 
 const payloadInput = ref('meal-0001')
 const scanResult = ref(null)
+const videoRef = ref(null)
+const streamRef = ref(null)
+
+/**
+ * 카메라 스트림 시작
+ */
+const startCamera = async () => {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({
+      video: { facingMode: 'environment' }
+    })
+    if (videoRef.value) {
+      videoRef.value.srcObject = stream
+      streamRef.value = stream
+    }
+    logger.info(scope, 'Meal QR 스캐너 카메라 활성화됨')
+  } catch (error) {
+    logger.error(scope, '카메라 접근 실패', error)
+  }
+}
+
+/**
+ * 카메라 스트림 중지
+ */
+const stopCamera = () => {
+  if (streamRef.value) {
+    streamRef.value.getTracks().forEach(track => track.stop())
+    streamRef.value = null
+  }
+}
+
+onMounted(() => {
+  startCamera()
+})
+
+onUnmounted(() => {
+  stopCamera()
+})
 
 const handleScan = () => {
   if (!payloadInput.value) return
@@ -23,7 +63,10 @@ const handleScan = () => {
 
     <div class="flex-1 flex flex-col items-center justify-center space-y-6 overflow-y-auto custom-scrollbar pr-1">
       <div class="relative w-40 h-40 border-2 border-dashed border-blue-500/50 rounded-3xl flex items-center justify-center bg-blue-500/5 group overflow-hidden shrink-0">
-        <div class="absolute top-0 w-full h-[2px] bg-blue-400 shadow-[0_0_10px_#60A5FA] animate-scan"></div>
+        <!-- 실제 카메라 화면 -->
+        <video ref="videoRef" autoplay playsinline muted class="absolute inset-0 w-full h-full object-cover opacity-40"></video>
+        
+        <div class="absolute top-0 w-full h-[2px] bg-blue-400 shadow-[0_0_10px_#60A5FA] animate-scan z-10"></div>
         <span class="material-symbols-outlined text-5xl text-blue-500/20">qr_code_2</span>
       </div>
 

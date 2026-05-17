@@ -1,14 +1,54 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useGamificationControlStore } from '../stores/gamificationControlStore'
+import { logger } from '@/utils/logger'
 
 const { t } = useI18n()
 const store = useGamificationControlStore()
+const scope = 'AdminQrScannerPanel'
 
 const selectedSpotId = ref('')
 const isScanning = ref(false)
 const scanSuccess = ref(false)
+const videoRef = ref(null)
+const streamRef = ref(null)
+
+/**
+ * 카메라 스트림 시작
+ */
+const startCamera = async () => {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({
+      video: { facingMode: 'environment' }
+    })
+    if (videoRef.value) {
+      videoRef.value.srcObject = stream
+      streamRef.value = stream
+    }
+    logger.info(scope, 'Admin QR 스캐너 카메라 활성화됨')
+  } catch (error) {
+    logger.error(scope, '카메라 접근 실패', error)
+  }
+}
+
+/**
+ * 카메라 스트림 중지
+ */
+const stopCamera = () => {
+  if (streamRef.value) {
+    streamRef.value.getTracks().forEach(track => track.stop())
+    streamRef.value = null
+  }
+}
+
+onMounted(() => {
+  startCamera()
+})
+
+onUnmounted(() => {
+  stopCamera()
+})
 
 const handleScan = () => {
   if (!selectedSpotId.value) return
@@ -45,6 +85,9 @@ const handleScan = () => {
     <div class="flex-1 flex flex-col gap-lg">
       <!-- Scanner Viewfinder Simulation -->
       <div class="relative aspect-video bg-black rounded-xl overflow-hidden border border-white/10 group">
+        <!-- 실제 카메라 화면 -->
+        <video ref="videoRef" autoplay playsinline muted class="absolute inset-0 w-full h-full object-cover opacity-60"></video>
+        
         <!-- Grid Background -->
         <div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(circle at 2px 2px, rgba(0, 219, 233, 0.5) 1px, transparent 0); background-size: 20px 20px;"></div>
         
