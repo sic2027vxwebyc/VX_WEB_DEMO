@@ -33,5 +33,47 @@
   "info": {
     "version": "VX Web Experience v2.4.0 (Stable)",
     "copyright": "© 2026 VX SPACE EXPERIENCE HUB"
+  },
+  "device": {
+    "title": "Configuración de Dispositivos y Permisos",
+    "subtitle": "Gestiona permisos para mapas sin conexión, bloqueo biométrico, cámara, ubicación y notificaciones push.",
+    "offlineMap": {
+      "title": "Datos de Mapas sin Conexión",
+      "description": "Guarda previamente los datos de mapas e imágenes clave en tu dispositivo para seguir usándolos incluso en entornos de red inestables.",
+      "download": "Descargar Datos sin Conexión",
+      "update": "Actualizar Datos",
+      "clear": "Borrar Caché",
+      "ready": "Disponible sin Conexión",
+      "notDownloaded": "Aún no Descargado",
+      "downloading": "Descargando...",
+      "cachedSize": "Tamaño de Caché",
+      "lastUpdate": "Ultima Actualización"
+    },
+    "biometric": {
+      "title": "Bloqueo Biométrico",
+      "description": "Aumenta la seguridad requiriendo autenticación por FaceID o huella dactilar al acceder a la página de administración.",
+      "enable": "Activar Bloqueo Biométrico",
+      "disable": "Desactivar Bloqueo Biométrico",
+      "unlock": "Desbloquear con Biometría",
+      "lockedTitle": "Página de Administración Bloqueada",
+      "lockedSubtitle": "Se requiere autenticación biométrica para acceder a esta página.",
+      "active": "Bloqueo de Seguridad Activo",
+      "unsupportedNote": "El navegador actual no soporta WebAuthn/Biometría. Se sustituye por una autenticación simulada.",
+      "fail": "Error de autenticación. Por favor, inténtelo de nuevo.",
+      "error": "Se ha producido un error durante la autenticación."
+    },
+    "permissions": {
+      "title": "Estado de Permisos del Dispositivo",
+      "description": "Gestiona los permisos necesarios para utilizar las funciones clave de VX Web V2.",
+      "camera": "Cámara",
+      "location": "Ubicación",
+      "push": "Notificaciones Push",
+      "request": "Solicitar Permiso",
+      "granted": "Concedido",
+      "denied": "Denegado",
+      "prompt": "Solicitud Necesaria",
+      "unsupported": "No Compatible",
+      "unknown": "Estado Desconocido"
+    }
   }
 }

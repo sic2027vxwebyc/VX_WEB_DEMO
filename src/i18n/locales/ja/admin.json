@@ -231,9 +231,12 @@
     "deviceControl": "端末状態制御",
     "operationLog": "セキュリティ運営ログ",
     "logs": {
-      "securityLogStatusChanged": "セキュリティログ状態変更: {id} -> {status}",
-      "deviceStatusUpdated": "端末状態アップデート: {id}",
-      "reset": "セキュリティおよびテレメトリデータ初期化完了"
+      "accessDeniedBackstage": {
+        "message": "未認証ユーザーがバックステージ区域への進入を試みました。"
+      },
+      "tamperAlert": {
+        "message": "サーバー室センサーで物理的衝撃が検知されました。"
+      }
     },
     "eventDetailTitle": "イベント詳細および措置",
     "selectLogToView": "詳細情報を表示するにはログを選択してください。",
@@ -295,14 +298,6 @@
       "cpu": "CPU",
       "memory": "メモリ",
       "memo": "メモ"
-    },
-    "logs": {
-      "accessDeniedBackstage": {
-        "message": "未認証ユーザーがバックステージ区域への進入を試みました。"
-      },
-      "tamperAlert": {
-        "message": "サーバー室センサーで物理的衝撃が検知されました。"
-      }
     },
     "actions": {
       "none": "正常運営中",

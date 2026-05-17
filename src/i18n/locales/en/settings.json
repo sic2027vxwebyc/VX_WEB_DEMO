@@ -33,5 +33,47 @@
   "info": {
     "version": "VX Web Experience v2.4.0 (Stable)",
     "copyright": "© 2026 VX SPACE EXPERIENCE HUB"
+  },
+  "device": {
+    "title": "Device & Permission Settings",
+    "subtitle": "Manage permissions for offline maps, biometric lock, camera, location, and push notifications.",
+    "offlineMap": {
+      "title": "Offline Map Data",
+      "description": "Pre-save map and key image data to your device so you can continue using them even in unstable network environments.",
+      "download": "Download Offline Data",
+      "update": "Update Data",
+      "clear": "Clear Cache",
+      "ready": "Available Offline",
+      "notDownloaded": "Not Downloaded Yet",
+      "downloading": "Downloading...",
+      "cachedSize": "Cached Size",
+      "lastUpdate": "Last Update"
+    },
+    "biometric": {
+      "title": "Biometric Lock",
+      "description": "Enhance security by requiring FaceID or fingerprint authentication when accessing the admin page.",
+      "enable": "Enable Biometric Lock",
+      "disable": "Disable Biometric Lock",
+      "unlock": "Unlock with Biometrics",
+      "lockedTitle": "Admin Page Locked",
+      "lockedSubtitle": "Biometric authentication is required to access this page.",
+      "active": "Security Lock Active",
+      "unsupportedNote": "Current browser does not support WebAuthn/Biometrics. Replaced with Mock authentication.",
+      "fail": "Authentication failed. Please try again.",
+      "error": "An error occurred during authentication."
+    },
+    "permissions": {
+      "title": "Device Permission Status",
+      "description": "Manage permissions required to use key features of VX Web V2.",
+      "camera": "Camera",
+      "location": "Location",
+      "push": "Push Notifications",
+      "request": "Request Permission",
+      "granted": "Granted",
+      "denied": "Denied",
+      "prompt": "Prompt Required",
+      "unsupported": "Unsupported",
+      "unknown": "Unknown Status"
+    }
   }
 }

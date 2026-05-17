@@ -231,9 +231,12 @@
     "deviceControl": "終端機狀態控制",
     "operationLog": "保安營運日誌",
     "logs": {
-      "securityLogStatusChanged": "保安日誌狀態變更: {id} -> {status}",
-      "deviceStatusUpdated": "終端機狀態已更新: {id}",
-      "reset": "保安與遙測數據重置完成"
+      "accessDeniedBackstage": {
+        "message": "未授權使用者試圖進入後台區域。"
+      },
+      "tamperAlert": {
+        "message": "伺服器室感應器偵測到物理衝擊。"
+      }
     },
     "eventDetailTitle": "事件詳情與措施",
     "selectLogToView": "選擇日誌以查看詳情。",
@@ -295,14 +298,6 @@
       "cpu": "CPU",
       "memory": "記憶體",
       "memo": "備註"
-    },
-    "logs": {
-      "accessDeniedBackstage": {
-        "message": "未授權使用者試圖進入後台區域。"
-      },
-      "tamperAlert": {
-        "message": "伺服器室感應器偵測到物理衝擊。"
-      }
     },
     "actions": {
       "none": "正常營運中",

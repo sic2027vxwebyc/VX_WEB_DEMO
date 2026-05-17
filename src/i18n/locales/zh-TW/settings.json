@@ -33,5 +33,47 @@
   "info": {
     "version": "版本 2.4.0 (Build 562)",
     "copyright": "© 2026 VX SPATIAL INTELLIGENCE HUB. 保留所有權利。"
+  },
+  "device": {
+    "title": "裝置與權限設定",
+    "subtitle": "管理離線地圖、生物辨識鎖定、相機、位置資訊及推送通知權限。",
+    "offlineMap": {
+      "title": "離線地圖數據",
+      "description": "預先將地圖與主要影像數據儲存至裝置中，以便在網路連線不穩定的環境下仍可繼續使用。",
+      "download": "下載離線數據",
+      "update": "更新數據",
+      "clear": "清除快取",
+      "ready": "可離線使用",
+      "notDownloaded": "尚未下載",
+      "downloading": "下載中...",
+      "cachedSize": "已快取大小",
+      "lastUpdate": "最後更新"
+    },
+    "biometric": {
+      "title": "生物辨識鎖定",
+      "description": "存取管理員頁面時要求使用 FaceID 或指紋驗證，以增強安全性。",
+      "enable": "啟用生物辨識鎖定",
+      "disable": "停用生物辨識鎖定",
+      "unlock": "使用生物辨識解鎖",
+      "lockedTitle": "管理員頁面已鎖定",
+      "lockedSubtitle": "存取此頁面需要生物辨識驗證。",
+      "active": "安全鎖定作用中",
+      "unsupportedNote": "目前的瀏覽器不支援 WebAuthn/生物辨識。將以模擬驗證代替。",
+      "fail": "驗證失敗。請再試一次。",
+      "error": "驗證過程中發生錯誤。"
+    },
+    "permissions": {
+      "title": "裝置權限狀態",
+      "description": "管理使用 VX Web V2 主要功能所需的權限。",
+      "camera": "相機",
+      "location": "位置資訊",
+      "push": "推送通知",
+      "request": "請求權限",
+      "granted": "已允許",
+      "denied": "已拒絕",
+      "prompt": "需要請求",
+      "unsupported": "不支援",
+      "unknown": "狀態不明"
+    }
   }
 }

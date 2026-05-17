@@ -231,9 +231,12 @@
     "deviceControl": "Device Control",
     "operationLog": "Security Operation Log",
     "logs": {
-      "securityLogStatusChanged": "Security log status changed: {id} -> {status}",
-      "deviceStatusUpdated": "Device status updated: {id}",
-      "reset": "Security and telemetry data reset complete"
+      "accessDeniedBackstage": {
+        "message": "Unauthorized user attempted to enter the backstage area."
+      },
+      "tamperAlert": {
+        "message": "Physical impact detected at server room sensor."
+      }
     },
     "eventDetailTitle": "Event Details & Actions",
     "selectLogToView": "Select a log to view details.",
@@ -295,14 +298,6 @@
       "cpu": "CPU",
       "memory": "Memory",
       "memo": "Memo"
-    },
-    "logs": {
-      "accessDeniedBackstage": {
-        "message": "Unauthorized user attempted to enter the backstage area."
-      },
-      "tamperAlert": {
-        "message": "Physical impact detected at server room sensor."
-      }
     },
     "actions": {
       "none": "Operating normally",

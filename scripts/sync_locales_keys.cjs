@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const locales = ['en', 'ja', 'zh-TW', 'es', 'ru'];
-const files = ['admin.json', 'navigation.json', 'common.json', 'gamification.json', 'spaces.json'];
+const files = ['admin.json', 'navigation.json', 'common.json', 'gamification.json', 'spaces.json', 'settings.json'];
 const sourceLocale = 'ko';
 
 files.forEach(file => {

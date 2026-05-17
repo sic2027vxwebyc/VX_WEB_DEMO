@@ -231,9 +231,12 @@
     "deviceControl": "Control de terminales",
     "operationLog": "Registro operativo",
     "logs": {
-      "securityLogStatusChanged": "Cambio estado log: {id} -> {status}",
-      "deviceStatusUpdated": "Estado terminal actualizado: {id}",
-      "reset": "Reinicio de datos de seguridad y telemetría completado"
+      "accessDeniedBackstage": {
+        "message": "Intento de acceso no autorizado a backstage."
+      },
+      "tamperAlert": {
+        "message": "Impacto físico detectado en sala de servidores."
+      }
     },
     "eventDetailTitle": "Detalles y acciones",
     "selectLogToView": "Seleccione un log para ver detalles.",
@@ -295,14 +298,6 @@
       "cpu": "CPU",
       "memory": "Memoria",
       "memo": "Nota"
-    },
-    "logs": {
-      "accessDeniedBackstage": {
-        "message": "Intento de acceso no autorizado a backstage."
-      },
-      "tamperAlert": {
-        "message": "Impacto físico detectado en sala de servidores."
-      }
     },
     "actions": {
       "none": "Operación normal",
