@@ -1,0 +1,8 @@
+{
+  "totalStock": 1000,
+  "reservedCount": 6,
+  "pickedUpCount": 2,
+  "remainingCount": 998,
+  "duplicateScanCount": 0,
+  "cancelledCount": 0
+}

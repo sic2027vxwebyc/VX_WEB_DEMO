@@ -1,5 +1,5 @@
 {
-  "confirm": "Подтвердить",
+  "confirm": "ОК",
   "cancel": "Отмена",
   "save": "Сохранить",
   "delete": "Удалить",
@@ -13,41 +13,41 @@
   "details": "Подробности",
   "viewDetails": "Посмотреть детали",
   "status": "Статус",
-  "live": "В эфире",
+  "live": "Прямой эфир",
   "morning": "Утро",
   "afternoon": "День",
   "evening": "Вечер",
-  "minutesRemaining": "осталось {min} мин",
+  "minutesRemaining": "Осталось {min} мин",
   "lastUpdated": "Последнее обновление",
   "refresh": "Обновить",
-  "language": "Выбрать язык",
+  "language": "Язык",
   "justNow": "Только что",
   "routing": "Маршрут",
-  "mapView": "Посмотреть на карте",
-  "viewer360": "360 Предварительный просмотр",
+  "mapView": "Карта",
+  "viewer360": "360-обзор",
   "digitalAchievements": "Цифровые достижения",
-  "conventionChallenge": "Задания конгресса",
-  "activeMissions": "Активные миссии",
+  "conventionChallenge": "Челендж конвенции",
+  "activeMissions": "Текущие миссии",
   "rewardCenter": "Центр наград",
   "digitalPassport": "Цифровой паспорт",
   "unlocked": "Разблокировано",
-  "v2Experience": "Возможности V2",
+  "v2Experience": "Опыт V2",
   "liveUpper": "LIVE",
   "locations": {
-    "1fEast": "1F Восток",
+    "1fEast": "1F Восточное крыло",
     "1fCentral": "1F Центр",
-    "1fWest": "1F Запад",
-    "1fNorth": "1F Север",
-    "1fSouth": "1F Юг",
+    "1fWest": "1F Западное крыло",
+    "1fNorth": "1F Северное крыло",
+    "1fSouth": "1F Южное крыло",
     "1fPlaza": "1F Площадь",
-    "1fCenter": "1F Центр",
-    "2fNorth": "2F Север",
-    "2fEast": "2F Восток",
-    "2fSouth": "2F Юг",
-    "2fWest": "2F Запад",
+    "1fCenter": "1F Центральная часть",
+    "2fNorth": "2F Северное крыло",
+    "2fEast": "2F Восточное крыло",
+    "2fSouth": "2F Южное крыло",
+    "2fWest": "2F Западное крыло",
     "2fCentral": "2F Центр",
     "2fPlaza": "2F Площадь",
-    "1fOuter": "1F Улица",
+    "1fOuter": "1F Снаружи",
     "1fLobby": "1F Лобби",
     "1fEntry": "1F Вход",
     "2fLobby": "2F Лобби"
@@ -55,16 +55,23 @@
   "accessibility": {
     "brailleGuide": "Шрифт Брайля",
     "inductionLoop": "Индукционная петля",
-    "wheelchairAccess": "Доступ для инвалидных колясок"
+    "wheelchairAccess": "Доступ для колясок"
   },
   "facilities": {
     "restroom": "Туалет",
-    "infoDesk": "Информационная стойка",
+    "infoDesk": "Стойка информации",
     "diningArea": "Зона питания",
     "exit": "Выход",
     "westGate": "Западные ворота",
-    "nearby": "Ближайшая зона"
+    "nearby": "Рядом"
+  },
+  "items": {
+    "coffeeCoupon": {
+      "name": "Купон на бесплатный кофе"
+    }
   },
   "telemetry": "Телеметрия",
-  "unknown": "Неизвестно"
+  "unknown": "Неизвестно",
+  "hour": "час",
+  "hours": "часа"
 }

@@ -17,20 +17,20 @@
   "morning": "午前",
   "afternoon": "午後",
   "evening": "夜",
-  "minutesRemaining": "{min}分 残り",
+  "minutesRemaining": "{min}分残り",
   "lastUpdated": "最終更新",
   "refresh": "更新",
-  "language": "言語選択",
-  "justNow": "たった今",
-  "routing": "ルート案内",
-  "mapView": "地図で見る",
-  "viewer360": "360 プレビュー",
-  "digitalAchievements": "デジタル成果",
+  "language": "言語",
+  "justNow": "今",
+  "routing": "ルート",
+  "mapView": "マップ",
+  "viewer360": "360プレビュー",
+  "digitalAchievements": "デジタルアチーブメント",
   "conventionChallenge": "コンベンションチャレンジ",
   "activeMissions": "進行中のミッション",
   "rewardCenter": "リワードセンター",
   "digitalPassport": "デジタルパスポート",
-  "unlocked": "ロック解除",
+  "unlocked": "アンロック済み",
   "v2Experience": "V2体験",
   "liveUpper": "LIVE",
   "locations": {
@@ -49,12 +49,12 @@
     "2fPlaza": "2F 広場",
     "1fOuter": "1F 外部",
     "1fLobby": "1F ロビー",
-    "1fEntry": "1F エントランス",
+    "1fEntry": "1F 進入路",
     "2fLobby": "2F ロビー"
   },
   "accessibility": {
     "brailleGuide": "点字案内",
-    "inductionLoop": "磁気ループ",
+    "inductionLoop": "誘導ループ",
     "wheelchairAccess": "車椅子対応"
   },
   "facilities": {
@@ -63,8 +63,15 @@
     "diningArea": "レストラン街",
     "exit": "出口",
     "westGate": "西門",
-    "nearby": "周辺区域"
+    "nearby": "周辺エリア"
   },
-  "telemetry": "テレメトリー",
-  "unknown": "不明"
+  "items": {
+    "coffeeCoupon": {
+      "name": "無料コーヒークーポン"
+    }
+  },
+  "telemetry": "テレメトリ",
+  "unknown": "不明",
+  "hour": "時間",
+  "hours": "時間"
 }

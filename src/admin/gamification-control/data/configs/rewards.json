@@ -1,0 +1,42 @@
+[
+  {
+    "id": "reward-badge-set",
+    "nameKey": "gamification.items.badgeSet.name",
+    "totalStock": 500,
+    "remainingStock": 72,
+    "claimedCount": 428,
+    "status": "low",
+    "icon": "🏅",
+    "category": "souvenir"
+  },
+  {
+    "id": "reward-convention-doll",
+    "nameKey": "gamification.items.rewardDoll.name",
+    "totalStock": 300,
+    "remainingStock": 150,
+    "claimedCount": 150,
+    "status": "available",
+    "icon": "🧸",
+    "category": "souvenir"
+  },
+  {
+    "id": "reward-special-kit",
+    "nameKey": "gamification.items.specialKit.name",
+    "totalStock": 100,
+    "remainingStock": 0,
+    "claimedCount": 100,
+    "status": "soldOut",
+    "icon": "🎁",
+    "category": "premium"
+  },
+  {
+    "id": "reward-coffee-coupon",
+    "nameKey": "common.items.coffeeCoupon.name",
+    "totalStock": 1000,
+    "remainingStock": 850,
+    "claimedCount": 150,
+    "status": "available",
+    "icon": "☕",
+    "category": "digital"
+  }
+]

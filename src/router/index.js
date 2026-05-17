@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import { logger } from '../utils/logger'
 import i18n from '../i18n'
+import { useDeviceSettingsStore } from '../settings/stores/deviceSettingsStore'
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -50,20 +51,32 @@ const router = createRouter({
     {
       path: '/map',
       name: 'map',
-      component: () => import('@/views/InteractiveMapLive.vue'),
+      component: () => import('../views/InteractiveMapLive.vue'),
       meta: { titleKey: 'navigation.map' }
     },
     {
       path: '/admin',
-      name: 'admin',
-      component: () => import('../views/AdminDashboardView.vue'),
-      meta: { titleKey: 'navigation.admin' }
+      name: 'adminRoot',
+      component: () => import('../admin/shared/views/AdminRootView.vue'),
+      meta: { titleKey: 'navigation.admin', requiresAdmin: true }
     },
     {
       path: '/settings',
       name: 'settings',
       component: () => import('../views/SettingsView.vue'),
       meta: { titleKey: 'navigation.settings' }
+    },
+    {
+      path: '/settings/device',
+      name: 'device-settings',
+      component: () => import('../settings/views/DeviceSettingsView.vue'),
+      meta: { titleKey: 'navigation.deviceSettings' }
+    },
+    {
+      path: '/admin/unlock',
+      name: 'admin-unlock',
+      component: () => import('../settings/views/AdminUnlockView.vue'),
+      meta: { titleKey: 'settings.device.biometric.unlock' }
     },
     {
       path: '/help',
@@ -149,6 +162,66 @@ const router = createRouter({
       name: 'reward-v2',
       component: () => import('../views/v2/stamp/RewardClaim_v2.vue'),
       meta: { titleKey: 'navigation.reward' }
+    },
+    {
+      path: '/admin/operations',
+      name: 'adminOperations',
+      component: () => import('../admin/operational-intelligence/views/OperationalDashboardView.vue'),
+      meta: { 
+        titleKey: 'admin.operations.title',
+        requiresAdmin: true,
+        v2Only: true
+      }
+    },
+    {
+      path: '/admin/gamification',
+      name: 'adminGamification',
+      component: () => import('../admin/gamification-control/views/GamificationControlView.vue'),
+      meta: { 
+        titleKey: 'admin.gamification.title',
+        requiresAdmin: true,
+        v2Only: true
+      }
+    },
+    {
+      path: '/admin/notifications',
+      name: 'adminNotifications',
+      component: () => import('../admin/notification-control/views/NotificationControlView.vue'),
+      meta: { 
+        titleKey: 'admin.notifications.title',
+        requiresAdmin: true,
+        v2Only: true
+      }
+    },
+    {
+      path: '/admin/meals',
+      name: 'adminMeals',
+      component: () => import('../admin/meal-distribution/views/MealDistributionView.vue'),
+      meta: { 
+        titleKey: 'admin.meals.title',
+        requiresAdmin: true,
+        v2Only: true
+      }
+    },
+    {
+      path: '/admin/hotels',
+      name: 'adminHotels',
+      component: () => import('../admin/hotel-management/views/HotelManagementView.vue'),
+      meta: { 
+        titleKey: 'admin.hotel.title',
+        requiresAdmin: true,
+        v2Only: true
+      }
+    },
+    {
+      path: '/admin/security',
+      name: 'adminSecurity',
+      component: () => import('../admin/security-telemetry/views/SecurityTelemetryView.vue'),
+      meta: { 
+        titleKey: 'admin.security.title',
+        requiresAdmin: true,
+        v2Only: true
+      }
     }
   ]
 })
@@ -165,7 +238,18 @@ router.afterEach((to) => {
 
 router.beforeEach((to, from, next) => {
   logger.debug('Router', `페이지 이동 시작: ${from.path} -> ${to.path}`)
-  next()
+  
+  // 관리자 권한 및 생체 인증 체크
+  const deviceStore = useDeviceSettingsStore()
+  if (to.meta.requiresAdmin && deviceStore.isAdminLocked) {
+    logger.warn('Router', '관리자 페이지 잠금 상태 - 해제 페이지로 이동')
+    next({ 
+      name: 'admin-unlock',
+      query: { redirect: to.fullPath }
+    })
+  } else {
+    next()
+  }
 })
 
 router.onError((error, to) => {

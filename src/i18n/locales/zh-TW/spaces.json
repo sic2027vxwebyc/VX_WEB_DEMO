@@ -179,5 +179,19 @@
     "moderate": "中",
     "high": "高",
     "easy": "順暢"
+  },
+  "sodam": {
+    "name": "小潭飲食區",
+    "shortName": "小潭",
+    "description": "供與會者用餐與休息的空間。",
+    "zone": "用餐區",
+    "location": "便利設施區"
+  },
+  "gate4": {
+    "name": "第 4 門",
+    "shortName": "4 號門",
+    "description": "連接停車場及外部的主要門口。",
+    "zone": "出入口",
+    "location": "第 1 展覽館南側"
   }
 }

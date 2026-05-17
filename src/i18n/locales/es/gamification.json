@@ -97,6 +97,15 @@
     "experienceZone": {
       "name": "Zona de Experiencia",
       "description": "Espacio interactivo VR"
+    },
+    "rewardDoll": {
+      "name": "Muñeca conmemorativa de la convención"
+    },
+    "specialKit": {
+      "name": "Kit de bienvenida especial"
+    },
+    "badgeSet": {
+      "name": "Set de insignias maestras"
     }
   }
 }

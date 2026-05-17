@@ -6,9 +6,11 @@
 import { defineStore } from 'pinia'
 import { ref, reactive, computed } from 'vue'
 import { useOperationalStore } from './operational'
+import { useOperationalIntelligenceStore } from '../admin/operational-intelligence/stores/operationalIntelligenceStore'
 
 export const useMapStore = defineStore('map', () => {
   const opStore = useOperationalStore()
+  const adminOpStore = useOperationalIntelligenceStore()
   const currentFloor = ref('hall1')
   const mapScale = ref(1)
   
@@ -44,14 +46,30 @@ export const useMapStore = defineStore('map', () => {
   // 혼잡도 데이터 실시간 병합 (operationalStore 연동)
   const liveFloorData = computed(() => {
     const data = JSON.parse(JSON.stringify(floorData))
+    const adminZones = adminOpStore.effectiveZones
+
     Object.keys(data).forEach(floor => {
       data[floor] = data[floor].map(item => {
         const live = opStore.congestionData[item.id] || { level: 'low', percent: 10 }
+        const adminZone = adminZones.find(z => z.id === item.id)
+
+        let finalLevel = live.level
+        let finalPercent = live.percent
+        let isRestricted = false
+
+        // 관리자 override 우선 순위
+        if (adminZone) {
+          finalLevel = adminZone.congestionLevel
+          finalPercent = adminZone.density
+          isRestricted = adminZone.isRestricted
+        }
+
         return {
           ...item,
-          status: live.level,
-          congestionScore: live.percent,
-          flowDirection: live.percent > 70 ? 'outward' : 'inward'
+          status: finalLevel,
+          congestionScore: finalPercent,
+          isRestricted,
+          flowDirection: finalPercent > 70 ? 'outward' : 'inward'
         }
       })
     })

@@ -97,6 +97,15 @@
     "experienceZone": {
       "name": "체험 존",
       "description": "인터랙티브 공간 VR"
+    },
+    "rewardDoll": {
+      "name": "컨벤션 기념 인형"
+    },
+    "specialKit": {
+      "name": "스페셜 웰컴 키트"
+    },
+    "badgeSet": {
+      "name": "마스터 배지 세트"
     }
   }
 }

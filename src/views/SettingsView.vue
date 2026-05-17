@@ -17,8 +17,6 @@ const themeStore = useThemeStore()
 const settings = ref({
   fontSize: 'medium',
   highContrast: false,
-  offlineMaps: true,
-  biometricAuth: true,
   notifications: {
     system: true,
     marketing: false,
@@ -114,7 +112,7 @@ onUnmounted(() => {
           </div>
         </section>
 
-        <!-- 시스템 및 보안 -->
+        <!-- 기기 및 권한 설정 (V2) -->
         <section class="px-lg">
           <div class="flex items-center gap-md mb-md">
             <span class="material-symbols-outlined text-primary">security</span>
@@ -122,25 +120,18 @@ onUnmounted(() => {
           </div>
 
           <div class="glass-panel rounded-2xl overflow-hidden divide-y divide-black/5 dark:divide-white/5">
-            <div class="flex items-center justify-between p-lg">
-              <div>
-                <p class="font-label-lg">{{ t('settings.system.offlineMaps') }}</p>
-                <p class="text-sm text-on-surface-variant">{{ t('settings.system.offlineMapsDesc') }}</p>
+            <router-link to="/settings/device" class="flex items-center justify-between p-lg hover:bg-black/5 dark:hover:bg-white/5 transition-colors group">
+              <div class="flex items-center gap-md">
+                <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined">settings_applications</span>
+                </div>
+                <div>
+                  <p class="font-label-lg">{{ t('settings.device.title') }}</p>
+                  <p class="text-sm text-on-surface-variant">{{ t('settings.device.subtitle') }}</p>
+                </div>
               </div>
-              <div @click="settings.offlineMaps = !settings.offlineMaps" class="w-12 h-6 rounded-full relative transition-colors cursor-pointer" :class="settings.offlineMaps ? 'bg-primary' : 'bg-black/10 dark:bg-white/10'">
-                <div class="absolute top-1 w-4 h-4 rounded-full transition-all" :class="settings.offlineMaps ? 'right-1 bg-on-primary' : 'left-1 bg-on-surface-variant'"></div>
-              </div>
-            </div>
-
-            <div class="flex items-center justify-between p-lg">
-              <div>
-                <p class="font-label-lg">{{ t('settings.system.biometricAuth') }}</p>
-                <p class="text-sm text-on-surface-variant">{{ t('settings.system.biometricAuthDesc') }}</p>
-              </div>
-              <div @click="settings.biometricAuth = !settings.biometricAuth" class="w-12 h-6 rounded-full relative transition-colors cursor-pointer" :class="settings.biometricAuth ? 'bg-primary' : 'bg-black/10 dark:bg-white/10'">
-                <div class="absolute top-1 w-4 h-4 rounded-full transition-all" :class="settings.biometricAuth ? 'right-1 bg-on-primary' : 'left-1 bg-on-surface-variant'"></div>
-              </div>
-            </div>
+              <span class="material-symbols-outlined text-on-surface-variant group-hover:translate-x-1 transition-transform">chevron_right</span>
+            </router-link>
           </div>
         </section>
 

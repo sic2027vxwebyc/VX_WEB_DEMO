@@ -19,52 +19,52 @@
     "1": {
       "title": "Inicio de sesión en nuevo dispositivo",
       "content": "Se ha detectado un nuevo inicio de sesión en MacBook Pro para la cuenta de administrador VX.",
-      "time": "2분 전"
+      "time": "hace 2 min"
     },
     "2": {
       "title": "Alerta de congestión en el Hall Central",
       "content": "La densidad en el Hall Central de la 1ª planta ha superado el 90%. Por favor, use una ruta alternativa.",
-      "time": "15분 전"
+      "time": "hace 15 min"
     },
     "3": {
       "title": "La sesión principal comienza en 10 min",
       "content": "La sesión \"Inteligencia de Espacios Futuros\" está a punto de comenzar en el Arena Principal.",
-      "time": "45분 전"
+      "time": "hace 45 min"
     },
     "4": {
       "title": "Actualización del sistema completada",
       "content": "La sincronización de la base de datos espacial se ha completado con éxito.",
-      "time": "2시간 전"
+      "time": "hace 2 horas"
     },
     "alert-1": {
-      "title": "Emergency Evacuation",
-      "content": "Evacuation is required due to a fire alarm near the North Gate of Exhibition Hall 1. Move to the nearest exit as directed.",
-      "time": "방금 전"
+      "title": "Guía de evacuación de emergencia",
+      "content": "Se requiere evacuación debido a una alarma de incendio cerca de la Puerta Norte del Pabellón 1. Diríjase a la salida más cercana siguiendo las instrucciones del personal.",
+      "time": "Ahora mismo"
     },
     "alert-2": {
-      "title": "Hall B North Gate Closed",
-      "content": "Entry to Hall B North Gate is temporarily suspended due to crowding. Please use the West Gate (Gate 3).",
-      "time": "5분 전"
+      "title": "Cierre de la Puerta Norte del Hall B",
+      "content": "El acceso por la Puerta Norte del Hall B se ha suspendido temporalmente debido a la congestión. Por favor, utilice la Puerta Oeste (Puerta 3).",
+      "time": "hace 5 min"
     },
     "alert-3": {
-      "title": "Shuttle Bus Delay",
-      "content": "Severe traffic congestion outside KINTEX due to rain. Shuttle bus intervals will be delayed by 15 minutes.",
-      "time": "12분 전"
+      "title": "Retraso del autobús lanzadera",
+      "content": "Debido a la lluvia, hay una fuerte congestión en las carreteras exteriores de KINTEX. Los intervalos del autobús lanzadera se retrasarán 15 minutos.",
+      "time": "hace 12 min"
     },
     "alert-4": {
-      "title": "Lost & Found Alert",
-      "content": "A tablet PC (iPad) was found in the 2nd-floor dining area and is being held at the information desk.",
-      "time": "45분 전"
+      "title": "Aviso de objetos perdidos",
+      "content": "Se ha encontrado una tableta (iPad) en el área de restauración de la 2ª planta y se encuentra en el mostrador de información.",
+      "time": "hace 45 min"
     },
     "alert-5": {
-      "title": "Strong Wind Advisory",
-      "content": "Please be careful of strong winds when using outdoor rest areas. Outdoor parasol operation has been suspended.",
-      "time": "1시간 전"
+      "title": "Aviso de vientos fuertes",
+      "content": "Tenga cuidado con los vientos fuertes al utilizar las áreas de descanso al aire libre. Se ha suspendido el uso de sombrillas exteriores.",
+      "time": "hace 1 hora"
     },
     "alert-6": {
-      "title": "Battery Replacement",
-      "content": "You can immediately replace interpretation equipment batteries at the information desk at each hall entrance.",
-      "time": "2시간 전"
+      "title": "Cambio de baterías de equipos de traducción",
+      "content": "Puede cambiar las baterías de los equipos de traducción de inmediato en el mostrador de información de la entrada de cada hall.",
+      "time": "hace 2 horas"
     }
   }
 }

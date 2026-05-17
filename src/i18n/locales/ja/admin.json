@@ -1,44 +1,417 @@
 {
-  "title": "管理者ダッシュボード",
-  "subtitle": "VXノード07のリアルタイムデータと空間調整の状況です。",
-  "status": {
-    "normal": "システム正常",
-    "sweep": "全域システムスキャン"
+  "root": {
+    "title": "管理者ダッシュボード",
+    "subtitle": "空間運営、リワードシステム、リアルタイム通知を統合管理します。"
   },
-  "stats": {
-    "activeVisitors": "アクティブ訪問者",
-    "passAuth": "分間パス認証",
-    "peakTime": "ピークタイム",
-    "infrastructure": "インフラノード状態",
-    "upTime": "{percent}% 稼働中"
-  },
-  "heatmap": {
-    "title": "リアルタイムヒートマップ: Level {level}",
-    "alert": "{zone} 区域の収容人数超過注意",
-    "levels": {
-      "low": "低",
-      "moderate": "中",
-      "high": "高"
+  "operations": {
+    "title": "運営管理",
+    "description": "リアルタイム混雑度および出入り制御",
+    "subtitle": "国際大会現場の空間混雑度と出入り状態をモニタリングします。",
+    "heatmap": "リアルタイムヒートマップ",
+    "manualOverride": "混雑度手動制御",
+    "restrictedAreas": "出入り制限区域",
+    "eventLog": "運営イベントログ",
+    "liveMonitoring": "リアルタイムモニタリング有効",
+    "realTimeStream": "リアルタイムストリーム",
+    "engineActive": "運営インテリジェンスエンジン有効",
+    "kpi": {
+      "activeZones": "運営区域",
+      "crowdedZones": "混雑区域",
+      "restrictedZones": "制限区域",
+      "recommendedActions": "推奨アクション"
     },
-    "floors": {
-      "1f": "1階",
-      "2f": "2階",
-      "3f": "3階"
+    "congestion": {
+      "auto": "自動",
+      "low": "空き",
+      "moderate": "普通",
+      "high": "混雑",
+      "critical": "非常に混雑"
+    },
+    "access": {
+      "open": "正常運営",
+      "limited": "一部制限",
+      "restricted": "出入り制限",
+      "closed": "閉鎖"
+    },
+    "reset": "Mock運営データ初期化",
+    "lastUpdate": "最終更新: {time}",
+    "noEvents": "記録された運営イベントはありません。",
+    "controls": {
+      "selectSpace": "空間選択",
+      "currentStatus": "現在の状態",
+      "apply": "適用",
+      "reason": "制限理由",
+      "expectedTime": "解除予定時刻",
+      "clear": "解除"
+    },
+    "logs": {
+      "congestionChanged": "{id} 混雑度設定変更: {level}",
+      "congestionReset": "{id} 混雑度手動設定解除",
+      "accessChanged": "{id} 出入り状態変更: {status}",
+      "accessReset": "{id} 出入り制限解除",
+      "reset": "運営データ初期化完了",
+      "crowdedAction": "区域混雑。迂回ルート案内有効化を推奨。"
     }
   },
-  "alerts": {
-    "security": {
-      "title": "未認可の接近を検知: {gate}",
-      "desc": "セキュリティチームが出動。閉鎖プロトコルが稼働中です。"
+  "gamification": {
+    "title": "リワード管理",
+    "description": "スタンプラリーおよびクエスト制御",
+    "subtitle": "スタンプラリー、記念品在庫、動的クエストをJSONベースで管理します。",
+    "stampDashboard": "スタンプラリー状況板",
+    "rewardStock": "記念品在庫管理",
+    "questControl": "クエスト動的生成",
+    "eventLog": "ゲーミフィケーションログ",
+    "engineActive": "リワードエンジン有効",
+    "participationTrend": "参加推移",
+    "noEvents": "イベントなし",
+    "reset": "Mockデータ初期化",
+    "logs": {
+      "rewardStockAdjusted": "{id} 在庫調整: {delta} (残り在庫: {remaining})",
+      "rewardStatusChanged": "{id} 状態手動変更: {status}",
+      "questCreated": "新規動的クエスト生成: {title}",
+      "questStatusChanged": "クエスト状態変更: {id} -> {status}",
+      "questDeleted": "クエスト削除: {id}",
+      "reset": "ゲーミフィケーションMockデータ初期化完了",
+      "scannerSuccess": "QRスキャン検知: {spot} (ID: {id})"
     },
-    "power": {
-      "title": "電力不安定: {wing}",
-      "desc": "非常用発電機が稼働中 (負荷 {load}%)"
+    "kpi": {
+      "totalParticipants": "全体参加者",
+      "averageStampCount": "平均スタンプ数",
+      "completedParticipants": "完走者",
+      "completionRate": "完走率"
     },
-    "support": {
-      "title": "新規サポート要請",
-      "desc": "{hall} アクセシビリティサポートが必要です。"
+    "rewardStatus": {
+      "available": "受取可能",
+      "low": "在庫わずか",
+      "soldOut": "在庫切れ"
+    },
+    "questStatus": {
+      "draft": "下書き",
+      "active": "アクティブ",
+      "paused": "一時停止",
+      "ended": "終了"
+    },
+    "quests": {
+      "title": "クエストタイトル",
+      "targetSpace": "対象空間",
+      "reward": "報酬",
+      "create": "動的クエスト生成",
+      "placeholder": "クエスト名を入力してください...",
+      "translationCenter": {
+        "title": "翻訳センター訪問ミッション",
+        "description": "翻訳センターを訪問してAI通訳ガイドを体験してください。"
+      },
+      "hall5": {
+        "title": "未来技術館探訪",
+        "description": "Hall 5の未来技術館でVXホログラムソリューションを観覧してください。"
+      }
+    },
+    "rewards": {
+      "id": "識別ID",
+      "stockUnits": "在庫数量"
+    },
+    "scanner": {
+      "title": "QRスキャンシミュレータ",
+      "selectSpot": "スキャンする場所を選択",
+      "action": "QRスキャン実行",
+      "scanning": "スキャン中...",
+      "success": "スキャン成功"
     }
   },
-  "globalAlert": "全域アラート発令"
+  "notifications": {
+    "title": "リアルタイム通知管理",
+    "description": "緊急ティッカーおよびセッション変更の周知",
+    "subtitle": "緊急ティッカーとセッション変更通知をmockベースで管理します。",
+    "emergencyTicker": "緊急ティッカー送出",
+    "sessionChange": "セッション変更通知",
+    "activeTickerPreview": "有効なティッカープレビュー",
+    "liveSimulation": "ユーザー画面ライブシミュレーション",
+    "messageLabel": "メッセージ内容",
+    "messagePlaceholder": "全ユーザーが即座に認識すべき緊急内容を入力してください...",
+    "sessionMessagePlaceholder": "日程変更や遅延理由を入力してください...",
+    "severityTitle": "優先度(緊急度)",
+    "targetScope": "対象区域(Hall)",
+    "targetLocales": "対象言語",
+    "expiresIn": "有効期限",
+    "broadcastButton": "緊急ティッカー即時送出",
+    "sendButton": "通知送信",
+    "selectSession": "対象セッション選択",
+    "changeTypeTitle": "変更タイプ",
+    "itemsCount": "個の項目",
+    "noActiveTickers": "現在有効な緊急ティッカーはありません。",
+    "until": "まで",
+    "eventLog": "通知運営ログ",
+    "resetData": "通知データ初期化",
+    "noLogs": "通知送信履歴がありません。",
+    "kpi": {
+      "activeTickers": "有効なティッカー",
+      "sentNotifications": "送信済み通知",
+      "totalLogs": "全体ログ"
+    },
+    "severity": {
+      "info": "案内",
+      "warning": "注意",
+      "emergency": "緊急",
+      "critical": "重大な緊急"
+    },
+    "changeType": {
+      "timeChanged": "時間変更",
+      "speakerChanged": "スピーカー変更",
+      "hallChanged": "場所変更",
+      "delayed": "遅延",
+      "cancelled": "中止",
+      "resumed": "再開"
+    },
+    "status": {
+      "draft": "下書き",
+      "scheduled": "予約済み",
+      "active": "有効",
+      "sent": "送信済み",
+      "expired": "期限切れ"
+    },
+    "target": {
+      "all": "全ユーザー",
+      "hallA": "Hall A (メインホール)",
+      "hallB": "Hall B (展示ホール)",
+      "vip": "VIPラウンジ"
+    },
+    "tickers": {
+      "items": {
+        "ticker001": {
+          "title": "気象悪化案内",
+          "message": "強風のため屋外シャトルバスの運行が10分遅延しています。屋内通路を利用してください。"
+        },
+        "manual": {
+          "title": "管理者緊急通知"
+        }
+      }
+    },
+    "sessionChanges": {
+      "items": {
+        "delay001": {
+          "title": "セッション遅延通知",
+          "message": "Spatial Computing キーノートが登壇者の事情により15分遅れて開始されます。"
+        },
+        "delayed": {
+          "title": "セッション遅延案内"
+        },
+        "timeChanged": {
+          "title": "セッション時間変更案内"
+        },
+        "speakerChanged": {
+          "title": "セッションスピーカー変更案内"
+        },
+        "hallChanged": {
+          "title": "セッション場所変更案内"
+        },
+        "cancelled": {
+          "title": "セッション中止案内"
+        },
+        "resumed": {
+          "title": "セッション再開案内"
+        }
+      }
+    },
+    "logs": {
+      "tickerCreated": "緊急ティッカー生成: {id}",
+      "tickerActivated": "ティッカー有効化: {id}",
+      "tickerDeactivated": "ティッカー無効化: {id}",
+      "tickerExpired": "ティッカー強制終了: {id}",
+      "sessionCreated": "セッション変更通知生成: {id}",
+      "sessionSent": "セッション変更通知送信: {id}",
+      "reset": "通知制御データ初期化完了"
+    }
+  },
+  "security": {
+    "title": "セキュリティおよびインフラモニタリング",
+    "description": "セキュリティログおよび端末状態",
+    "subtitle": "セキュリティログと現場端末の状態をmockベースでモニタリングします。",
+    "securityLogs": "セキュリティログ",
+    "deviceTelemetry": "端末テレメトリ",
+    "deviceControl": "端末状態制御",
+    "operationLog": "セキュリティ運営ログ",
+    "logs": {
+      "securityLogStatusChanged": "セキュリティログ状態変更: {id} -> {status}",
+      "deviceStatusUpdated": "端末状態アップデート: {id}",
+      "reset": "セキュリティおよびテレメトリデータ初期化完了"
+    },
+    "eventDetailTitle": "イベント詳細および措置",
+    "selectLogToView": "詳細情報を表示するにはログを選択してください。",
+    "eventStatusTitle": "処理状態変更",
+    "memoPlaceholder": "措置内容やメモを入力してください...",
+    "updateStatusButton": "状態アップデート",
+    "selectDeviceToControl": "制御する端末を選択してください。",
+    "deviceStatusTitle": "端末運営状態",
+    "networkStatusTitle": "ネットワーク接続状態",
+    "applyDeviceChanges": "端末設定適用",
+    "refreshHeartbeat": "ハートビート強制更新",
+    "resetData": "セキュリティデータ初期化",
+    "noLogs": "記録されたセキュリティ運営履歴はありません。",
+    "kpi": {
+      "totalDevices": "全体端末数",
+      "onlineDevices": "オンライン",
+      "offlineDevices": "オフライン",
+      "degradedDevices": "注意が必要",
+      "newSecurityLogs": "新規セキュリティログ",
+      "criticalEvents": "緊急イベント",
+      "unstableNetworks": "ネットワーク不安定"
+    },
+    "severity": {
+      "info": "情報",
+      "warning": "注意",
+      "high": "危険",
+      "critical": "緊急"
+    },
+    "eventStatus": {
+      "new": "新規",
+      "reviewing": "検討中",
+      "resolved": "解決済み",
+      "ignored": "無視"
+    },
+    "deviceType": {
+      "kiosk": "キオスク",
+      "qrScanner": "QRスキャナー",
+      "displayPanel": "案内パネル",
+      "operatorTablet": "運営タブレット",
+      "networkNode": "ネットワーク機器"
+    },
+    "deviceStatus": {
+      "online": "オンライン",
+      "degraded": "注意",
+      "offline": "オフライン",
+      "maintenance": "点検中"
+    },
+    "networkStatus": {
+      "good": "良好",
+      "unstable": "不安定",
+      "disconnected": "接続断"
+    },
+    "fields": {
+      "deviceId": "端末ID",
+      "space": "位置",
+      "occurredAt": "発生時刻",
+      "lastHeartbeatAt": "最終信号",
+      "battery": "バッテリー",
+      "cpu": "CPU",
+      "memory": "メモリ",
+      "memo": "メモ"
+    },
+    "logs": {
+      "accessDeniedBackstage": {
+        "message": "未認証ユーザーがバックステージ区域への進入を試みました。"
+      },
+      "tamperAlert": {
+        "message": "サーバー室センサーで物理的衝撃が検知されました。"
+      }
+    },
+    "actions": {
+      "none": "正常運営中",
+      "chargeBattery": "バッテリー充電が必要",
+      "checkPower": "電源供給状態の確認が必要"
+    },
+    "devices": {
+      "kiosk001": {
+        "name": "メインロビーキオスク #1"
+      },
+      "qr002": {
+        "name": "AゲートQRスキャナー"
+      },
+      "node003": {
+        "name": "Hall 2 天井 AP"
+      }
+    }
+  },
+  "meals": {
+    "title": "弁当配布管理",
+    "subtitle": "QRベースの弁当受取確認と入出庫状況をmockベースで管理します。",
+    "inventory": "弁当在庫",
+    "qrScanner": "QRスキャン",
+    "reservationList": "予約者リスト",
+    "pickupPreview": "受取情報確認",
+    "pickupLog": "受取および入出庫ログ",
+    "completePickup": "受取完了処理",
+    "logs": {
+      "scanDetected": "QRスキャン検知: {id}",
+      "duplicateDetected": "重複スキャン検知: {name} ({id})",
+      "pickupCompleted": "受取完了: {name} ({count}個)",
+      "reset": "弁当データ初期化完了",
+      "notFound": "予約情報が見つかりません。"
+    },
+    "duplicateDetected": "既に受取完了済みのQRです。",
+    "scanQrToPreview": "QRコードをスキャンしてください。",
+    "collectionVerified": "弁当受取確認済み",
+    "noReservations": "予約データがありません。",
+    "noLogs": "ログデータがありません。",
+    "resetData": "データ初期化",
+    "scanButton": "スキャン実行",
+    "status": {
+      "reserved": "予約完了",
+      "pickedUp": "受取完了",
+      "cancelled": "キャンセル",
+      "duplicate": "重複試行"
+    },
+    "kpi": {
+      "totalStock": "総入庫",
+      "reservedCount": "総予約",
+      "pickedUpCount": "総受取",
+      "remainingCount": "在庫数",
+      "duplicateScanCount": "重複スキャン"
+    },
+    "fields": {
+      "reservationId": "予約ID",
+      "congregation": "会衆",
+      "nationality": "国籍",
+      "name": "名前",
+      "contact": "連絡先",
+      "mealCount": "弁当数",
+      "status": "状態",
+      "pickedUpAt": "受取時刻",
+      "pickedUpBy": "処理者",
+      "memo": "備考"
+    }
+  },
+  "hotel": {
+    "title": "ホテルチェックイン管理",
+    "subtitle": "国際大会参加者の宿泊予約状況およびQRチェックインをmockベースで運営します。",
+    "qrScanner": "QRチェックインスキャナー",
+    "inventoryStatus": "ホテル別客室状況",
+    "reservationList": "予約およびチェックインリスト",
+    "checkInLog": "チェックイン運営ログ",
+    "completeCheckIn": "チェックイン完了処理",
+    "completeCheckOut": "チェックアウト完了処理",
+    "duplicateCheckIn": "既にチェックイン済みのQRです。",
+    "selectLogToView": "詳細情報を表示するにはリストを選択してください。",
+    "kpi": {
+      "totalHotels": "連携ホテル",
+      "totalRooms": "全客室",
+      "checkedIn": "入室完了",
+      "noShow": "ノーショー(No-show)"
+    },
+    "status": {
+      "reserved": "予約完了",
+      "checkedIn": "入室完了",
+      "checkedOut": "退室完了",
+      "cancelled": "キャンセル済み",
+      "noShow": "ノーショー",
+      "duplicate": "重複試行"
+    },
+    "fields": {
+      "hotel": "ホテル名",
+      "room": "客室",
+      "name": "代表者",
+      "nationality": "国籍",
+      "congregation": "会衆",
+      "guests": "人数",
+      "status": "状態",
+      "checkInTime": "チェックイン時刻"
+    },
+    "resetData": "データ初期化",
+    "noLogs": "チェックインログがありません。",
+    "logs": {
+      "checkIn": "チェックイン完了: {name} ({hotel} {room}号室)",
+      "checkOut": "チェックアウト完了: {name} ({hotel} {room}号室)",
+      "reset": "ホテル運営データ初期化完了",
+      "notFound": "予約情報が見つかりません。"
+    }
+  }
 }

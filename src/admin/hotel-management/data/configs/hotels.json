@@ -1,0 +1,28 @@
+[
+  {
+    "id": "hotel-kintex-stay",
+    "nameKey": "admin.hotel.hotels.kintexStay.name",
+    "totalRooms": 200,
+    "roomTypes": ["Single", "Twin", "Suite"],
+    "locationKey": "admin.hotel.hotels.kintexStay.location",
+    "occupancy": {
+      "reserved": 180,
+      "checkedIn": 45,
+      "available": 20,
+      "noShow": 0
+    }
+  },
+  {
+    "id": "hotel-grand-seoul",
+    "nameKey": "admin.hotel.hotels.grandSeoul.name",
+    "totalRooms": 350,
+    "roomTypes": ["Twin", "Double", "Premium"],
+    "locationKey": "admin.hotel.hotels.grandSeoul.location",
+    "occupancy": {
+      "reserved": 310,
+      "checkedIn": 120,
+      "available": 40,
+      "noShow": 2
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ticker-001",
+    "titleKey": "admin.notifications.tickers.items.ticker001.title",
+    "messageKey": "admin.notifications.tickers.items.ticker001.message",
+    "severity": "emergency",
+    "targetScope": "all",
+    "targetSpaceIds": [],
+    "targetLocales": ["ko", "en", "ja", "zh-TW", "es", "ru"],
+    "isActive": true,
+    "startsAt": "2026-05-17T13:00:00+09:00",
+    "expiresAt": "2026-05-17T14:00:00+09:00",
+    "createdBy": "Mock Admin"
+  }
+]

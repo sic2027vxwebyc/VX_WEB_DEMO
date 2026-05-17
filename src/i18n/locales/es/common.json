@@ -3,7 +3,7 @@
   "cancel": "Cancelar",
   "save": "Guardar",
   "delete": "Eliminar",
-  "back": "Atrás",
+  "back": "Volver",
   "home": "Inicio",
   "settings": "Ajustes",
   "search": "Buscar",
@@ -20,16 +20,16 @@
   "minutesRemaining": "{min} min restantes",
   "lastUpdated": "Última actualización",
   "refresh": "Actualizar",
-  "language": "Seleccionar idioma",
+  "language": "Idioma",
   "justNow": "Ahora mismo",
   "routing": "Ruta",
-  "mapView": "Ver en mapa",
-  "viewer360": "Vista previa 360",
-  "digitalAchievements": "Logros Digitales",
-  "conventionChallenge": "Desafío de la Convención",
-  "activeMissions": "Misiones Activas",
-  "rewardCenter": "Centro de Recompensas",
-  "digitalPassport": "Pasaporte Digital",
+  "mapView": "Mapa",
+  "viewer360": "Vista 360",
+  "digitalAchievements": "Logros digitales",
+  "conventionChallenge": "Desafío de la convención",
+  "activeMissions": "Misiones activas",
+  "rewardCenter": "Centro de recompensas",
+  "digitalPassport": "Pasaporte digital",
   "unlocked": "Desbloqueado",
   "v2Experience": "Experiencia V2",
   "liveUpper": "LIVE",
@@ -48,23 +48,30 @@
     "2fCentral": "2F Central",
     "2fPlaza": "2F Plaza",
     "1fOuter": "1F Exterior",
-    "1fLobby": "1F Lobby",
+    "1fLobby": "1F Vestíbulo",
     "1fEntry": "1F Entrada",
-    "2fLobby": "2F Lobby"
+    "2fLobby": "2F Vestíbulo"
   },
   "accessibility": {
     "brailleGuide": "Guía braille",
     "inductionLoop": "Bucle de inducción",
-    "wheelchairAccess": "Acceso para sillas de ruedas"
+    "wheelchairAccess": "Acceso silla de ruedas"
   },
   "facilities": {
-    "restroom": "Baños",
-    "infoDesk": "Mostrador de Información",
-    "diningArea": "Área de Comida",
+    "restroom": "Baño",
+    "infoDesk": "Mostrador de información",
+    "diningArea": "Área de comedor",
     "exit": "Salida",
     "westGate": "Puerta Oeste",
-    "nearby": "Áreas Cercanas"
+    "nearby": "Cerca"
+  },
+  "items": {
+    "coffeeCoupon": {
+      "name": "Cupón de café gratis"
+    }
   },
   "telemetry": "Telemetría",
-  "unknown": "Desconocido"
+  "unknown": "Desconocido",
+  "hour": "hora",
+  "hours": "horas"
 }

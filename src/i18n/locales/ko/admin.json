@@ -1,44 +1,417 @@
 {
-  "title": "커맨드 센터",
-  "subtitle": "VX 노드 07의 실시간 데이터 및 공간 조율 현황입니다.",
-  "status": {
-    "normal": "시스템 정상",
-    "sweep": "시스템 일괄 점검"
+  "root": {
+    "title": "관리자 대시보드",
+    "subtitle": "공간 운영, 보상 시스템, 실시간 공지를 통합 관리합니다."
   },
-  "stats": {
-    "activeVisitors": "활성 방문객",
-    "passAuth": "분당 패스 인증",
-    "peakTime": "피크 타임",
-    "infrastructure": "인프라 노드 상태",
-    "upTime": "{percent}% 가동 중"
-  },
-  "heatmap": {
-    "title": "실시간 히트맵: Level {level}",
-    "alert": "{zone} 구역 수용 인원 초과 주의",
-    "levels": {
-      "low": "낮음",
+  "operations": {
+    "title": "운영 관제",
+    "description": "실시간 혼잡도 및 출입 통제",
+    "subtitle": "국제대회 현장의 공간 혼잡도와 출입 상태를 모니터링합니다.",
+    "heatmap": "실시간 히트맵",
+    "manualOverride": "혼잡도 수동 제어",
+    "restrictedAreas": "출입 통제 구역",
+    "eventLog": "운영 이벤트 로그",
+    "liveMonitoring": "실시간 모니터링 활성",
+    "realTimeStream": "실시간 스트림",
+    "engineActive": "운영 지능 엔진 활성",
+    "kpi": {
+      "activeZones": "운영 구역",
+      "crowdedZones": "혼잡 구역",
+      "restrictedZones": "통제 구역",
+      "recommendedActions": "추천 조치"
+    },
+    "congestion": {
+      "auto": "자동",
+      "low": "여유",
       "moderate": "보통",
-      "high": "심각"
+      "high": "혼잡",
+      "critical": "매우 혼잡"
     },
-    "floors": {
-      "1f": "1층",
-      "2f": "2층",
-      "3f": "3층"
+    "access": {
+      "open": "정상 운영",
+      "limited": "일부 제한",
+      "restricted": "출입 제한",
+      "closed": "폐쇄"
+    },
+    "reset": "Mock 운영 데이터 초기화",
+    "lastUpdate": "마지막 업데이트: {time}",
+    "noEvents": "기록된 운영 이벤트가 없습니다.",
+    "controls": {
+      "selectSpace": "공간 선택",
+      "currentStatus": "현재 상태",
+      "apply": "적용",
+      "reason": "제한 사유",
+      "expectedTime": "예상 해제 시간",
+      "clear": "해제"
+    },
+    "logs": {
+      "congestionChanged": "{id} 혼잡도 설정 변경: {level}",
+      "congestionReset": "{id} 혼잡도 수동 설정 해제",
+      "accessChanged": "{id} 출입 상태 변경: {status}",
+      "accessReset": "{id} 출입 통제 해제",
+      "reset": "Mock 운영 데이터 초기화 완료",
+      "crowdedAction": "구역 혼잡. 우회 경로 안내 활성화 권장."
     }
   },
-  "alerts": {
-    "security": {
-      "title": "비인가 접근 감지: {gate}",
-      "desc": "보안 팀 출동. 폐쇄 프로토콜 가동 중."
+  "gamification": {
+    "title": "리워드 관리",
+    "description": "스탬프 투어 및 퀘스트 제어",
+    "subtitle": "스탬프 투어, 기념품 재고, 동적 퀘스트를 JSON 기반으로 관리합니다.",
+    "stampDashboard": "스탬프 투어 현황판",
+    "rewardStock": "기념품 재고 관리",
+    "questControl": "퀘스트 동적 생성",
+    "eventLog": "게이미피케이션 로그",
+    "engineActive": "리워드 엔진 활성",
+    "participationTrend": "참여 추이",
+    "noEvents": "이벤트 없음",
+    "reset": "Mock 데이터 초기화",
+    "logs": {
+      "rewardStockAdjusted": "{id} 재고 조정: {delta} (남은 재고: {remaining})",
+      "rewardStatusChanged": "{id} 상태 수동 변경: {status}",
+      "questCreated": "신규 동적 퀘스트 생성: {title}",
+      "questStatusChanged": "퀘스트 상태 변경: {id} -> {status}",
+      "questDeleted": "퀘스트 삭제: {id}",
+      "reset": "게이미피케이션 Mock 데이터 초기화 완료",
+      "scannerSuccess": "QR 스캔 감지: {spot} (ID: {id})"
     },
-    "power": {
-      "title": "전력 불안정: {wing}",
-      "desc": "비상 발전기 가동 중 (부하 {load}%)"
+    "kpi": {
+      "totalParticipants": "전체 참여자",
+      "averageStampCount": "평균 스탬프",
+      "completedParticipants": "완주자",
+      "completionRate": "완주율"
     },
-    "support": {
-      "title": "신규 지원 요청",
-      "desc": "{hall} 접근성 지원이 필요합니다."
+    "rewardStatus": {
+      "available": "수령 가능",
+      "low": "재고 부족",
+      "soldOut": "소진"
+    },
+    "questStatus": {
+      "draft": "초안",
+      "active": "활성",
+      "paused": "일시 중지",
+      "ended": "종료"
+    },
+    "quests": {
+      "title": "퀘스트 제목",
+      "targetSpace": "대상 공간",
+      "reward": "보상",
+      "create": "동적 퀘스트 생성",
+      "placeholder": "퀘스트 이름을 입력하세요...",
+      "translationCenter": {
+        "title": "번역 센터 방문 미션",
+        "description": "번역 센터를 방문하여 AI 통번역 가이드를 체험하세요."
+      },
+      "hall5": {
+        "title": "미래 기술관 탐방",
+        "description": "Hall 5의 미래 기술관에서 VX 홀로그램 솔루션을 관람하세요."
+      }
+    },
+    "rewards": {
+      "id": "식별 ID",
+      "stockUnits": "재고 수량"
+    },
+    "scanner": {
+      "title": "QR 스캔 시뮬레이터",
+      "selectSpot": "스캔할 장소 선택",
+      "action": "QR 스캔 실행",
+      "scanning": "스캔 중...",
+      "success": "스캔 성공"
     }
   },
-  "globalAlert": "전체 경보 발령"
+  "notifications": {
+    "title": "실시간 공지 관리",
+    "description": "긴급 티커 및 세션 변경 전파",
+    "subtitle": "긴급 티커와 세션 변경 알림을 mock 기반으로 관리합니다.",
+    "emergencyTicker": "긴급 티커 송출",
+    "sessionChange": "세션 변경 알림",
+    "activeTickerPreview": "활성 티커 미리보기",
+    "liveSimulation": "사용자 화면 라이브 시뮬레이션",
+    "messageLabel": "메시지 내용",
+    "messagePlaceholder": "모든 사용자가 즉시 인지해야 할 긴급 내용을 입력하세요...",
+    "sessionMessagePlaceholder": "일정 변경이나 지연 사유를 입력하세요...",
+    "severityTitle": "우선순위(긴급도)",
+    "targetScope": "대상 구역(Hall)",
+    "targetLocales": "대상 언어",
+    "expiresIn": "만료 시간",
+    "broadcastButton": "긴급 티커 즉시 송출",
+    "sendButton": "알림 발송",
+    "selectSession": "대상 세션 선택",
+    "changeTypeTitle": "변경 유형",
+    "itemsCount": "개의 항목",
+    "noActiveTickers": "현재 활성화된 긴급 티커가 없습니다.",
+    "until": "까지",
+    "eventLog": "공지 운영 로그",
+    "resetData": "공지 데이터 초기화",
+    "noLogs": "공지 발송 이력이 없습니다.",
+    "kpi": {
+      "activeTickers": "활성 티커",
+      "sentNotifications": "발송된 알림",
+      "totalLogs": "전체 로그"
+    },
+    "severity": {
+      "info": "안내",
+      "warning": "주의",
+      "emergency": "긴급",
+      "critical": "매우 긴급"
+    },
+    "changeType": {
+      "timeChanged": "시간 변경",
+      "speakerChanged": "연사 변경",
+      "hallChanged": "장소 변경",
+      "delayed": "지연",
+      "cancelled": "취소",
+      "resumed": "재개"
+    },
+    "status": {
+      "draft": "초안",
+      "scheduled": "예약됨",
+      "active": "활성",
+      "sent": "송출됨",
+      "expired": "만료됨"
+    },
+    "target": {
+      "all": "전체 사용자",
+      "hallA": "Hall A (메인홀)",
+      "hallB": "Hall B (전시홀)",
+      "vip": "VIP 라운지"
+    },
+    "tickers": {
+      "items": {
+        "ticker001": {
+          "title": "기상 악화 안내",
+          "message": "강풍으로 인해 야외 셔틀 버스 운행이 10분 지연되고 있습니다. 실내 통로를 이용해 주세요."
+        },
+        "manual": {
+          "title": "관리자 긴급 공지"
+        }
+      }
+    },
+    "sessionChanges": {
+      "items": {
+        "delay001": {
+          "title": "세션 지연 알림",
+          "message": "Spatial Computing 키노트가 연사 사정으로 15분 지연 시작됩니다."
+        },
+        "delayed": {
+          "title": "세션 지연 안내"
+        },
+        "timeChanged": {
+          "title": "세션 시간 변경 안내"
+        },
+        "speakerChanged": {
+          "title": "세션 연사 변경 안내"
+        },
+        "hallChanged": {
+          "title": "세션 장소 변경 안내"
+        },
+        "cancelled": {
+          "title": "세션 취소 안내"
+        },
+        "resumed": {
+          "title": "세션 재개 안내"
+        }
+      }
+    },
+    "logs": {
+      "tickerCreated": "긴급 티커 생성: {id}",
+      "tickerActivated": "티커 활성화: {id}",
+      "tickerDeactivated": "티커 비활성화: {id}",
+      "tickerExpired": "티커 강제 만료: {id}",
+      "sessionCreated": "세션 변경 알림 생성: {id}",
+      "sessionSent": "세션 변경 알림 발송: {id}",
+      "reset": "공지 제어 데이터 초기화 완료"
+    }
+  },
+  "security": {
+    "title": "보안 및 인프라 모니터링",
+    "description": "보안 로그 및 단말기 상태",
+    "subtitle": "보안 로그와 현장 단말기 상태를 mock 기반으로 모니터링합니다.",
+    "securityLogs": "보안 로그",
+    "deviceTelemetry": "단말기 상태",
+    "deviceControl": "단말기 상태 제어",
+    "operationLog": "보안 운영 로그",
+    "logs": {
+      "securityLogStatusChanged": "보안 로그 상태 변경: {id} -> {status}",
+      "deviceStatusUpdated": "단말기 상태 업데이트: {id}",
+      "reset": "보안 및 텔레메트리 데이터 초기화 완료"
+    },
+    "eventDetailTitle": "이벤트 상세 및 조치",
+    "selectLogToView": "상세 정보를 보려면 로그를 선택하세요.",
+    "eventStatusTitle": "처리 상태 변경",
+    "memoPlaceholder": "조치 내용이나 메모를 입력하세요...",
+    "updateStatusButton": "상태 업데이트",
+    "selectDeviceToControl": "제어할 단말기를 선택하세요.",
+    "deviceStatusTitle": "단말기 운영 상태",
+    "networkStatusTitle": "네트워크 연결 상태",
+    "applyDeviceChanges": "단말기 설정 적용",
+    "refreshHeartbeat": "하트비트 강제 갱신",
+    "resetData": "보안 데이터 초기화",
+    "noLogs": "기록된 보안 운영 이력이 없습니다.",
+    "kpi": {
+      "totalDevices": "전체 단말기",
+      "onlineDevices": "온라인",
+      "offlineDevices": "오프라인",
+      "degradedDevices": "주의 필요",
+      "newSecurityLogs": "신규 보안 로그",
+      "criticalEvents": "긴급 이벤트",
+      "unstableNetworks": "네트워크 불안정"
+    },
+    "severity": {
+      "info": "정보",
+      "warning": "주의",
+      "high": "위험",
+      "critical": "긴급"
+    },
+    "eventStatus": {
+      "new": "신규",
+      "reviewing": "검토 중",
+      "resolved": "해결됨",
+      "ignored": "무시됨"
+    },
+    "deviceType": {
+      "kiosk": "키오스크",
+      "qrScanner": "QR 스캐너",
+      "displayPanel": "안내 패널",
+      "operatorTablet": "운영 태블릿",
+      "networkNode": "네트워크 장비"
+    },
+    "deviceStatus": {
+      "online": "온라인",
+      "degraded": "주의",
+      "offline": "오프라인",
+      "maintenance": "점검 중"
+    },
+    "networkStatus": {
+      "good": "양호",
+      "unstable": "불안정",
+      "disconnected": "연결 끊김"
+    },
+    "fields": {
+      "deviceId": "단말기 ID",
+      "space": "위치",
+      "occurredAt": "발생 시간",
+      "lastHeartbeatAt": "마지막 신호",
+      "battery": "배터리",
+      "cpu": "CPU",
+      "memory": "메모리",
+      "memo": "메모"
+    },
+    "logs": {
+      "accessDeniedBackstage": {
+        "message": "인증되지 않은 사용자가 백스테이지 구역 진입을 시도했습니다."
+      },
+      "tamperAlert": {
+        "message": "서버실 센서에서 물리적 충격이 감지되었습니다."
+      }
+    },
+    "actions": {
+      "none": "정상 운영 중",
+      "chargeBattery": "배터리 충전 필요",
+      "checkPower": "전원 공급 상태 확인 필요"
+    },
+    "devices": {
+      "kiosk001": {
+        "name": "메인 로비 키오스크 #1"
+      },
+      "qr002": {
+        "name": "A게이트 QR 스캐너"
+      },
+      "node003": {
+        "name": "Hall 2 천장 AP"
+      }
+    }
+  },
+  "meals": {
+    "title": "도시락 배부 관리",
+    "subtitle": "QR 기반 도시락 수령 확인과 입출고 현황을 mock 기반으로 관리합니다.",
+    "inventory": "도시락 재고",
+    "qrScanner": "QR 스캔",
+    "reservationList": "예약자 리스트",
+    "pickupPreview": "수령 정보 확인",
+    "pickupLog": "수령 및 입출고 로그",
+    "completePickup": "수령 완료 처리",
+    "logs": {
+      "scanDetected": "QR 스캔 감지: {id}",
+      "duplicateDetected": "중복 스캔 감지: {name} ({id})",
+      "pickupCompleted": "수령 완료: {name} ({count}개)",
+      "reset": "도시락 데이터 초기화 완료",
+      "notFound": "예약 정보를 찾을 수 없습니다."
+    },
+    "duplicateDetected": "이미 수령 완료된 QR입니다.",
+    "scanQrToPreview": "QR 코드를 스캔하세요.",
+    "collectionVerified": "도시락 수령 확인됨",
+    "noReservations": "예약 데이터가 없습니다.",
+    "noLogs": "로그 데이터가 없습니다.",
+    "resetData": "데이터 초기화",
+    "scanButton": "스캔 실행",
+    "status": {
+      "reserved": "예약 완료",
+      "pickedUp": "수령 완료",
+      "cancelled": "취소",
+      "duplicate": "중복 시도"
+    },
+    "kpi": {
+      "totalStock": "총 입고",
+      "reservedCount": "총 예약",
+      "pickedUpCount": "총 수령",
+      "remainingCount": "잔여 수량",
+      "duplicateScanCount": "중복 스캔"
+    },
+    "fields": {
+      "reservationId": "예약 ID",
+      "congregation": "회중",
+      "nationality": "국적",
+      "name": "이름",
+      "contact": "연락처",
+      "mealCount": "도시락 개수",
+      "status": "상태",
+      "pickedUpAt": "수령 시간",
+      "pickedUpBy": "처리자",
+      "memo": "비고"
+    }
+  },
+  "hotel": {
+    "title": "호텔 체크인 관리",
+    "subtitle": "국제대회 참가자 숙소 예약 현황 및 QR 체크인을 mock 기반으로 운영합니다.",
+    "qrScanner": "QR 체크인 스캐너",
+    "inventoryStatus": "호텔별 객실 현황",
+    "reservationList": "예약 및 체크인 리스트",
+    "checkInLog": "체크인 운영 로그",
+    "completeCheckIn": "체크인 완료 처리",
+    "completeCheckOut": "체크아웃 완료 처리",
+    "duplicateCheckIn": "이미 체크인된 QR입니다.",
+    "selectLogToView": "상세 정보를 보려면 리스트를 선택하세요.",
+    "kpi": {
+      "totalHotels": "연계 호텔",
+      "totalRooms": "전체 객실",
+      "checkedIn": "입실 완료",
+      "noShow": "노쇼(No-show)"
+    },
+    "status": {
+      "reserved": "예약 완료",
+      "checkedIn": "입실 완료",
+      "checkedOut": "퇴실 완료",
+      "cancelled": "취소됨",
+      "noShow": "노쇼",
+      "duplicate": "중복 시도"
+    },
+    "fields": {
+      "hotel": "호텔명",
+      "room": "객실",
+      "name": "대표자",
+      "nationality": "국적",
+      "congregation": "회중",
+      "guests": "인원",
+      "status": "상태",
+      "checkInTime": "체크인 시간"
+    },
+    "resetData": "데이터 초기화",
+    "noLogs": "체크인 로그가 없습니다.",
+    "logs": {
+      "checkIn": "체크인 완료: {name} ({hotel} {room}호)",
+      "checkOut": "체크아웃 완료: {name} ({hotel} {room}호)",
+      "reset": "호텔 운영 데이터 초기화 완료",
+      "notFound": "예약 정보를 찾을 수 없습니다."
+    }
+  }
 }

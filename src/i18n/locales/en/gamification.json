@@ -97,6 +97,15 @@
     "experienceZone": {
       "name": "Experience Zone",
       "description": "Interactive VR Space"
+    },
+    "rewardDoll": {
+      "name": "Convention Commemorative Doll"
+    },
+    "specialKit": {
+      "name": "Special Welcome Kit"
+    },
+    "badgeSet": {
+      "name": "Master Badge Set"
     }
   }
 }

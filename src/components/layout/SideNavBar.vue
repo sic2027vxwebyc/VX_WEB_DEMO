@@ -13,6 +13,8 @@ import screenIcon from '@/assets/screen.png'
 const route = useRoute()
 const { t } = useI18n({ useScope: 'global' })
 
+const isAdminRoute = (path) => path === '/admin' || path.startsWith('/admin/')
+
 // 메뉴 아이템 정의 (실시간 언어 변경을 위해 computed 사용)
 const menuItems = computed(() => {
   const items = [
@@ -22,12 +24,52 @@ const menuItems = computed(() => {
     { name: t('navigation.notifications'), path: '/notifications', icon: 'notifications' },
   ]
 
-  // V2 실험 영역에 있는 경우 스탬프 및 패스포트 메뉴 추가
-  if (route.path.includes('/v2/')) {
+  // V2 실험 영역 전용 메뉴
+  if (route.path.includes('/v2/') || isAdminRoute(route.path)) {
     items.push({ name: t('navigation.stamp'), path: '/v2/stamp-event', icon: 'qr_code_scanner' })
   }
 
+  // 관리자 섹션 (운영 관제, 리워드 관제, 공지 관리, 도시락 관리, 호텔 관리, 보안 관제)
   items.push({ name: t('navigation.admin'), path: '/admin', icon: 'dashboard' })
+  
+  if (isAdminRoute(route.path)) {
+    items.push({ 
+      name: t('navigation.adminOperations'), 
+      path: '/admin/operations', 
+      icon: 'monitoring',
+      isSub: true 
+    })
+    items.push({ 
+      name: t('navigation.adminGamification'), 
+      path: '/admin/gamification', 
+      icon: 'featured_seasonal_and_gifts',
+      isSub: true 
+    })
+    items.push({ 
+      name: t('navigation.adminNotifications'), 
+      path: '/admin/notifications', 
+      icon: 'notifications_active',
+      isSub: true 
+    })
+    items.push({ 
+      name: t('navigation.adminMeals'), 
+      path: '/admin/meals', 
+      icon: 'restaurant',
+      isSub: true 
+    })
+    items.push({ 
+      name: t('navigation.adminHotels'), 
+      path: '/admin/hotels', 
+      icon: 'hotel',
+      isSub: true 
+    })
+    items.push({ 
+      name: t('navigation.adminSecurity'), 
+      path: '/admin/security', 
+      icon: 'policy',
+      isSub: true 
+    })
+  }
 
   return items
 })
@@ -64,16 +106,21 @@ const handleNavClick = (path, name) => {
       </button>
     </div>
 
-    <nav class="flex-1 px-4 space-y-2 overflow-y-auto no-scrollbar">
+    <nav class="flex-1 px-4 space-y-1 overflow-y-auto no-scrollbar">
       <router-link 
         v-for="item in menuItems" 
         :key="item.path"
         :to="item.path"
-        class="flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 hover:translate-x-1"
-        :class="route.path === item.path ? 'bg-primary/10 text-primary border-r-4 border-primary shadow-[0_0_15px_rgba(0,219,233,0.1)]' : 'text-surface-dark/60 dark:text-on-surface-variant hover:text-surface-dark dark:hover:text-on-surface hover:bg-black/5 dark:hover:bg-surface-container-highest/30'"
+        class="flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300"
+        :class="[
+          route.path === item.path 
+            ? 'bg-primary/10 text-primary border-r-4 border-primary shadow-[0_0_15px_rgba(0,219,233,0.1)]' 
+            : 'text-surface-dark/60 dark:text-on-surface-variant hover:text-surface-dark dark:hover:text-on-surface hover:bg-black/5 dark:hover:bg-surface-container-highest/30',
+          item.isSub ? 'ml-6 py-2 scale-95 opacity-80 hover:translate-x-1' : 'hover:translate-x-1'
+        ]"
       >
         <span class="material-symbols-outlined">{{ item.icon }}</span>
-        <span class="font-label-lg">{{ item.name }}</span>
+        <span :class="item.isSub ? 'font-label-md' : 'font-label-lg'">{{ item.name }}</span>
       </router-link>
     </nav>
 

@@ -33,5 +33,47 @@
   "info": {
     "version": "VX Web Experience v2.4.0 (Stable)",
     "copyright": "© 2026 VX SPACE EXPERIENCE HUB"
+  },
+  "device": {
+    "title": "기기 및 권한 설정",
+    "subtitle": "오프라인 지도, 생체 인식 잠금, 카메라, 위치정보, 푸시알림 권한을 관리합니다.",
+    "offlineMap": {
+      "title": "오프라인 지도 데이터",
+      "description": "네트워크 연결이 불안정한 환경에서도 지도와 주요 이미지를 계속 사용할 수 있도록, 사전에 데이터를 기기에 저장합니다.",
+      "download": "오프라인 데이터 다운로드",
+      "update": "데이터 업데이트",
+      "clear": "캐시 삭제",
+      "ready": "오프라인 사용 가능",
+      "notDownloaded": "아직 다운로드되지 않음",
+      "downloading": "다운로드 중...",
+      "cachedSize": "캐시된 크기",
+      "lastUpdate": "마지막 업데이트"
+    },
+    "biometric": {
+      "title": "생체 인식 잠금",
+      "description": "관리자 페이지 접근 시 FaceID 또는 지문 인증을 요구하여 보안성을 강화합니다.",
+      "enable": "생체 잠금 활성화",
+      "disable": "생체 잠금 비활성화",
+      "unlock": "생체 인증으로 잠금 해제",
+      "lockedTitle": "관리자 페이지 잠금",
+      "lockedSubtitle": "이 페이지에 접근하려면 생체 인증이 필요합니다.",
+      "active": "보안 잠금 활성 상태",
+      "unsupportedNote": "현재 브라우저에서는 WebAuthn/생체 인식을 지원하지 않습니다. Mock 인증으로 대체됩니다.",
+      "fail": "인증에 실패했습니다. 다시 시도해주세요.",
+      "error": "인증 중 오류가 발생했습니다."
+    },
+    "permissions": {
+      "title": "기기 권한 상태",
+      "description": "VX Web V2의 주요 기능을 사용하기 위해 필요한 권한들을 관리합니다.",
+      "camera": "카메라",
+      "location": "위치정보",
+      "push": "푸시알림",
+      "request": "권한 요청",
+      "granted": "허용됨",
+      "denied": "거부됨",
+      "prompt": "요청 필요",
+      "unsupported": "지원되지 않음",
+      "unknown": "상태 불명"
+    }
   }
 }

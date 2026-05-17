@@ -97,6 +97,15 @@
     "experienceZone": {
       "name": "體驗區",
       "description": "互動空間 VR"
+    },
+    "rewardDoll": {
+      "name": "大會紀念娃娃"
+    },
+    "specialKit": {
+      "name": "特別歡迎套裝"
+    },
+    "badgeSet": {
+      "name": "大師勳章套裝"
     }
   }
 }

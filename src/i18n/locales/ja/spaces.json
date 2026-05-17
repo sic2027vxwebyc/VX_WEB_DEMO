@@ -11,7 +11,7 @@
     "shortName": "2ホール",
     "description": "連結動線と補助プログラムの案内が提供される空間です。",
     "zone": "第1展示場 1階",
-    "location": "第1展示장"
+    "location": "第1展示場"
   },
   "hall3": {
     "name": "1展示場 3ホール",
@@ -30,7 +30,7 @@
   "hall5": {
     "name": "1展示場 5ホール",
     "shortName": "5ホール",
-    "description": "目的地案内および主要移動経路が連結される空間입니다。",
+    "description": "目的地案内および主要移動経路が連結される空間です。",
     "zone": "第1展示場 1階",
     "location": "第1展示場"
   },
@@ -105,9 +105,9 @@
     "location": "運営エリア"
   },
   "hSonocalm": {
-    "name": "ソ노カム高陽",
-    "shortName": "ソ노カム",
-    "description": "KINTEX近隣のプレミアム5つ星ホテルで、最高の休息を提供します。",
+    "name": "ソノカム高陽案内地点",
+    "shortName": "ソノカム",
+    "description": "外部宿舎および移動案内と連結される地点です。",
     "zone": "外部連携",
     "location": "連絡通路"
   },
@@ -179,5 +179,19 @@
     "moderate": "普通",
     "high": "高い",
     "easy": "余裕"
+  },
+  "sodam": {
+    "name": "ソダム食事エリア",
+    "shortName": "ソダム",
+    "description": "参加者の食事と休憩のための空間です。",
+    "zone": "食事エリア",
+    "location": "利便施設エリア"
+  },
+  "gate4": {
+    "name": "第4ゲート",
+    "shortName": "4番ゲート",
+    "description": "駐車場および外部とつながる主要ゲートです。",
+    "zone": "出入口",
+    "location": "第1展示場南側"
   }
 }

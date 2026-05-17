@@ -1,44 +1,417 @@
 {
-  "title": "管理控制台",
-  "subtitle": "VX 節點 07 的即時數據及空間協調現況。",
-  "status": {
-    "normal": "系統正常",
-    "sweep": "全域系統掃描"
+  "root": {
+    "title": "管理員儀表板",
+    "subtitle": "整合管理空間營運、獎勵系統與即時公告。"
   },
-  "stats": {
-    "activeVisitors": "活躍訪客",
-    "passAuth": "每分鐘通行證驗證",
-    "peakTime": "尖峰時段",
-    "infrastructure": "基礎設施節點狀態",
-    "upTime": "{percent}% 運作中"
-  },
-  "heatmap": {
-    "title": "即時熱點圖：Level {level}",
-    "alert": "{zone} 區域容納人數超限警報",
-    "levels": {
-      "low": "低",
-      "moderate": "中",
-      "high": "高"
+  "operations": {
+    "title": "營運控制",
+    "description": "即時擁擠度及進出管制",
+    "subtitle": "監控國際大會現場的空間擁擠度與進出狀態。",
+    "heatmap": "即時熱點圖",
+    "manualOverride": "手動控制擁擠度",
+    "restrictedAreas": "進出管制區域",
+    "eventLog": "營運事件日誌",
+    "liveMonitoring": "實時監控已啟動",
+    "realTimeStream": "即時串流",
+    "engineActive": "營運智能引擎已啟動",
+    "kpi": {
+      "activeZones": "營運區域",
+      "crowdedZones": "擁擠區域",
+      "restrictedZones": "管制區域",
+      "recommendedActions": "建議措施"
     },
-    "floors": {
-      "1f": "1樓",
-      "2f": "2樓",
-      "3f": "3樓"
+    "congestion": {
+      "auto": "自動",
+      "low": "空閒",
+      "moderate": "普通",
+      "high": "擁擠",
+      "critical": "非常擁擠"
+    },
+    "access": {
+      "open": "正常營運",
+      "limited": "部分限制",
+      "restricted": "限制進出",
+      "closed": "關閉"
+    },
+    "reset": "重置模擬營運數據",
+    "lastUpdate": "最後更新: {time}",
+    "noEvents": "沒有記錄的營運事件。",
+    "controls": {
+      "selectSpace": "選擇空間",
+      "currentStatus": "目前狀態",
+      "apply": "套用",
+      "reason": "限制原因",
+      "expectedTime": "預計解除時間",
+      "clear": "解除"
+    },
+    "logs": {
+      "congestionChanged": "{id} 擁擠度設定變更: {level}",
+      "congestionReset": "{id} 擁擠度手動設定已解除",
+      "accessChanged": "{id} 進出狀態變更: {status}",
+      "accessReset": "{id} 進出管制已解除",
+      "reset": "營運數據重置完成",
+      "crowdedAction": "區域擁擠。建議啟動繞道指引。"
     }
   },
-  "alerts": {
-    "security": {
-      "title": "未經授權進入檢測：{gate}",
-      "desc": "保安團隊已出動。封鎖協議執行中。"
+  "gamification": {
+    "title": "獎勵管理",
+    "description": "集章活動與任務控制",
+    "subtitle": "以 JSON 為基礎管理集章活動、紀念品庫存與動態任務。",
+    "stampDashboard": "集章活動狀態板",
+    "rewardStock": "紀念品庫存管理",
+    "questControl": "動態生成任務",
+    "eventLog": "遊戲化日誌",
+    "engineActive": "獎勵引擎已啟動",
+    "participationTrend": "參與趨勢",
+    "noEvents": "無事件",
+    "reset": "重置模擬數據",
+    "logs": {
+      "rewardStockAdjusted": "{id} 庫存調整: {delta} (剩餘庫存: {remaining})",
+      "rewardStatusChanged": "{id} 狀態手動變更: {status}",
+      "questCreated": "新動態任務已生成: {title}",
+      "questStatusChanged": "任務狀態變更: {id} -> {status}",
+      "questDeleted": "任務已刪除: {id}",
+      "reset": "遊戲化模擬數據重置完成",
+      "scannerSuccess": "偵測到 QR 掃描: {spot} (ID: {id})"
     },
-    "power": {
-      "title": "電力不穩定：{wing}",
-      "desc": "緊急發電機運作中 (負載 {load}%)"
+    "kpi": {
+      "totalParticipants": "總參與人數",
+      "averageStampCount": "平均印章數",
+      "completedParticipants": "完成人數",
+      "completionRate": "完成率"
     },
-    "support": {
-      "title": "新增支援請求",
-      "desc": "{hall} 需要無障礙支援。"
+    "rewardStatus": {
+      "available": "可領取",
+      "low": "庫存不足",
+      "soldOut": "已送完"
+    },
+    "questStatus": {
+      "draft": "草稿",
+      "active": "進行中",
+      "paused": "已暫停",
+      "ended": "已結束"
+    },
+    "quests": {
+      "title": "任務標題",
+      "targetSpace": "目標空間",
+      "reward": "獎勵",
+      "create": "生成動態任務",
+      "placeholder": "請輸入任務名稱...",
+      "translationCenter": {
+        "title": "翻譯中心訪問任務",
+        "description": "訪問翻譯中心，體驗 AI 翻譯導覽。"
+      },
+      "hall5": {
+        "title": "未來技術館探訪",
+        "description": "在 Hall 5 的未來技術館觀賞 VX 全像投影解決方案。"
+      }
+    },
+    "rewards": {
+      "id": "識別 ID",
+      "stockUnits": "庫存數量"
+    },
+    "scanner": {
+      "title": "QR 掃描模擬器",
+      "selectSpot": "選擇掃描地點",
+      "action": "執行 QR 掃描",
+      "scanning": "掃描中...",
+      "success": "掃描成功"
     }
   },
-  "globalAlert": "發布全域警報"
+  "notifications": {
+    "title": "即時公告管理",
+    "description": "緊急跑馬燈與議程變更發佈",
+    "subtitle": "以模擬方式管理緊急跑馬燈與議程變更通知。",
+    "emergencyTicker": "發佈緊急跑馬燈",
+    "sessionChange": "議程變更通知",
+    "activeTickerPreview": "活動中跑馬燈預覽",
+    "liveSimulation": "使用者畫面即時模擬",
+    "messageLabel": "訊息內容",
+    "messagePlaceholder": "請輸入所有使用者必須立即知曉的緊急內容...",
+    "sessionMessagePlaceholder": "請輸入議程變更或延遲原因...",
+    "severityTitle": "優先級 (緊急程度)",
+    "targetScope": "目標區域 (Hall)",
+    "targetLocales": "目標語言",
+    "expiresIn": "過期時間",
+    "broadcastButton": "立即發佈跑馬燈",
+    "sendButton": "發送通知",
+    "selectSession": "選擇目標議程",
+    "changeTypeTitle": "變更類型",
+    "itemsCount": "個項目",
+    "noActiveTickers": "目前沒有活動中的緊急跑馬燈。",
+    "until": "直到",
+    "eventLog": "公告營運日誌",
+    "resetData": "重置公告數據",
+    "noLogs": "沒有公告發送記錄。",
+    "kpi": {
+      "activeTickers": "活動中跑馬燈",
+      "sentNotifications": "已發送通知",
+      "totalLogs": "總日誌數"
+    },
+    "severity": {
+      "info": "指南",
+      "warning": "注意",
+      "emergency": "緊急",
+      "critical": "非常緊急"
+    },
+    "changeType": {
+      "timeChanged": "時間變更",
+      "speakerChanged": "講師變更",
+      "hallChanged": "地點變更",
+      "delayed": "延遲",
+      "cancelled": "取消",
+      "resumed": "恢復"
+    },
+    "status": {
+      "draft": "草稿",
+      "scheduled": "已預約",
+      "active": "活動中",
+      "sent": "已發送",
+      "expired": "已過期"
+    },
+    "target": {
+      "all": "所有使用者",
+      "hallA": "Hall A (主廳)",
+      "hallB": "Hall B (展覽廳)",
+      "vip": "VIP 休息室"
+    },
+    "tickers": {
+      "items": {
+        "ticker001": {
+          "title": "天氣惡劣通知",
+          "message": "受強風影響，戶外接駁車延遲 10 分鐘。請使用室內通道。"
+        },
+        "manual": {
+          "title": "管理員緊急公告"
+        }
+      }
+    },
+    "sessionChanges": {
+      "items": {
+        "delay001": {
+          "title": "議程延遲通知",
+          "message": "Spatial Computing 主題演講因講師個人原因延遲 15 分鐘開始。"
+        },
+        "delayed": {
+          "title": "議程延遲指南"
+        },
+        "timeChanged": {
+          "title": "議程時間變更指南"
+        },
+        "speakerChanged": {
+          "title": "議程講師變更指南"
+        },
+        "hallChanged": {
+          "title": "議程地點變更指南"
+        },
+        "cancelled": {
+          "title": "議程取消指南"
+        },
+        "resumed": {
+          "title": "議程恢復指南"
+        }
+      }
+    },
+    "logs": {
+      "tickerCreated": "緊急跑馬燈已創建: {id}",
+      "tickerActivated": "跑馬燈已啟動: {id}",
+      "tickerDeactivated": "跑馬燈已停用: {id}",
+      "tickerExpired": "跑馬燈強制過期: {id}",
+      "sessionCreated": "議程變更通知已創建: {id}",
+      "sessionSent": "議程變更通知已發送: {id}",
+      "reset": "公告控制數據重置完成"
+    }
+  },
+  "security": {
+    "title": "保安與基礎設施監控",
+    "description": "保安日誌與終端機狀態",
+    "subtitle": "以模擬方式監控保安日誌與現場終端機狀態。",
+    "securityLogs": "保安日誌",
+    "deviceTelemetry": "終端機狀態",
+    "deviceControl": "終端機狀態控制",
+    "operationLog": "保安營運日誌",
+    "logs": {
+      "securityLogStatusChanged": "保安日誌狀態變更: {id} -> {status}",
+      "deviceStatusUpdated": "終端機狀態已更新: {id}",
+      "reset": "保安與遙測數據重置完成"
+    },
+    "eventDetailTitle": "事件詳情與措施",
+    "selectLogToView": "選擇日誌以查看詳情。",
+    "eventStatusTitle": "變更處理狀態",
+    "memoPlaceholder": "請輸入措施內容或備註...",
+    "updateStatusButton": "更新狀態",
+    "selectDeviceToControl": "請選擇要控制的終端機。",
+    "deviceStatusTitle": "終端機營運狀態",
+    "networkStatusTitle": "網路連接狀態",
+    "applyDeviceChanges": "套用終端機設定",
+    "refreshHeartbeat": "強制更新心跳信號",
+    "resetData": "重置保安數據",
+    "noLogs": "沒有記錄的保安營運歷史。",
+    "kpi": {
+      "totalDevices": "總終端機數",
+      "onlineDevices": "在線",
+      "offlineDevices": "離線",
+      "degradedDevices": "需要注意",
+      "newSecurityLogs": "新保安日誌",
+      "criticalEvents": "緊急事件",
+      "unstableNetworks": "網路不穩定"
+    },
+    "severity": {
+      "info": "資訊",
+      "warning": "注意",
+      "high": "危險",
+      "critical": "緊急"
+    },
+    "eventStatus": {
+      "new": "新事件",
+      "reviewing": "審查中",
+      "resolved": "已解決",
+      "ignored": "已忽略"
+    },
+    "deviceType": {
+      "kiosk": "導覽機 (Kiosk)",
+      "qrScanner": "QR 掃描儀",
+      "displayPanel": "指示面板",
+      "operatorTablet": "營運平板",
+      "networkNode": "網路設備"
+    },
+    "deviceStatus": {
+      "online": "在線",
+      "degraded": "注意",
+      "offline": "離線",
+      "maintenance": "維修中"
+    },
+    "networkStatus": {
+      "good": "良好",
+      "unstable": "不穩定",
+      "disconnected": "連接中斷"
+    },
+    "fields": {
+      "deviceId": "終端機 ID",
+      "space": "位置",
+      "occurredAt": "發生時間",
+      "lastHeartbeatAt": "最後信號",
+      "battery": "電池",
+      "cpu": "CPU",
+      "memory": "記憶體",
+      "memo": "備註"
+    },
+    "logs": {
+      "accessDeniedBackstage": {
+        "message": "未授權使用者試圖進入後台區域。"
+      },
+      "tamperAlert": {
+        "message": "伺服器室感應器偵測到物理衝擊。"
+      }
+    },
+    "actions": {
+      "none": "正常營運中",
+      "chargeBattery": "需要充電",
+      "checkPower": "需要檢查電源供應狀態"
+    },
+    "devices": {
+      "kiosk001": {
+        "name": "大廳主導覽機 #1"
+      },
+      "qr002": {
+        "name": "A 閘口 QR 掃描儀"
+      },
+      "node003": {
+        "name": "Hall 2 天花板 AP"
+      }
+    }
+  },
+  "meals": {
+    "title": "便當發放管理",
+    "subtitle": "以模擬方式管理 QR 便當領取確認與進出庫現況。",
+    "inventory": "便當庫存",
+    "qrScanner": "QR 掃描",
+    "reservationList": "預約者名單",
+    "pickupPreview": "領取資訊確認",
+    "pickupLog": "領取與進出庫日誌",
+    "completePickup": "領取完成處理",
+    "logs": {
+      "scanDetected": "偵測到 QR 掃描: {id}",
+      "duplicateDetected": "偵測到重複掃描: {name} ({id})",
+      "pickupCompleted": "領取完成: {name} ({count}個)",
+      "reset": "便當數據重置完成",
+      "notFound": "找不到預約資訊。"
+    },
+    "duplicateDetected": "此 QR 已領取完成。",
+    "scanQrToPreview": "請掃描 QR Code。",
+    "collectionVerified": "便當領取已確認",
+    "noReservations": "沒有預約數據。",
+    "noLogs": "沒有日誌數據。",
+    "resetData": "重置數據",
+    "scanButton": "執行掃描",
+    "status": {
+      "reserved": "已預約",
+      "pickedUp": "已領取",
+      "cancelled": "已取消",
+      "duplicate": "重複嘗試"
+    },
+    "kpi": {
+      "totalStock": "總進庫",
+      "reservedCount": "總預約",
+      "pickedUpCount": "總領取",
+      "remainingCount": "剩餘數量",
+      "duplicateScanCount": "重複掃描"
+    },
+    "fields": {
+      "reservationId": "預約 ID",
+      "congregation": "會眾",
+      "nationality": "國籍",
+      "name": "姓名",
+      "contact": "聯絡方式",
+      "mealCount": "便當數量",
+      "status": "狀態",
+      "pickedUpAt": "領取時間",
+      "pickedUpBy": "處理人",
+      "memo": "備註"
+    }
+  },
+  "hotel": {
+    "title": "飯店入住管理",
+    "subtitle": "以模擬方式營運國際大會參與者的住宿預約現況與 QR 入住。",
+    "qrScanner": "QR 入住掃描儀",
+    "inventoryStatus": "各飯店客房現況",
+    "reservationList": "預約與入住名單",
+    "checkInLog": "入住營運日誌",
+    "completeCheckIn": "入住完成處理",
+    "completeCheckOut": "退房完成處理",
+    "duplicateCheckIn": "此 QR 已辦理入住。",
+    "selectLogToView": "選擇名單以查看詳情。",
+    "kpi": {
+      "totalHotels": "合作飯店",
+      "totalRooms": "總客房數",
+      "checkedIn": "已入住",
+      "noShow": "未現身 (No-show)"
+    },
+    "status": {
+      "reserved": "已預約",
+      "checkedIn": "已入住",
+      "checkedOut": "已退房",
+      "cancelled": "已取消",
+      "noShow": "未現身",
+      "duplicate": "重複嘗試"
+    },
+    "fields": {
+      "hotel": "飯店名稱",
+      "room": "房號",
+      "name": "代表房客",
+      "nationality": "國籍",
+      "congregation": "會眾",
+      "guests": "人數",
+      "status": "狀態",
+      "checkInTime": "入住時間"
+    },
+    "resetData": "重置數據",
+    "noLogs": "沒有入住日誌。",
+    "logs": {
+      "checkIn": "入住完成: {name} ({hotel} {room}號房)",
+      "checkOut": "退房完成: {name} ({hotel} {room}號房)",
+      "reset": "飯店營運數據重置完成",
+      "notFound": "找不到預約資訊。"
+    }
+  }
 }

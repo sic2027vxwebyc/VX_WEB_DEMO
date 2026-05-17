@@ -4,9 +4,10 @@
   "display": {
     "title": "表示",
     "darkMode": "ダークモード",
-    "darkModeDesc": "システム全体にダークテーマ을適用します。",
+    "darkModeDesc": "システム全体にダークテーマを適用します。",
     "highContrast": "高コントラスト",
-    "highContrastDesc": "読みやすさ을向上させるために色コントラスト을上げます。",
+    "highContrastDesc": "読みやすさを向上させるために色のコントラストを上げます。",
+
     "fontSize": "フォントサイズ",
     "fontSizeSmall": "小",
     "fontSizeMedium": "中",

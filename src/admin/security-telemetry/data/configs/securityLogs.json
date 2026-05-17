@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sec-log-0001",
+    "eventType": "accessDenied",
+    "severity": "high",
+    "spaceId": "restricted-backstage",
+    "deviceId": "kiosk-gate-02",
+    "actorType": "unknown",
+    "messageKey": "admin.security.logs.accessDeniedBackstage.message",
+    "occurredAt": "2026-05-17T13:22:00+09:00",
+    "status": "new",
+    "memoKey": "admin.security.logs.memo.none"
+  },
+  {
+    "id": "sec-log-0002",
+    "eventType": "tamperAlert",
+    "severity": "critical",
+    "spaceId": "server-room-01",
+    "deviceId": "sensor-tamper-01",
+    "actorType": "unauthorized",
+    "messageKey": "admin.security.logs.tamperAlert.message",
+    "occurredAt": "2026-05-17T13:45:00+09:00",
+    "status": "reviewing",
+    "memoKey": "admin.security.logs.memo.dispatched"
+  }
+]

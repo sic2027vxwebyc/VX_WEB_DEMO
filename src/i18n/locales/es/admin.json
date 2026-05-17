@@ -1,44 +1,417 @@
 {
-  "title": "Centro de Mando",
-  "subtitle": "Datos en tiempo real y estado de coordinación espacial del Nodo VX 07.",
-  "status": {
-    "normal": "Sistema Normal",
-    "sweep": "Barrido General del Sistema"
+  "root": {
+    "title": "Panel de Administración",
+    "subtitle": "Gestión integrada de operaciones de espacio, sistema de recompensas y avisos en tiempo real."
   },
-  "stats": {
-    "activeVisitors": "Visitantes Activos",
-    "passAuth": "Validación de Pases por Minuto",
-    "peakTime": "Hora Punta",
-    "infrastructure": "Estado de Nodos de Infraestructura",
-    "upTime": "{percent}% en Funcionamiento"
-  },
-  "heatmap": {
-    "title": "Mapa de Calor en Tiempo Real: Nivel {level}",
-    "alert": "Aviso de exceso de capacidad en la zona {zone}",
-    "levels": {
-      "low": "Bajo",
-      "moderate": "Moderado",
-      "high": "Crítico"
+  "operations": {
+    "title": "Control de Operaciones",
+    "description": "Congestión y control de acceso en tiempo real",
+    "subtitle": "Monitorea la congestión del espacio y el estado de acceso en el sitio de la convención internacional.",
+    "heatmap": "Mapa de calor en tiempo real",
+    "manualOverride": "Control manual de congestión",
+    "restrictedAreas": "Zonas de acceso restringido",
+    "eventLog": "Registro de eventos operativos",
+    "liveMonitoring": "Monitoreo en vivo activo",
+    "realTimeStream": "Transmisión en tiempo real",
+    "engineActive": "Motor de inteligencia operativa activo",
+    "kpi": {
+      "activeZones": "Zonas operativas",
+      "crowdedZones": "Zonas congestionadas",
+      "restrictedZones": "Zonas restringidas",
+      "recommendedActions": "Acciones recomendadas"
     },
-    "floors": {
-      "1f": "1F",
-      "2f": "2F",
-      "3f": "3F"
+    "congestion": {
+      "auto": "Auto",
+      "low": "Baja",
+      "moderate": "Moderada",
+      "high": "Alta",
+      "critical": "Muy congestionada"
+    },
+    "access": {
+      "open": "Operación normal",
+      "limited": "Limitado",
+      "restricted": "Acceso restringido",
+      "closed": "Cerrado"
+    },
+    "reset": "Reiniciar datos operativos",
+    "lastUpdate": "Última actualización: {time}",
+    "noEvents": "No hay eventos operativos registrados.",
+    "controls": {
+      "selectSpace": "Seleccionar espacio",
+      "currentStatus": "Estado actual",
+      "apply": "Aplicar",
+      "reason": "Razón de restricción",
+      "expectedTime": "Hora estimada de apertura",
+      "clear": "Desbloquear"
+    },
+    "logs": {
+      "congestionChanged": "{id} nivel de congestión cambiado: {level}",
+      "congestionReset": "{id} control manual de congestión desactivado",
+      "accessChanged": "{id} estado de acceso cambiado: {status}",
+      "accessReset": "{id} restricción de acceso desactivada",
+      "reset": "Reinicio de datos operativos completado",
+      "crowdedAction": "Zona congestionada. Se recomienda activar guía de desvío."
     }
   },
-  "alerts": {
-    "security": {
-      "title": "Acceso No Autorizado Detectado: {gate}",
-      "desc": "Equipo de seguridad enviado. Protocolo de cierre activo."
+  "gamification": {
+    "title": "Gestión de Premios",
+    "description": "Control de stamp tour y misiones",
+    "subtitle": "Gestione tours de sellos, stock de recuerdos y misiones dinámicas mediante JSON.",
+    "stampDashboard": "Panel de stamp tour",
+    "rewardStock": "Gestión de stock de premios",
+    "questControl": "Creación dinámica de misiones",
+    "eventLog": "Registro de gamificación",
+    "engineActive": "Motor de recompensas activo",
+    "participationTrend": "Tendencia de participación",
+    "noEvents": "Sin eventos",
+    "reset": "Reiniciar datos de simulación",
+    "logs": {
+      "rewardStockAdjusted": "{id} stock ajustado: {delta} (restante: {remaining})",
+      "rewardStatusChanged": "{id} estado cambiado manualmente: {status}",
+      "questCreated": "Nueva misión dinámica creada: {title}",
+      "questStatusChanged": "Estado de misión cambiado: {id} -> {status}",
+      "questDeleted": "Misión eliminada: {id}",
+      "reset": "Reinicio de datos de gamificación completado",
+      "scannerSuccess": "Escaneo QR detectado: {spot} (ID: {id})"
     },
-    "power": {
-      "title": "Inestabilidad Eléctrica: {wing}",
-      "desc": "Generador de emergencia en funcionamiento (carga {load}%)"
+    "kpi": {
+      "totalParticipants": "Total de participantes",
+      "averageStampCount": "Promedio de sellos",
+      "completedParticipants": "Finalizados",
+      "completionRate": "Tasa de finalización"
     },
-    "support": {
-      "title": "Nueva Solicitud de Soporte",
-      "desc": "Se requiere soporte de accesibilidad en el {hall}."
+    "rewardStatus": {
+      "available": "Disponible",
+      "low": "Stock bajo",
+      "soldOut": "Agotado"
+    },
+    "questStatus": {
+      "draft": "Borrador",
+      "active": "Activo",
+      "paused": "Pausado",
+      "ended": "Finalizado"
+    },
+    "quests": {
+      "title": "Título de misión",
+      "targetSpace": "Zona objetivo",
+      "reward": "Recompensa",
+      "create": "Crear misión dinámica",
+      "placeholder": "Ingrese el nombre de la misión...",
+      "translationCenter": {
+        "title": "Misión Centro de Traducción",
+        "description": "Visite el centro de traducción y pruebe la guía de interpretación de IA."
+      },
+      "hall5": {
+        "title": "Exploración Hall 5",
+        "description": "Vea soluciones de hologramas VX en el Hall 5."
+      }
+    },
+    "rewards": {
+      "id": "ID",
+      "stockUnits": "Cantidad en stock"
+    },
+    "scanner": {
+      "title": "Simulador QR",
+      "selectSpot": "Seleccionar lugar",
+      "action": "Escanear QR",
+      "scanning": "Escaneando...",
+      "success": "Éxito"
     }
   },
-  "globalAlert": "Emitir Alerta Global"
+  "notifications": {
+    "title": "Gestión de Avisos",
+    "description": "Difusión de avisos urgentes y cambios",
+    "subtitle": "Gestione avisos urgentes y notificaciones de cambios de sesión.",
+    "emergencyTicker": "Difundir aviso urgente",
+    "sessionChange": "Notificación de cambio de sesión",
+    "activeTickerPreview": "Vista previa activa",
+    "liveSimulation": "Simulación en vivo para usuarios",
+    "messageLabel": "Contenido del mensaje",
+    "messagePlaceholder": "Ingrese el aviso urgente que todos los usuarios deben ver de inmediato...",
+    "sessionMessagePlaceholder": "Ingrese el motivo del cambio o retraso...",
+    "severityTitle": "Prioridad (Urgencia)",
+    "targetScope": "Alcance (Hall)",
+    "targetLocales": "Idiomas",
+    "expiresIn": "Expira en",
+    "broadcastButton": "Difundir aviso ahora",
+    "sendButton": "Enviar notificación",
+    "selectSession": "Seleccionar sesión",
+    "changeTypeTitle": "Tipo de cambio",
+    "itemsCount": " items",
+    "noActiveTickers": "No hay avisos urgentes activos.",
+    "until": "hasta",
+    "eventLog": "Registro de avisos",
+    "resetData": "Reiniciar datos de avisos",
+    "noLogs": "No hay historial de envíos.",
+    "kpi": {
+      "activeTickers": "Avisos activos",
+      "sentNotifications": "Notificaciones enviadas",
+      "totalLogs": "Total registros"
+    },
+    "severity": {
+      "info": "Información",
+      "warning": "Aviso",
+      "emergency": "Urgente",
+      "critical": "Muy urgente"
+    },
+    "changeType": {
+      "timeChanged": "Cambio hora",
+      "speakerChanged": "Cambio orador",
+      "hallChanged": "Cambio lugar",
+      "delayed": "Retrasado",
+      "cancelled": "Cancelado",
+      "resumed": "Reanudado"
+    },
+    "status": {
+      "draft": "Borrador",
+      "scheduled": "Programado",
+      "active": "Activo",
+      "sent": "Enviado",
+      "expired": "Expirado"
+    },
+    "target": {
+      "all": "Todos",
+      "hallA": "Hall A",
+      "hallB": "Hall B",
+      "vip": "VIP Lounge"
+    },
+    "tickers": {
+      "items": {
+        "ticker001": {
+          "title": "Aviso Clima",
+          "message": "Autobuses retrasados 10 min por viento fuerte. Use pasillos interiores."
+        },
+        "manual": {
+          "title": "Aviso Urgente Admin"
+        }
+      }
+    },
+    "sessionChanges": {
+      "items": {
+        "delay001": {
+          "title": "Retraso de Sesión",
+          "message": "La sesión de Spatial Computing comenzará con 15 min de retraso."
+        },
+        "delayed": {
+          "title": "Aviso Retraso"
+        },
+        "timeChanged": {
+          "title": "Aviso Cambio Hora"
+        },
+        "speakerChanged": {
+          "title": "Aviso Cambio Orador"
+        },
+        "hallChanged": {
+          "title": "Aviso Cambio Lugar"
+        },
+        "cancelled": {
+          "title": "Aviso Cancelación"
+        },
+        "resumed": {
+          "title": "Aviso Reanudación"
+        }
+      }
+    },
+    "logs": {
+      "tickerCreated": "Aviso urgente creado: {id}",
+      "tickerActivated": "Aviso activado: {id}",
+      "tickerDeactivated": "Aviso desactivado: {id}",
+      "tickerExpired": "Aviso expirado por fuerza: {id}",
+      "sessionCreated": "Notificación de cambio creada: {id}",
+      "sessionSent": "Notificación enviada: {id}",
+      "reset": "Reinicio de datos de avisos completado"
+    }
+  },
+  "security": {
+    "title": "Seguridad e Infraestructura",
+    "description": "Logs de seguridad y estado de terminales",
+    "subtitle": "Monitorea seguridad y estado de terminales en el sitio.",
+    "securityLogs": "Logs de seguridad",
+    "deviceTelemetry": "Estado de terminales",
+    "deviceControl": "Control de terminales",
+    "operationLog": "Registro operativo",
+    "logs": {
+      "securityLogStatusChanged": "Cambio estado log: {id} -> {status}",
+      "deviceStatusUpdated": "Estado terminal actualizado: {id}",
+      "reset": "Reinicio de datos de seguridad y telemetría completado"
+    },
+    "eventDetailTitle": "Detalles y acciones",
+    "selectLogToView": "Seleccione un log para ver detalles.",
+    "eventStatusTitle": "Cambiar estado",
+    "memoPlaceholder": "Ingrese notas o acciones...",
+    "updateStatusButton": "Actualizar estado",
+    "selectDeviceToControl": "Seleccione terminal.",
+    "deviceStatusTitle": "Estado operativo",
+    "networkStatusTitle": "Estado de red",
+    "applyDeviceChanges": "Aplicar ajustes",
+    "refreshHeartbeat": "Forzar actualización",
+    "resetData": "Reiniciar datos de seguridad",
+    "noLogs": "No hay historial operativo.",
+    "kpi": {
+      "totalDevices": "Total dispositivos",
+      "onlineDevices": "Online",
+      "offlineDevices": "Offline",
+      "degradedDevices": "Atención",
+      "newSecurityLogs": "Nuevos logs",
+      "criticalEvents": "Eventos críticos",
+      "unstableNetworks": "Red inestable"
+    },
+    "severity": {
+      "info": "Información",
+      "warning": "Aviso",
+      "high": "Peligro",
+      "critical": "Urgente"
+    },
+    "eventStatus": {
+      "new": "Nuevo",
+      "reviewing": "En revisión",
+      "resolved": "Resuelto",
+      "ignored": "Ignorado"
+    },
+    "deviceType": {
+      "kiosk": "Kiosco",
+      "qrScanner": "Escáner QR",
+      "displayPanel": "Panel informativo",
+      "operatorTablet": "Tablet operativa",
+      "networkNode": "Equipo de red"
+    },
+    "deviceStatus": {
+      "online": "Conectado",
+      "degraded": "Atención",
+      "offline": "Desconectado",
+      "maintenance": "Mantenimiento"
+    },
+    "networkStatus": {
+      "good": "Buena",
+      "unstable": "Inestable",
+      "disconnected": "Desconectado"
+    },
+    "fields": {
+      "deviceId": "ID Terminal",
+      "space": "Ubicación",
+      "occurredAt": "Hora",
+      "lastHeartbeatAt": "Última señal",
+      "battery": "Batería",
+      "cpu": "CPU",
+      "memory": "Memoria",
+      "memo": "Nota"
+    },
+    "logs": {
+      "accessDeniedBackstage": {
+        "message": "Intento de acceso no autorizado a backstage."
+      },
+      "tamperAlert": {
+        "message": "Impacto físico detectado en sala de servidores."
+      }
+    },
+    "actions": {
+      "none": "Operación normal",
+      "chargeBattery": "Cargar batería",
+      "checkPower": "Revisar alimentación"
+    },
+    "devices": {
+      "kiosk001": {
+        "name": "Kiosco Lobby #1"
+      },
+      "qr002": {
+        "name": "Escáner Puerta A"
+      },
+      "node003": {
+        "name": "AP Hall 2"
+      }
+    }
+  },
+  "meals": {
+    "title": "Gestión de Almuerzos",
+    "subtitle": "Control de entrega de almuerzos mediante QR y stock.",
+    "inventory": "Stock de almuerzos",
+    "qrScanner": "Escanear QR",
+    "reservationList": "Lista de reservas",
+    "pickupPreview": "Confirmar entrega",
+    "pickupLog": "Registro de entregas",
+    "completePickup": "Finalizar entrega",
+    "logs": {
+      "scanDetected": "Escaneo QR detectado: {id}",
+      "duplicateDetected": "Escaneo duplicado: {name} ({id})",
+      "pickupCompleted": "Entrega completada: {name} ({count} items)",
+      "reset": "Reinicio de datos de almuerzos completado",
+      "notFound": "Información de reserva no encontrada."
+    },
+    "duplicateDetected": "QR ya entregado.",
+    "scanQrToPreview": "Escanee un código QR.",
+    "collectionVerified": "Entrega verificada",
+    "noReservations": "No hay reservas.",
+    "noLogs": "No hay registros.",
+    "resetData": "Reiniciar",
+    "scanButton": "Escanear",
+    "status": {
+      "reserved": "Reservado",
+      "pickedUp": "Entregado",
+      "cancelled": "Cancelado",
+      "duplicate": "Duplicado"
+    },
+    "kpi": {
+      "totalStock": "Stock total",
+      "reservedCount": "Total reservas",
+      "pickedUpCount": "Total entregados",
+      "remainingCount": "Restante",
+      "duplicateScanCount": "Duplicados"
+    },
+    "fields": {
+      "reservationId": "ID Reserva",
+      "congregation": "Congregación",
+      "nationality": "Nacionalidad",
+      "name": "Nombre",
+      "contact": "Contacto",
+      "mealCount": "Cantidad",
+      "status": "Estado",
+      "pickedUpAt": "Hora entrega",
+      "pickedUpBy": "Operador",
+      "memo": "Nota"
+    }
+  },
+  "hotel": {
+    "title": "Gestión de Hoteles",
+    "subtitle": "Gestión de reservas y check-in QR para participantes.",
+    "qrScanner": "Check-in QR",
+    "inventoryStatus": "Estado por hotel",
+    "reservationList": "Lista de check-in",
+    "checkInLog": "Registro de check-in",
+    "completeCheckIn": "Finalizar check-in",
+    "completeCheckOut": "Finalizar check-out",
+    "duplicateCheckIn": "QR ya procesado.",
+    "selectLogToView": "Seleccione para ver detalles.",
+    "kpi": {
+      "totalHotels": "Hoteles asociados",
+      "totalRooms": "Habitaciones totales",
+      "checkedIn": "En hotel",
+      "noShow": "No-show"
+    },
+    "status": {
+      "reserved": "Reservado",
+      "checkedIn": "En hotel",
+      "checkedOut": "Fuera",
+      "cancelled": "Cancelado",
+      "noShow": "No-show",
+      "duplicate": "Duplicado"
+    },
+    "fields": {
+      "hotel": "Hotel",
+      "room": "Hab.",
+      "name": "Titular",
+      "nationality": "Nac.",
+      "congregation": "Cong.",
+      "guests": "Pers.",
+      "status": "Estado",
+      "checkInTime": "Hora"
+    },
+    "resetData": "Reiniciar datos",
+    "noLogs": "No hay registros de entrada disponibles.",
+    "logs": {
+      "checkIn": "Check-in completado: {name} ({hotel} {room})",
+      "checkOut": "Check-out completado: {name} ({hotel} {room})",
+      "reset": "Reinicio de datos de hoteles completado",
+      "notFound": "Información de reserva no encontrada."
+    }
+  }
 }

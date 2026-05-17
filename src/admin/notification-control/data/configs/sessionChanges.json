@@ -1,0 +1,13 @@
+[
+  {
+    "id": "notification-session-delay-001",
+    "type": "sessionChange",
+    "sessionId": "saturday-afternoon-03",
+    "changeType": "delayed",
+    "titleKey": "admin.notifications.sessionChanges.items.delay001.title",
+    "messageKey": "admin.notifications.sessionChanges.items.delay001.message",
+    "targetLocales": ["ko", "en"],
+    "sentAt": "2026-05-17T14:10:00+09:00",
+    "status": "sent"
+  }
+]

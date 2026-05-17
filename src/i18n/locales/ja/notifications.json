@@ -19,52 +19,52 @@
     "1": {
       "title": "新しいデバイスからのログイン",
       "content": "MacBook ProからVX管理者アカウントへの新しいログインが検出されました。",
-      "time": "2분 전"
+      "time": "2分前"
     },
     "2": {
       "title": "中央ホールの混雑アラート",
       "content": "現在、1階中央ホールの密度が90%を超えています。迂回ルートをご利用ください。",
-      "time": "15분 전"
+      "time": "15分前"
     },
     "3": {
       "title": "基調講演開始10分前",
       "content": "メインアリーナで「未来空間の知能化」セッションがまもなく始まります。",
-      "time": "45분 전"
+      "time": "45分前"
     },
     "4": {
       "title": "システムアップデート完了",
       "content": "空間データベースの同期が正常に完了しました。",
-      "time": "2시간 전"
+      "time": "2時間前"
     },
     "alert-1": {
-      "title": "Emergency Evacuation",
-      "content": "Evacuation is required due to a fire alarm near the North Gate of Exhibition Hall 1. Move to the nearest exit as directed.",
-      "time": "방금 전"
+      "title": "緊急避難案内",
+      "content": "現在、第1展示場北門付近の火災報知器の作動により避難が必要です。係員の指示に従い、最寄りの非常口へ移動してください。",
+      "time": "たった今"
     },
     "alert-2": {
-      "title": "Hall B North Gate Closed",
-      "content": "Entry to Hall B North Gate is temporarily suspended due to crowding. Please use the West Gate (Gate 3).",
-      "time": "5분 전"
+      "title": "Hall B 北門閉鎖案内",
+      "content": "混雑のため、Hall B 北門からの入場を一時的に中断しています。西門（Gate 3）をご利用ください。",
+      "time": "5分前"
     },
     "alert-3": {
-      "title": "Shuttle Bus Delay",
-      "content": "Severe traffic congestion outside KINTEX due to rain. Shuttle bus intervals will be delayed by 15 minutes.",
-      "time": "12분 전"
+      "title": "帰宅シャトルバス遅延",
+      "content": "降雨のため、KINTEX外部道路の渋滞が激しくなっています。シャトルバスの運行間隔が15分程度遅れる予定です。",
+      "time": "12分前"
     },
     "alert-4": {
-      "title": "Lost & Found Alert",
-      "content": "A tablet PC (iPad) was found in the 2nd-floor dining area and is being held at the information desk.",
-      "time": "45분 전"
+      "title": "遺失物受付案内",
+      "content": "タブレットPC（iPad）が2階のレストラン街で発見され、案内デスクにて保管しております。",
+      "time": "45分前"
     },
     "alert-5": {
-      "title": "Strong Wind Advisory",
-      "content": "Please be careful of strong winds when using outdoor rest areas. Outdoor parasol operation has been suspended.",
-      "time": "1시간 전"
+      "title": "強風注意報発令",
+      "content": "屋外の休憩スペースをご利用の際は強風にご注意ください。屋外パラソルの運用を中断しております。",
+      "time": "1時間前"
     },
     "alert-6": {
-      "title": "Battery Replacement",
-      "content": "You can immediately replace interpretation equipment batteries at the information desk at each hall entrance.",
-      "time": "2시간 전"
+      "title": "通訳機器のバッテリー交換",
+      "content": "各ホール入口の案内デスクにて、通訳機器のバッテリーをすぐに交換いただけます。",
+      "time": "2時間前"
     }
   }
 }

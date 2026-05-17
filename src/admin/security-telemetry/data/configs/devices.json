@@ -1,0 +1,41 @@
+[
+  {
+    "id": "device-kiosk-001",
+    "nameKey": "admin.security.devices.kiosk001.name",
+    "type": "kiosk",
+    "spaceId": "hall-1",
+    "status": "online",
+    "networkStatus": "good",
+    "batteryPercent": 92,
+    "cpuUsage": 34,
+    "memoryUsage": 48,
+    "lastHeartbeatAt": "2026-05-17T13:25:00+09:00",
+    "recommendedActionKey": "admin.security.actions.none"
+  },
+  {
+    "id": "device-qr-002",
+    "nameKey": "admin.security.devices.qr002.name",
+    "type": "qrScanner",
+    "spaceId": "gate-a",
+    "status": "degraded",
+    "networkStatus": "unstable",
+    "batteryPercent": 15,
+    "cpuUsage": 12,
+    "memoryUsage": 22,
+    "lastHeartbeatAt": "2026-05-17T13:58:00+09:00",
+    "recommendedActionKey": "admin.security.actions.chargeBattery"
+  },
+  {
+    "id": "device-node-003",
+    "nameKey": "admin.security.devices.node003.name",
+    "type": "networkNode",
+    "spaceId": "hall-2-ceiling",
+    "status": "offline",
+    "networkStatus": "disconnected",
+    "batteryPercent": 0,
+    "cpuUsage": 0,
+    "memoryUsage": 0,
+    "lastHeartbeatAt": "2026-05-17T12:00:00+09:00",
+    "recommendedActionKey": "admin.security.actions.checkPower"
+  }
+]

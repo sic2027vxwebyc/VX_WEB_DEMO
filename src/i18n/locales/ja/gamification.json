@@ -1,7 +1,7 @@
 {
   "stampTour": "スタンプラリー",
   "challengeTitle": "Convention Exploration Challenge",
-  "challengeDesc": "会場内のQRコード를スキャンして、自分だけのパスポートを完成させましょう。",
+  "challengeDesc": "会場内のQRコードをスキャンして、自分だけのパスポートを完成させましょう。",
   "startExploration": "探索を開始",
   "scanQr": "QRスキャン",
   "viewPassport": "パスポートを表示",
@@ -97,6 +97,15 @@
     "experienceZone": {
       "name": "体験ゾーン",
       "description": "インタラクティブ空間VR"
+    },
+    "rewardDoll": {
+      "name": "コンベンション記念人形"
+    },
+    "specialKit": {
+      "name": "スペシャルウェルカムキット"
+    },
+    "badgeSet": {
+      "name": "マスターバッジセット"
     }
   }
 }

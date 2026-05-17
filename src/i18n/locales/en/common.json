@@ -11,19 +11,19 @@
   "minutes": "min",
   "viewAll": "View All",
   "details": "Details",
-  "viewDetails": "View details",
+  "viewDetails": "View Details",
   "status": "Status",
   "live": "Live",
-  "morning": "Morning",
-  "afternoon": "Afternoon",
-  "evening": "Evening",
+  "morning": "AM",
+  "afternoon": "PM",
+  "evening": "Eve",
   "minutesRemaining": "{min} min remaining",
-  "lastUpdated": "Last updated",
+  "lastUpdated": "Last Updated",
   "refresh": "Refresh",
-  "language": "Select Language",
-  "justNow": "Just now",
+  "language": "Language",
+  "justNow": "Just Now",
   "routing": "Routing",
-  "mapView": "View on Map",
+  "mapView": "Map View",
   "viewer360": "360 Preview",
   "digitalAchievements": "Digital Achievements",
   "conventionChallenge": "Convention Challenge",
@@ -59,12 +59,19 @@
   },
   "facilities": {
     "restroom": "Restroom",
-    "infoDesk": "Information Desk",
+    "infoDesk": "Info Desk",
     "diningArea": "Dining Area",
     "exit": "Exit",
     "westGate": "West Gate",
     "nearby": "Nearby Areas"
   },
+  "items": {
+    "coffeeCoupon": {
+      "name": "Free Coffee Coupon"
+    }
+  },
   "telemetry": "Telemetry",
-  "unknown": "Unknown"
+  "unknown": "Unknown",
+  "hour": "hour",
+  "hours": "hours"
 }

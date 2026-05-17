@@ -1,44 +1,417 @@
 {
-  "title": "Command Center",
-  "subtitle": "Real-time data and spatial coordination status of VX Node 07.",
-  "status": {
-    "normal": "System Normal",
-    "sweep": "Global System Sweep"
+  "root": {
+    "title": "Admin Dashboard",
+    "subtitle": "Integrated management of space operations, reward systems, and real-time notifications."
   },
-  "stats": {
-    "activeVisitors": "Active Visitors",
-    "passAuth": "Pass Auth/Min",
-    "peakTime": "Peak Time",
-    "infrastructure": "Infrastructure Status",
-    "upTime": "{percent}% Up-time"
-  },
-  "heatmap": {
-    "title": "Real-time Heatmap: Level {level}",
-    "alert": "Warning: Overcapacity in Zone {zone}",
-    "levels": {
+  "operations": {
+    "title": "Operational Intelligence",
+    "description": "Real-time congestion and access control",
+    "subtitle": "Monitor space congestion and access status of the international convention site.",
+    "heatmap": "Real-time Heatmap",
+    "manualOverride": "Manual Congestion Control",
+    "restrictedAreas": "Restricted Access Areas",
+    "eventLog": "Operational Event Log",
+    "liveMonitoring": "Live Monitoring Active",
+    "realTimeStream": "Real-time Stream",
+    "engineActive": "Operational Intelligence Active",
+    "kpi": {
+      "activeZones": "Active Zones",
+      "crowdedZones": "Crowded Zones",
+      "restrictedZones": "Restricted Zones",
+      "recommendedActions": "Recommended Actions"
+    },
+    "congestion": {
+      "auto": "Auto",
       "low": "Low",
       "moderate": "Moderate",
-      "high": "Critical"
+      "high": "High",
+      "critical": "Critical"
     },
-    "floors": {
-      "1f": "1F",
-      "2f": "2F",
-      "3f": "3F"
+    "access": {
+      "open": "Open",
+      "limited": "Limited",
+      "restricted": "Restricted",
+      "closed": "Closed"
+    },
+    "reset": "Reset Mock Data",
+    "lastUpdate": "Last Updated: {time}",
+    "noEvents": "No operational events recorded.",
+    "controls": {
+      "selectSpace": "Select Space",
+      "currentStatus": "Current Status",
+      "apply": "Apply",
+      "reason": "Reason",
+      "expectedTime": "Expected Clear Time",
+      "clear": "Clear"
+    },
+    "logs": {
+      "congestionChanged": "{id} congestion changed: {level}",
+      "congestionReset": "{id} congestion manual override cleared",
+      "accessChanged": "{id} access status changed: {status}",
+      "accessReset": "{id} access restriction cleared",
+      "reset": "Operational data reset complete",
+      "crowdedAction": "Zone crowded. Rerouting recommended."
     }
   },
-  "alerts": {
-    "security": {
-      "title": "Unauthorized Access: Gate {gate}",
-      "desc": "Security team dispatched. Lockdown protocol active."
+  "gamification": {
+    "title": "Reward Management",
+    "description": "Stamp tour and quest control",
+    "subtitle": "Manage stamp tours, souvenir stock, and dynamic quests based on JSON.",
+    "stampDashboard": "Stamp Tour Dashboard",
+    "rewardStock": "Souvenir Stock Management",
+    "questControl": "Dynamic Quest Creation",
+    "eventLog": "Gamification Log",
+    "engineActive": "Reward Engine Active",
+    "participationTrend": "Participation Trend",
+    "noEvents": "No events",
+    "reset": "Reset Mock Data",
+    "logs": {
+      "rewardStockAdjusted": "{id} stock adjusted: {delta} (remaining: {remaining})",
+      "rewardStatusChanged": "{id} status manually changed: {status}",
+      "questCreated": "New dynamic quest created: {title}",
+      "questStatusChanged": "Quest status changed: {id} -> {status}",
+      "questDeleted": "Quest deleted: {id}",
+      "reset": "Gamification data reset complete",
+      "scannerSuccess": "QR Scan Detected: {spot} (ID: {id})"
     },
-    "power": {
-      "title": "Power Instability: Wing {wing}",
-      "desc": "Backup generators running ({load}% load)"
+    "kpi": {
+      "totalParticipants": "Total Participants",
+      "averageStampCount": "Avg. Stamps",
+      "completedParticipants": "Completed",
+      "completionRate": "Completion Rate"
     },
-    "support": {
-      "title": "New Support Request",
-      "desc": "Accessibility support required in Hall {hall}."
+    "rewardStatus": {
+      "available": "Available",
+      "low": "Low Stock",
+      "soldOut": "Sold Out"
+    },
+    "questStatus": {
+      "draft": "Draft",
+      "active": "Active",
+      "paused": "Paused",
+      "ended": "Ended"
+    },
+    "quests": {
+      "title": "Quest Title",
+      "targetSpace": "Target Space",
+      "reward": "Reward",
+      "create": "Create Dynamic Quest",
+      "placeholder": "Enter quest name...",
+      "translationCenter": {
+        "title": "Translation Center Mission",
+        "description": "Visit the translation center and experience the AI interpretation guide."
+      },
+      "hall5": {
+        "title": "Future Tech Hall Exploration",
+        "description": "Watch VX hologram solutions at the Future Tech Hall in Hall 5."
+      }
+    },
+    "rewards": {
+      "id": "Identifier ID",
+      "stockUnits": "Stock Units"
+    },
+    "scanner": {
+      "title": "QR Scan Simulator",
+      "selectSpot": "Select Spot to Scan",
+      "action": "Execute QR Scan",
+      "scanning": "Scanning...",
+      "success": "Scan Success"
     }
   },
-  "globalAlert": "Global Alert"
+  "notifications": {
+    "title": "Notification Control",
+    "description": "Broadcast emergency tickers and session changes",
+    "subtitle": "Manage emergency tickers and session change notifications via mock data.",
+    "emergencyTicker": "Broadcast Emergency Ticker",
+    "sessionChange": "Session Change Alert",
+    "activeTickerPreview": "Active Ticker Preview",
+    "liveSimulation": "User Screen Live Simulation",
+    "messageLabel": "Message Content",
+    "messagePlaceholder": "Enter emergency content that all users must immediately recognize...",
+    "sessionMessagePlaceholder": "Enter reason for schedule change or delay...",
+    "severityTitle": "Priority (Severity)",
+    "targetScope": "Target Scope (Hall)",
+    "targetLocales": "Target Locales",
+    "expiresIn": "Expiry Time",
+    "broadcastButton": "Broadcast Now",
+    "sendButton": "Send Notification",
+    "selectSession": "Select Target Session",
+    "changeTypeTitle": "Change Type",
+    "itemsCount": " items",
+    "noActiveTickers": "No active emergency tickers.",
+    "until": "until",
+    "eventLog": "Notification Log",
+    "resetData": "Reset Data",
+    "noLogs": "No notification history.",
+    "kpi": {
+      "activeTickers": "Active Tickers",
+      "sentNotifications": "Sent Alerts",
+      "totalLogs": "Total Logs"
+    },
+    "severity": {
+      "info": "Info",
+      "warning": "Warning",
+      "emergency": "Emergency",
+      "critical": "Critical"
+    },
+    "changeType": {
+      "timeChanged": "Time Changed",
+      "speakerChanged": "Speaker Changed",
+      "hallChanged": "Hall Changed",
+      "delayed": "Delayed",
+      "cancelled": "Cancelled",
+      "resumed": "Resumed"
+    },
+    "status": {
+      "draft": "Draft",
+      "scheduled": "Scheduled",
+      "active": "Active",
+      "sent": "Sent",
+      "expired": "Expired"
+    },
+    "target": {
+      "all": "All Users",
+      "hallA": "Hall A (Main Hall)",
+      "hallB": "Hall B (Exhibition)",
+      "vip": "VIP Lounge"
+    },
+    "tickers": {
+      "items": {
+        "ticker001": {
+          "title": "Weather Alert",
+          "message": "Outdoor shuttle buses are delayed by 10 minutes due to strong winds. Please use indoor passages."
+        },
+        "manual": {
+          "title": "Admin Emergency Notice"
+        }
+      }
+    },
+    "sessionChanges": {
+      "items": {
+        "delay001": {
+          "title": "Session Delay Notice",
+          "message": "Spatial Computing Keynote will start 15 minutes late due to speaker circumstances."
+        },
+        "delayed": {
+          "title": "Session Delay Info"
+        },
+        "timeChanged": {
+          "title": "Session Time Change Info"
+        },
+        "speakerChanged": {
+          "title": "Session Speaker Change Info"
+        },
+        "hallChanged": {
+          "title": "Session Hall Change Info"
+        },
+        "cancelled": {
+          "title": "Session Cancellation Info"
+        },
+        "resumed": {
+          "title": "Session Resumption Info"
+        }
+      }
+    },
+    "logs": {
+      "tickerCreated": "Emergency Ticker Created: {id}",
+      "tickerActivated": "Ticker Activated: {id}",
+      "tickerDeactivated": "Ticker Deactivated: {id}",
+      "tickerExpired": "Ticker Force Expired: {id}",
+      "sessionCreated": "Session Change Created: {id}",
+      "sessionSent": "Session Change Sent: {id}",
+      "reset": "Notification control data reset complete"
+    }
+  },
+  "security": {
+    "title": "Security & Infrastructure",
+    "description": "Security logs and device status",
+    "subtitle": "Monitor security logs and onsite device status via mock data.",
+    "securityLogs": "Security Logs",
+    "deviceTelemetry": "Device Telemetry",
+    "deviceControl": "Device Control",
+    "operationLog": "Security Operation Log",
+    "logs": {
+      "securityLogStatusChanged": "Security log status changed: {id} -> {status}",
+      "deviceStatusUpdated": "Device status updated: {id}",
+      "reset": "Security and telemetry data reset complete"
+    },
+    "eventDetailTitle": "Event Details & Actions",
+    "selectLogToView": "Select a log to view details.",
+    "eventStatusTitle": "Update Event Status",
+    "memoPlaceholder": "Enter action details or notes...",
+    "updateStatusButton": "Update Status",
+    "selectDeviceToControl": "Select a device to control.",
+    "deviceStatusTitle": "Device Status",
+    "networkStatusTitle": "Network Connectivity",
+    "applyDeviceChanges": "Apply Device Settings",
+    "refreshHeartbeat": "Force Heartbeat Refresh",
+    "resetData": "Reset Security Data",
+    "noLogs": "No security operation history recorded.",
+    "kpi": {
+      "totalDevices": "Total Devices",
+      "onlineDevices": "Online",
+      "offlineDevices": "Offline",
+      "degradedDevices": "Attention",
+      "newSecurityLogs": "New Logs",
+      "criticalEvents": "Critical Events",
+      "unstableNetworks": "Unstable Network"
+    },
+    "severity": {
+      "info": "Info",
+      "warning": "Warning",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "eventStatus": {
+      "new": "New",
+      "reviewing": "Reviewing",
+      "resolved": "Resolved",
+      "ignored": "Ignored"
+    },
+    "deviceType": {
+      "kiosk": "Kiosk",
+      "qrScanner": "QR Scanner",
+      "displayPanel": "Display Panel",
+      "operatorTablet": "Operator Tablet",
+      "networkNode": "Network Node"
+    },
+    "deviceStatus": {
+      "online": "Online",
+      "degraded": "Degraded",
+      "offline": "Offline",
+      "maintenance": "Maintenance"
+    },
+    "networkStatus": {
+      "good": "Good",
+      "unstable": "Unstable",
+      "disconnected": "Disconnected"
+    },
+    "fields": {
+      "deviceId": "Device ID",
+      "space": "Location",
+      "occurredAt": "Occurred At",
+      "lastHeartbeatAt": "Last Heartbeat",
+      "battery": "Battery",
+      "cpu": "CPU",
+      "memory": "Memory",
+      "memo": "Memo"
+    },
+    "logs": {
+      "accessDeniedBackstage": {
+        "message": "Unauthorized user attempted to enter the backstage area."
+      },
+      "tamperAlert": {
+        "message": "Physical impact detected at server room sensor."
+      }
+    },
+    "actions": {
+      "none": "Operating normally",
+      "chargeBattery": "Battery charge required",
+      "checkPower": "Check power supply status"
+    },
+    "devices": {
+      "kiosk001": {
+        "name": "Main Lobby Kiosk #1"
+      },
+      "qr002": {
+        "name": "Gate A QR Scanner"
+      },
+      "node003": {
+        "name": "Hall 2 Ceiling AP"
+      }
+    }
+  },
+  "meals": {
+    "title": "Meal Distribution",
+    "subtitle": "Manage QR-based meal distribution and stock status via mock data.",
+    "inventory": "Meal Inventory",
+    "qrScanner": "QR Scanner",
+    "reservationList": "Reservation List",
+    "pickupPreview": "Verify Pickup Info",
+    "pickupLog": "Pickup & Stock Log",
+    "completePickup": "Complete Pickup",
+    "logs": {
+      "scanDetected": "QR Scan Detected: {id}",
+      "duplicateDetected": "Duplicate Scan Detected: {name} ({id})",
+      "pickupCompleted": "Pickup Completed: {name} ({count} items)",
+      "reset": "Meal data reset complete",
+      "notFound": "Reservation information not found."
+    },
+    "duplicateDetected": "QR already picked up.",
+    "scanQrToPreview": "Please scan a QR code.",
+    "collectionVerified": "Meal collection verified",
+    "noReservations": "No reservation data.",
+    "noLogs": "No log data.",
+    "resetData": "Reset Data",
+    "scanButton": "Execute Scan",
+    "status": {
+      "reserved": "Reserved",
+      "pickedUp": "Picked Up",
+      "cancelled": "Cancelled",
+      "duplicate": "Duplicate"
+    },
+    "kpi": {
+      "totalStock": "Total Stock",
+      "reservedCount": "Total Reserved",
+      "pickedUpCount": "Total Picked Up",
+      "remainingCount": "Remaining",
+      "duplicateScanCount": "Duplicate Scans"
+    },
+    "fields": {
+      "reservationId": "Res ID",
+      "congregation": "Congregation",
+      "nationality": "Nationality",
+      "name": "Name",
+      "contact": "Contact",
+      "mealCount": "Meal Count",
+      "status": "Status",
+      "pickedUpAt": "Picked Up At",
+      "pickedUpBy": "Processed By",
+      "memo": "Remarks"
+    }
+  },
+  "hotel": {
+    "title": "Hotel Check-in",
+    "subtitle": "Manage participant accommodation reservations and QR check-in via mock data.",
+    "qrScanner": "QR Check-in Scanner",
+    "inventoryStatus": "Room Status by Hotel",
+    "reservationList": "Reservation & Check-in List",
+    "checkInLog": "Check-in Log",
+    "completeCheckIn": "Process Check-in",
+    "completeCheckOut": "Process Check-out",
+    "duplicateCheckIn": "QR already checked in.",
+    "selectLogToView": "Select a list item to view details.",
+    "kpi": {
+      "totalHotels": "Partner Hotels",
+      "totalRooms": "Total Rooms",
+      "checkedIn": "Checked-in",
+      "noShow": "No-show"
+    },
+    "status": {
+      "reserved": "Reserved",
+      "checkedIn": "Checked-in",
+      "checkedOut": "Checked-out",
+      "cancelled": "Cancelled",
+      "noShow": "No-show",
+      "duplicate": "Duplicate"
+    },
+    "fields": {
+      "hotel": "Hotel Name",
+      "room": "Room",
+      "name": "Primary Guest",
+      "nationality": "Nationality",
+      "congregation": "Congregation",
+      "guests": "Guests",
+      "status": "Status",
+      "checkInTime": "Check-in Time"
+    },
+    "resetData": "Reset Data",
+    "noLogs": "No check-in logs available.",
+    "logs": {
+      "checkIn": "Check-in Complete: {name} ({hotel} {room})",
+      "checkOut": "Check-out Complete: {name} ({hotel} {room})",
+      "reset": "Hotel operation data reset complete",
+      "notFound": "Reservation information not found."
+    }
+  }
 }

@@ -8,22 +8,22 @@
   "settings": "設定",
   "search": "搜尋",
   "more": "更多",
-  "minutes": "分鐘",
-  "viewAll": "查看全部",
+  "minutes": "分",
+  "viewAll": "全部查看",
   "details": "詳細資訊",
-  "viewDetails": "查看詳情",
-  "status": "現況",
-  "live": "實時",
+  "viewDetails": "查看詳細資訊",
+  "status": "狀態",
+  "live": "即時",
   "morning": "上午",
   "afternoon": "下午",
   "evening": "晚上",
   "minutesRemaining": "剩餘 {min} 分鐘",
   "lastUpdated": "最後更新",
-  "refresh": "整理",
-  "language": "語言選擇",
-  "justNow": "剛才",
-  "routing": "導航",
-  "mapView": "在地圖上查看",
+  "refresh": "重新整理",
+  "language": "語言",
+  "justNow": "剛剛",
+  "routing": "路徑規劃",
+  "mapView": "地圖查看",
   "viewer360": "360 預覽",
   "digitalAchievements": "數位成就",
   "conventionChallenge": "大會挑戰",
@@ -31,7 +31,7 @@
   "rewardCenter": "獎勵中心",
   "digitalPassport": "數位護照",
   "unlocked": "已解鎖",
-  "v2Experience": "V2體驗",
+  "v2Experience": "V2 體驗",
   "liveUpper": "LIVE",
   "locations": {
     "1fEast": "1F 東側",
@@ -49,13 +49,13 @@
     "2fPlaza": "2F 廣場",
     "1fOuter": "1F 外部",
     "1fLobby": "1F 大廳",
-    "1fEntry": "1F 入口",
+    "1fEntry": "1F 入口處",
     "2fLobby": "2F 大廳"
   },
   "accessibility": {
-    "brailleGuide": "點字指南",
+    "brailleGuide": "點字導覽",
     "inductionLoop": "感應線圈系統",
-    "wheelchairAccess": "輪椅友善"
+    "wheelchairAccess": "無障礙設施"
   },
   "facilities": {
     "restroom": "洗手間",
@@ -65,6 +65,13 @@
     "westGate": "西門",
     "nearby": "鄰近區域"
   },
-  "telemetry": "遙測",
-  "unknown": "未知"
+  "items": {
+    "coffeeCoupon": {
+      "name": "免費咖啡券"
+    }
+  },
+  "telemetry": "遠端測量",
+  "unknown": "未知",
+  "hour": "小時",
+  "hours": "小時"
 }

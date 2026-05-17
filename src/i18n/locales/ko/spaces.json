@@ -76,6 +76,20 @@
     "zone": "식사 구역",
     "location": "편의시설 구역"
   },
+  "sodam": {
+    "name": "소담 식사 구역",
+    "shortName": "소담",
+    "description": "참석자 식사와 휴식을 위한 공간입니다.",
+    "zone": "식사 구역",
+    "location": "편의시설 구역"
+  },
+  "gate4": {
+    "name": "제4게이트",
+    "shortName": "4번 게이트",
+    "description": "주차장 및 외부와 연결되는 주요 게이트입니다.",
+    "zone": "출입구",
+    "location": "제1전시장 남측"
+  },
   "fBenvenuto": {
     "name": "벤베누토 식사 구역",
     "shortName": "벤베누토",

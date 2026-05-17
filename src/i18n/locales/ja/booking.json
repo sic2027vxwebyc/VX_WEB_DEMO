@@ -3,7 +3,7 @@
   "confirmed": "予約完了",
   "details": {
     "date": "日付",
-    "time": "시간",
+    "time": "時間",
     "location": "場所"
   },
   "instructions": "* 入場5分前から有効になります。入口のリーダーでQRコードをスキャンしてください。",

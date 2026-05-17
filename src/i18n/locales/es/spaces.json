@@ -179,5 +179,19 @@
     "moderate": "Moderado",
     "high": "Alto",
     "easy": "Fácil"
+  },
+  "sodam": {
+    "name": "Área Sodam",
+    "shortName": "Sodam",
+    "description": "Espacio para que los asistentes coman y descansen.",
+    "zone": "Área de comida",
+    "location": "Zona de servicios"
+  },
+  "gate4": {
+    "name": "Puerta 4",
+    "shortName": "Puerta 4",
+    "description": "Puerta principal que conecta con el aparcamiento y el exterior.",
+    "zone": "Entrada/Salida",
+    "location": "Lado sur del Hall 1"
   }
 }

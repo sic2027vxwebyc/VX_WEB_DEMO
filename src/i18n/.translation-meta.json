@@ -2,92 +2,92 @@
   "navigation.json:title": {
     "sourceHash": "3a9d6a9213d740d76521f4e2427c346c0127a244eea26d3df4ccc049b6211315",
     "sourceText": "내비게이션",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:home": {
     "sourceHash": "034999faab0545b390f07d637f374c256031d13657c3bd951d07f7cfbbd38ec3",
     "sourceText": "홈",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:explore": {
     "sourceHash": "4ea159b30a6bc07340f02a6234863504adea0f9a92dd7986f13717a8cceb14c4",
     "sourceText": "탐색",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:map": {
     "sourceHash": "801d47920571f0932ff0c8efdcfe603a491bb8153754592cb3bf76ea0fbb4442",
     "sourceText": "인터랙티브 맵",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:events": {
     "sourceHash": "bdbb51efa4864c4b7db69d0fd954ff129924101a215cdb69e2bfa084194729d8",
     "sourceText": "이벤트 일정",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:notifications": {
     "sourceHash": "364a8cdebbd824090463a4178b52dc1c19d98ae296c8f6a63c4a37ce0ad918ad",
     "sourceText": "알림 센터",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:admin": {
     "sourceHash": "e12d364670e345d9a013c614bdfe9bcf806f0b57ec23d89ddd6a49c9a42fc1d0",
     "sourceText": "관리자 대시보드",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:settings": {
     "sourceHash": "115bced49291a6a0df971e8cd50b00fad1ea43e34be6d37b41f7128b3cf6a65d",
     "sourceText": "설정",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:help": {
     "sourceHash": "90241a8d01e451c8b93d908c270497f55c716f0201471f8ace25cc6d96efbf64",
     "sourceText": "도움말",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:logout": {
     "sourceHash": "919c1b32322583720f0004b3ec6c8d8cebdf585d5606966bb403768eb699ea13",
     "sourceText": "로그아웃",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:newRoute": {
     "sourceHash": "c69182b9ffc04ce4a345f1c777ea3c1546a1d2132f13cf42838fd8312efdbacb",
     "sourceText": "새 경로 생성",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:stamp": {
     "sourceHash": "cce47ab17abbfa94bb2bb9e73f99f08815fdb2ef5d8589982e00ee8962118293",
     "sourceText": "스탬프 투어",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:passport": {
     "sourceHash": "31c2815666c643040cf9a54ef2f8bcd8652f657699641451a9574a877ed01e42",
     "sourceText": "패스포트",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:quests": {
     "sourceHash": "d444f4b58320b9f8b1e0b38e01f3927aa7df38225d9e7b538853ff9f0c41d5e1",
     "sourceText": "퀘스트 허브",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:badges": {
     "sourceHash": "32569818b45f28c231c9ba6182a9ddba77839c7844b1155d80e075b0c0a660ef",
     "sourceText": "배지 컬렉션",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:reward": {
     "sourceHash": "bb40c01b6cac5081c0ed8e9fff86d9e3de44ee26f3d12530946347feda229ed5",
     "sourceText": "보상 수령",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:globalNav": {
     "sourceHash": "c3aeba06aac5f255be3fac23ddbad9e975b213ede47d417dd8871f6a8b6cd62b",
     "sourceText": "데모웹사이트",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "navigation.json:spatialIntelligence": {
     "sourceHash": "48d7816697497672c82281dbe411090a651c2b7e7e506cdeda2f1583f6bda453",
     "sourceText": "2027 서울국제대회",
-    "timestamp": "2026-05-16T13:53:27.736Z"
+    "timestamp": "2026-05-17T04:27:54.539Z"
   },
   "admin.json:title": {
     "sourceHash": "b4d88379d168fc43cb287ed20c453d596785acfd8ce4d1e45f1fa8088aa29413",
@@ -5803,5 +5803,1315 @@
     "sourceHash": "0067bb032e9b59c1d76f3cd870f7647aa33095756b428b19d270785f447d2e4f",
     "sourceText": "시스템에는 **최우선 순위 긴급 대응 UI(Emergency Ticker)**가 내장되어 있습니다. 비상 상황 발생 시, 모든 페이지의 최상단 레이어에 고대비 애니메이션 티커가 즉각 활성화됩니다. 이 티커는 다른 어떤 UI 요소보다 높은 z-index를 가지며, 사용자가 어떤 페이지에 있더라도 즉각적으로 위험을 인지하고 대처할 수 있도록 설계되었습니다.",
     "timestamp": "2026-05-16T16:16:55.575Z"
+  },
+  "admin.json:root.title": {
+    "sourceHash": "e12d364670e345d9a013c614bdfe9bcf806f0b57ec23d89ddd6a49c9a42fc1d0",
+    "sourceText": "관리자 대시보드",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:root.subtitle": {
+    "sourceHash": "db855c7424b8c2577458c072aa24f7e592ff3929b011ee62cb49b2ef54ef24a3",
+    "sourceText": "공간 운영, 보상 시스템, 실시간 공지를 통합 관리합니다.",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.title": {
+    "sourceHash": "87cc9a22a4d205b26b05ad5b52136ef383f549128428e71abb560ac18b683213",
+    "sourceText": "운영 관제",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.description": {
+    "sourceHash": "e0f2b69b197dd8d7c22f0af750f62b08904de3b1cd09aa22497e0530c29143ec",
+    "sourceText": "실시간 혼잡도 및 출입 통제",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.subtitle": {
+    "sourceHash": "5de520a2f6ccd7fd1b4d93499bc9836a5005d3ede3873582067cc09d0e64797a",
+    "sourceText": "국제대회 현장의 공간 혼잡도와 출입 상태를 모니터링합니다.",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.heatmap": {
+    "sourceHash": "02e037b7bd1464eff88299c0f405e994b4ac653ec699247dca018c6b49640fdf",
+    "sourceText": "실시간 히트맵",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.manualOverride": {
+    "sourceHash": "b9254394a1c0c2f07b99310baf3252fc9006409400faa2add2122b371fbce3de",
+    "sourceText": "혼잡도 수동 제어",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.restrictedAreas": {
+    "sourceHash": "faeabfc50704e76391ea8cec43d1fd6cd547254cbee31b8aa27a1dcba8924320",
+    "sourceText": "출입 통제 구역",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.eventLog": {
+    "sourceHash": "90f5749560aff52ba321eba08b37ff421dc01558adb1715f2a2930023b083f88",
+    "sourceText": "운영 이벤트 로그",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.kpi.activeZones": {
+    "sourceHash": "d25f6b164bdb6f556c0c1112fdec466fcc39ea3335312a121fee4d6cee4b7112",
+    "sourceText": "운영 구역",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.kpi.crowdedZones": {
+    "sourceHash": "4ad8435d4896110b439a9d25125bc9f32dc014c092b76b2ec0dc56c35c5b0ed1",
+    "sourceText": "혼잡 구역",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.kpi.restrictedZones": {
+    "sourceHash": "ece1ca9c9ac2bc96845ccb9bffeba32caa8e123b119f5d96f11d1a47f0283bd8",
+    "sourceText": "통제 구역",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.kpi.recommendedActions": {
+    "sourceHash": "a1719d8d797282fc2921cb603fcc1e4401c8091e8399a549a3f0017d2d9d4b75",
+    "sourceText": "추천 조치",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.congestion.auto": {
+    "sourceHash": "ca7eb2ef0a71d4f5568cd23b034d418ecd4a33cc7d24c9735e1e8f309e565350",
+    "sourceText": "자동",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.congestion.low": {
+    "sourceHash": "6652674430e5064bcf87c4a187e33fe91a8a9b9349a1956969e04e02996c60f5",
+    "sourceText": "여유",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.congestion.moderate": {
+    "sourceHash": "666599febd987f532ea6ab000ee16ee7d5838beed690d2f9b174aab30ce78307",
+    "sourceText": "보통",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.congestion.high": {
+    "sourceHash": "75211bacf638e73075f505fa84318228650ae8763f83df6214251de41aa4b870",
+    "sourceText": "혼잡",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.congestion.critical": {
+    "sourceHash": "6ea68bb670189f4bb5eed1f78f09cf5e1400eb784fb95a4576d60099b6cba3b0",
+    "sourceText": "매우 혼잡",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.access.open": {
+    "sourceHash": "a895e32de1ce84832a4a1d5e94144b96be4a05795c9508fb71a62196ccedbf02",
+    "sourceText": "정상 운영",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.access.limited": {
+    "sourceHash": "b901c5b3ce8c4ada7adea7f330775f6d2361a01a9e9db339c67b63422bfaf669",
+    "sourceText": "일부 제한",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.access.restricted": {
+    "sourceHash": "2e9a810295185cf445cc40c468c9a32eff179830446cdf62aba22ddbd536418d",
+    "sourceText": "출입 제한",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.access.closed": {
+    "sourceHash": "d89543c05487e14ecc9deed59d6657bc35b4c61db43f99867fda00b04dac1918",
+    "sourceText": "폐쇄",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.reset": {
+    "sourceHash": "639410c4621fc6a6369f87f270abccc9207b9db07b1f0766d6054a57fe393b68",
+    "sourceText": "Mock 운영 데이터 초기화",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.lastUpdate": {
+    "sourceHash": "c7cb1a7afafe8cd7db558cfcdede4be4b3c3cc5ded90ce11406b5fdbe3c51093",
+    "sourceText": "마지막 업데이트: {time}",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.noEvents": {
+    "sourceHash": "d7cc79c0bfa7b5e2045fd9c3c30fa1965d11f1a4010e889992f90d3368db73c5",
+    "sourceText": "기록된 운영 이벤트가 없습니다.",
+    "timestamp": "2026-05-17T04:29:16.125Z"
+  },
+  "admin.json:operations.controls.selectSpace": {
+    "sourceHash": "1d3854f514544cefbe500337e72708a6e584960e9006677dc44201e2a0f89efe",
+    "sourceText": "공간 선택",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.controls.currentStatus": {
+    "sourceHash": "a00fce68f4e94f7d24a290ec6cc2dbd07e6fde69074707a963ecb709d0bc59ed",
+    "sourceText": "현재 상태",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.controls.apply": {
+    "sourceHash": "6a1c963d5bc5e2e5791ed11c5915e392d85cf692172b4b9923e0d6a1af66803f",
+    "sourceText": "적용",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.controls.reason": {
+    "sourceHash": "de4f3d08ee13b86bbe9c6ee9f0d6076d3598dc0b924d7b298d05de09645ff6d0",
+    "sourceText": "제한 사유",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.controls.expectedTime": {
+    "sourceHash": "1caabde68b5edd990782632b5ccce831dc0ba7a13cb442c018b6a07b42636da4",
+    "sourceText": "예상 해제 시간",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.controls.clear": {
+    "sourceHash": "293182ec397e6b89978c3957a898edf744881e68b437a474a5350481d0b26da8",
+    "sourceText": "해제",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.title": {
+    "sourceHash": "98d0777f0ca3e256f9d9fcfcfbfbd8983fa71f1ec0df2ed2102925647c191b0d",
+    "sourceText": "리워드 관리",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.description": {
+    "sourceHash": "1c3e29f47160d63af65fa70eb9ba24894e6d22fac5359fa072f223c9a303869c",
+    "sourceText": "스탬프 투어 및 퀘스트 제어",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.subtitle": {
+    "sourceHash": "c8fff78f23283a8dc8cb0427bba44273c648cc316824789b197d38345d091a1f",
+    "sourceText": "스탬프 투어, 기념품 재고, 동적 퀘스트를 JSON 기반으로 관리합니다.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.stampDashboard": {
+    "sourceHash": "c9a49065fa777e31ec8b0dd699a8b447ed9bd6c9132ebf085c5b158c8991f5de",
+    "sourceText": "스탬프 투어 현황판",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.rewardStock": {
+    "sourceHash": "461426f80e1582aba444d6faea6103b112d1f82eece928917ee60cca8ce7e5a4",
+    "sourceText": "기념품 재고 관리",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.questControl": {
+    "sourceHash": "86cc43d7baa8db0063c948e3f8728d8ea1ff94ef7690b609ac55198219386231",
+    "sourceText": "퀘스트 동적 생성",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.eventLog": {
+    "sourceHash": "d9af5f6d5af4a425c4905b6ec512184008feda95a5332ff8475f2fc94dee0a40",
+    "sourceText": "게이미피케이션 로그",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.reset": {
+    "sourceHash": "0107d8d7ad38b062043bb43634016e1ab4d9d5652947ed88193de835ed146b41",
+    "sourceText": "Mock 데이터 초기화",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.kpi.totalParticipants": {
+    "sourceHash": "442dc5f1701247ff85a29577aaeb5b05e70e9e9f25001c1a6a35e94bfef87dbe",
+    "sourceText": "전체 참여자",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.kpi.averageStampCount": {
+    "sourceHash": "1bd098405df87e0110f5978537b0097ccaed640629b4564efaa05c38bd08149c",
+    "sourceText": "평균 스탬프",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.kpi.completedParticipants": {
+    "sourceHash": "1832917f0c5916d0d535a046d03f4d98a193764b39a8986dc4f35146ab397595",
+    "sourceText": "완주자",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.kpi.completionRate": {
+    "sourceHash": "8c4a87a1f9265d6508c7dc1bc8341f8b0d0d3d80720acb7ac3fc1bd488bfe854",
+    "sourceText": "완주율",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.rewardStatus.available": {
+    "sourceHash": "7e411de15240cc9c627a043e40bc0e349af423dc3a03812472d4a18af6c72632",
+    "sourceText": "수령 가능",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.rewardStatus.low": {
+    "sourceHash": "471b13700f62c76f01318ed6f2681ffc730334d9739e04391b26795d9e1c06a7",
+    "sourceText": "재고 부족",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.rewardStatus.soldOut": {
+    "sourceHash": "0c862074332b9825176d089ae657994016d2ac4f7bd1779ce4f9fe5f5dd9d00e",
+    "sourceText": "소진",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.questStatus.draft": {
+    "sourceHash": "145b2413ae27cac82b32f17e2140f958297ad1ae997febd8f9474bf2adb92e54",
+    "sourceText": "초안",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.questStatus.active": {
+    "sourceHash": "d9ba6551c71e529c26d3147a3280bbcb14501e78758923bb65e03c30960b1d9b",
+    "sourceText": "활성",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.questStatus.paused": {
+    "sourceHash": "4dbf9675241f567feb6285f248f3a3f34424ea86be331475c8f50572307d81f9",
+    "sourceText": "일시 중지",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.questStatus.ended": {
+    "sourceHash": "086bb5335d174a9a330cd69a7a8162436e2551fc0d8b8f304e718cfebafa3dd4",
+    "sourceText": "종료",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.quests.title": {
+    "sourceHash": "dacfbe27fd10c376d6bdef6f428d95c123080cfa86bffb08144b99717198ecb9",
+    "sourceText": "퀘스트 제목",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.quests.targetSpace": {
+    "sourceHash": "919fcf0dd232036de400dffa82af6d29568f10f2d590d2146141b729d0a2da32",
+    "sourceText": "대상 공간",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.quests.reward": {
+    "sourceHash": "9444bc762474483a32354518a78024f291675dfd3bd5a3748d0820bf118c7464",
+    "sourceText": "보상",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.quests.create": {
+    "sourceHash": "a2b736a68e811ad0ced9b052ef3c7fd51d075a072c8ad94fcd25131acc4146f6",
+    "sourceText": "동적 퀘스트 생성",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.quests.placeholder": {
+    "sourceHash": "d31e34a79234f808f89c346780b7a366404b85416d508310cb17427b9bbe74d8",
+    "sourceText": "퀘스트 이름을 입력하세요...",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.quests.translationCenter.title": {
+    "sourceHash": "f6cc7c0baf5fbff6a296af5d7535fd4f07beee51e05932abb7fec3dc7258e34a",
+    "sourceText": "번역 센터 방문 미션",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.quests.translationCenter.description": {
+    "sourceHash": "881da686231bf5046e9264736eece64766ff644f7512bcef1081f592732ec479",
+    "sourceText": "번역 센터를 방문하여 AI 통번역 가이드를 체험하세요.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.quests.hall5.title": {
+    "sourceHash": "011167f620a7ef5a837f1e228b94b3b33b9a7cb39796e4ee18b6c81a118004f5",
+    "sourceText": "미래 기술관 탐방",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.quests.hall5.description": {
+    "sourceHash": "ad50a85d833c04e78f850dc32487c743fdce1d9e55d85eb3e947a996e8001a5e",
+    "sourceText": "Hall 5의 미래 기술관에서 VX 홀로그램 솔루션을 관람하세요.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.rewards.stockUnits": {
+    "sourceHash": "5a45874f6bf2880ea822ad0f8d5f4bee25e938a74d60fc66fd9317052b3a9b48",
+    "sourceText": "재고 수량",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.scanner.title": {
+    "sourceHash": "be42f027b0d8d09d02352df232becf382db00b25d768e801fdf9c25cec25f70d",
+    "sourceText": "QR 스캔 시뮬레이터",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.scanner.selectSpot": {
+    "sourceHash": "30bce22a54f1a3e7c985012ce83ed0a3dd3d2379b65afd6b07fade560b0791ef",
+    "sourceText": "스캔할 장소 선택",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.scanner.action": {
+    "sourceHash": "535389e2cf0977df1ef1f3aa44056d3367071a8807511a57a2e371b6d759488e",
+    "sourceText": "QR 스캔 실행",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.scanner.scanning": {
+    "sourceHash": "e99157bf8f6ec71d843cf73a478b4ac367600a7f5915ef0d02ebc9e1177d150f",
+    "sourceText": "스캔 중...",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:gamification.scanner.success": {
+    "sourceHash": "97bb461c484d0faec3e94ca4942686f805dd0b8a0dbe70db9872e55c270e16d1",
+    "sourceText": "스캔 성공",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.title": {
+    "sourceHash": "75f02f2d56e92c252623d3384c3bb72501ba9f939bd1571b38296e2b806f6308",
+    "sourceText": "실시간 공지 관리",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.description": {
+    "sourceHash": "edd610aefb8ea5b3e551d65cde6fccb0f95b586684ddd776d587601f08d85962",
+    "sourceText": "긴급 티커 및 세션 변경 전파",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.subtitle": {
+    "sourceHash": "5fcc34377374f2a26fb96f25f42f007a5fae2a572712da6290d1873f50ecf371",
+    "sourceText": "긴급 티커와 세션 변경 알림을 mock 기반으로 관리합니다.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.emergencyTicker": {
+    "sourceHash": "7769b33c7fc1fd9d4e7a4f138bc7ae6f76c473782073bc5012e5f799ee7889f8",
+    "sourceText": "긴급 티커 송출",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sessionChange": {
+    "sourceHash": "b3e4f183b8dc5ff981af6ad7a40ce1bd7a08179d8bded251ab7f8e1b3bef6ffd",
+    "sourceText": "세션 변경 알림",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.activeTickerPreview": {
+    "sourceHash": "ae43f98aca8915a6fd09a114934920fcecd9a6ff08ee5518781703bf4aa0a7de",
+    "sourceText": "활성 티커 미리보기",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.liveSimulation": {
+    "sourceHash": "9b9a40887adf12066beeb8bc3855453267ded0e635e428962740494427b69e18",
+    "sourceText": "사용자 화면 라이브 시뮬레이션",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.messageLabel": {
+    "sourceHash": "1f6c4d00de85e68d9d5f6b1f75e7129621be624248fc2cd5e614f7b080023734",
+    "sourceText": "메시지 내용",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.messagePlaceholder": {
+    "sourceHash": "ebec843d468b2961bfeea94bbb00b3c6a87d2a71045f53a12c656ec7c091b1ff",
+    "sourceText": "모든 사용자가 즉시 인지해야 할 긴급 내용을 입력하세요...",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sessionMessagePlaceholder": {
+    "sourceHash": "44cad814e75103062e40e6fef907a626e07fdf635a371cece9bfc1b09d554b2d",
+    "sourceText": "일정 변경이나 지연 사유를 입력하세요...",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.severityTitle": {
+    "sourceHash": "66d5160213ab81a8b5f4737ec917dea0fcb503145619f4c126192a1625b6e1ee",
+    "sourceText": "우선순위(긴급도)",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.targetScope": {
+    "sourceHash": "10394af56986c57c51053f0eb2910b277b77143bf59eb52fd9603199c410739f",
+    "sourceText": "대상 구역(Hall)",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.targetLocales": {
+    "sourceHash": "dc666fe9b7fab1434afee1a05bd5557c0228930609b7a833b0629a490eca035c",
+    "sourceText": "대상 언어",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.expiresIn": {
+    "sourceHash": "ff9e3393bb04475427bdb5b6e11402d7c0f107b7ceaffb9971ec51b064c55b5e",
+    "sourceText": "만료 시간",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.broadcastButton": {
+    "sourceHash": "a13bb9982c0f5fa97e1eac60c864a15b59623ac52f0ff57215df9052ec64c13f",
+    "sourceText": "긴급 티커 즉시 송출",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sendButton": {
+    "sourceHash": "831e201ef455c11c243a2537c231de1e864c54e6fd7b13c8b2771f9eb9bd214e",
+    "sourceText": "알림 발송",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.selectSession": {
+    "sourceHash": "d43a02a462694d8342dce39ace25f6b4c1507030b420bf4657b05b56bbc4e8fd",
+    "sourceText": "대상 세션 선택",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.changeTypeTitle": {
+    "sourceHash": "4feceb98934e806b5bf59853ccb740070b28fe0e3be5c5006841f9e2b852e7f3",
+    "sourceText": "변경 유형",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.itemsCount": {
+    "sourceHash": "23774bef69355f20acd39ae8437159afd1b638586c1b846999db2c99291987b4",
+    "sourceText": "개의 항목",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.noActiveTickers": {
+    "sourceHash": "bcf3366ab67f56b20ae7d1f6e21a501a62e750729dab8ef6cdc7202f228c7e05",
+    "sourceText": "현재 활성화된 긴급 티커가 없습니다.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.until": {
+    "sourceHash": "c538324ebc8db4187c6beec9defeb7aa0f77fcf94b4cd20c667236349c797cf1",
+    "sourceText": "까지",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.eventLog": {
+    "sourceHash": "40945b46e2c4bde01b2d8045326f2fb7d15ed2dbee1e60911b2170210dd79c03",
+    "sourceText": "공지 운영 로그",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.resetData": {
+    "sourceHash": "640890f9e7a7fab567eef444722a0fed8d105cf39baf8c4c12fc3663d48267e4",
+    "sourceText": "공지 데이터 초기화",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.noLogs": {
+    "sourceHash": "74a46c3b2bcabbfcc794efe04090ec1665cc327382860db4231db63b46851521",
+    "sourceText": "공지 발송 이력이 없습니다.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.kpi.activeTickers": {
+    "sourceHash": "c9d403c73dc233250a25999b6b4e66c9d5ee088c617d0da29251b490b63934ac",
+    "sourceText": "활성 티커",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.kpi.sentNotifications": {
+    "sourceHash": "efc5b605269c5b27f3614b907fe073a6e6786ec1908a78493d823753198bc632",
+    "sourceText": "발송된 알림",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.kpi.totalLogs": {
+    "sourceHash": "2d5df9b73d004f10eee123a13dfcbbd389999c23bbfec2c7d9962fe5a5bac792",
+    "sourceText": "전체 로그",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.severity.info": {
+    "sourceHash": "eb81d7d96ba4e901770e35f233c2e086944a900ed384498a14fd985f79f32805",
+    "sourceText": "안내",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.severity.warning": {
+    "sourceHash": "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+    "sourceText": "주의",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.severity.emergency": {
+    "sourceHash": "542d2b212edddf535cf28066d737a09c3ae14ea0aa4393d84feff358265bb9a3",
+    "sourceText": "긴급",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.severity.critical": {
+    "sourceHash": "25a9f00aa24cf7bc7f831c9f4bd92b35205a5ea96c9f001fa1dc2e9acdf87457",
+    "sourceText": "매우 긴급",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.changeType.timeChanged": {
+    "sourceHash": "1bae53a6a64cb0cae51684c5a822d0b55a62b90b9b3bbadc9adab38387277a21",
+    "sourceText": "시간 변경",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.changeType.speakerChanged": {
+    "sourceHash": "190481230792dbff0f371cee269403dccda44f53b64d4be13dd3c5f1c7d8ce88",
+    "sourceText": "연사 변경",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.changeType.hallChanged": {
+    "sourceHash": "e8dd049cca6e043a97084b1b4c512349d1a3cbe2e42ca724d8a295ad51fa64e7",
+    "sourceText": "장소 변경",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.changeType.delayed": {
+    "sourceHash": "b1c21ded73e886cad68f04f6983c47fc3a92a925e5169ce8a8af76d7fc22d05c",
+    "sourceText": "지연",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.changeType.cancelled": {
+    "sourceHash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
+    "sourceText": "취소",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.changeType.resumed": {
+    "sourceHash": "422cd7e0f5a93f8d1cce47c84cb555896079f1fdf39496985440fb3eeb352042",
+    "sourceText": "재개",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.status.draft": {
+    "sourceHash": "145b2413ae27cac82b32f17e2140f958297ad1ae997febd8f9474bf2adb92e54",
+    "sourceText": "초안",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.status.scheduled": {
+    "sourceHash": "22328e6d7e9b42fd8d05a89409550f1ce1ba32c0480d78372ab81d7f6fe9af70",
+    "sourceText": "예약됨",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.status.active": {
+    "sourceHash": "d9ba6551c71e529c26d3147a3280bbcb14501e78758923bb65e03c30960b1d9b",
+    "sourceText": "활성",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.status.sent": {
+    "sourceHash": "c83adfb35334909d084a79a97b1ecc89017008fad6300ea9284e7f0f81ed04a1",
+    "sourceText": "송출됨",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.status.expired": {
+    "sourceHash": "f0aaba281f349ebb03d450a423b81797f450efb9dbb3cef3bde5cb0d8006024f",
+    "sourceText": "만료됨",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.target.all": {
+    "sourceHash": "7508d0393c76f3feb9736e84f8f7e10fb014a3f499b5a475d289c7ce9534ea8f",
+    "sourceText": "전체 사용자",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.target.hallA": {
+    "sourceHash": "841e98f16060b4c16f37fadaba5fd36d0a80f6299732ea3d3b58bf6df1801aa1",
+    "sourceText": "Hall A (메인홀)",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.target.hallB": {
+    "sourceHash": "31dd256c03d3badd93d627ebfc80ccf95d1ed4bceb5c20e25b0c523415e45dee",
+    "sourceText": "Hall B (전시홀)",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.target.vip": {
+    "sourceHash": "5e081a1d2e8b1b53190b22df1cc2474b5db1b00ddb255ada7f26ed9da6697d03",
+    "sourceText": "VIP 라운지",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.tickers.items.ticker001.title": {
+    "sourceHash": "a9abac23f570d104cdeb641b2c5be32104ad6588e2f4c99c3d33556a382e291d",
+    "sourceText": "기상 악화 안내",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.tickers.items.ticker001.message": {
+    "sourceHash": "957cddee2bdb88b0af6a19a0e07d42faafbe78a49a39eea15fa99852a1fdd53b",
+    "sourceText": "강풍으로 인해 야외 셔틀 버스 운행이 10분 지연되고 있습니다. 실내 통로를 이용해 주세요.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.tickers.items.manual.title": {
+    "sourceHash": "93a997b285ffb5f23337cc43832ac1d3125dfeb1e1e69c8bfc276de576db9ea5",
+    "sourceText": "관리자 긴급 공지",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sessionChanges.items.delay001.title": {
+    "sourceHash": "6f6ba50a6f1a083bfdc650dd6ba220b7bffbb7de6f1935678e5daa58949c9605",
+    "sourceText": "세션 지연 알림",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sessionChanges.items.delay001.message": {
+    "sourceHash": "3891a20284bda494e33e51afefef35206539637a0169de3f3cefbdb5edf00cb0",
+    "sourceText": "Spatial Computing 키노트가 연사 사정으로 15분 지연 시작됩니다.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sessionChanges.items.delayed.title": {
+    "sourceHash": "87073b33cab3890db23ad39153abd5e7fa4a48249a399cfcb06564a2ccdb70bd",
+    "sourceText": "세션 지연 안내",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sessionChanges.items.timeChanged.title": {
+    "sourceHash": "adf57083191e0176516e6db5f3d1be797c2d78f98b869a14da365e5746109be8",
+    "sourceText": "세션 시간 변경 안내",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sessionChanges.items.speakerChanged.title": {
+    "sourceHash": "175ece3e8dfc18892696b29d5d01e76719a41c62b1eafbc5030bd7935dcb2ef2",
+    "sourceText": "세션 연사 변경 안내",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sessionChanges.items.hallChanged.title": {
+    "sourceHash": "11ef916180bea94d4f6a12f47f8a96f61183fb43a43c456859e639a2bb094c61",
+    "sourceText": "세션 장소 변경 안내",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sessionChanges.items.cancelled.title": {
+    "sourceHash": "7fd534583a39f3268d2be6fef236e69f92f16e35c56b9df89f5a610d0942c2a3",
+    "sourceText": "세션 취소 안내",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.sessionChanges.items.resumed.title": {
+    "sourceHash": "fe761b3a94038613c88eb5fba7a5b0e7eda51c7c7e35337b107ecf2fcf429c62",
+    "sourceText": "세션 재개 안내",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.title": {
+    "sourceHash": "d69ac8f4a9b06eb4507ba7423a4154e6011656ca6cd45d0d35e949ffe06c329d",
+    "sourceText": "보안 및 인프라 모니터링",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.description": {
+    "sourceHash": "bbbff3f803e2bc01a85ff33a938135fb8d33c19fe8645a5b965161a136a3f923",
+    "sourceText": "보안 로그 및 단말기 상태",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.subtitle": {
+    "sourceHash": "0a8b3babe3426ce6938a608960f47481f56d52c25b4e6e8e8026ea69518d9d52",
+    "sourceText": "보안 로그와 현장 단말기 상태를 mock 기반으로 모니터링합니다.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.securityLogs": {
+    "sourceHash": "3b903d78f2cb7d8b2ac61cf79dc82128fe9bb4f583bf7c2135e891c7c685acc3",
+    "sourceText": "보안 로그",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.deviceTelemetry": {
+    "sourceHash": "d2c5706746f158342a3e8b050a15140e407960506b0dfb5be3db1eb499c73a01",
+    "sourceText": "단말기 상태",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.deviceControl": {
+    "sourceHash": "64be6905caa55c8e03e2bed094b436c4d758b7b1cabf1c7847eb4c763f8d64ee",
+    "sourceText": "단말기 상태 제어",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.operationLog": {
+    "sourceHash": "f01de96f863eeb8cd2c2aeba2e048f6235830a643a59cb35f75e498648b8451d",
+    "sourceText": "보안 운영 로그",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.eventDetailTitle": {
+    "sourceHash": "fdbad1d7564e0203b18d64116bc0267928ef46812ef7bd3aeebbaaf3f67ae613",
+    "sourceText": "이벤트 상세 및 조치",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.selectLogToView": {
+    "sourceHash": "0d715080ae42454dd6d72ef58e54ec119ba5d52a7e40057f9c579937d528736e",
+    "sourceText": "상세 정보를 보려면 로그를 선택하세요.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.eventStatusTitle": {
+    "sourceHash": "dc29db4beef8f828ecdd5ef2fc95015e30bb64f667d1fc5d258427d5d72c4567",
+    "sourceText": "처리 상태 변경",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.memoPlaceholder": {
+    "sourceHash": "bc8e77e63e66b94eeb8d591829d6ea159c2df7642c736e174e8c1eccc84132c2",
+    "sourceText": "조치 내용이나 메모를 입력하세요...",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:security.updateStatusButton": {
+    "sourceHash": "2cd3b0d266985900320c8f7cd1ef3a4ed74fb48a7a7d66a358ab7169aee31d41",
+    "sourceText": "상태 업데이트",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.selectDeviceToControl": {
+    "sourceHash": "55cfaebf2fc1bc413ea3ec7aebaa4b0668bf4ebad27796ec39f4688ca27e8909",
+    "sourceText": "제어할 단말기를 선택하세요.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.deviceStatusTitle": {
+    "sourceHash": "6dcadecf259d4165c985a88e2b48d2e002eb00f59e0d857bc4eada33afba051c",
+    "sourceText": "단말기 운영 상태",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.networkStatusTitle": {
+    "sourceHash": "5a298a4c3caa02b690b62a0011660f9d89a237fe979df1136b1b0121cde60208",
+    "sourceText": "네트워크 연결 상태",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.applyDeviceChanges": {
+    "sourceHash": "8f61f8724e96db1dedad2736690b89e4c4b33d26277aa3082c648e750b11e317",
+    "sourceText": "단말기 설정 적용",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.refreshHeartbeat": {
+    "sourceHash": "0b7c3a4a03cfaa73a377d1ea5770fecef86406c0ed5980a9705f0915cda03d49",
+    "sourceText": "하트비트 강제 갱신",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.resetData": {
+    "sourceHash": "5a5a6b2304fc4cc253a1f8c1970574427acd29f435840a80e890f8d9660bb452",
+    "sourceText": "보안 데이터 초기화",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.noLogs": {
+    "sourceHash": "758c09dbb5564663d44d73030b52b6b341207adcf566748ae8731be896a3abd9",
+    "sourceText": "기록된 보안 운영 이력이 없습니다.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.kpi.totalDevices": {
+    "sourceHash": "c9c5ec96a4e31b3997560cd7812d938f98a32bb3d32d920b6fd2e05e357d4dd6",
+    "sourceText": "전체 단말기",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.kpi.onlineDevices": {
+    "sourceHash": "cf9ef5f1ef01d87a94a1a2b31c2785e7998ba43bebb94b72be404e57a4311933",
+    "sourceText": "온라인",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.kpi.offlineDevices": {
+    "sourceHash": "4f776c24ea483aea70f302441f6a760dca263b6c007bf19b03e2e19ee3f3b5df",
+    "sourceText": "오프라인",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.kpi.degradedDevices": {
+    "sourceHash": "c6f5f494099539ac9974c88f09190ee8c397b16911e6056938bba3f1acefba52",
+    "sourceText": "주의 필요",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.kpi.newSecurityLogs": {
+    "sourceHash": "8a2e926460d02e2db53428fc02f5d4e62840c8187c79d79bae6a007be867f9d4",
+    "sourceText": "신규 보안 로그",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.kpi.criticalEvents": {
+    "sourceHash": "d91bcb83788ca8c7efd123ef75addb5864a2f3d7d6fbe988a10a5a222b8e8917",
+    "sourceText": "긴급 이벤트",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.kpi.unstableNetworks": {
+    "sourceHash": "28b8288e4c3551d3f021bb09d836bb73a61426f9900ba93885bb7a247df91bfb",
+    "sourceText": "네트워크 불안정",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.severity.info": {
+    "sourceHash": "b8cf07ac906c812405b20d375c3571c2db9be8609abac1c47167b688348b0cc4",
+    "sourceText": "정보",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.severity.warning": {
+    "sourceHash": "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+    "sourceText": "주의",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.severity.high": {
+    "sourceHash": "baaff05e434f85e30d888fad9d2ea56c27823f3a5453d63e6ea85353ec10b356",
+    "sourceText": "위험",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.severity.critical": {
+    "sourceHash": "542d2b212edddf535cf28066d737a09c3ae14ea0aa4393d84feff358265bb9a3",
+    "sourceText": "긴급",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.eventStatus.new": {
+    "sourceHash": "113ce17492d363d2ce1fa7b42130280d5d973a61c33678373127b1f38b5f912e",
+    "sourceText": "신규",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.eventStatus.reviewing": {
+    "sourceHash": "91ba5f395eaef188afc831d054aa37c94f2a3ac0b051390d06b1f4ead526844c",
+    "sourceText": "검토 중",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.eventStatus.resolved": {
+    "sourceHash": "b5cffc261b7499f0ac09a3aaf6080ccc889c4c7b1d4e953360abebd75ca0e39d",
+    "sourceText": "해결됨",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.eventStatus.ignored": {
+    "sourceHash": "2e79fd34940f241b5b464a59eb5ea9f9a482781f21a9e8a13ad7823380450c69",
+    "sourceText": "무시됨",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.deviceType.kiosk": {
+    "sourceHash": "51e0baf90a798a2025e9288d3249d6d766b96f6517c54ef21a7c6773c1497a48",
+    "sourceText": "키오스크",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.deviceType.qrScanner": {
+    "sourceHash": "50922ea79df8561e2b15a8099fbdfc898472eb46fd8a57bb908b4c5c1930a46e",
+    "sourceText": "QR 스캐너",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.deviceType.displayPanel": {
+    "sourceHash": "d53e260d0fba591b4e33781cfd7a07d910726ba78c0a97bb1356d08adb92fe8a",
+    "sourceText": "안내 패널",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.deviceType.operatorTablet": {
+    "sourceHash": "13e32a42488f4c9f55454097bf0699146010ae3183e5adff43db9628ccf54a70",
+    "sourceText": "운영 태블릿",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.deviceType.networkNode": {
+    "sourceHash": "9c3957ef764d669d70e4176355a880b706f82ade7352e575493dcc17941a14cd",
+    "sourceText": "네트워크 장비",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.deviceStatus.online": {
+    "sourceHash": "cf9ef5f1ef01d87a94a1a2b31c2785e7998ba43bebb94b72be404e57a4311933",
+    "sourceText": "온라인",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.deviceStatus.degraded": {
+    "sourceHash": "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+    "sourceText": "주의",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.deviceStatus.offline": {
+    "sourceHash": "4f776c24ea483aea70f302441f6a760dca263b6c007bf19b03e2e19ee3f3b5df",
+    "sourceText": "오프라인",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.deviceStatus.maintenance": {
+    "sourceHash": "086e583e91535c479ea20a4fe7e95d9fb1b4340e816da650885fb56012c246b2",
+    "sourceText": "점검 중",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.networkStatus.good": {
+    "sourceHash": "826801054efddfd90f29c6d4942b5f889e1774ddb70163b62244bdebe0501421",
+    "sourceText": "양호",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.networkStatus.unstable": {
+    "sourceHash": "860100c6db5a4fddb60377f84a240072b7537cc1eccfb240698af6f8d9514c0c",
+    "sourceText": "불안정",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.networkStatus.disconnected": {
+    "sourceHash": "df373edc5e6e5cdcd8994e6395a595e219da0ea8e40036de9bf2ab235c7e4039",
+    "sourceText": "연결 끊김",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.fields.deviceId": {
+    "sourceHash": "a6e49b98d903329d27d77edba973a5bf17baa9814ce879f09ee7b4c4235ff260",
+    "sourceText": "단말기 ID",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.fields.space": {
+    "sourceHash": "6c0b9dd710ab0fde0a72b7e27e9e8eedd48f92b9dc0a01ef0a0eb3e55a73df19",
+    "sourceText": "위치",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.fields.occurredAt": {
+    "sourceHash": "c0f7b61d377ba7e5344f1095797ba44115603afb779a39fb78df776959e88798",
+    "sourceText": "발생 시간",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.fields.lastHeartbeatAt": {
+    "sourceHash": "b9bb75602c1ade0d7559ef4c9b3d4b03859e69ac05e3f731a48f18d3931ede51",
+    "sourceText": "마지막 신호",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.fields.battery": {
+    "sourceHash": "5e29d5dcb84b45469293c98ebc4c407f89af6e412913828dc3e73140da6ccd38",
+    "sourceText": "배터리",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.fields.memory": {
+    "sourceHash": "bc08b4c895b078086317fe922e496f2b4024d58dfb443deddb921de1c1c7583b",
+    "sourceText": "메모리",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.fields.memo": {
+    "sourceHash": "c8a14bcd7060e8b8f06d41be1a29fbbd9d7d8e5c728e5aab91ffa535d2e294e7",
+    "sourceText": "메모",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.logs.accessDeniedBackstage.message": {
+    "sourceHash": "e46a4165380df58e5b4ab28fcfe571cc1a9a1d6017efa309c38b9eaab0763131",
+    "sourceText": "인증되지 않은 사용자가 백스테이지 구역 진입을 시도했습니다.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.logs.tamperAlert.message": {
+    "sourceHash": "5cfde38524937943613d3441e2342ebefdd8499ab7319559c39d4842f918e28e",
+    "sourceText": "서버실 센서에서 물리적 충격이 감지되었습니다.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.actions.none": {
+    "sourceHash": "5e26a5e3c74aa1f77e0322976ae0029246bbd7041a083e92f321f5f854ca8164",
+    "sourceText": "정상 운영 중",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.actions.chargeBattery": {
+    "sourceHash": "a09caeffc730b1bc7607ea632a26458cfa738b5af427bffbfd1912cf861da909",
+    "sourceText": "배터리 충전 필요",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.actions.checkPower": {
+    "sourceHash": "9874f69428aabc9fe5b7424f47d19119f87784a20042790635bd5123f7c27639",
+    "sourceText": "전원 공급 상태 확인 필요",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.devices.kiosk001.name": {
+    "sourceHash": "3d705a70c39c2ca104f6a6f1b46de384ad5cf5d7a8337aa85524661030907212",
+    "sourceText": "메인 로비 키오스크 #1",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.devices.qr002.name": {
+    "sourceHash": "9bccb34eb00fa156dd0f7d4cb81dfa4bce466c9f565efb73f9d345b08e3836bd",
+    "sourceText": "A게이트 QR 스캐너",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:security.devices.node003.name": {
+    "sourceHash": "80e5bc0add7f08a07e1ae5a698397557edbcfc5922530c0f6aa2434489a6f5ec",
+    "sourceText": "Hall 2 천장 AP",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.title": {
+    "sourceHash": "7413f142b874f6eed74f3758a173e8b981daf09b986c5601d75793926d52e574",
+    "sourceText": "도시락 배부 관리",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.subtitle": {
+    "sourceHash": "3f669bed6c9ef5d70f35c5b543661b1e6eac0003a6fcb90c7ba2fdb68c3c7071",
+    "sourceText": "QR 기반 도시락 수령 확인과 입출고 현황을 mock 기반으로 관리합니다.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.inventory": {
+    "sourceHash": "650aaab3c1f38da3aaa100b81106e3c9a6d40cfead5aefb1ca4b62b90f992f1b",
+    "sourceText": "도시락 재고",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.qrScanner": {
+    "sourceHash": "0e1fd9da50d69a664ae95c5000f794858bab09c935f7bfea73ed248b00956022",
+    "sourceText": "QR 스캔",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.reservationList": {
+    "sourceHash": "ae0f859ef117551c93526f9cb6f147e6932c276776037d5d69ded137168cbf75",
+    "sourceText": "예약자 리스트",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.pickupPreview": {
+    "sourceHash": "da3d39666cc7a2864ef4daa6c1acb63b7bf38e1f7ea3db771f0712ba864313c5",
+    "sourceText": "수령 정보 확인",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.pickupLog": {
+    "sourceHash": "bea97f57c813025423a93c260d0b4db812b9ee64c46645f40acbf0cd1d13b540",
+    "sourceText": "수령 및 입출고 로그",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.completePickup": {
+    "sourceHash": "0f5d51dbbc017d8c6a48cfcfad8be899b1c4dc763ed30cd67ed9207b99c20d35",
+    "sourceText": "수령 완료 처리",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.duplicateDetected": {
+    "sourceHash": "b216e16208bbcd8c55a052ea678395fccea3dd43f4e1212c381ecca7dbeb9026",
+    "sourceText": "이미 수령 완료된 QR입니다.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.scanQrToPreview": {
+    "sourceHash": "f70ec472e0ee9aea818027d359113228d717ad8d25d355b592cb9222d81fb10a",
+    "sourceText": "QR 코드를 스캔하세요.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.collectionVerified": {
+    "sourceHash": "8a99cf220b9a4a21b4e33232c02808d2e1f811744539f902404c4d70057281b0",
+    "sourceText": "도시락 수령 확인됨",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.noReservations": {
+    "sourceHash": "579b54bd3327e5d530a0ab8d05d0145220d5a7a01f6499ec9a6483de887d2a76",
+    "sourceText": "예약 데이터가 없습니다.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.noLogs": {
+    "sourceHash": "dc31850aab3859db3d54a6babd71e80c82dd0ad91ed17a698122ed7aa6ff015f",
+    "sourceText": "로그 데이터가 없습니다.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.resetData": {
+    "sourceHash": "0e346418d17c4a3a43c6732747b43cacd26071a511e1ea9238a551612691bde0",
+    "sourceText": "데이터 초기화",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.scanButton": {
+    "sourceHash": "2154d9ae64867a469864fe84ec901ecf6de044a721996450634041ee5500ce16",
+    "sourceText": "스캔 실행",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.status.reserved": {
+    "sourceHash": "6297862c19f72f66add2ac60931c1161990fdc2dd53604aa0779b442aa34250a",
+    "sourceText": "예약 완료",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.status.pickedUp": {
+    "sourceHash": "123884044d56d6f1eeb914929f2110996488f59aa121454288e5190bab7404b1",
+    "sourceText": "수령 완료",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.status.cancelled": {
+    "sourceHash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
+    "sourceText": "취소",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.status.duplicate": {
+    "sourceHash": "64879d0435f32faf9984236713cb1c4630c97c0abc7246066237a032f73aca58",
+    "sourceText": "중복 시도",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.kpi.totalStock": {
+    "sourceHash": "adeb2e3863342649bb3384f42bc195e3f1ad09478c7f748d463f3c4adb309b63",
+    "sourceText": "총 입고",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.kpi.reservedCount": {
+    "sourceHash": "0a39c4916f03d14563d44f7c2d0e52be1d2542865270544ff65c2e1101746edc",
+    "sourceText": "총 예약",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.kpi.pickedUpCount": {
+    "sourceHash": "ff97d69c1fb6d443b43486a2c7ea0033e8b1acc5c11d5863a92fe3927236a61d",
+    "sourceText": "총 수령",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.kpi.remainingCount": {
+    "sourceHash": "79a633e4231072e807630cf7c815437acabd2524b340324c5b4430625d919548",
+    "sourceText": "잔여 수량",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.kpi.duplicateScanCount": {
+    "sourceHash": "75e173ab9d300613a0c120d1763ab11aa6b6a053a2ce6d921e5fbd29cfec9a64",
+    "sourceText": "중복 스캔",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.fields.reservationId": {
+    "sourceHash": "c096af733c07521d3b1bdceddddd51a4f4853f396ecb3dea11e440d73f02985e",
+    "sourceText": "예약 ID",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.fields.congregation": {
+    "sourceHash": "bfb112ac366905b3cd088183019a62871d8cd95b5b1f165cd153ea9e1d3a71f9",
+    "sourceText": "회중",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.fields.nationality": {
+    "sourceHash": "42be66ead3938d2c4a2d0bdc28975c405ca1486ccd3a8193a89627ae2aebf3bf",
+    "sourceText": "국적",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.fields.name": {
+    "sourceHash": "253d1510caf5362045ce50b1bdc33758fc4b3fd6ddc552d8dc0619784bd9c7d1",
+    "sourceText": "이름",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.fields.contact": {
+    "sourceHash": "67c1e932f9bc7bd77503bcce44a36f00abdad0dec840cdc627e41516e126b481",
+    "sourceText": "연락처",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.fields.mealCount": {
+    "sourceHash": "339f65a6a7ca4e73c9913c8cc947e06af008871f7bf95dd61c71cc73b0906f5f",
+    "sourceText": "도시락 개수",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.fields.pickedUpAt": {
+    "sourceHash": "e4bc19bb0c02241e19771a2adb362e3a3b7685ce8b02a48d9c77b272eeb67946",
+    "sourceText": "수령 시간",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.fields.pickedUpBy": {
+    "sourceHash": "750086e9fe99bde5d8094513e465e2eb5468aa793f38ff81a1d52389af317148",
+    "sourceText": "처리자",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:meals.fields.memo": {
+    "sourceHash": "cb8c6b238f800814355e19339cd8accac66e3694f0770d65b3b95a72a190e49c",
+    "sourceText": "비고",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.title": {
+    "sourceHash": "2b4cd6565d416847c862148b1a95beb2ad1b7a16b5a3e3e748b83e8a499b7c7a",
+    "sourceText": "호텔 체크인 관리",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.subtitle": {
+    "sourceHash": "2906b5db19747bc97472646e0b907f989fa68c7a71f8a1680cd334ff54e6c086",
+    "sourceText": "국제대회 참가자 숙소 예약 현황 및 QR 체크인을 mock 기반으로 운영합니다.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.qrScanner": {
+    "sourceHash": "b11d7ea45fe024422b55e9072e462e3b473a8ea442c9aeb7991a7498c9a39250",
+    "sourceText": "QR 체크인 스캐너",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.inventoryStatus": {
+    "sourceHash": "c0e4f9a1823f777c1b65a8e20ef67d59a8751fdd15b5611e94c8fddf203d12e3",
+    "sourceText": "호텔별 객실 현황",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.reservationList": {
+    "sourceHash": "cc44239787b75e36b117ebc78bbe2cbb7d00c341c17df43fb3a4fdbe04026df0",
+    "sourceText": "예약 및 체크인 리스트",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.checkInLog": {
+    "sourceHash": "3a971cf9dbb13a8589242fc5a30f594b3d1179e4d1ad455091d46bacf33ba682",
+    "sourceText": "체크인 운영 로그",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.completeCheckIn": {
+    "sourceHash": "04bbf51de9bb0898594c57fad3f2dcde0956feaa23fe376dbf5cb022e6fdf22b",
+    "sourceText": "체크인 완료 처리",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.completeCheckOut": {
+    "sourceHash": "d2342f36cfe78139786ce6c101e7c2bd2f38afdfe4f0226c8e0dec7413089865",
+    "sourceText": "체크아웃 완료 처리",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.duplicateCheckIn": {
+    "sourceHash": "8347f0229f21350dba22c30b80f6d02eb468d75a645b4845d5c2c33595bc9e8f",
+    "sourceText": "이미 체크인된 QR입니다.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.selectLogToView": {
+    "sourceHash": "9ba61603d2da04341f60bb53de26f694649cf84c5c62f219d21634c01dbda270",
+    "sourceText": "상세 정보를 보려면 리스트를 선택하세요.",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.kpi.totalHotels": {
+    "sourceHash": "e6fa22806951d6f722500cc193ec8adf753bc342c048f45bf4e1336cb2d668c4",
+    "sourceText": "연계 호텔",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.kpi.totalRooms": {
+    "sourceHash": "127140e6a3cb1bdf2180ac536a5fbe22ab796c2805d2c694fdaeb463b4b18b32",
+    "sourceText": "전체 객실",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.kpi.checkedIn": {
+    "sourceHash": "b086cae04893c7064a71abb05e79f673b97ec52bd52738903532da537d243d42",
+    "sourceText": "입실 완료",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.kpi.noShow": {
+    "sourceHash": "7f385e0d637b351e5cb10d2737f37b49c802d6083fc447f6279939ae71219ae6",
+    "sourceText": "노쇼(No-show)",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.status.reserved": {
+    "sourceHash": "6297862c19f72f66add2ac60931c1161990fdc2dd53604aa0779b442aa34250a",
+    "sourceText": "예약 완료",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.status.checkedIn": {
+    "sourceHash": "b086cae04893c7064a71abb05e79f673b97ec52bd52738903532da537d243d42",
+    "sourceText": "입실 완료",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.status.checkedOut": {
+    "sourceHash": "701a939eb5f4bd18b454ced3ccb96d1960eb35338edf3b02e44f296680ec3ffd",
+    "sourceText": "퇴실 완료",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.status.cancelled": {
+    "sourceHash": "c0f3a558a222facab74d51b5fb451b03a04ad5249547c2689a10a48a0e98bcbf",
+    "sourceText": "취소됨",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.status.noShow": {
+    "sourceHash": "fbbce6f7d9343748f405a581c199628ed11da6b68670929426ddb7aa1e4f848f",
+    "sourceText": "노쇼",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.status.duplicate": {
+    "sourceHash": "64879d0435f32faf9984236713cb1c4630c97c0abc7246066237a032f73aca58",
+    "sourceText": "중복 시도",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.fields.hotel": {
+    "sourceHash": "a76d255da0cf7a97674d1fe8c799c1b0ab5841fa47f7ede8b3d160c4ca719400",
+    "sourceText": "호텔명",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.fields.room": {
+    "sourceHash": "9b461e358c01d035189192a7566996151436c5d1740ecf4cc19277489323bcdd",
+    "sourceText": "객실",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.fields.name": {
+    "sourceHash": "7bdbbfa1a6f2c065dc71d6c5479f207830048667134efede03f4a3beb9b42c68",
+    "sourceText": "대표자",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.fields.nationality": {
+    "sourceHash": "42be66ead3938d2c4a2d0bdc28975c405ca1486ccd3a8193a89627ae2aebf3bf",
+    "sourceText": "국적",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.fields.congregation": {
+    "sourceHash": "bfb112ac366905b3cd088183019a62871d8cd95b5b1f165cd153ea9e1d3a71f9",
+    "sourceText": "회중",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.fields.guests": {
+    "sourceHash": "4db37806d287be242e3efa91b3cb3701d6d7388dbb9376b6c97b4fab03a452f8",
+    "sourceText": "인원",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "admin.json:hotel.fields.checkInTime": {
+    "sourceHash": "5c8148de53482ec59281e0b4063f5013a1de927987ea4aa95aaccc0cfee5afd8",
+    "sourceText": "체크인 시간",
+    "timestamp": "2026-05-17T04:29:16.127Z"
+  },
+  "navigation.json:adminOperations": {
+    "sourceHash": "87cc9a22a4d205b26b05ad5b52136ef383f549128428e71abb560ac18b683213",
+    "sourceText": "운영 관제",
+    "timestamp": "2026-05-17T04:27:54.539Z"
+  },
+  "navigation.json:adminGamification": {
+    "sourceHash": "98d0777f0ca3e256f9d9fcfcfbfbd8983fa71f1ec0df2ed2102925647c191b0d",
+    "sourceText": "리워드 관리",
+    "timestamp": "2026-05-17T04:27:54.539Z"
+  },
+  "navigation.json:adminNotifications": {
+    "sourceHash": "06cad5278ba72a1ed24f77d680b4ffd9eb16da0b21b9d72b076dbce3c01bb187",
+    "sourceText": "공지 관리",
+    "timestamp": "2026-05-17T04:27:54.539Z"
+  },
+  "navigation.json:adminMeals": {
+    "sourceHash": "2ae33174f0bf82b9869081b88dbd64f0d114c5fca2b5767f0e6fd70848196db5",
+    "sourceText": "도시락 관리",
+    "timestamp": "2026-05-17T04:27:54.539Z"
+  },
+  "navigation.json:adminHotels": {
+    "sourceHash": "3bbadff7c3f43f0ea561df43c81553da158c215bc8075cac64b9eda2a2bae226",
+    "sourceText": "호텔 관리",
+    "timestamp": "2026-05-17T04:27:54.539Z"
+  },
+  "navigation.json:adminSecurity": {
+    "sourceHash": "f1c334fec0a9db058fbfb2ab9d496997ceabf8a7c199c939f99a42dad7719b7a",
+    "sourceText": "보안 모니터링",
+    "timestamp": "2026-05-17T04:27:54.539Z"
+  },
+  "admin.json:notifications.logs.tickerCreated": {
+    "sourceHash": "3125838da120c2ff3369c943c411e76a55203ebc1e15e5e800484406b6023447",
+    "sourceText": "긴급 티커 생성: {id}",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.logs.tickerActivated": {
+    "sourceHash": "6cb48fc12fa08145a89f9115ce3efe1a7bfe0298dc43db96d717ca22ef596994",
+    "sourceText": "티커 활성화: {id}",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.logs.tickerDeactivated": {
+    "sourceHash": "9b16364b526e6d791f2b7205018637c7e2e8d757f2a48cc9d756c2d235f5c3e8",
+    "sourceText": "티커 비활성화: {id}",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.logs.tickerExpired": {
+    "sourceHash": "19297902f3ad329a8ebdf789e0cf0e2979a4e41a163487e7ed5c810c3909a5f9",
+    "sourceText": "티커 강제 만료: {id}",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.logs.sessionCreated": {
+    "sourceHash": "a1b3d66da17083ac4b522e2f17a22d9eb1f76b6117b16275fd1e9bcc5299993e",
+    "sourceText": "세션 변경 알림 생성: {id}",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.logs.sessionSent": {
+    "sourceHash": "0140a2b09271c16778f08465344c84dfbdd89c4a47cd085dc59b655617387d67",
+    "sourceText": "세션 변경 알림 발송: {id}",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:notifications.logs.reset": {
+    "sourceHash": "762abff4a501cb5998c437f8bce5c01460b8d5e6338b48885b05e22c272da95f",
+    "sourceText": "공지 제어 데이터 초기화 완료",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.logs.congestionChanged": {
+    "sourceHash": "0301d6be0656c27a40064de2e41fc711385f2291a2d2af5541ba846111cc118b",
+    "sourceText": "{id} 혼잡도 설정 변경: {level}",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.logs.congestionReset": {
+    "sourceHash": "233d15c62a4bb642a2302bb485254695d0ab4b424e7f197a95bebb87d10394e0",
+    "sourceText": "{id} 혼잡도 수동 설정 해제",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.logs.accessChanged": {
+    "sourceHash": "b7fbca5f7092d4a3a5dca9bb37960093dcae0191cf6e2bd6e0f1d3fbcf0fc45a",
+    "sourceText": "{id} 출입 상태 변경: {status}",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.logs.accessReset": {
+    "sourceHash": "ddcea4a576645b883be947a9c0cbc0237943fd2f4f2ea71715c7055fed45d174",
+    "sourceText": "{id} 출입 통제 해제",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.logs.reset": {
+    "sourceHash": "ad84fa51814149a8e04ff77b83af69b8fa423a456a9ec5e2efdbe8f0be995015",
+    "sourceText": "Mock 운영 데이터 초기화 완료",
+    "timestamp": "2026-05-17T04:29:16.126Z"
+  },
+  "admin.json:operations.logs.crowdedAction": {
+    "sourceHash": "1722c008c6b7d413b7f33090343e88bcbf91ab306d8e12411f380a152e29c000",
+    "sourceText": "구역 혼잡. 우회 경로 안내 활성화 권장.",
+    "timestamp": "2026-05-17T04:29:16.126Z"
   }
 }

@@ -179,5 +179,19 @@
     "moderate": "Moderate",
     "high": "High",
     "easy": "Easy"
+  },
+  "sodam": {
+    "name": "Sodam Dining",
+    "shortName": "Sodam",
+    "description": "Space for participant meals and relaxation.",
+    "zone": "Dining Area",
+    "location": "Amenities Zone"
+  },
+  "gate4": {
+    "name": "Gate 4",
+    "shortName": "Gate 4",
+    "description": "Main gate connecting to the parking lot and exterior.",
+    "zone": "Entrance/Exit",
+    "location": "South Side of Exhibition Center 1"
   }
 }

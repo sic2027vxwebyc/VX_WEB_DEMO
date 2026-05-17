@@ -1,0 +1,41 @@
+[
+  {
+    "id": "meal-0001",
+    "congregation": "양재중앙",
+    "nationality": "Korea",
+    "name": "홍길동",
+    "contact": "010-0000-0000",
+    "mealCount": 3,
+    "status": "reserved",
+    "pickedUpAt": null,
+    "pickedUpBy": null,
+    "token": "abc123",
+    "memo": ""
+  },
+  {
+    "id": "meal-0002",
+    "congregation": "타이베이",
+    "nationality": "Taiwan",
+    "name": "王小明",
+    "contact": "",
+    "mealCount": 2,
+    "status": "pickedUp",
+    "pickedUpAt": "2026-05-17T12:32:00+09:00",
+    "pickedUpBy": "Mock Admin",
+    "token": "def456",
+    "memo": ""
+  },
+  {
+    "id": "meal-0003",
+    "congregation": "도쿄",
+    "nationality": "Japan",
+    "name": "佐藤",
+    "contact": "",
+    "mealCount": 1,
+    "status": "reserved",
+    "pickedUpAt": null,
+    "pickedUpBy": null,
+    "token": "ghi789",
+    "memo": "채식 옵션 문의"
+  }
+]

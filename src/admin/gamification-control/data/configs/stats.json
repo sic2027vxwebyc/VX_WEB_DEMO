@@ -1,0 +1,9 @@
+{
+  "totalParticipants": 1240,
+  "averageStampCount": 8.6,
+  "completedParticipants": 214,
+  "completionRate": 17.2,
+  "mostPopularSpotId": "hall-1",
+  "leastVisitedSpotId": "translation-center",
+  "hourlyTrend": [42, 58, 85, 120, 156, 110, 95, 78, 45, 30]
+}

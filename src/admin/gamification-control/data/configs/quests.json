@@ -1,0 +1,24 @@
+[
+  {
+    "id": "popup-quest-translation-center",
+    "titleKey": "admin.gamification.quests.translationCenter.title",
+    "descriptionKey": "admin.gamification.quests.translationCenter.description",
+    "targetSpaceId": "translation-center",
+    "rewardId": "reward-badge-set",
+    "status": "active",
+    "startsAt": "2026-05-17T13:00:00+09:00",
+    "endsAt": "2026-05-17T15:00:00+09:00",
+    "participantCount": 85
+  },
+  {
+    "id": "popup-quest-hall-5",
+    "titleKey": "admin.gamification.quests.hall5.title",
+    "descriptionKey": "admin.gamification.quests.hall5.description",
+    "targetSpaceId": "hall-5",
+    "rewardId": "reward-coffee-coupon",
+    "status": "draft",
+    "startsAt": "2026-05-18T10:00:00+09:00",
+    "endsAt": "2026-05-18T12:00:00+09:00",
+    "participantCount": 0
+  }
+]
