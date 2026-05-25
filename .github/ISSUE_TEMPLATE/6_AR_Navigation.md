@@ -1,3 +1,10 @@
+---
+name: "6. AR Navigation"
+about: "3D 뷰어 내 AR 오버레이 내비게이션 구현"
+title: "[AR] "
+labels: "AR, Navigation"
+---
+
 ## What to build
 3D 뷰어 내 AR 오버레이 내비게이션 구현.
 

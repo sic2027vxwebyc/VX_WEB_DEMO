@@ -1,3 +1,10 @@
+---
+name: "4. QR Quest System"
+about: "동적 토큰 및 GPS 검증이 포함된 QR 퀘스트 시스템"
+title: "[Quest] "
+labels: "Gamification, Security"
+---
+
 ## What to build
 동적 토큰 및 GPS 검증이 포함된 QR 퀘스트 시스템.
 

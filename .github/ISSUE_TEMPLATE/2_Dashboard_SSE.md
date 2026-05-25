@@ -1,3 +1,10 @@
+---
+name: "2. Dashboard & SSE"
+about: "로그인 후 개인화 대시보드 UI 구현 및 SSE를 이용한 실시간 공지/일정 푸시"
+title: "[Dashboard] "
+labels: "Dashboard, SSE"
+---
+
 ## What to build
 로그인 후 개인화 대시보드 UI 구현 및 SSE를 이용한 실시간 공지/일정 푸시.
 

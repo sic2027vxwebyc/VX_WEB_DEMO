@@ -1,3 +1,10 @@
+---
+name: "5. i18n Pipeline"
+about: "LLM 기반 자동 번역 및 검수 시스템을 통합한 중앙화된 i18n 워크플로우"
+title: "[i18n] "
+labels: "i18n, Automation"
+---
+
 ## What to build
 LLM 기반 자동 번역 및 검수 시스템을 통합한 중앙화된 i18n 워크플로우.
 

@@ -1,3 +1,10 @@
+---
+name: "3. 3D Spatial Engine"
+about: "Three.js 기반 킨텍스 3D 뷰어 및 구역별 지연 로딩 로직 구현"
+title: "[Spatial] "
+labels: "3D, Performance"
+---
+
 ## What to build
 Three.js 기반 킨텍스 3D 뷰어 및 구역별 지연 로딩(Lazy Loading) 로직 구현.
 

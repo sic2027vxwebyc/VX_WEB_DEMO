@@ -1,3 +1,10 @@
+---
+name: "1. PWA Core Implementation"
+about: "PWA 서비스 워커 및 매니페스트 기반의 증분 에셋 로딩 시스템 구축"
+title: "[PWA] "
+labels: "PWA Core"
+---
+
 ## What to build
 PWA 서비스 워커 및 매니페스트 기반의 증분 에셋 로딩 시스템 구축.
 
