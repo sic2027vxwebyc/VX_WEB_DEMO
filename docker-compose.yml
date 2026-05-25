@@ -1,0 +1,19 @@
+services:
+  frontend:
+    build: ./front_Vue
+    ports:
+      - "5173:5173" # Vite 개발 서버 포트
+    volumes:
+      - ./front_Vue:/app # Hot reloading을 위한 bind mount
+      - /app/node_modules # 컨테이너 내 모듈 유지
+    environment:
+      - NODE_ENV=development
+
+  backend:
+    build: ./back_Go
+    ports:
+      - "8080:8080" # Go API 서버 포트
+    volumes:
+      - ./back_Go:/app # Go 소스 코드 동기화
+    environment:
+      - APP_ENV=development
