@@ -1,5 +1,5 @@
 ## What to build
-개인화 대시보드 UI 구현 및 SSE를 이용한 실시간 공지/일정 푸시.
+로그인 후 개인화 대시보드 UI 구현 및 SSE를 이용한 실시간 공지/일정 푸시.
 
 ## Acceptance criteria
 - [ ] 대시보드 UI 구현
