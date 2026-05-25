@@ -18,7 +18,14 @@ VX Web V2는 **공간 컨벤션 경험 플랫폼(Spatial Convention Experience P
 ### C. Master-Mirror i18n 전략
 *   **단일 진실 공급원 (Source of Truth)**: 한국어(`ko`) 로케일 디렉토리가 전체 데이터 구조를 엄격하게 정의합니다.
 *   **검증 (Verification)**: 자동화 스크립트(`scripts/check-i18n-keys.cjs`)를 통해 모든 로케일(`en`, `es`, `ja` 등)이 `ko`의 JSON 구조와 일치하는지 확인하며, 불일치나 한국어 유입 발견 시 빌드를 중단합니다.
-*   **해결 (Resolution)**: 커스텀 `i18nResolver`를 통해 키가 누락된 경우에도 UI가 깨지지 않고 안전하게 대체 텍스트를 제공합니다.
+### E. KINTEX Convention Experience Hub 아키텍처 (Convention-Specific Architecture)
+국제대회 규모의 고밀도 경험을 위해 다음과 같은 아키텍처 원칙이 추가되었습니다.
+
+*   **공간 분할 렌더링 (Spatial Partitioning)**: Three.js 기반의 대규모 킨텍스 모델을 구역(Chunk)별로 분할하여, 사용자의 현재 뷰포트에 필요한 데이터만 비동기로 로드(Lazy Loading)하여 모바일 성능 저하를 방지합니다.
+*   **증분 업데이트 (Incremental Updates)**: Manifest 기반 파일 해싱 시스템을 도입하여, 전체 에셋 재다운로드 없이 변경된 모델 데이터(GLB)만 서비스 워커를 통해 선택적으로 갱신합니다.
+*   **실시간 동기화 (Server-Sent Events)**: 서버 부하를 최소화하면서 중요한 공지사항과 세션 변경 사항을 실시간으로 푸시하기 위해 단방향 HTTP 기반 스트리밍인 SSE를 채택합니다.
+*   **강력한 QR 퀘스트 보안**: 고정 URL 대신 동적 시간 제한 토큰(TTL) 기반의 QR을 사용하며, 스캔 시 기기 GPS 좌표를 서버에서 검증하여 부정 인증을 차단합니다.
+*   **중앙화된 다국어 워크플로우**: LLM을 통한 자동 번역을 기반으로 하되, 인간 검수자를 거쳐 배포하는 중앙 관리 프로세스를 도입하여 다국어 대응 속도와 품질을 동시에 확보합니다.
 
 ### D. 뷰 분리: 사용자 vs. 관리자
 *   **사용자 뷰 (`src/views/v2`)**: 몰입감에 집중합니다. Tailwind 글래스모피즘, Three.js 기반 360 뷰, 부드러운 라우팅 전환을 적극 활용합니다.

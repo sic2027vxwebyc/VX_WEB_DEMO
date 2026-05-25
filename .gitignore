@@ -55,3 +55,4 @@ generated/
 translations-output/
 
 
+client_secret_*.json
